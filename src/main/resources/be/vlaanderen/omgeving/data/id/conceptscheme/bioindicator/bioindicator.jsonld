@@ -1,0 +1,1437 @@
+{
+  "@graph" : [ {
+    "@id" : "cob:bodem",
+    "@type" : "skos:Collection",
+    "inScheme" : "vlcs:bioindicator",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "Collectie van bioindicatoren m.b.t. bodem."
+    }
+  }, {
+    "@id" : "cob:lucht",
+    "@type" : "skos:Collection",
+    "inScheme" : "vlcs:bioindicator",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "Collectie van bioindicatoren m.b.t. lucht."
+    }
+  }, {
+    "@id" : "cob:water",
+    "@type" : "skos:Collection",
+    "inScheme" : "vlcs:bioindicator",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "Collectie van bioindicatoren m.b.t. water."
+    }
+  }, {
+    "@id" : "cb:actinomyceten",
+    "@type" : "skos:Concept",
+    "inScheme" : "vlcs:bioindicator",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "Actinomyceten"
+    },
+    "topConceptOf" : "vlcs:bioindicator"
+  }, {
+    "@id" : "cb:adenovirussen",
+    "@type" : "skos:Concept",
+    "inScheme" : "vlcs:bioindicator",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "Adenovirussen"
+    },
+    "topConceptOf" : "vlcs:bioindicator"
+  }, {
+    "@id" : "cb:aerococcus",
+    "@type" : "skos:Concept",
+    "inScheme" : "vlcs:bioindicator",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "Aerococcus"
+    },
+    "topConceptOf" : "vlcs:bioindicator"
+  }, {
+    "@id" : "cb:aerococcus_viridans",
+    "@type" : "skos:Concept",
+    "inScheme" : "vlcs:bioindicator",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "Aerococcus viridans"
+    },
+    "topConceptOf" : "vlcs:bioindicator"
+  }, {
+    "@id" : "cb:aeromonas",
+    "@type" : "skos:Concept",
+    "inScheme" : "vlcs:bioindicator",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "Aeromonas"
+    },
+    "topConceptOf" : "vlcs:bioindicator"
+  }, {
+    "@id" : "cb:aeromonas_caviae",
+    "@type" : "skos:Concept",
+    "inScheme" : "vlcs:bioindicator",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "Aeromonas caviae"
+    },
+    "topConceptOf" : "vlcs:bioindicator"
+  }, {
+    "@id" : "cb:aeromonas_eucrenophila",
+    "@type" : "skos:Concept",
+    "inScheme" : "vlcs:bioindicator",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "Aeromonas eucrenophila"
+    },
+    "topConceptOf" : "vlcs:bioindicator"
+  }, {
+    "@id" : "cb:aeromonas_hydrophila",
+    "@type" : "skos:Concept",
+    "inScheme" : "vlcs:bioindicator",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "Aeromonas hydrophila"
+    },
+    "topConceptOf" : "vlcs:bioindicator"
+  }, {
+    "@id" : "cb:aeromonas_salmonicida",
+    "@type" : "skos:Concept",
+    "inScheme" : "vlcs:bioindicator",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "Aeromonas salmonicida"
+    },
+    "topConceptOf" : "vlcs:bioindicator"
+  }, {
+    "@id" : "cb:aeromonas_veronii",
+    "@type" : "skos:Concept",
+    "inScheme" : "vlcs:bioindicator",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "Aeromonas veronii"
+    },
+    "topConceptOf" : "vlcs:bioindicator"
+  }, {
+    "@id" : "cb:aliivibrio_fischeri",
+    "@type" : "skos:Concept",
+    "altLabel" : {
+      "@language" : "nl",
+      "@value" : "Luminescente bacterie "
+    },
+    "inScheme" : "vlcs:bioindicator",
+    "isSubjectOf" : {
+      "@language" : "nl",
+      "@value" : "WAC/V/B/004"
+    },
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "Aliivibrio fischeri"
+    },
+    "related" : "co:WAC_V_B_004",
+    "topConceptOf" : "vlcs:bioindicator",
+    "theme" : "gemet:15179"
+  }, {
+    "@id" : "cb:alternaria",
+    "@type" : "skos:Concept",
+    "inScheme" : "vlcs:bioindicator",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "Alternaria"
+    },
+    "topConceptOf" : "vlcs:bioindicator"
+  }, {
+    "@id" : "cb:anostraca",
+    "@type" : "skos:Concept",
+    "altLabel" : {
+      "@language" : "nl",
+      "@value" : "Pekelkreeftje"
+    },
+    "inScheme" : "vlcs:bioindicator",
+    "isSubjectOf" : {
+      "@language" : "nl",
+      "@value" : "WAC/V/B/001"
+    },
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "Anostraca"
+    },
+    "related" : "co:WAC_V_B_001",
+    "topConceptOf" : "vlcs:bioindicator",
+    "theme" : "gemet:15179"
+  }, {
+    "@id" : "cb:aspergillus",
+    "@type" : "skos:Concept",
+    "inScheme" : "vlcs:bioindicator",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "Aspergillus"
+    },
+    "topConceptOf" : "vlcs:bioindicator"
+  }, {
+    "@id" : "cb:aspergillus_fumigatus",
+    "@type" : "skos:Concept",
+    "inScheme" : "vlcs:bioindicator",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "Aspergillus fumigatus"
+    },
+    "topConceptOf" : "vlcs:bioindicator"
+  }, {
+    "@id" : "cb:aureobasidium",
+    "@type" : "skos:Concept",
+    "inScheme" : "vlcs:bioindicator",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "Aureobasidium"
+    },
+    "topConceptOf" : "vlcs:bioindicator"
+  }, {
+    "@id" : "cb:aureobasidium_pullulans",
+    "@type" : "skos:Concept",
+    "inScheme" : "vlcs:bioindicator",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "Aureobasidium pullulans"
+    },
+    "topConceptOf" : "vlcs:bioindicator"
+  }, {
+    "@id" : "cb:bacillus_cereus",
+    "@type" : "skos:Concept",
+    "inScheme" : "vlcs:bioindicator",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "Bacillus cereus"
+    },
+    "topConceptOf" : "vlcs:bioindicator"
+  }, {
+    "@id" : "cb:bacteriofagen",
+    "@type" : "skos:Concept",
+    "inScheme" : "vlcs:bioindicator",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "Bacteriofagen"
+    },
+    "topConceptOf" : "vlcs:bioindicator"
+  }, {
+    "@id" : "cb:buttiauxella",
+    "@type" : "skos:Concept",
+    "inScheme" : "vlcs:bioindicator",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "Buttiauxella"
+    },
+    "topConceptOf" : "vlcs:bioindicator"
+  }, {
+    "@id" : "cb:buttiauxella_ferragutiae",
+    "@type" : "skos:Concept",
+    "inScheme" : "vlcs:bioindicator",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "Buttiauxella ferragutiae"
+    },
+    "topConceptOf" : "vlcs:bioindicator"
+  }, {
+    "@id" : "cb:buttiauxella_gaviniae",
+    "@type" : "skos:Concept",
+    "inScheme" : "vlcs:bioindicator",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "Buttiauxella gaviniae"
+    },
+    "topConceptOf" : "vlcs:bioindicator"
+  }, {
+    "@id" : "cb:buttiauxella_izardii",
+    "@type" : "skos:Concept",
+    "inScheme" : "vlcs:bioindicator",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "Buttiauxella izardii"
+    },
+    "topConceptOf" : "vlcs:bioindicator"
+  }, {
+    "@id" : "cb:buttiauxella_noackiae",
+    "@type" : "skos:Concept",
+    "inScheme" : "vlcs:bioindicator",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "Buttiauxella noackiae"
+    },
+    "topConceptOf" : "vlcs:bioindicator"
+  }, {
+    "@id" : "cb:candida",
+    "@type" : "skos:Concept",
+    "inScheme" : "vlcs:bioindicator",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "Candida"
+    },
+    "topConceptOf" : "vlcs:bioindicator"
+  }, {
+    "@id" : "cb:chaetomium",
+    "@type" : "skos:Concept",
+    "inScheme" : "vlcs:bioindicator",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "Chaetomium"
+    },
+    "topConceptOf" : "vlcs:bioindicator"
+  }, {
+    "@id" : "cb:citrobacter",
+    "@type" : "skos:Concept",
+    "inScheme" : "vlcs:bioindicator",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "Citrobacter"
+    },
+    "topConceptOf" : "vlcs:bioindicator"
+  }, {
+    "@id" : "cb:citrobacter_gillenii",
+    "@type" : "skos:Concept",
+    "inScheme" : "vlcs:bioindicator",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "Citrobacter gillenii"
+    },
+    "topConceptOf" : "vlcs:bioindicator"
+  }, {
+    "@id" : "cb:cladosporium",
+    "@type" : "skos:Concept",
+    "inScheme" : "vlcs:bioindicator",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "Cladosporium"
+    },
+    "topConceptOf" : "vlcs:bioindicator"
+  }, {
+    "@id" : "cb:clostridium_perfringens",
+    "@type" : "skos:Concept",
+    "altLabel" : {
+      "@language" : "nl",
+      "@value" : "Clostridium perfringens"
+    },
+    "inScheme" : "vlcs:bioindicator",
+    "isSubjectOf" : {
+      "@language" : "nl",
+      "@value" : "WAC/V/A/007"
+    },
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "Clostridium perfringens"
+    },
+    "related" : "co:WAC_V_A_007",
+    "topConceptOf" : "vlcs:bioindicator",
+    "theme" : "gemet:15179"
+  }, {
+    "@id" : "cb:clostridium_tertium",
+    "@type" : "skos:Concept",
+    "inScheme" : "vlcs:bioindicator",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "Clostridium tertium"
+    },
+    "topConceptOf" : "vlcs:bioindicator"
+  }, {
+    "@id" : "cb:coagulase_positieve_staphylococci",
+    "@type" : "skos:Concept",
+    "altLabel" : {
+      "@language" : "nl",
+      "@value" : "stafylokokken"
+    },
+    "inScheme" : "vlcs:bioindicator",
+    "isSubjectOf" : {
+      "@language" : "nl",
+      "@value" : "WAC/V/A/008"
+    },
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "coagulase positieve staphylococci"
+    },
+    "related" : "co:WAC_V_A_008",
+    "topConceptOf" : "vlcs:bioindicator",
+    "theme" : "gemet:15179"
+  }, {
+    "@id" : "cb:coliformen",
+    "@type" : "skos:Concept",
+    "altLabel" : {
+      "@language" : "nl",
+      "@value" : "coliformen"
+    },
+    "inScheme" : "vlcs:bioindicator",
+    "isSubjectOf" : {
+      "@language" : "nl",
+      "@value" : "WAC/V/A/002"
+    },
+    "prefLabel" : [ {
+      "@language" : "nl",
+      "@value" : "coliformen"
+    }, {
+      "@language" : "nl",
+      "@value" : "Coliformen"
+    } ],
+    "related" : "co:WAC_V_A_002",
+    "topConceptOf" : "vlcs:bioindicator",
+    "theme" : "gemet:15179"
+  }, {
+    "@id" : "cb:cronobacter",
+    "@type" : "skos:Concept",
+    "inScheme" : "vlcs:bioindicator",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "Cronobacter"
+    },
+    "topConceptOf" : "vlcs:bioindicator"
+  }, {
+    "@id" : "cb:cronobacter_sakazakii",
+    "@type" : "skos:Concept",
+    "inScheme" : "vlcs:bioindicator",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "Cronobacter sakazakii"
+    },
+    "topConceptOf" : "vlcs:bioindicator"
+  }, {
+    "@id" : "cb:cryptosporidium",
+    "@type" : "skos:Concept",
+    "inScheme" : "vlcs:bioindicator",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "Cryptosporidium"
+    },
+    "topConceptOf" : "vlcs:bioindicator"
+  }, {
+    "@id" : "cb:danio_rerio",
+    "@type" : "skos:Concept",
+    "altLabel" : {
+      "@language" : "nl",
+      "@value" : "Zebravisembryo "
+    },
+    "inScheme" : "vlcs:bioindicator",
+    "isSubjectOf" : {
+      "@language" : "nl",
+      "@value" : "WAC/V/B/002"
+    },
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "Danio rerio"
+    },
+    "related" : "co:WAC_V_B_002",
+    "topConceptOf" : "vlcs:bioindicator",
+    "theme" : "gemet:15179"
+  }, {
+    "@id" : "cb:daphnia_magna",
+    "@type" : "skos:Concept",
+    "altLabel" : {
+      "@language" : "nl",
+      "@value" : "Watervlo "
+    },
+    "inScheme" : "vlcs:bioindicator",
+    "isSubjectOf" : {
+      "@language" : "nl",
+      "@value" : "WAC/V/B/001"
+    },
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "Daphnia magna"
+    },
+    "related" : "co:WAC_V_B_001",
+    "topConceptOf" : "vlcs:bioindicator",
+    "theme" : "gemet:15179"
+  }, {
+    "@id" : "cb:dermatofyten",
+    "@type" : "skos:Concept",
+    "inScheme" : "vlcs:bioindicator",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "Dermatofyten"
+    },
+    "topConceptOf" : "vlcs:bioindicator"
+  }, {
+    "@id" : "cb:ekc-fytobenthos",
+    "@type" : "skos:Concept",
+    "altLabel" : {
+      "@language" : "nl",
+      "@value" : "EKC-fytobenthos"
+    },
+    "inScheme" : "vlcs:bioindicator",
+    "isSubjectOf" : {
+      "@language" : "nl",
+      "@value" : "VLAREM II "
+    },
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "EKC-fytobenthos"
+    },
+    "related" : "co:VLAREM_II",
+    "topConceptOf" : "vlcs:bioindicator",
+    "theme" : "gemet:15179"
+  }, {
+    "@id" : "cb:ekc-fytoplankton",
+    "@type" : "skos:Concept",
+    "altLabel" : {
+      "@language" : "nl",
+      "@value" : "EKC-fytoplankton"
+    },
+    "inScheme" : "vlcs:bioindicator",
+    "isSubjectOf" : {
+      "@language" : "nl",
+      "@value" : "VLAREM II"
+    },
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "EKC-fytoplankton"
+    },
+    "related" : "co:VLAREM_II",
+    "topConceptOf" : "vlcs:bioindicator",
+    "theme" : "gemet:15179"
+  }, {
+    "@id" : "cb:ekc-macro-invertebraten",
+    "@type" : "skos:Concept",
+    "altLabel" : {
+      "@language" : "nl",
+      "@value" : "EKC-macro-invertebraten"
+    },
+    "inScheme" : "vlcs:bioindicator",
+    "isSubjectOf" : {
+      "@language" : "nl",
+      "@value" : "VLAREM II "
+    },
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "EKC-macro-invertebraten"
+    },
+    "related" : "co:VLAREM_II",
+    "topConceptOf" : "vlcs:bioindicator",
+    "theme" : "gemet:15179"
+  }, {
+    "@id" : "cb:ekc-macrofyten",
+    "@type" : "skos:Concept",
+    "altLabel" : {
+      "@language" : "nl",
+      "@value" : "EKC-macrofyten"
+    },
+    "inScheme" : "vlcs:bioindicator",
+    "isSubjectOf" : {
+      "@language" : "nl",
+      "@value" : "VLAREM II "
+    },
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "EKC-macrofyten"
+    },
+    "related" : "co:VLAREM_II",
+    "topConceptOf" : "vlcs:bioindicator",
+    "theme" : "gemet:15179"
+  }, {
+    "@id" : "cb:ekc-visfauna",
+    "@type" : "skos:Concept",
+    "altLabel" : {
+      "@language" : "nl",
+      "@value" : "EKC-visfauna"
+    },
+    "inScheme" : "vlcs:bioindicator",
+    "isSubjectOf" : {
+      "@language" : "nl",
+      "@value" : "VLAREM II "
+    },
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "EKC-visfauna"
+    },
+    "related" : "co:VLAREM_II",
+    "topConceptOf" : "vlcs:bioindicator",
+    "theme" : "gemet:15179"
+  }, {
+    "@id" : "cb:enterobacter_amnigenus",
+    "@type" : "skos:Concept",
+    "inScheme" : "vlcs:bioindicator",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "Enterobacter amnigenus"
+    },
+    "topConceptOf" : "vlcs:bioindicator"
+  }, {
+    "@id" : "cb:enterobacter_cloacae",
+    "@type" : "skos:Concept",
+    "inScheme" : "vlcs:bioindicator",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "Enterobacter cloacae"
+    },
+    "topConceptOf" : "vlcs:bioindicator"
+  }, {
+    "@id" : "cb:enterobacter_ludwigii",
+    "@type" : "skos:Concept",
+    "inScheme" : "vlcs:bioindicator",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "Enterobacter ludwigii"
+    },
+    "topConceptOf" : "vlcs:bioindicator"
+  }, {
+    "@id" : "cb:enterococcen",
+    "@type" : "skos:Concept",
+    "inScheme" : "vlcs:bioindicator",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "Enterococcen"
+    },
+    "topConceptOf" : "vlcs:bioindicator"
+  }, {
+    "@id" : "cb:enterococcus_aquimarinus",
+    "@type" : "skos:Concept",
+    "inScheme" : "vlcs:bioindicator",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "Enterococcus aquimarinus"
+    },
+    "topConceptOf" : "vlcs:bioindicator"
+  }, {
+    "@id" : "cb:enterococcus_cacae",
+    "@type" : "skos:Concept",
+    "inScheme" : "vlcs:bioindicator",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "Enterococcus cacae"
+    },
+    "topConceptOf" : "vlcs:bioindicator"
+  }, {
+    "@id" : "cb:enterococcus_casseliflavus",
+    "@type" : "skos:Concept",
+    "inScheme" : "vlcs:bioindicator",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "Enterococcus casseliflavus"
+    },
+    "topConceptOf" : "vlcs:bioindicator"
+  }, {
+    "@id" : "cb:enterococcus_durans",
+    "@type" : "skos:Concept",
+    "inScheme" : "vlcs:bioindicator",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "Enterococcus durans"
+    },
+    "topConceptOf" : "vlcs:bioindicator"
+  }, {
+    "@id" : "cb:enterococcus_faecalis",
+    "@type" : "skos:Concept",
+    "inScheme" : "vlcs:bioindicator",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "Enterococcus faecalis"
+    },
+    "topConceptOf" : "vlcs:bioindicator"
+  }, {
+    "@id" : "cb:enterococcus_faecium",
+    "@type" : "skos:Concept",
+    "inScheme" : "vlcs:bioindicator",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "Enterococcus faecium"
+    },
+    "topConceptOf" : "vlcs:bioindicator"
+  }, {
+    "@id" : "cb:enterococcus_gallinarum",
+    "@type" : "skos:Concept",
+    "inScheme" : "vlcs:bioindicator",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "Enterococcus gallinarum"
+    },
+    "topConceptOf" : "vlcs:bioindicator"
+  }, {
+    "@id" : "cb:enterococcus_gilvus",
+    "@type" : "skos:Concept",
+    "inScheme" : "vlcs:bioindicator",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "Enterococcus gilvus"
+    },
+    "topConceptOf" : "vlcs:bioindicator"
+  }, {
+    "@id" : "cb:enterococcus_haemoperoxidus",
+    "@type" : "skos:Concept",
+    "inScheme" : "vlcs:bioindicator",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "Enterococcus haemoperoxidus"
+    },
+    "topConceptOf" : "vlcs:bioindicator"
+  }, {
+    "@id" : "cb:enterococcus_hirae",
+    "@type" : "skos:Concept",
+    "inScheme" : "vlcs:bioindicator",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "Enterococcus hirae"
+    },
+    "topConceptOf" : "vlcs:bioindicator"
+  }, {
+    "@id" : "cb:enterococcus_italicus",
+    "@type" : "skos:Concept",
+    "inScheme" : "vlcs:bioindicator",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "Enterococcus italicus"
+    },
+    "topConceptOf" : "vlcs:bioindicator"
+  }, {
+    "@id" : "cb:enterococcus_malodoratus",
+    "@type" : "skos:Concept",
+    "inScheme" : "vlcs:bioindicator",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "Enterococcus malodoratus"
+    },
+    "topConceptOf" : "vlcs:bioindicator"
+  }, {
+    "@id" : "cb:enterococcus_moraviensis",
+    "@type" : "skos:Concept",
+    "inScheme" : "vlcs:bioindicator",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "Enterococcus moraviensis"
+    },
+    "topConceptOf" : "vlcs:bioindicator"
+  }, {
+    "@id" : "cb:enterococcus_mundtii",
+    "@type" : "skos:Concept",
+    "inScheme" : "vlcs:bioindicator",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "Enterococcus mundtii"
+    },
+    "topConceptOf" : "vlcs:bioindicator"
+  }, {
+    "@id" : "cb:enterococcus_phoeniculicola",
+    "@type" : "skos:Concept",
+    "inScheme" : "vlcs:bioindicator",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "Enterococcus phoeniculicola"
+    },
+    "topConceptOf" : "vlcs:bioindicator"
+  }, {
+    "@id" : "cb:enterococcus_silesiacus",
+    "@type" : "skos:Concept",
+    "inScheme" : "vlcs:bioindicator",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "Enterococcus silesiacus"
+    },
+    "topConceptOf" : "vlcs:bioindicator"
+  }, {
+    "@id" : "cb:enterococcus_sulfureus",
+    "@type" : "skos:Concept",
+    "inScheme" : "vlcs:bioindicator",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "Enterococcus sulfureus"
+    },
+    "topConceptOf" : "vlcs:bioindicator"
+  }, {
+    "@id" : "cb:enterococcus_termitis",
+    "@type" : "skos:Concept",
+    "inScheme" : "vlcs:bioindicator",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "Enterococcus termitis"
+    },
+    "topConceptOf" : "vlcs:bioindicator"
+  }, {
+    "@id" : "cb:enterococcus_thailandicus",
+    "@type" : "skos:Concept",
+    "inScheme" : "vlcs:bioindicator",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "Enterococcus thailandicus"
+    },
+    "topConceptOf" : "vlcs:bioindicator"
+  }, {
+    "@id" : "cb:enterovirussen",
+    "@type" : "skos:Concept",
+    "inScheme" : "vlcs:bioindicator",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "Enterovirussen"
+    },
+    "topConceptOf" : "vlcs:bioindicator"
+  }, {
+    "@id" : "cb:escherichia_coli",
+    "@type" : "skos:Concept",
+    "altLabel" : {
+      "@language" : "nl",
+      "@value" : "Escherichia coli (E. coli)"
+    },
+    "inScheme" : "vlcs:bioindicator",
+    "isSubjectOf" : {
+      "@language" : "nl",
+      "@value" : "WAC/V/A/002"
+    },
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "Escherichia coli"
+    },
+    "related" : "co:WAC_V_A_002",
+    "topConceptOf" : "vlcs:bioindicator",
+    "theme" : "gemet:15179"
+  }, {
+    "@id" : "cb:eurotium",
+    "@type" : "skos:Concept",
+    "inScheme" : "vlcs:bioindicator",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "Eurotium"
+    },
+    "topConceptOf" : "vlcs:bioindicator"
+  }, {
+    "@id" : "cb:fusarium",
+    "@type" : "skos:Concept",
+    "inScheme" : "vlcs:bioindicator",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "Fusarium"
+    },
+    "topConceptOf" : "vlcs:bioindicator"
+  }, {
+    "@id" : "cb:fusarium_solani",
+    "@type" : "skos:Concept",
+    "inScheme" : "vlcs:bioindicator",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "Fusarium Solani"
+    },
+    "topConceptOf" : "vlcs:bioindicator"
+  }, {
+    "@id" : "cb:gallionella",
+    "@type" : "skos:Concept",
+    "inScheme" : "vlcs:bioindicator",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "Gallionella"
+    },
+    "topConceptOf" : "vlcs:bioindicator"
+  }, {
+    "@id" : "cb:giardia",
+    "@type" : "skos:Concept",
+    "inScheme" : "vlcs:bioindicator",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "Giardia"
+    },
+    "topConceptOf" : "vlcs:bioindicator"
+  }, {
+    "@id" : "cb:intestinale_enterococci",
+    "@type" : "skos:Concept",
+    "altLabel" : {
+      "@language" : "nl",
+      "@value" : "enterokokken"
+    },
+    "inScheme" : "vlcs:bioindicator",
+    "isSubjectOf" : {
+      "@language" : "nl",
+      "@value" : "WAC/V/A/003"
+    },
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "intestinale enterococci"
+    },
+    "related" : "co:WAC_V_A_003",
+    "topConceptOf" : "vlcs:bioindicator",
+    "theme" : "gemet:15179"
+  }, {
+    "@id" : "cb:kiemgetal_bij_22°c_en_36°c",
+    "@type" : "skos:Concept",
+    "altLabel" : {
+      "@language" : "nl",
+      "@value" : "kiemgetal bij 22°C en 36°C"
+    },
+    "inScheme" : "vlcs:bioindicator",
+    "isSubjectOf" : {
+      "@language" : "nl",
+      "@value" : "WAC/V/A/001"
+    },
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "kiemgetal bij 22°C en 36°C"
+    },
+    "related" : "co:WAC_V_A_001",
+    "topConceptOf" : "vlcs:bioindicator",
+    "theme" : "gemet:15179"
+  }, {
+    "@id" : "cb:klebsiella",
+    "@type" : "skos:Concept",
+    "inScheme" : "vlcs:bioindicator",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "Klebsiella"
+    },
+    "topConceptOf" : "vlcs:bioindicator"
+  }, {
+    "@id" : "cb:klebsiella_oxytoca",
+    "@type" : "skos:Concept",
+    "inScheme" : "vlcs:bioindicator",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "Klebsiella oxytoca"
+    },
+    "topConceptOf" : "vlcs:bioindicator"
+  }, {
+    "@id" : "cb:klebsiella_pneumoniae",
+    "@type" : "skos:Concept",
+    "inScheme" : "vlcs:bioindicator",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "Klebsiella pneumoniae"
+    },
+    "topConceptOf" : "vlcs:bioindicator"
+  }, {
+    "@id" : "cb:kluyvera",
+    "@type" : "skos:Concept",
+    "inScheme" : "vlcs:bioindicator",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "Kluyvera"
+    },
+    "topConceptOf" : "vlcs:bioindicator"
+  }, {
+    "@id" : "cb:lactobacillus_plantarum",
+    "@type" : "skos:Concept",
+    "inScheme" : "vlcs:bioindicator",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "Lactobacillus plantarum"
+    },
+    "topConceptOf" : "vlcs:bioindicator"
+  }, {
+    "@id" : "cb:lactococcus_lactis",
+    "@type" : "skos:Concept",
+    "inScheme" : "vlcs:bioindicator",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "Lactococcus lactis"
+    },
+    "topConceptOf" : "vlcs:bioindicator"
+  }, {
+    "@id" : "cb:legionella_overgroei",
+    "@type" : "skos:Concept",
+    "inScheme" : "vlcs:bioindicator",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "Legionella overgroei"
+    },
+    "topConceptOf" : "vlcs:bioindicator"
+  }, {
+    "@id" : "cb:legionella_pneumophila",
+    "@type" : "skos:Concept",
+    "altLabel" : {
+      "@language" : "nl",
+      "@value" : "Legionella pneumophila"
+    },
+    "inScheme" : "vlcs:bioindicator",
+    "isSubjectOf" : {
+      "@language" : "nl",
+      "@value" : "WAC/V/A/005"
+    },
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "Legionella pneumophila"
+    },
+    "related" : "co:WAC_V_A_005",
+    "topConceptOf" : "vlcs:bioindicator",
+    "theme" : "gemet:15179"
+  }, {
+    "@id" : "cb:legionella_spp._",
+    "@type" : "skos:Concept",
+    "altLabel" : {
+      "@language" : "nl",
+      "@value" : "Legionella spp. "
+    },
+    "inScheme" : "vlcs:bioindicator",
+    "isSubjectOf" : {
+      "@language" : "nl",
+      "@value" : "WAC/V/A/005"
+    },
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "Legionella spp. "
+    },
+    "related" : "co:WAC_V_A_005",
+    "topConceptOf" : "vlcs:bioindicator",
+    "theme" : "gemet:15179"
+  }, {
+    "@id" : "cb:lelliottia_amnigena",
+    "@type" : "skos:Concept",
+    "inScheme" : "vlcs:bioindicator",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "Lelliottia amnigena"
+    },
+    "topConceptOf" : "vlcs:bioindicator"
+  }, {
+    "@id" : "cb:melkzuur_bacteriën",
+    "@type" : "skos:Concept",
+    "inScheme" : "vlcs:bioindicator",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "Melkzuur bacteriën"
+    },
+    "topConceptOf" : "vlcs:bioindicator"
+  }, {
+    "@id" : "cb:micrococcus",
+    "@type" : "skos:Concept",
+    "inScheme" : "vlcs:bioindicator",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "Micrococcus"
+    },
+    "topConceptOf" : "vlcs:bioindicator"
+  }, {
+    "@id" : "cb:mucor",
+    "@type" : "skos:Concept",
+    "inScheme" : "vlcs:bioindicator",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "Mucor"
+    },
+    "topConceptOf" : "vlcs:bioindicator"
+  }, {
+    "@id" : "cb:naaktamoeben",
+    "@type" : "skos:Concept",
+    "inScheme" : "vlcs:bioindicator",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "Naaktamoeben"
+    },
+    "topConceptOf" : "vlcs:bioindicator"
+  }, {
+    "@id" : "cb:nitrosomonas",
+    "@type" : "skos:Concept",
+    "inScheme" : "vlcs:bioindicator",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "Nitrosomonas"
+    },
+    "topConceptOf" : "vlcs:bioindicator"
+  }, {
+    "@id" : "cb:oenococcus",
+    "@type" : "skos:Concept",
+    "inScheme" : "vlcs:bioindicator",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "Oenococcus"
+    },
+    "topConceptOf" : "vlcs:bioindicator"
+  }, {
+    "@id" : "cb:oncorhyncus_mykiss",
+    "@type" : "skos:Concept",
+    "altLabel" : {
+      "@language" : "nl",
+      "@value" : "Forel "
+    },
+    "inScheme" : "vlcs:bioindicator",
+    "isSubjectOf" : {
+      "@language" : "nl",
+      "@value" : "WAC/V/B/007"
+    },
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "Oncorhyncus mykiss"
+    },
+    "related" : "co:WAC_V_B_007",
+    "topConceptOf" : "vlcs:bioindicator",
+    "theme" : "gemet:15179"
+  }, {
+    "@id" : "cb:penicillium",
+    "@type" : "skos:Concept",
+    "inScheme" : "vlcs:bioindicator",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "Penicillium"
+    },
+    "topConceptOf" : "vlcs:bioindicator"
+  }, {
+    "@id" : "cb:penicillium_marneffei",
+    "@type" : "skos:Concept",
+    "inScheme" : "vlcs:bioindicator",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "Penicillium marneffei"
+    },
+    "topConceptOf" : "vlcs:bioindicator"
+  }, {
+    "@id" : "cb:phaeodactylum_tricornutum",
+    "@type" : "skos:Concept",
+    "altLabel" : {
+      "@language" : "nl",
+      "@value" : "Mariene alg "
+    },
+    "inScheme" : "vlcs:bioindicator",
+    "isSubjectOf" : {
+      "@language" : "nl",
+      "@value" : "WAC/V/B/003"
+    },
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "Phaeodactylum tricornutum"
+    },
+    "related" : "co:WAC_V_B_003",
+    "topConceptOf" : "vlcs:bioindicator",
+    "theme" : "gemet:15179"
+  }, {
+    "@id" : "cb:phoma",
+    "@type" : "skos:Concept",
+    "inScheme" : "vlcs:bioindicator",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "Phoma"
+    },
+    "topConceptOf" : "vlcs:bioindicator"
+  }, {
+    "@id" : "cb:pseudokirchneriella_subcapitata",
+    "@type" : "skos:Concept",
+    "altLabel" : {
+      "@language" : "nl",
+      "@value" : "Zoetwateralg "
+    },
+    "inScheme" : "vlcs:bioindicator",
+    "isSubjectOf" : {
+      "@language" : "nl",
+      "@value" : "WAC/V/B/003"
+    },
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "Pseudokirchneriella subcapitata"
+    },
+    "related" : "co:WAC_V_B_003",
+    "topConceptOf" : "vlcs:bioindicator",
+    "theme" : "gemet:15179"
+  }, {
+    "@id" : "cb:pseudomonas",
+    "@type" : "skos:Concept",
+    "inScheme" : "vlcs:bioindicator",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "Pseudomonas"
+    },
+    "topConceptOf" : "vlcs:bioindicator"
+  }, {
+    "@id" : "cb:pseudomonas_aeruginosa",
+    "@type" : "skos:Concept",
+    "altLabel" : {
+      "@language" : "nl",
+      "@value" : "Pseudomonas aeruginosa"
+    },
+    "inScheme" : "vlcs:bioindicator",
+    "isSubjectOf" : {
+      "@language" : "nl",
+      "@value" : "WAC/V/A/006"
+    },
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "Pseudomonas aeruginosa"
+    },
+    "related" : "co:WAC_V_A_006",
+    "topConceptOf" : "vlcs:bioindicator",
+    "theme" : "gemet:15179"
+  }, {
+    "@id" : "cb:rahnella_aquatilis",
+    "@type" : "skos:Concept",
+    "inScheme" : "vlcs:bioindicator",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "Rahnella aquatilis"
+    },
+    "topConceptOf" : "vlcs:bioindicator"
+  }, {
+    "@id" : "cb:ralstonia",
+    "@type" : "skos:Concept",
+    "inScheme" : "vlcs:bioindicator",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "Ralstonia"
+    },
+    "topConceptOf" : "vlcs:bioindicator"
+  }, {
+    "@id" : "cb:reovirussen",
+    "@type" : "skos:Concept",
+    "inScheme" : "vlcs:bioindicator",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "Reovirussen"
+    },
+    "topConceptOf" : "vlcs:bioindicator"
+  }, {
+    "@id" : "cb:rhizophus",
+    "@type" : "skos:Concept",
+    "inScheme" : "vlcs:bioindicator",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "Rhizophus"
+    },
+    "topConceptOf" : "vlcs:bioindicator"
+  }, {
+    "@id" : "cb:rhodotorula",
+    "@type" : "skos:Concept",
+    "inScheme" : "vlcs:bioindicator",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "Rhodotorula"
+    },
+    "topConceptOf" : "vlcs:bioindicator"
+  }, {
+    "@id" : "cb:ribonucleïnezuur",
+    "@type" : "skos:Concept",
+    "inScheme" : "vlcs:bioindicator",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "Ribonucleïnezuur"
+    },
+    "topConceptOf" : "vlcs:bioindicator"
+  }, {
+    "@id" : "cb:salmonella_spp.",
+    "@type" : "skos:Concept",
+    "altLabel" : {
+      "@language" : "nl",
+      "@value" : "Salmonella spp."
+    },
+    "inScheme" : "vlcs:bioindicator",
+    "isSubjectOf" : {
+      "@language" : "nl",
+      "@value" : "WAC/V/A/004"
+    },
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "Salmonella spp."
+    },
+    "related" : "co:WAC_V_A_004",
+    "topConceptOf" : "vlcs:bioindicator",
+    "theme" : "gemet:15179"
+  }, {
+    "@id" : "cb:schaalamoeben",
+    "@type" : "skos:Concept",
+    "inScheme" : "vlcs:bioindicator",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "Schaalamoeben"
+    },
+    "topConceptOf" : "vlcs:bioindicator"
+  }, {
+    "@id" : "cb:schimmels",
+    "@type" : "skos:Concept",
+    "inScheme" : "vlcs:bioindicator",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "Schimmels"
+    },
+    "topConceptOf" : "vlcs:bioindicator"
+  }, {
+    "@id" : "cb:scopulariopsis",
+    "@type" : "skos:Concept",
+    "inScheme" : "vlcs:bioindicator",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "Scopulariopsis"
+    },
+    "topConceptOf" : "vlcs:bioindicator"
+  }, {
+    "@id" : "cb:serratia",
+    "@type" : "skos:Concept",
+    "inScheme" : "vlcs:bioindicator",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "Serratia"
+    },
+    "topConceptOf" : "vlcs:bioindicator"
+  }, {
+    "@id" : "cb:som_roeipootkreeften_(copepoda)",
+    "@type" : "skos:Concept",
+    "inScheme" : "vlcs:bioindicator",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "som Roeipootkreeften (Copepoda)"
+    },
+    "topConceptOf" : "vlcs:bioindicator"
+  }, {
+    "@id" : "cb:somatische_colifagen",
+    "@type" : "skos:Concept",
+    "altLabel" : {
+      "@language" : "nl",
+      "@value" : "somatische colifagen"
+    },
+    "inScheme" : "vlcs:bioindicator",
+    "isSubjectOf" : {
+      "@language" : "nl",
+      "@value" : "Drinkwaterrichtlijn (EU) 2020/2184"
+    },
+    "prefLabel" : [ {
+      "@language" : "nl",
+      "@value" : "somatische colifagen"
+    }, {
+      "@language" : "nl",
+      "@value" : "Somatische colifagen"
+    } ],
+    "topConceptOf" : "vlcs:bioindicator",
+    "theme" : "gemet:15179"
+  }, {
+    "@id" : "cb:stachybotrys",
+    "@type" : "skos:Concept",
+    "inScheme" : "vlcs:bioindicator",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "Stachybotrys"
+    },
+    "topConceptOf" : "vlcs:bioindicator"
+  }, {
+    "@id" : "cb:staphylococcus_epidermidis",
+    "@type" : "skos:Concept",
+    "inScheme" : "vlcs:bioindicator",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "Staphylococcus epidermidis"
+    },
+    "topConceptOf" : "vlcs:bioindicator"
+  }, {
+    "@id" : "cb:staphylococcus_pasteuri",
+    "@type" : "skos:Concept",
+    "inScheme" : "vlcs:bioindicator",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "Staphylococcus pasteuri"
+    },
+    "topConceptOf" : "vlcs:bioindicator"
+  }, {
+    "@id" : "cb:staphylococcus_saprophyticus",
+    "@type" : "skos:Concept",
+    "inScheme" : "vlcs:bioindicator",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "Staphylococcus saprophyticus"
+    },
+    "topConceptOf" : "vlcs:bioindicator"
+  }, {
+    "@id" : "cb:staphylococcus_warneri",
+    "@type" : "skos:Concept",
+    "inScheme" : "vlcs:bioindicator",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "Staphylococcus warneri"
+    },
+    "topConceptOf" : "vlcs:bioindicator"
+  }, {
+    "@id" : "cb:streptococcus",
+    "@type" : "skos:Concept",
+    "inScheme" : "vlcs:bioindicator",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "Streptococcus"
+    },
+    "topConceptOf" : "vlcs:bioindicator"
+  }, {
+    "@id" : "cb:streptococcus_equinus",
+    "@type" : "skos:Concept",
+    "inScheme" : "vlcs:bioindicator",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "Streptococcus equinus"
+    },
+    "topConceptOf" : "vlcs:bioindicator"
+  }, {
+    "@id" : "cb:streptococcus_gallolyticus",
+    "@type" : "skos:Concept",
+    "inScheme" : "vlcs:bioindicator",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "Streptococcus gallolyticus"
+    },
+    "topConceptOf" : "vlcs:bioindicator"
+  }, {
+    "@id" : "cb:streptococcus_lutetiensis",
+    "@type" : "skos:Concept",
+    "inScheme" : "vlcs:bioindicator",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "Streptococcus lutetiensis"
+    },
+    "topConceptOf" : "vlcs:bioindicator"
+  }, {
+    "@id" : "cb:streptococcus_salivarius",
+    "@type" : "skos:Concept",
+    "inScheme" : "vlcs:bioindicator",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "Streptococcus salivarius"
+    },
+    "topConceptOf" : "vlcs:bioindicator"
+  }, {
+    "@id" : "cb:sulfiet_reducerende_clostridia",
+    "@type" : "skos:Concept",
+    "inScheme" : "vlcs:bioindicator",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "Sulfiet reducerende clostridia"
+    },
+    "topConceptOf" : "vlcs:bioindicator"
+  }, {
+    "@id" : "cb:thermofiele_actinomyceten",
+    "@type" : "skos:Concept",
+    "inScheme" : "vlcs:bioindicator",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "Thermofiele Actinomyceten"
+    },
+    "topConceptOf" : "vlcs:bioindicator"
+  }, {
+    "@id" : "vlcs:bioindicator",
+    "@type" : "skos:ConceptScheme",
+    "hasTopConcept" : [ "cb:phaeodactylum_tricornutum", "cb:aliivibrio_fischeri", "cb:enterobacter_amnigenus", "cb:salmonella_spp.", "cb:enterococcus_faecalis", "cb:aspergillus_fumigatus", "cb:penicillium", "cb:enterococcus_cacae", "cb:enterobacter_ludwigii", "cb:ralstonia", "cb:phoma", "cb:enterococcus_italicus", "cb:coagulase_positieve_staphylococci", "cb:aureobasidium", "cb:fusarium_solani", "cb:staphylococcus_warneri", "cb:rhizophus", "cb:aeromonas", "cb:klebsiella", "cb:dermatofyten", "cb:thermofiele_actinomyceten", "cb:ekc-fytobenthos", "cb:pseudomonas_aeruginosa", "cb:streptococcus_equinus", "cb:enterococcus_moraviensis", "cb:oenococcus", "cb:buttiauxella_izardii", "cb:legionella_overgroei", "cb:kluyvera", "cb:buttiauxella_gaviniae", "cb:kiemgetal_bij_22°c_en_36°c", "cb:enterococcen", "cb:danio_rerio", "cb:streptococcus_salivarius", "cb:staphylococcus_epidermidis", "cb:escherichia_coli", "cb:enterococcus_thailandicus", "cb:aeromonas_caviae", "cb:cronobacter", "cb:rhodotorula", "cb:streptococcus", "cb:aeromonas_salmonicida", "cb:streptococcus_gallolyticus", "cb:mucor", "cb:gallionella", "cb:naaktamoeben", "cb:micrococcus", "cb:rahnella_aquatilis", "cb:alternaria", "cb:legionella_pneumophila", "cb:enterobacter_cloacae", "cb:lactobacillus_plantarum", "cb:buttiauxella_noackiae", "cb:aeromonas_hydrophila", "cb:chaetomium", "cb:enterococcus_termitis", "cb:somatische_colifagen", "cb:reovirussen", "cb:candida", "cb:aspergillus", "cb:aerococcus", "cb:staphylococcus_saprophyticus", "cb:schaalamoeben", "cb:clostridium_tertium", "cb:intestinale_enterococci", "cb:streptococcus_lutetiensis", "cb:actinomyceten", "cb:scopulariopsis", "cb:lactococcus_lactis", "cb:anostraca", "cb:oncorhyncus_mykiss", "cb:enterococcus_casseliflavus", "cb:pseudomonas", "cb:enterococcus_sulfureus", "cb:aureobasidium_pullulans", "cb:enterococcus_phoeniculicola", "cb:enterococcus_silesiacus", "cb:ekc-fytoplankton", "cb:lelliottia_amnigena", "cb:nitrosomonas", "cb:daphnia_magna", "cb:clostridium_perfringens", "cb:enterococcus_haemoperoxidus", "cb:klebsiella_oxytoca", "cb:enterococcus_hirae", "cb:cryptosporidium", "cb:klebsiella_pneumoniae", "cb:aeromonas_veronii", "cb:sulfiet_reducerende_clostridia", "cb:cladosporium", "cb:enterococcus_gilvus", "cb:som_roeipootkreeften_(copepoda)", "cb:enterococcus_aquimarinus", "cb:citrobacter_gillenii", "cb:pseudokirchneriella_subcapitata", "cb:enterococcus_mundtii", "cb:enterovirussen", "cb:buttiauxella", "cb:legionella_spp._", "cb:giardia", "cb:stachybotrys", "cb:fusarium", "cb:penicillium_marneffei", "cb:aerococcus_viridans", "cb:staphylococcus_pasteuri", "cb:bacillus_cereus", "cb:ekc-macrofyten", "cb:citrobacter", "cb:ekc-visfauna", "cb:adenovirussen", "cb:ekc-macro-invertebraten", "cb:schimmels", "cb:melkzuur_bacteriën", "cb:ribonucleïnezuur", "cb:enterococcus_durans", "cb:coliformen", "cb:aeromonas_eucrenophila", "cb:cronobacter_sakazakii", "cb:bacteriofagen", "cb:eurotium", "cb:enterococcus_faecium", "cb:buttiauxella_ferragutiae", "cb:enterococcus_malodoratus", "cb:enterococcus_gallinarum", "cb:serratia" ],
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "Codelijst van de bioindicatoren"
+    }
+  } ],
+  "@context" : {
+    "topConceptOf" : {
+      "@id" : "http://www.w3.org/2004/02/skos/core#topConceptOf",
+      "@type" : "@id"
+    },
+    "prefLabel" : {
+      "@id" : "http://www.w3.org/2004/02/skos/core#prefLabel"
+    },
+    "inScheme" : {
+      "@id" : "http://www.w3.org/2004/02/skos/core#inScheme",
+      "@type" : "@id"
+    },
+    "theme" : {
+      "@id" : "http://www.w3.org/ns/dcat#theme",
+      "@type" : "@id"
+    },
+    "related" : {
+      "@id" : "http://www.w3.org/2004/02/skos/core#related",
+      "@type" : "@id"
+    },
+    "isSubjectOf" : {
+      "@id" : "http://www.w3.org/2004/02/skos/core#isSubjectOf"
+    },
+    "altLabel" : {
+      "@id" : "http://www.w3.org/2004/02/skos/core#altLabel"
+    },
+    "hasTopConcept" : {
+      "@id" : "http://www.w3.org/2004/02/skos/core#hasTopConcept",
+      "@type" : "@id"
+    },
+    "vlcs" : "https://data.omgeving.vlaanderen.be/id/conceptscheme/",
+    "dct" : "http://purl.org/dc/terms/",
+    "gemet" : "http://www.eionet.europa.eu/gemet/concept/",
+    "cob" : "https://data.omgeving.vlaanderen.be/id/collection/bioindicator/",
+    "xsd" : "http://www.w3.org/2001/XMLSchema#",
+    "skos" : "http://www.w3.org/2004/02/skos/core#",
+    "rdfs" : "http://www.w3.org/2000/01/rdf-schema#",
+    "co" : "https://data.omgeving.vlaanderen.be/id/concept/observatieprocedure/",
+    "dcat" : "http://www.w3.org/ns/dcat#",
+    "cb" : "https://data.omgeving.vlaanderen.be/id/concept/bioindicator/",
+    "dc" : "http://purl.org/dc/elements/1.1/"
+  }
+}
