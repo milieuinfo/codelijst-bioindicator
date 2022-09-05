@@ -3,7 +3,7 @@
   <parent>
     <groupId>be.milieuinfo</groupId>
     <artifactId>acd-parent</artifactId>
-    <version>1.0.4</version>
+    <version>1.0.9</version>
   </parent>
   <modelVersion>4.0.0</modelVersion>
 
@@ -15,9 +15,9 @@
   <description />
 
   <scm>
-    <connection>scm:svn:https://svn.milieuinfo.be/productie/svn/architectuur/ontologies/codelijst-bioindicator/trunk/</connection>
-    <developerConnection>scm:svn:https://svn.milieuinfo.be/productie/svn/architectuur/ontologies/codelijst-bioindicator/trunk/</developerConnection>
-    <url>https://svn.milieuinfo.be/productie/svn/architectuur/ontologies/codelijst-bioindicator/trunk/</url>
+    <connection>scm:git:https://github.com/milieuinfo/codelijst-bioindicator.git</connection>
+    <developerConnection>scm:git:https://github.com/milieuinfo/codelijst-bioindicator.git</developerConnection>
+    <url>https://github.com/milieuinfo/codelijst-bioindicator.git</url>
   </scm>
   <build>
     <plugins>
@@ -28,9 +28,12 @@
         <executions>
           <execution>
             <id>attach-sources</id>
-            <phase>verify</phase>
+            <phase>none</phase>
+          </execution>
+          <execution>
+            <id>attach-sources-override</id>
             <goals>
-              <goal>jar</goal>
+              <goal>jar-no-fork</goal>
             </goals>
           </execution>
         </executions>
