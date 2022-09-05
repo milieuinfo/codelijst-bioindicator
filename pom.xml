@@ -9,15 +9,15 @@
 
   <packaging>jar</packaging>
   <groupId>be.vlaanderen.omgeving.data.id.graph</groupId>
-  <artifactId>codelijst-matrix</artifactId>
+  <artifactId>codelijst-bioindicator</artifactId>
   <version>1.0.0-SNAPSHOT</version>
-  <name>codelijst-matrix</name>
+  <name>codelijst-bioindicator</name>
   <description />
 
   <scm>
-    <connection>scm:svn:https://svn.milieuinfo.be/productie/svn/architectuur/ontologies/codelijst-matrix/trunk/</connection>
-    <developerConnection>scm:svn:https://svn.milieuinfo.be/productie/svn/architectuur/ontologies/codelijst-matrix/trunk/</developerConnection>
-    <url>https://svn.milieuinfo.be/productie/svn/architectuur/ontologies/codelijst-matrix/trunk/</url>
+    <connection>scm:svn:https://svn.milieuinfo.be/productie/svn/architectuur/ontologies/codelijst-bioindicator/trunk/</connection>
+    <developerConnection>scm:svn:https://svn.milieuinfo.be/productie/svn/architectuur/ontologies/codelijst-bioindicator/trunk/</developerConnection>
+    <url>https://svn.milieuinfo.be/productie/svn/architectuur/ontologies/codelijst-bioindicator/trunk/</url>
   </scm>
   <build>
     <plugins>
