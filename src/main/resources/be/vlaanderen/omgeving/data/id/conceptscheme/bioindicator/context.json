@@ -46,7 +46,12 @@
       "@id" : "http://www.w3.org/2004/02/skos/core#member",
       "@type" : "@id"
     },
+    "vmmParameterId" : {
+      "@id" : "https://data.vlaanderen.be/ns/chemische_stof#vmmParameterId",
+      "@type" : "http://www.w3.org/2001/XMLSchema#int"
+    },
     "xsd" : "http://www.w3.org/2001/XMLSchema#",
+    "cs" : "https://data.vlaanderen.be/ns/chemische_stof#",
     "skos" : "http://www.w3.org/2004/02/skos/core#",
     "rdfs" : "http://www.w3.org/2000/01/rdf-schema#",
     "vlcs" : "https://data.omgeving.vlaanderen.be/id/conceptscheme/",

@@ -1,4 +1,4 @@
-type,uri,vmmParameterIds,notations,prefLabel,inScheme,topConceptOf
+type,uri,vmmParameterId,notation,prefLabel,inScheme,topConceptOf
 http://www.w3.org/2004/02/skos/core#Concept,https://data.omgeving.vlaanderen.be/id/concept/bioindicator/alexandrium_spp_,788,Alexandrium spp.,Alexandrium spp.,https://data.omgeving.vlaanderen.be/id/conceptscheme/bioindicator,https://data.omgeving.vlaanderen.be/id/conceptscheme/bioindicator
 http://www.w3.org/2004/02/skos/core#Concept,https://data.omgeving.vlaanderen.be/id/concept/bioindicator/b_rer24_lc,53,B.rer24 LC,Brachydanio rerio - LC50 (24h),https://data.omgeving.vlaanderen.be/id/conceptscheme/bioindicator,https://data.omgeving.vlaanderen.be/id/conceptscheme/bioindicator
 http://www.w3.org/2004/02/skos/core#Concept,https://data.omgeving.vlaanderen.be/id/concept/bioindicator/b_rer48_lc,54,B.rer48 LC,Brachydanio rerio - LC50 (48h),https://data.omgeving.vlaanderen.be/id/conceptscheme/bioindicator,https://data.omgeving.vlaanderen.be/id/conceptscheme/bioindicator

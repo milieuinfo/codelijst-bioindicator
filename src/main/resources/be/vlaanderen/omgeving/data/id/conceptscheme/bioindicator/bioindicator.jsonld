@@ -363,13 +363,10 @@
       "@language" : "nl",
       "@value" : "WAC/V/A/002"
     },
-    "prefLabel" : [ {
+    "prefLabel" : {
       "@language" : "nl",
       "@value" : "coliformen"
-    }, {
-      "@language" : "nl",
-      "@value" : "Coliformen"
-    } ],
+    },
     "related" : "co:WAC_V_A_002",
     "topConceptOf" : "vlcs:bioindicator",
     "theme" : "gemet:15179"
@@ -770,13 +767,15 @@
       "@language" : "nl",
       "@value" : "WAC/V/A/002"
     },
+    "notation" : "EColi",
     "prefLabel" : {
       "@language" : "nl",
       "@value" : "Escherichia coli"
     },
     "related" : "co:WAC_V_A_002",
     "topConceptOf" : "vlcs:bioindicator",
-    "theme" : "gemet:15179"
+    "theme" : "gemet:15179",
+    "vmmParameterId" : "32"
   }, {
     "@id" : "cb:eurotium",
     "@type" : "skos:Concept",
@@ -842,7 +841,7 @@
     "topConceptOf" : "vlcs:bioindicator",
     "theme" : "gemet:15179"
   }, {
-    "@id" : "cb:kiemgetal_bij_22°c_en_36°c",
+    "@id" : "cb:kiemgetal_bij_22c_en_36c",
     "@type" : "skos:Concept",
     "altLabel" : {
       "@language" : "nl",
@@ -954,13 +953,15 @@
       "@language" : "nl",
       "@value" : "WAC/V/A/005"
     },
+    "notation" : "Legio",
     "prefLabel" : {
       "@language" : "nl",
       "@value" : "Legionella spp. "
     },
     "related" : "co:WAC_V_A_005",
     "topConceptOf" : "vlcs:bioindicator",
-    "theme" : "gemet:15179"
+    "theme" : "gemet:15179",
+    "vmmParameterId" : "928"
   }, {
     "@id" : "cb:lelliottia_amnigena",
     "@type" : "skos:Concept",
@@ -971,7 +972,7 @@
     },
     "topConceptOf" : "vlcs:bioindicator"
   }, {
-    "@id" : "cb:melkzuur_bacteriën",
+    "@id" : "cb:melkzuur_bacterien",
     "@type" : "skos:Concept",
     "inScheme" : "vlcs:bioindicator",
     "prefLabel" : {
@@ -1246,7 +1247,7 @@
     },
     "topConceptOf" : "vlcs:bioindicator"
   }, {
-    "@id" : "cb:som_roeipootkreeften_(copepoda)",
+    "@id" : "cb:som_roeipootkreeften_copepoda",
     "@type" : "skos:Concept",
     "inScheme" : "vlcs:bioindicator",
     "prefLabel" : {
@@ -1266,13 +1267,10 @@
       "@language" : "nl",
       "@value" : "Drinkwaterrichtlijn (EU) 2020/2184"
     },
-    "prefLabel" : [ {
+    "prefLabel" : {
       "@language" : "nl",
       "@value" : "somatische colifagen"
-    }, {
-      "@language" : "nl",
-      "@value" : "Somatische colifagen"
-    } ],
+    },
     "topConceptOf" : "vlcs:bioindicator",
     "theme" : "gemet:15179"
   }, {
@@ -1390,7 +1388,7 @@
       "@language" : "nl",
       "@value" : "Een organisme waarmee een verandering of verontreiniging van het milieu kan worden gesignaleerd. Het principe achter het gebruik van bio-indicatoren is dat de natuurlijke samenstelling van een levensgemeenschap wordt bepaald door de fysische en chemische eigenschappen van het ecosysteem."
     },
-    "hasTopConcept" : [ "cb:phaeodactylum_tricornutum", "cb:aliivibrio_fischeri", "cb:enterobacter_amnigenus", "cb:salmonella_spp.", "cb:enterococcus_faecalis", "cb:aspergillus_fumigatus", "cb:penicillium", "cb:enterococcus_cacae", "cb:enterobacter_ludwigii", "cb:ralstonia", "cb:phoma", "cb:enterococcus_italicus", "cb:coagulase_positieve_staphylococci", "cb:aureobasidium", "cb:fusarium_solani", "cb:staphylococcus_warneri", "cb:rhizophus", "cb:aeromonas", "cb:klebsiella", "cb:dermatofyten", "cb:thermofiele_actinomyceten", "cb:ekc-fytobenthos", "cb:pseudomonas_aeruginosa", "cb:streptococcus_equinus", "cb:enterococcus_moraviensis", "cb:oenococcus", "cb:buttiauxella_izardii", "cb:legionella_overgroei", "cb:kluyvera", "cb:buttiauxella_gaviniae", "cb:kiemgetal_bij_22°c_en_36°c", "cb:enterococcen", "cb:danio_rerio", "cb:streptococcus_salivarius", "cb:staphylococcus_epidermidis", "cb:escherichia_coli", "cb:enterococcus_thailandicus", "cb:aeromonas_caviae", "cb:cronobacter", "cb:rhodotorula", "cb:streptococcus", "cb:aeromonas_salmonicida", "cb:streptococcus_gallolyticus", "cb:mucor", "cb:gallionella", "cb:naaktamoeben", "cb:micrococcus", "cb:rahnella_aquatilis", "cb:alternaria", "cb:legionella_pneumophila", "cb:enterobacter_cloacae", "cb:lactobacillus_plantarum", "cb:buttiauxella_noackiae", "cb:aeromonas_hydrophila", "cb:chaetomium", "cb:enterococcus_termitis", "cb:somatische_colifagen", "cb:reovirussen", "cb:candida", "cb:aspergillus", "cb:aerococcus", "cb:staphylococcus_saprophyticus", "cb:schaalamoeben", "cb:clostridium_tertium", "cb:intestinale_enterococci", "cb:streptococcus_lutetiensis", "cb:actinomyceten", "cb:scopulariopsis", "cb:lactococcus_lactis", "cb:anostraca", "cb:oncorhyncus_mykiss", "cb:enterococcus_casseliflavus", "cb:pseudomonas", "cb:enterococcus_sulfureus", "cb:aureobasidium_pullulans", "cb:enterococcus_phoeniculicola", "cb:enterococcus_silesiacus", "cb:ekc-fytoplankton", "cb:lelliottia_amnigena", "cb:nitrosomonas", "cb:daphnia_magna", "cb:clostridium_perfringens", "cb:enterococcus_haemoperoxidus", "cb:klebsiella_oxytoca", "cb:enterococcus_hirae", "cb:cryptosporidium", "cb:klebsiella_pneumoniae", "cb:aeromonas_veronii", "cb:sulfiet_reducerende_clostridia", "cb:cladosporium", "cb:enterococcus_gilvus", "cb:som_roeipootkreeften_(copepoda)", "cb:enterococcus_aquimarinus", "cb:citrobacter_gillenii", "cb:pseudokirchneriella_subcapitata", "cb:enterococcus_mundtii", "cb:enterovirussen", "cb:buttiauxella", "cb:legionella_spp._", "cb:giardia", "cb:stachybotrys", "cb:fusarium", "cb:penicillium_marneffei", "cb:aerococcus_viridans", "cb:staphylococcus_pasteuri", "cb:bacillus_cereus", "cb:ekc-macrofyten", "cb:citrobacter", "cb:ekc-visfauna", "cb:adenovirussen", "cb:ekc-macro-invertebraten", "cb:schimmels", "cb:melkzuur_bacteriën", "cb:ribonucleïnezuur", "cb:enterococcus_durans", "cb:coliformen", "cb:aeromonas_eucrenophila", "cb:cronobacter_sakazakii", "cb:bacteriofagen", "cb:eurotium", "cb:enterococcus_faecium", "cb:buttiauxella_ferragutiae", "cb:enterococcus_malodoratus", "cb:enterococcus_gallinarum", "cb:serratia" ],
+    "hasTopConcept" : [ "cb:phaeodactylum_tricornutum", "cb:aliivibrio_fischeri", "cb:enterobacter_amnigenus", "cb:salmonella_spp.", "cb:enterococcus_faecalis", "cb:aspergillus_fumigatus", "cb:penicillium", "cb:enterococcus_cacae", "cb:enterobacter_ludwigii", "cb:ralstonia", "cb:phoma", "cb:enterococcus_italicus", "cb:coagulase_positieve_staphylococci", "cb:aureobasidium", "cb:fusarium_solani", "cb:staphylococcus_warneri", "cb:rhizophus", "cb:aeromonas", "cb:klebsiella", "cb:dermatofyten", "cb:thermofiele_actinomyceten", "cb:ekc-fytobenthos", "cb:pseudomonas_aeruginosa", "cb:streptococcus_equinus", "cb:enterococcus_moraviensis", "cb:oenococcus", "cb:buttiauxella_izardii", "cb:legionella_overgroei", "cb:kluyvera", "cb:buttiauxella_gaviniae", "cb:enterococcen", "cb:danio_rerio", "cb:streptococcus_salivarius", "cb:staphylococcus_epidermidis", "cb:escherichia_coli", "cb:enterococcus_thailandicus", "cb:aeromonas_caviae", "cb:cronobacter", "cb:rhodotorula", "cb:streptococcus", "cb:aeromonas_salmonicida", "cb:streptococcus_gallolyticus", "cb:mucor", "cb:gallionella", "cb:som_roeipootkreeften_copepoda", "cb:naaktamoeben", "cb:micrococcus", "cb:rahnella_aquatilis", "cb:alternaria", "cb:legionella_pneumophila", "cb:kiemgetal_bij_22c_en_36c", "cb:enterobacter_cloacae", "cb:lactobacillus_plantarum", "cb:buttiauxella_noackiae", "cb:aeromonas_hydrophila", "cb:chaetomium", "cb:enterococcus_termitis", "cb:somatische_colifagen", "cb:reovirussen", "cb:candida", "cb:aspergillus", "cb:aerococcus", "cb:staphylococcus_saprophyticus", "cb:schaalamoeben", "cb:clostridium_tertium", "cb:intestinale_enterococci", "cb:streptococcus_lutetiensis", "cb:actinomyceten", "cb:scopulariopsis", "cb:lactococcus_lactis", "cb:anostraca", "cb:oncorhyncus_mykiss", "cb:enterococcus_casseliflavus", "cb:pseudomonas", "cb:enterococcus_sulfureus", "cb:aureobasidium_pullulans", "cb:enterococcus_phoeniculicola", "cb:enterococcus_silesiacus", "cb:ekc-fytoplankton", "cb:lelliottia_amnigena", "cb:nitrosomonas", "cb:daphnia_magna", "cb:clostridium_perfringens", "cb:enterococcus_haemoperoxidus", "cb:klebsiella_oxytoca", "cb:enterococcus_hirae", "cb:cryptosporidium", "cb:klebsiella_pneumoniae", "cb:aeromonas_veronii", "cb:sulfiet_reducerende_clostridia", "cb:cladosporium", "cb:enterococcus_gilvus", "cb:melkzuur_bacterien", "cb:enterococcus_aquimarinus", "cb:citrobacter_gillenii", "cb:pseudokirchneriella_subcapitata", "cb:enterococcus_mundtii", "cb:enterovirussen", "cb:buttiauxella", "cb:legionella_spp._", "cb:giardia", "cb:stachybotrys", "cb:fusarium", "cb:penicillium_marneffei", "cb:aerococcus_viridans", "cb:staphylococcus_pasteuri", "cb:bacillus_cereus", "cb:ekc-macrofyten", "cb:citrobacter", "cb:ekc-visfauna", "cb:adenovirussen", "cb:ekc-macro-invertebraten", "cb:schimmels", "cb:ribonucleïnezuur", "cb:enterococcus_durans", "cb:coliformen", "cb:aeromonas_eucrenophila", "cb:cronobacter_sakazakii", "cb:bacteriofagen", "cb:eurotium", "cb:enterococcus_faecium", "cb:buttiauxella_ferragutiae", "cb:enterococcus_malodoratus", "cb:enterococcus_gallinarum", "cb:serratia" ],
     "prefLabel" : {
       "@language" : "nl",
       "@value" : "Codelijst van de bioindicatoren"
@@ -1422,6 +1420,13 @@
     "altLabel" : {
       "@id" : "http://www.w3.org/2004/02/skos/core#altLabel"
     },
+    "notation" : {
+      "@id" : "http://www.w3.org/2004/02/skos/core#notation"
+    },
+    "vmmParameterId" : {
+      "@id" : "https://data.vlaanderen.be/ns/chemische_stof#vmmParameterId",
+      "@type" : "http://www.w3.org/2001/XMLSchema#int"
+    },
     "hasTopConcept" : {
       "@id" : "http://www.w3.org/2004/02/skos/core#hasTopConcept",
       "@type" : "@id"
@@ -1429,6 +1434,7 @@
     "definition" : {
       "@id" : "http://www.w3.org/2004/02/skos/core#definition"
     },
+    "cs" : "https://data.vlaanderen.be/ns/chemische_stof#",
     "vlcs" : "https://data.omgeving.vlaanderen.be/id/conceptscheme/",
     "dct" : "http://purl.org/dc/terms/",
     "gemet" : "http://www.eionet.europa.eu/gemet/concept/",

@@ -1,3 +1,4 @@
+@prefix cs:    <https://data.vlaanderen.be/ns/chemische_stof#> .
 @prefix vlcs:  <https://data.omgeving.vlaanderen.be/id/conceptscheme/> .
 @prefix dct:   <http://purl.org/dc/terms/> .
 @prefix gemet: <http://www.eionet.europa.eu/gemet/concept/> .
@@ -136,6 +137,12 @@ cb:staphylococcus_pasteuri
 cb:schimmels  a            skos:Concept ;
         skos:inScheme      vlcs:bioindicator ;
         skos:prefLabel     "Schimmels"@nl ;
+        skos:topConceptOf  vlcs:bioindicator .
+
+cb:melkzuur_bacterien
+        a                  skos:Concept ;
+        skos:inScheme      vlcs:bioindicator ;
+        skos:prefLabel     "Melkzuur bacteriën"@nl ;
         skos:topConceptOf  vlcs:bioindicator .
 
 cb:klebsiella_oxytoca
@@ -311,22 +318,12 @@ cb:escherichia_coli  a     skos:Concept ;
         skos:altLabel      "Escherichia coli (E. coli)"@nl ;
         skos:inScheme      vlcs:bioindicator ;
         skos:isSubjectOf   "WAC/V/A/002"@nl ;
+        skos:notation      "EColi" ;
         skos:prefLabel     "Escherichia coli"@nl ;
         skos:related       co:WAC_V_A_002 ;
         skos:topConceptOf  vlcs:bioindicator ;
-        dcat:theme         gemet:15179 .
-
-cb:melkzuur_bacteriën
-        a                  skos:Concept ;
-        skos:inScheme      vlcs:bioindicator ;
-        skos:prefLabel     "Melkzuur bacteriën"@nl ;
-        skos:topConceptOf  vlcs:bioindicator .
-
-<https://data.omgeving.vlaanderen.be/id/concept/bioindicator/som_roeipootkreeften_(copepoda)>
-        a                  skos:Concept ;
-        skos:inScheme      vlcs:bioindicator ;
-        skos:prefLabel     "som Roeipootkreeften (Copepoda)"@nl ;
-        skos:topConceptOf  vlcs:bioindicator .
+        dcat:theme         gemet:15179 ;
+        cs:vmmParameterId  "32"^^xsd:int .
 
 cb:legionella_pneumophila
         a                  skos:Concept ;
@@ -382,6 +379,12 @@ cb:streptococcus_equinus
         a                  skos:Concept ;
         skos:inScheme      vlcs:bioindicator ;
         skos:prefLabel     "Streptococcus equinus"@nl ;
+        skos:topConceptOf  vlcs:bioindicator .
+
+cb:som_roeipootkreeften_copepoda
+        a                  skos:Concept ;
+        skos:inScheme      vlcs:bioindicator ;
+        skos:prefLabel     "som Roeipootkreeften (Copepoda)"@nl ;
         skos:topConceptOf  vlcs:bioindicator .
 
 cb:staphylococcus_epidermidis
@@ -492,16 +495,6 @@ cb:nitrosomonas  a         skos:Concept ;
         skos:prefLabel     "Nitrosomonas"@nl ;
         skos:topConceptOf  vlcs:bioindicator .
 
-<https://data.omgeving.vlaanderen.be/id/concept/bioindicator/kiemgetal_bij_22°c_en_36°c>
-        a                  skos:Concept ;
-        skos:altLabel      "kiemgetal bij 22°C en 36°C"@nl ;
-        skos:inScheme      vlcs:bioindicator ;
-        skos:isSubjectOf   "WAC/V/A/001"@nl ;
-        skos:prefLabel     "kiemgetal bij 22°C en 36°C"@nl ;
-        skos:related       co:WAC_V_A_001 ;
-        skos:topConceptOf  vlcs:bioindicator ;
-        dcat:theme         gemet:15179 .
-
 <https://data.omgeving.vlaanderen.be/id/concept/bioindicator/salmonella_spp.>
         a                  skos:Concept ;
         skos:altLabel      "Salmonella spp."@nl ;
@@ -520,7 +513,7 @@ cb:aeromonas_hydrophila
 
 vlcs:bioindicator  a        skos:ConceptScheme ;
         skos:definition     "Een organisme waarmee een verandering of verontreiniging van het milieu kan worden gesignaleerd. Het principe achter het gebruik van bio-indicatoren is dat de natuurlijke samenstelling van een levensgemeenschap wordt bepaald door de fysische en chemische eigenschappen van het ecosysteem."@nl ;
-        skos:hasTopConcept  cb:penicillium , cb:enterococcus_faecalis , cb:enterobacter_amnigenus , <https://data.omgeving.vlaanderen.be/id/concept/bioindicator/salmonella_spp.> , cb:aliivibrio_fischeri , cb:aspergillus_fumigatus , cb:enterococcus_cacae , cb:phaeodactylum_tricornutum , cb:ralstonia , cb:phoma , cb:enterococcus_italicus , cb:enterobacter_ludwigii , cb:coagulase_positieve_staphylococci , cb:aureobasidium , cb:fusarium_solani , cb:staphylococcus_warneri , cb:rhizophus , cb:aeromonas , cb:klebsiella , cb:dermatofyten , cb:thermofiele_actinomyceten , cb:ekc-fytobenthos , cb:pseudomonas_aeruginosa , cb:streptococcus_equinus , cb:enterococcus_moraviensis , cb:oenococcus , cb:buttiauxella_izardii , cb:legionella_overgroei , cb:kluyvera , cb:buttiauxella_gaviniae , <https://data.omgeving.vlaanderen.be/id/concept/bioindicator/kiemgetal_bij_22°c_en_36°c> , cb:enterococcen , cb:danio_rerio , cb:streptococcus_salivarius , cb:staphylococcus_epidermidis , cb:escherichia_coli , cb:enterococcus_thailandicus , cb:aeromonas_caviae , cb:cronobacter , cb:streptococcus , cb:rhodotorula , cb:streptococcus_gallolyticus , cb:aeromonas_salmonicida , cb:mucor , cb:gallionella , cb:naaktamoeben , cb:micrococcus , cb:rahnella_aquatilis , cb:alternaria , cb:legionella_pneumophila , cb:lactobacillus_plantarum , cb:enterobacter_cloacae , cb:buttiauxella_noackiae , cb:aeromonas_hydrophila , cb:chaetomium , cb:enterococcus_termitis , cb:somatische_colifagen , cb:reovirussen , cb:candida , cb:aspergillus , cb:staphylococcus_saprophyticus , cb:aerococcus , cb:schaalamoeben , cb:clostridium_tertium , cb:intestinale_enterococci , cb:streptococcus_lutetiensis , cb:actinomyceten , cb:scopulariopsis , cb:lactococcus_lactis , cb:anostraca , cb:oncorhyncus_mykiss , cb:enterococcus_casseliflavus , cb:pseudomonas , cb:enterococcus_sulfureus , cb:aureobasidium_pullulans , cb:enterococcus_phoeniculicola , cb:enterococcus_silesiacus , cb:ekc-fytoplankton , cb:lelliottia_amnigena , cb:nitrosomonas , cb:daphnia_magna , cb:klebsiella_oxytoca , cb:enterococcus_haemoperoxidus , cb:clostridium_perfringens , cb:enterococcus_hirae , cb:cryptosporidium , cb:klebsiella_pneumoniae , cb:aeromonas_veronii , cb:cladosporium , cb:sulfiet_reducerende_clostridia , cb:enterococcus_gilvus , <https://data.omgeving.vlaanderen.be/id/concept/bioindicator/som_roeipootkreeften_(copepoda)> , cb:enterococcus_aquimarinus , cb:citrobacter_gillenii , cb:pseudokirchneriella_subcapitata , cb:enterococcus_mundtii , cb:enterovirussen , cb:buttiauxella , cb:stachybotrys , cb:giardia , cb:fusarium , cb:legionella_spp._ , cb:penicillium_marneffei , cb:aerococcus_viridans , cb:staphylococcus_pasteuri , cb:bacillus_cereus , cb:ekc-macrofyten , cb:citrobacter , cb:ekc-visfauna , cb:adenovirussen , cb:ekc-macro-invertebraten , cb:schimmels , cb:ribonucleïnezuur , cb:melkzuur_bacteriën , cb:enterococcus_durans , cb:cronobacter_sakazakii , cb:aeromonas_eucrenophila , cb:coliformen , cb:bacteriofagen , cb:eurotium , cb:enterococcus_faecium , cb:buttiauxella_ferragutiae , cb:enterococcus_malodoratus , cb:serratia , cb:enterococcus_gallinarum ;
+        skos:hasTopConcept  cb:penicillium , cb:enterococcus_faecalis , cb:enterobacter_amnigenus , <https://data.omgeving.vlaanderen.be/id/concept/bioindicator/salmonella_spp.> , cb:aliivibrio_fischeri , cb:aspergillus_fumigatus , cb:enterococcus_cacae , cb:phaeodactylum_tricornutum , cb:ralstonia , cb:phoma , cb:enterococcus_italicus , cb:enterobacter_ludwigii , cb:coagulase_positieve_staphylococci , cb:aureobasidium , cb:fusarium_solani , cb:staphylococcus_warneri , cb:rhizophus , cb:aeromonas , cb:klebsiella , cb:dermatofyten , cb:thermofiele_actinomyceten , cb:ekc-fytobenthos , cb:pseudomonas_aeruginosa , cb:streptococcus_equinus , cb:enterococcus_moraviensis , cb:oenococcus , cb:buttiauxella_izardii , cb:legionella_overgroei , cb:kluyvera , cb:buttiauxella_gaviniae , cb:enterococcen , cb:danio_rerio , cb:streptococcus_salivarius , cb:staphylococcus_epidermidis , cb:escherichia_coli , cb:enterococcus_thailandicus , cb:aeromonas_caviae , cb:cronobacter , cb:streptococcus , cb:rhodotorula , cb:streptococcus_gallolyticus , cb:aeromonas_salmonicida , cb:mucor , cb:gallionella , cb:som_roeipootkreeften_copepoda , cb:naaktamoeben , cb:micrococcus , cb:rahnella_aquatilis , cb:alternaria , cb:legionella_pneumophila , cb:kiemgetal_bij_22c_en_36c , cb:lactobacillus_plantarum , cb:enterobacter_cloacae , cb:buttiauxella_noackiae , cb:aeromonas_hydrophila , cb:chaetomium , cb:enterococcus_termitis , cb:somatische_colifagen , cb:reovirussen , cb:candida , cb:aspergillus , cb:staphylococcus_saprophyticus , cb:aerococcus , cb:schaalamoeben , cb:clostridium_tertium , cb:intestinale_enterococci , cb:streptococcus_lutetiensis , cb:actinomyceten , cb:scopulariopsis , cb:lactococcus_lactis , cb:anostraca , cb:oncorhyncus_mykiss , cb:enterococcus_casseliflavus , cb:pseudomonas , cb:enterococcus_sulfureus , cb:aureobasidium_pullulans , cb:enterococcus_phoeniculicola , cb:enterococcus_silesiacus , cb:ekc-fytoplankton , cb:lelliottia_amnigena , cb:nitrosomonas , cb:daphnia_magna , cb:klebsiella_oxytoca , cb:enterococcus_haemoperoxidus , cb:clostridium_perfringens , cb:enterococcus_hirae , cb:cryptosporidium , cb:klebsiella_pneumoniae , cb:aeromonas_veronii , cb:cladosporium , cb:sulfiet_reducerende_clostridia , cb:enterococcus_gilvus , cb:melkzuur_bacterien , cb:enterococcus_aquimarinus , cb:citrobacter_gillenii , cb:pseudokirchneriella_subcapitata , cb:enterococcus_mundtii , cb:enterovirussen , cb:buttiauxella , cb:stachybotrys , cb:giardia , cb:fusarium , cb:legionella_spp._ , cb:penicillium_marneffei , cb:aerococcus_viridans , cb:staphylococcus_pasteuri , cb:bacillus_cereus , cb:ekc-macrofyten , cb:citrobacter , cb:ekc-visfauna , cb:adenovirussen , cb:ekc-macro-invertebraten , cb:schimmels , cb:ribonucleïnezuur , cb:enterococcus_durans , cb:cronobacter_sakazakii , cb:aeromonas_eucrenophila , cb:coliformen , cb:bacteriofagen , cb:eurotium , cb:enterococcus_faecium , cb:buttiauxella_ferragutiae , cb:enterococcus_malodoratus , cb:serratia , cb:enterococcus_gallinarum ;
         skos:prefLabel      "Codelijst van de bioindicatoren"@nl .
 
 cb:coagulase_positieve_staphylococci
@@ -592,10 +585,12 @@ cb:legionella_spp._  a     skos:Concept ;
         skos:altLabel      "Legionella spp. "@nl ;
         skos:inScheme      vlcs:bioindicator ;
         skos:isSubjectOf   "WAC/V/A/005"@nl ;
+        skos:notation      "Legio" ;
         skos:prefLabel     "Legionella spp. "@nl ;
         skos:related       co:WAC_V_A_005 ;
         skos:topConceptOf  vlcs:bioindicator ;
-        dcat:theme         gemet:15179 .
+        dcat:theme         gemet:15179 ;
+        cs:vmmParameterId  "928"^^xsd:int .
 
 cb:enterobacter_ludwigii
         a                  skos:Concept ;
@@ -679,6 +674,16 @@ cb:ekc-fytoplankton  a     skos:Concept ;
         skos:isSubjectOf   "VLAREM II"@nl ;
         skos:prefLabel     "EKC-fytoplankton"@nl ;
         skos:related       co:VLAREM_II ;
+        skos:topConceptOf  vlcs:bioindicator ;
+        dcat:theme         gemet:15179 .
+
+cb:kiemgetal_bij_22c_en_36c
+        a                  skos:Concept ;
+        skos:altLabel      "kiemgetal bij 22°C en 36°C"@nl ;
+        skos:inScheme      vlcs:bioindicator ;
+        skos:isSubjectOf   "WAC/V/A/001"@nl ;
+        skos:prefLabel     "kiemgetal bij 22°C en 36°C"@nl ;
+        skos:related       co:WAC_V_A_001 ;
         skos:topConceptOf  vlcs:bioindicator ;
         dcat:theme         gemet:15179 .
 
@@ -771,7 +776,7 @@ cb:coliformen  a           skos:Concept ;
         skos:altLabel      "coliformen"@nl ;
         skos:inScheme      vlcs:bioindicator ;
         skos:isSubjectOf   "WAC/V/A/002"@nl ;
-        skos:prefLabel     "Coliformen"@nl , "coliformen"@nl ;
+        skos:prefLabel     "coliformen"@nl ;
         skos:related       co:WAC_V_A_002 ;
         skos:topConceptOf  vlcs:bioindicator ;
         dcat:theme         gemet:15179 .
@@ -807,6 +812,6 @@ cb:somatische_colifagen
         skos:altLabel      "somatische colifagen"@nl ;
         skos:inScheme      vlcs:bioindicator ;
         skos:isSubjectOf   "Drinkwaterrichtlijn (EU) 2020/2184"@nl ;
-        skos:prefLabel     "Somatische colifagen"@nl , "somatische colifagen"@nl ;
+        skos:prefLabel     "somatische colifagen"@nl ;
         skos:topConceptOf  vlcs:bioindicator ;
         dcat:theme         gemet:15179 .
