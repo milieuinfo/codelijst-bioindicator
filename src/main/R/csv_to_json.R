@@ -2,9 +2,12 @@
 library(tidyr)
 library(dplyr)
 library(jsonlite)
+library(stringr)
 
 df <- read.csv(file = "../resources/be/vlaanderen/omgeving/data/id/conceptscheme/bioindicator/bioindicator.csv", sep=",", na.strings=c("","NA"))
-
+# fix
+df <- df %>%
+  mutate_all(list(~ str_c("", .)))
 # hasTopConcept relatie uit inverse relatie
 schemes <- na.omit(distinct(df['topConceptOf']))
 for (scheme in as.list(schemes$topConceptOf)) {
@@ -15,25 +18,6 @@ for (scheme in as.list(schemes$topConceptOf)) {
   names(df2) <- c("uri","hasTopConcept")
   df <- bind_rows(df, df2)
 }
-
-
-
-
-
-
-
-
-
-
-
-
-tco <- subset(df, topConceptOf == 'https://data.omgeving.vlaanderen.be/id/conceptscheme/bioindicator' ,
-                   select=c(uri, topConceptOf))
-htc <- as.list(tco["uri"])
-df2 <- data.frame('https://data.omgeving.vlaanderen.be/id/conceptscheme/bioindicator', htc)
-names(df2) <- c("uri","hasTopConcept")
-df <- bind_rows(df, df2)
-
 
 df <- df %>%
   rename("@id" = uri,
