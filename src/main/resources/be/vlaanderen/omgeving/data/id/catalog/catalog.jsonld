@@ -82,7 +82,7 @@
     },
     "description" : {
       "@language" : "nl",
-      "@value" : "Deze dataset bevat een lijst van bio-indicatorenworden binnen het beleidsdomein omgeving van de Vlaamse Overheid en zoals die initieel binnen het kader van het OSLO thema omgeving is opgesteld."
+      "@value" : "Deze dataset bevat een lijst van bio-indicatoren gebruikt binnen het beleidsdomein omgeving van de Vlaamse Overheid en zoals die initieel binnen het kader van het OSLO thema omgeving is opgesteld."
     },
     "identifier" : "omg_dataset:codelijst-bioindicator",
     "issued" : "2022-03-01",
@@ -96,7 +96,7 @@
     "temporal" : "omg_periodoftime:dataset_omg",
     "title" : {
       "@language" : "nl",
-      "@value" : "Het digitale stedenbouwkundige informatie archief"
+      "@value" : "Thesaurus bio-indicatoren"
     },
     "label" : {
       "@language" : "nl",

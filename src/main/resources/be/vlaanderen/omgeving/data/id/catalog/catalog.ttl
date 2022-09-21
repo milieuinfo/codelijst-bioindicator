@@ -111,7 +111,7 @@ omg_dataset:codelijst-bioindicator
         dcterms:accessRights        access_right:PUBLIC ;
         dcterms:accrualPeriodicity  frequency:IRREG ;
         dcterms:alternative         "Codelijst Bioindicatoren Dataset"@nl ;
-        dcterms:description         "Deze dataset bevat een lijst van bio-indicatorenworden binnen het beleidsdomein omgeving van de Vlaamse Overheid en zoals die initieel binnen het kader van het OSLO thema omgeving is opgesteld."@nl ;
+        dcterms:description         "Deze dataset bevat een lijst van bio-indicatoren gebruikt binnen het beleidsdomein omgeving van de Vlaamse Overheid en zoals die initieel binnen het kader van het OSLO thema omgeving is opgesteld."@nl ;
         dcterms:identifier          omg_dataset:codelijst-bioindicator ;
         dcterms:issued              "2022-03-01"^^xsd:date ;
         dcterms:language            language:NLD ;
@@ -120,7 +120,7 @@ omg_dataset:codelijst-bioindicator
         dcterms:rightsHolder        ovo:OVO003751 ;
         dcterms:spatial             <https://www.geonames.org/3337388/flanders> , country:BEL ;
         dcterms:temporal            omg_periodoftime:dataset_omg ;
-        dcterms:title               "Het digitale stedenbouwkundige informatie archief"@nl ;
+        dcterms:title               "Thesaurus bio-indicatoren"@nl ;
         dcat:contactPoint           omg_vcard:helpdesk ;
         dcat:distribution           omg_distribution:codelijst-bioindicator_csv , omg_distribution:codelijst-bioindicator_ttl , omg_distribution:codelijst-bioindicator_jsonld ;
         dcat:landingPage            <https://data.omgeving.vlaanderen.be/doc/catalog/codelijst.html> ;
