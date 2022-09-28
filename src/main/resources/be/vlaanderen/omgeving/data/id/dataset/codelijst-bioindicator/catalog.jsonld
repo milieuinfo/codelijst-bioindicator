@@ -4,6 +4,10 @@
     "@type" : "dcat:Catalog",
     "dataset" : "omg_dataset:codelijst-bioindicator"
   }, {
+    "@id" : "omg_dataservice:sparqlendpoint",
+    "@type" : "dcat:DataService",
+    "servesDataset" : "omg_dataset:codelijst-bioindicator"
+  }, {
     "@id" : "omg_dataset:codelijst-bioindicator",
     "@type" : "dcat:Dataset",
     "dc:identifier" : "be.vlaanderen.omgeving.data.id.dataset.codelijst-bioindicator",
@@ -222,6 +226,10 @@
     },
     "dataset" : {
       "@id" : "http://www.w3.org/ns/dcat#dataset",
+      "@type" : "@id"
+    },
+    "servesDataset" : {
+      "@id" : "http://www.w3.org/ns/dcat#servesDataset",
       "@type" : "@id"
     },
     "country" : "http://publications.europa.eu/resource/authority/country/",

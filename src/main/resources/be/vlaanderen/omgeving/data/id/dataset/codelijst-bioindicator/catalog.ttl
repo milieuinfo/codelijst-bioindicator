@@ -106,6 +106,10 @@ omg_catalog:codelijst
         a             dcat:Catalog ;
         dcat:dataset  omg_dataset:codelijst-bioindicator .
 
+omg_dataservice:sparqlendpoint
+        a                   dcat:DataService ;
+        dcat:servesDataset  omg_dataset:codelijst-bioindicator .
+
 omg_distribution:codelijst-bioindicator_ttl
         a                     dcat:Distribution ;
         rdfs:label            "Codelijst Bioindicatoren, in Turtle rdf-formaat."@nl ;
