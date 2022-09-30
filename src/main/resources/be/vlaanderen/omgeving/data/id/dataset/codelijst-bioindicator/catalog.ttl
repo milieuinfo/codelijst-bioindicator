@@ -52,7 +52,7 @@ omg_distribution:codelijst-bioindicator_csv
         dcterms:issued        "2022-09-10"^^xsd:date ;
         dcterms:rightsHolder  ovo:OVO003751 ;
         dcterms:title         "Codelijst Bioindicatoren in text/csv formaat."@nl ;
-        owl:versionInfo       "1.0.3" ;
+        owl:versionInfo       "1.0.4" ;
         dcat:accessURL        <https://github.com/milieuinfo/codelijst-bioindicator.git> ;
         dcat:compressFormat   <http://www.iana.org/assignments/media-types/application/gzip> ;
         dcat:downloadURL      <https://raw.githubusercontent.com/milieuinfo/codelijst-bioindicator/main/src/main/resources/be/vlaanderen/omgeving/data/id/conceptscheme/bioindicator/bioindicator.csv> ;
@@ -70,7 +70,7 @@ omg_distribution:codelijst-bioindicator_jsonld
         dcterms:issued        "2022-09-10"^^xsd:date ;
         dcterms:rightsHolder  ovo:OVO003751 ;
         dcterms:title         "Codelijst Bioindicatoren in jsonld rdf-formaat."@nl ;
-        owl:versionInfo       "1.0.3" ;
+        owl:versionInfo       "1.0.4" ;
         dcat:accessURL        <https://github.com/milieuinfo/codelijst-bioindicator.git> ;
         dcat:compressFormat   <http://www.iana.org/assignments/media-types/application/gzip> ;
         dcat:downloadURL      <https://raw.githubusercontent.com/milieuinfo/codelijst-bioindicator/main/src/main/resources/be/vlaanderen/omgeving/data/id/conceptscheme/bioindicator/bioindicator.jsonld> ;
@@ -95,8 +95,8 @@ omg_dataset:codelijst-bioindicator
         dcterms:spatial             <https://www.geonames.org/3337388/flanders> , country:BEL ;
         dcterms:temporal            omg_periodoftime:dataset_omg ;
         dcterms:title               "Thesaurus bio-indicatoren"@nl ;
-        void:rootResource           omg_conceptscheme:codelijst-bioindicator ;
-        owl:versionInfo             "1.0.3" ;
+        void:rootResource           omg_conceptscheme:bioindicator ;
+        owl:versionInfo             "1.0.4" ;
         dcat:contactPoint           omg_vcard:helpdesk ;
         dcat:distribution           omg_distribution:codelijst-bioindicator_csv , omg_distribution:codelijst-bioindicator_ttl , omg_distribution:codelijst-bioindicator_jsonld ;
         dcat:landingPage            <https://data.omgeving.vlaanderen.be/doc/catalog/codelijst.html> ;
@@ -122,7 +122,7 @@ omg_distribution:codelijst-bioindicator_ttl
         dcterms:issued        "2022-09-10"^^xsd:date ;
         dcterms:rightsHolder  ovo:OVO003751 ;
         dcterms:title         "Codelijst Bioindicatoren in Turtle rdf-formaat."@nl ;
-        owl:versionInfo       "1.0.3" ;
+        owl:versionInfo       "1.0.4" ;
         dcat:accessURL        <https://github.com/milieuinfo/codelijst-bioindicator.git> ;
         dcat:compressFormat   <http://www.iana.org/assignments/media-types/application/gzip> ;
         dcat:downloadURL      <https://raw.githubusercontent.com/milieuinfo/codelijst-bioindicator/main/src/main/resources/be/vlaanderen/omgeving/data/id/conceptscheme/bioindicator/bioindicator.ttl> ;

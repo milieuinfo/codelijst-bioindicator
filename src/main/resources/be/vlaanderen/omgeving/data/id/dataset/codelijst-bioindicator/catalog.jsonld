@@ -39,12 +39,12 @@
       "@language" : "nl",
       "@value" : "Thesaurus bio-indicatoren"
     },
-    "rootResource" : "omg_conceptscheme:codelijst-bioindicator",
+    "rootResource" : "omg_conceptscheme:bioindicator",
     "label" : {
       "@language" : "nl",
       "@value" : "Dataset Codelijst Bioindicatoren"
     },
-    "versionInfo" : "1.0.3",
+    "versionInfo" : "1.0.4",
     "contactPoint" : "omg_vcard:helpdesk",
     "distribution" : [ "omg_distribution:codelijst-bioindicator_csv", "omg_distribution:codelijst-bioindicator_ttl", "omg_distribution:codelijst-bioindicator_jsonld" ],
     "landingPage" : "https://data.omgeving.vlaanderen.be/doc/catalog/codelijst.html",
@@ -71,7 +71,7 @@
       "@language" : "nl",
       "@value" : "Codelijst Bioindicatoren, in text/csv formaat."
     },
-    "versionInfo" : "1.0.3",
+    "versionInfo" : "1.0.4",
     "accessURL" : "https://github.com/milieuinfo/codelijst-bioindicator.git",
     "compressFormat" : "http://www.iana.org/assignments/media-types/application/gzip",
     "downloadURL" : "https://raw.githubusercontent.com/milieuinfo/codelijst-bioindicator/main/src/main/resources/be/vlaanderen/omgeving/data/id/conceptscheme/bioindicator/bioindicator.csv",
@@ -98,7 +98,7 @@
       "@language" : "nl",
       "@value" : "Codelijst Bioindicatoren, in jsonld rdf-formaat."
     },
-    "versionInfo" : "1.0.3",
+    "versionInfo" : "1.0.4",
     "accessURL" : "https://github.com/milieuinfo/codelijst-bioindicator.git",
     "compressFormat" : "http://www.iana.org/assignments/media-types/application/gzip",
     "downloadURL" : "https://raw.githubusercontent.com/milieuinfo/codelijst-bioindicator/main/src/main/resources/be/vlaanderen/omgeving/data/id/conceptscheme/bioindicator/bioindicator.jsonld",
@@ -125,7 +125,7 @@
       "@language" : "nl",
       "@value" : "Codelijst Bioindicatoren, in Turtle rdf-formaat."
     },
-    "versionInfo" : "1.0.3",
+    "versionInfo" : "1.0.4",
     "accessURL" : "https://github.com/milieuinfo/codelijst-bioindicator.git",
     "compressFormat" : "http://www.iana.org/assignments/media-types/application/gzip",
     "downloadURL" : "https://raw.githubusercontent.com/milieuinfo/codelijst-bioindicator/main/src/main/resources/be/vlaanderen/omgeving/data/id/conceptscheme/bioindicator/bioindicator.ttl",
@@ -152,6 +152,9 @@
     "format" : {
       "@id" : "http://purl.org/dc/terms/format",
       "@type" : "@id"
+    },
+    "versionInfo" : {
+      "@id" : "http://www.w3.org/2002/07/owl#versionInfo"
     },
     "accessRights" : {
       "@id" : "http://purl.org/dc/terms/accessRights",
@@ -182,13 +185,6 @@
     "label" : {
       "@id" : "http://www.w3.org/2000/01/rdf-schema#label"
     },
-    "versionInfo" : {
-      "@id" : "http://www.w3.org/2002/07/owl#versionInfo"
-    },
-    "rootResource" : {
-      "@id" : "http://rdfs.org/ns/void#rootResource",
-      "@type" : "@id"
-    },
     "language" : "http://publications.europa.eu/resource/authority/language/",
     "distribution" : {
       "@id" : "http://www.w3.org/ns/dcat#distribution",
@@ -196,6 +192,10 @@
     },
     "theme" : {
       "@id" : "http://www.w3.org/ns/dcat#theme",
+      "@type" : "@id"
+    },
+    "rootResource" : {
+      "@id" : "http://rdfs.org/ns/void#rootResource",
       "@type" : "@id"
     },
     "spatial" : {
