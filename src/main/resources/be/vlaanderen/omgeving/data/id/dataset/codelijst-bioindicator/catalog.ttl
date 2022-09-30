@@ -95,6 +95,7 @@ omg_dataset:codelijst-bioindicator
         dcterms:spatial             <https://www.geonames.org/3337388/flanders> , country:BEL ;
         dcterms:temporal            omg_periodoftime:dataset_omg ;
         dcterms:title               "Thesaurus bio-indicatoren"@nl ;
+        void:rootResource           omg_conceptscheme:codelijst-bioindicator ;
         owl:versionInfo             "1.0.3" ;
         dcat:contactPoint           omg_vcard:helpdesk ;
         dcat:distribution           omg_distribution:codelijst-bioindicator_csv , omg_distribution:codelijst-bioindicator_ttl , omg_distribution:codelijst-bioindicator_jsonld ;

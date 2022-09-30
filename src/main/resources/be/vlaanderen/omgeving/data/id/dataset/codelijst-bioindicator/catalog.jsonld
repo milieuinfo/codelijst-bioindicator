@@ -39,6 +39,7 @@
       "@language" : "nl",
       "@value" : "Thesaurus bio-indicatoren"
     },
+    "rootResource" : "omg_conceptscheme:codelijst-bioindicator",
     "label" : {
       "@language" : "nl",
       "@value" : "Dataset Codelijst Bioindicatoren"
@@ -183,6 +184,10 @@
     },
     "versionInfo" : {
       "@id" : "http://www.w3.org/2002/07/owl#versionInfo"
+    },
+    "rootResource" : {
+      "@id" : "http://rdfs.org/ns/void#rootResource",
+      "@type" : "@id"
     },
     "language" : "http://publications.europa.eu/resource/authority/language/",
     "distribution" : {
