@@ -44,7 +44,7 @@
       "@language" : "nl",
       "@value" : "Dataset Codelijst Bioindicatoren"
     },
-    "versionInfo" : "1.0.4",
+    "versionInfo" : "1.0.5",
     "contactPoint" : "omg_vcard:helpdesk",
     "distribution" : [ "omg_distribution:codelijst-bioindicator_csv", "omg_distribution:codelijst-bioindicator_ttl", "omg_distribution:codelijst-bioindicator_jsonld" ],
     "landingPage" : "https://data.omgeving.vlaanderen.be/doc/catalog/codelijst.html",
@@ -71,7 +71,7 @@
       "@language" : "nl",
       "@value" : "Codelijst Bioindicatoren, in text/csv formaat."
     },
-    "versionInfo" : "1.0.4",
+    "versionInfo" : "1.0.5",
     "accessURL" : "https://github.com/milieuinfo/codelijst-bioindicator.git",
     "compressFormat" : "http://www.iana.org/assignments/media-types/application/gzip",
     "downloadURL" : "https://raw.githubusercontent.com/milieuinfo/codelijst-bioindicator/main/src/main/resources/be/vlaanderen/omgeving/data/id/conceptscheme/bioindicator/bioindicator.csv",
@@ -98,7 +98,7 @@
       "@language" : "nl",
       "@value" : "Codelijst Bioindicatoren, in jsonld rdf-formaat."
     },
-    "versionInfo" : "1.0.4",
+    "versionInfo" : "1.0.5",
     "accessURL" : "https://github.com/milieuinfo/codelijst-bioindicator.git",
     "compressFormat" : "http://www.iana.org/assignments/media-types/application/gzip",
     "downloadURL" : "https://raw.githubusercontent.com/milieuinfo/codelijst-bioindicator/main/src/main/resources/be/vlaanderen/omgeving/data/id/conceptscheme/bioindicator/bioindicator.jsonld",
@@ -125,7 +125,7 @@
       "@language" : "nl",
       "@value" : "Codelijst Bioindicatoren, in Turtle rdf-formaat."
     },
-    "versionInfo" : "1.0.4",
+    "versionInfo" : "1.0.5",
     "accessURL" : "https://github.com/milieuinfo/codelijst-bioindicator.git",
     "compressFormat" : "http://www.iana.org/assignments/media-types/application/gzip",
     "downloadURL" : "https://raw.githubusercontent.com/milieuinfo/codelijst-bioindicator/main/src/main/resources/be/vlaanderen/omgeving/data/id/conceptscheme/bioindicator/bioindicator.ttl",
@@ -145,6 +145,9 @@
       "@id" : "http://www.w3.org/ns/dcat#mediaType",
       "@type" : "@id"
     },
+    "versionInfo" : {
+      "@id" : "http://www.w3.org/2002/07/owl#versionInfo"
+    },
     "issued" : {
       "@id" : "http://purl.org/dc/terms/issued",
       "@type" : "http://www.w3.org/2001/XMLSchema#date"
@@ -152,9 +155,6 @@
     "format" : {
       "@id" : "http://purl.org/dc/terms/format",
       "@type" : "@id"
-    },
-    "versionInfo" : {
-      "@id" : "http://www.w3.org/2002/07/owl#versionInfo"
     },
     "accessRights" : {
       "@id" : "http://purl.org/dc/terms/accessRights",

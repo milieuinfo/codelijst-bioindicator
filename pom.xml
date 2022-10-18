@@ -13,7 +13,6 @@
   <version>1.0.5-SNAPSHOT</version>
   <name>codelijst-bioindicator</name>
   <description />
-
   <scm>
     <connection>scm:git:https://github.com/milieuinfo/codelijst-bioindicator.git</connection>
     <developerConnection>scm:git:https://github.com/milieuinfo/codelijst-bioindicator.git</developerConnection>
@@ -55,7 +54,6 @@
         <excludes>
         </excludes>
       </resource>
-
     </resources>
   </build>
 </project>
