@@ -68,12 +68,11 @@ cb:phaeodactylum_tricornutum
         skos:topConceptOf  vlcs:bioindicator ;
         dcat:theme         gemet:15179 .
 
-cb:b_rer96_lc  a           skos:Concept ;
+cb:b_rer  a                skos:Concept ;
         skos:inScheme      vlcs:bioindicator ;
-        skos:notation      "B.rer96 LC" ;
-        skos:prefLabel     "Brachydanio rerio - LC50 (96h)"@nl ;
-        skos:topConceptOf  vlcs:bioindicator ;
-        cs:vmmParameterId  "55"^^xsd:int .
+        skos:notation      "B.rer96" ;
+        skos:prefLabel     "Brachydanio rerio"@nl ;
+        skos:topConceptOf  vlcs:bioindicator .
 
 cb:buttiauxella_gaviniae
         a                  skos:Concept ;
@@ -86,13 +85,6 @@ cb:enterococcus_aquimarinus
         skos:inScheme      vlcs:bioindicator ;
         skos:prefLabel     "Enterococcus aquimarinus"@nl ;
         skos:topConceptOf  vlcs:bioindicator .
-
-cb:fyto_gi  a              skos:Concept ;
-        skos:inScheme      vlcs:bioindicator ;
-        skos:notation      "Fyto gi" ;
-        skos:prefLabel     "Fytotox, groei-inhibitie"@nl ;
-        skos:topConceptOf  vlcs:bioindicator ;
-        cs:vmmParameterId  "1236"^^xsd:int .
 
 cb:enterococcus_faecium
         a                  skos:Concept ;
@@ -111,13 +103,6 @@ cb:cyano_clfyl  a          skos:Concept ;
         skos:prefLabel     "Cyano Chlorofyl"@nl ;
         skos:topConceptOf  vlcs:bioindicator ;
         cs:vmmParameterId  "1782"^^xsd:int .
-
-cb:d_mag48_ec  a           skos:Concept ;
-        skos:inScheme      vlcs:bioindicator ;
-        skos:notation      "D.mag48 EC" ;
-        skos:prefLabel     "Daphnia magna - EC50 (48h)"@nl ;
-        skos:topConceptOf  vlcs:bioindicator ;
-        cs:vmmParameterId  "57"^^xsd:int .
 
 cb:dinophysis_sa  a        skos:Concept ;
         skos:inScheme      vlcs:bioindicator ;
@@ -175,13 +160,6 @@ cb:aureobasidium_pullulans
         skos:prefLabel     "Aureobasidium pullulans"@nl ;
         skos:topConceptOf  vlcs:bioindicator .
 
-cb:p_sub72_lt  a           skos:Concept ;
-        skos:inScheme      vlcs:bioindicator ;
-        skos:notation      "P.sub72 LT" ;
-        skos:prefLabel     "Pseudokirchneriella subcapitata 72h zoetw alg"@nl ;
-        skos:topConceptOf  vlcs:bioindicator ;
-        cs:vmmParameterId  "1850"^^xsd:int .
-
 cb:thermofiele_actinomyceten
         a                  skos:Concept ;
         skos:inScheme      vlcs:bioindicator ;
@@ -200,20 +178,6 @@ cb:enterococcus_thailandicus
         skos:inScheme      vlcs:bioindicator ;
         skos:prefLabel     "Enterococcus thailandicus"@nl ;
         skos:topConceptOf  vlcs:bioindicator .
-
-cb:d_rer_96_lt  a          skos:Concept ;
-        skos:inScheme      vlcs:bioindicator ;
-        skos:notation      "D.rer 96 LT" ;
-        skos:prefLabel     "Danio rerio 96h zoetw visei zebravis"@nl ;
-        skos:topConceptOf  vlcs:bioindicator ;
-        cs:vmmParameterId  "1849"^^xsd:int .
-
-cb:d_mag24_ec  a           skos:Concept ;
-        skos:inScheme      vlcs:bioindicator ;
-        skos:notation      "D.mag24 EC" ;
-        skos:prefLabel     "Daphnia magna - EC50 (24h)"@nl ;
-        skos:topConceptOf  vlcs:bioindicator ;
-        cs:vmmParameterId  "56"^^xsd:int .
 
 cb:legionella_spp._  a     skos:Concept ;
         skos:altLabel      "Legionella spp."@nl ;
@@ -237,13 +201,6 @@ cb:citrobacter_gillenii
         skos:inScheme      vlcs:bioindicator ;
         skos:prefLabel     "Citrobacter gillenii"@nl ;
         skos:topConceptOf  vlcs:bioindicator .
-
-cb:d_mag48_lt  a           skos:Concept ;
-        skos:inScheme      vlcs:bioindicator ;
-        skos:notation      "D.mag48 LT" ;
-        skos:prefLabel     "Daphnia magna 48h zoetw schaaldier"@nl ;
-        skos:topConceptOf  vlcs:bioindicator ;
-        cs:vmmParameterId  "1847"^^xsd:int .
 
 cb:streptococcus_gallolyticus
         a                  skos:Concept ;
@@ -270,13 +227,6 @@ cb:p_tric72_lt  a          skos:Concept ;
         skos:topConceptOf  vlcs:bioindicator ;
         cs:vmmParameterId  "1851"^^xsd:int .
 
-cb:pyrodinium_sp  a        skos:Concept ;
-        skos:inScheme      vlcs:bioindicator ;
-        skos:notation      "Pyrodinium sp" ;
-        skos:prefLabel     "Pyrodinium sp"@nl ;
-        skos:topConceptOf  vlcs:bioindicator ;
-        cs:vmmParameterId  "1319"^^xsd:int .
-
 cb:ps-nitzschia_ser_  a    skos:Concept ;
         skos:inScheme      vlcs:bioindicator ;
         skos:notation      "Ps-nitzschia ser." ;
@@ -289,25 +239,18 @@ cb:giardia  a              skos:Concept ;
         skos:prefLabel     "Giardia"@nl ;
         skos:topConceptOf  vlcs:bioindicator .
 
+cb:pyrodinium_sp  a        skos:Concept ;
+        skos:inScheme      vlcs:bioindicator ;
+        skos:notation      "Pyrodinium sp" ;
+        skos:prefLabel     "Pyrodinium sp"@nl ;
+        skos:topConceptOf  vlcs:bioindicator ;
+        cs:vmmParameterId  "1319"^^xsd:int .
+
 cb:enterococcus_hirae
         a                  skos:Concept ;
         skos:inScheme      vlcs:bioindicator ;
         skos:prefLabel     "Enterococcus hirae"@nl ;
         skos:topConceptOf  vlcs:bioindicator .
-
-cb:d_rer_96_lt_na_zw  a    skos:Concept ;
-        skos:inScheme      vlcs:bioindicator ;
-        skos:notation      "D.rer 96 LT na ZW" ;
-        skos:prefLabel     "Danio rerio 96h zoetw visei  na Zahn Wellens"@nl ;
-        skos:topConceptOf  vlcs:bioindicator ;
-        cs:vmmParameterId  "2122"^^xsd:int .
-
-cb:r_sub72_ec  a           skos:Concept ;
-        skos:inScheme      vlcs:bioindicator ;
-        skos:notation      "R.sub72 EC" ;
-        skos:prefLabel     "Raphidocelis subcapitata - EC50 (72h)"@nl ;
-        skos:topConceptOf  vlcs:bioindicator ;
-        cs:vmmParameterId  "944"^^xsd:int .
 
 cb:rhodotorula  a          skos:Concept ;
         skos:inScheme      vlcs:bioindicator ;
@@ -323,13 +266,6 @@ cb:fusarium_solani  a      skos:Concept ;
         skos:inScheme      vlcs:bioindicator ;
         skos:prefLabel     "Fusarium Solani"@nl ;
         skos:topConceptOf  vlcs:bioindicator .
-
-cb:fyto_ki  a              skos:Concept ;
-        skos:inScheme      vlcs:bioindicator ;
-        skos:notation      "Fyto ki" ;
-        skos:prefLabel     "Fytotox, kieminhibitie"@nl ;
-        skos:topConceptOf  vlcs:bioindicator ;
-        cs:vmmParameterId  "1235"^^xsd:int .
 
 cb:klebsiella_pneumoniae
         a                  skos:Concept ;
@@ -433,6 +369,18 @@ cb:escherichia_coli  a     skos:Concept ;
         dcat:theme         gemet:15179 ;
         cs:vmmParameterId  "32"^^xsd:int .
 
+cb:p_sub72  a              skos:Concept ;
+        skos:inScheme      vlcs:bioindicator ;
+        skos:notation      "P.sub" ;
+        skos:prefLabel     "Pseudokirchneriella subcapitata"@nl ;
+        skos:topConceptOf  vlcs:bioindicator .
+
+cb:d_mag  a                skos:Concept ;
+        skos:inScheme      vlcs:bioindicator ;
+        skos:notation      "D.mag" ;
+        skos:prefLabel     "Daphnia magna"@nl ;
+        skos:topConceptOf  vlcs:bioindicator .
+
 cb:ivt  a                  skos:Concept ;
         skos:inScheme      vlcs:bioindicator ;
         skos:notation      "IVT" ;
@@ -510,22 +458,15 @@ cb:legionella_overgroei
         skos:prefLabel     "Legionella overgroei"@nl ;
         skos:topConceptOf  vlcs:bioindicator .
 
-cob:water  a            skos:Collection ;
-        skos:inScheme   vlcs:bioindicator ;
-        skos:prefLabel  "Collectie van bioindicatoren m.b.t. water."@nl .
-
 cb:lelliottia_amnigena
         a                  skos:Concept ;
         skos:inScheme      vlcs:bioindicator ;
         skos:prefLabel     "Lelliottia amnigena"@nl ;
         skos:topConceptOf  vlcs:bioindicator .
 
-cb:o_myk96_lc  a           skos:Concept ;
-        skos:inScheme      vlcs:bioindicator ;
-        skos:notation      "O.myk96 LC" ;
-        skos:prefLabel     "Oncorhynchus mykiss - LC50 (96h)"@nl ;
-        skos:topConceptOf  vlcs:bioindicator ;
-        cs:vmmParameterId  "946"^^xsd:int .
+cob:water  a            skos:Collection ;
+        skos:inScheme   vlcs:bioindicator ;
+        skos:prefLabel  "Collectie van bioindicatoren m.b.t. water."@nl .
 
 cb:coliformen  a           skos:Concept ;
         skos:altLabel      "coliformen"@nl ;
@@ -541,13 +482,6 @@ cb:enterococcus_cacae
         skos:inScheme      vlcs:bioindicator ;
         skos:prefLabel     "Enterococcus cacae"@nl ;
         skos:topConceptOf  vlcs:bioindicator .
-
-cb:d_mag48_lt_na_zw  a     skos:Concept ;
-        skos:inScheme      vlcs:bioindicator ;
-        skos:notation      "D.mag48 LT na ZW" ;
-        skos:prefLabel     "Daphnia magna 48h zoetw schaaldier na Zahn Wellens"@nl ;
-        skos:topConceptOf  vlcs:bioindicator ;
-        cs:vmmParameterId  "2121"^^xsd:int .
 
 cb:ekc-macrofyten  a       skos:Concept ;
         skos:altLabel      "EKC-macrofyten"@nl ;
@@ -570,13 +504,6 @@ cb:buttiauxella_ferragutiae
         skos:inScheme      vlcs:bioindicator ;
         skos:prefLabel     "Buttiauxella ferragutiae"@nl ;
         skos:topConceptOf  vlcs:bioindicator .
-
-cb:ostracod_sd  a          skos:Concept ;
-        skos:inScheme      vlcs:bioindicator ;
-        skos:notation      "Ostracod sd" ;
-        skos:prefLabel     "Ostracod, st.dev."@nl ;
-        skos:topConceptOf  vlcs:bioindicator ;
-        cs:vmmParameterId  "920"^^xsd:int .
 
 cb:som_roeipootkreeften_copepoda
         a                  skos:Concept ;
@@ -643,25 +570,17 @@ cb:msp  a                  skos:Concept ;
         skos:topConceptOf  vlcs:bioindicator ;
         cs:vmmParameterId  "1008"^^xsd:int .
 
+cb:fyto  a                 skos:Concept ;
+        skos:inScheme      vlcs:bioindicator ;
+        skos:notation      "Fyto" ;
+        skos:prefLabel     "Fytotox"@nl ;
+        skos:topConceptOf  vlcs:bioindicator .
+
 cb:buttiauxella_izardii
         a                  skos:Concept ;
         skos:inScheme      vlcs:bioindicator ;
         skos:prefLabel     "Buttiauxella izardii"@nl ;
         skos:topConceptOf  vlcs:bioindicator .
-
-cb:mwp_na_zw  a            skos:Concept ;
-        skos:inScheme      vlcs:bioindicator ;
-        skos:notation      "MWP na ZW" ;
-        skos:prefLabel     "Vibrio Fischeri 0,5h bac lum-inh na Zahn Wellens"@nl ;
-        skos:topConceptOf  vlcs:bioindicator ;
-        cs:vmmParameterId  "2123"^^xsd:int .
-
-cb:b_rer48_lc  a           skos:Concept ;
-        skos:inScheme      vlcs:bioindicator ;
-        skos:notation      "B.rer48 LC" ;
-        skos:prefLabel     "Brachydanio rerio - LC50 (48h)"@nl ;
-        skos:topConceptOf  vlcs:bioindicator ;
-        cs:vmmParameterId  "54"^^xsd:int .
 
 cb:micrococcus  a          skos:Concept ;
         skos:inScheme      vlcs:bioindicator ;
@@ -756,15 +675,20 @@ cb:ekc-visfauna  a         skos:Concept ;
         skos:topConceptOf  vlcs:bioindicator ;
         dcat:theme         gemet:15179 .
 
+vlcs:bioindicator  a        skos:ConceptScheme ;
+        skos:definition     "Een organisme waarmee een verandering of verontreiniging van het milieu kan worden gesignaleerd. Het principe achter het gebruik van bio-indicatoren is dat de natuurlijke samenstelling van een levensgemeenschap wordt bepaald door de fysische en chemische eigenschappen van het ecosysteem."@nl ;
+        skos:hasTopConcept  cb:citrobacter , cb:dinophysis_ac , cb:prorocentrum_min , cb:enterococcus_termitis , cb:thermofiele_actinomyceten , cb:pseudomonas_aeruginosa , cb:klebsiella_pneumoniae , cb:streptococcus_gallolyticus , cb:prorocentrum_lima , cb:p_tric72_lt , cb:gallionella , cb:aeromonas_salmonicida , cb:thamno , cb:klebsiella , cb:chaetomium , cb:enterococcus_silesiacus , cb:rhodotorula , cb:misvormingen , cb:aeromonas , cb:aeromonas_caviae , cb:lactobacillus_plantarum , cb:staphylococcus_epidermidis , cb:dinophysis_no , cb:aeromonas_veronii , cb:staphylococcus_warneri , cb:fcoli , cb:schimmels , cb:streptococcus_salivarius , cb:bacteriofagen , cb:staphylococcus_pasteuri , cb:lactococcus_lactis , cb:zwam , cb:legionella_spp._ , cb:streptococcus , cb:enterovirussen , cb:coolia_monotis , cb:ps-nitzschia_spp_ , cb:enterococcus_aquimarinus , cb:enterococcus_haemoperoxidus , cb:ribonucleïnezuur , cb:dinophysis_sp , cb:danio_rerio , cb:alexandrium_spp_ , cb:phoma , cb:o_myk96 , cb:legionella_overgroei , cb:phaeodactylum_tricornutum , cb:lelliottia_amnigena , cb:enterococcus_durans , cb:cronobacter , cb:coliformen , cb:pseud , cb:schaalamoeben , cb:buttiauxella , cb:enterococcus_hirae , cb:fstrep , cb:enterococcen , cb:aspergillus_fumigatus , cb:enterococcus_faecalis , cb:d_mag , cb:hyal , cb:actinomyceten , cb:staphylococcus_saprophyticus , cb:legionella_pneumophila , cb:ekc-macrofyten , cb:ie , cb:dinophysis_sa , cb:escherichia_coli , cb:aliivibrio_fischeri , cb:enterobacter_amnigenus , cb:pseudokirchneriella_subcapitata , cb:enterococcus_casseliflavus , cb:r_sub72 , cb:oncorhyncus_mykiss , cb:enterobacter_ludwigii , cb:ecoli , cb:ivt , cb:serratia , cb:coagulase_positieve_staphylococci , cb:gymnodinium_ct , cb:reovirussen , cb:dinophysis_cd , cb:aeromonas_eucrenophila , cb:pat__kiem , cb:citrobacter_gillenii , cb:aerococcus_viridans , cb:ps-nitzschia_del_ , cb:enterococcus_mundtii , cb:streptococcus_equinus , cb:gymnodium_sp , cb:intestinale_enterococci , cb:enterobacter_cloacae , cb:enterococcus_malodoratus , cb:rahnella_aquatilis , cb:dinophysis_ft , cb:fusarium_solani , cb:ps-nitzschia_ser_ , cb:eurotium , cb:streptococcus_lutetiensis , cb:stachybotrys , cb:enterococcus_thailandicus , cb:aspergillus , cb:tk37 , cb:naaktamoeben , <https://data.omgeving.vlaanderen.be/id/concept/bioindicator/salmonella_spp.> , cb:micrococcus , cb:aureobasidium , cb:legio , cb:enterococcus_faecium , cb:tn , cb:ekc-fytobenthos , cb:fyto , cb:clostridium_perfringens , cb:tcoli , cb:mwp , cb:anostraca , cb:giardia , cb:enterococcus_cacae , cb:enterococcus_italicus , cb:clostridium_tertium , cb:pyrodinium_sp , cb:cladosporium , cb:prorocentrum_mica , cb:corophium , cb:mucor , cb:penicillium_marneffei , cb:cyano_clfyl , cb:enterococcus_gilvus , cb:enterococcus_gallinarum , cb:ekc-visfauna , cb:aerococcus , cb:ekc-macro-invertebraten , cb:ientero , cb:ralstonia , cb:buttiauxella_izardii , cb:adenovirussen , cb:enterococcus_phoeniculicola , cb:salm , cb:b_rer , cb:nitrosomonas , cb:candida , cb:bacillus_cereus , cb:kluyvera , cb:fusarium , cb:sulfiet_reducerende_clostridia , cb:msp , cb:scopulariopsis , cb:aureobasidium_pullulans , cb:oenococcus , cb:somatische_colifagen , cb:kiemgetal_bij_22c_en_36c , cb:dermatofyten , cb:penicillium , cb:ostracod , cb:melkzuur_bacterien , cb:cryptosporidium , cb:pseudomonas , cb:enterococcus_moraviensis , cb:aeromonas_hydrophila , cb:som_roeipootkreeften_copepoda , cb:daphnia_magna , cb:ekc-fytoplankton , cb:tk22 , cb:cronobacter_sakazakii , cb:dinophysis_at , cb:enterococcus_sulfureus , cb:buttiauxella_gaviniae , cb:rhizophus , cb:p_sub72 , cb:alternaria , cb:d_rer , cb:ha , cb:buttiauxella_ferragutiae , cb:klebsiella_oxytoca , cb:staf , cb:cyano , cb:pyrodinium_bh , cb:buttiauxella_noackiae ;
+        skos:prefLabel      "Codelijst van de bioindicatoren"@nl .
+
 cb:enterococcen  a         skos:Concept ;
         skos:inScheme      vlcs:bioindicator ;
         skos:prefLabel     "Enterococcen"@nl ;
         skos:topConceptOf  vlcs:bioindicator .
 
-vlcs:bioindicator  a        skos:ConceptScheme ;
-        skos:definition     "Een organisme waarmee een verandering of verontreiniging van het milieu kan worden gesignaleerd. Het principe achter het gebruik van bio-indicatoren is dat de natuurlijke samenstelling van een levensgemeenschap wordt bepaald door de fysische en chemische eigenschappen van het ecosysteem."@nl ;
-        skos:hasTopConcept  cb:citrobacter , cb:dinophysis_ac , cb:prorocentrum_min , cb:enterococcus_termitis , cb:thermofiele_actinomyceten , cb:pseudomonas_aeruginosa , cb:klebsiella_pneumoniae , cb:streptococcus_gallolyticus , cb:prorocentrum_lima , cb:p_tric72_lt , cb:gallionella , cb:aeromonas_salmonicida , cb:b_rer48_lc , cb:thamno , cb:klebsiella , cb:chaetomium , cb:d_mag48_ec , cb:fyto_gi , cb:enterococcus_silesiacus , cb:rhodotorula , cb:misvormingen , cb:aeromonas , cb:aeromonas_caviae , cb:lactobacillus_plantarum , cb:r_sub72_ec , cb:d_mag24_ec , cb:staphylococcus_epidermidis , cb:dinophysis_no , cb:aeromonas_veronii , cb:staphylococcus_warneri , cb:fcoli , cb:schimmels , cb:streptococcus_salivarius , cb:bacteriofagen , cb:mwp_na_zw , cb:staphylococcus_pasteuri , cb:lactococcus_lactis , cb:zwam , cb:legionella_spp._ , cb:streptococcus , cb:enterovirussen , cb:coolia_monotis , cb:ps-nitzschia_spp_ , cb:enterococcus_aquimarinus , cb:enterococcus_haemoperoxidus , cb:ribonucleïnezuur , cb:dinophysis_sp , cb:danio_rerio , cb:alexandrium_spp_ , cb:phoma , cb:legionella_overgroei , cb:d_rer_96_lt , cb:phaeodactylum_tricornutum , cb:b_rer24_lc , cb:lelliottia_amnigena , cb:enterococcus_durans , cb:cronobacter , cb:ostracod_gi , cb:coliformen , cb:pseud , cb:hyal_sd , cb:schaalamoeben , cb:buttiauxella , cb:enterococcus_hirae , cb:fstrep , cb:enterococcen , cb:aspergillus_fumigatus , cb:enterococcus_faecalis , cb:hyal , cb:actinomyceten , cb:staphylococcus_saprophyticus , cb:legionella_pneumophila , cb:ekc-macrofyten , cb:ie , cb:dinophysis_sa , cb:escherichia_coli , cb:aliivibrio_fischeri , cb:enterobacter_amnigenus , cb:pseudokirchneriella_subcapitata , cb:enterococcus_casseliflavus , cb:oncorhyncus_mykiss , cb:enterobacter_ludwigii , cb:ivt , cb:ecoli , cb:serratia , cb:coagulase_positieve_staphylococci , cb:gymnodinium_ct , cb:reovirussen , cb:dinophysis_cd , cb:aeromonas_eucrenophila , cb:pat__kiem , cb:citrobacter_gillenii , cb:aerococcus_viridans , cb:ps-nitzschia_del_ , cb:enterococcus_mundtii , cb:streptococcus_equinus , cb:gymnodium_sp , cb:intestinale_enterococci , cb:d_mag48_lt , cb:enterobacter_cloacae , cb:enterococcus_malodoratus , cb:rahnella_aquatilis , cb:d_rer_96_lt_na_zw , cb:dinophysis_ft , cb:fusarium_solani , cb:ps-nitzschia_ser_ , cb:eurotium , cb:streptococcus_lutetiensis , cb:stachybotrys , cb:enterococcus_thailandicus , cb:aspergillus , cb:tk37 , cb:p_sub72_lt_na_zw , cb:naaktamoeben , <https://data.omgeving.vlaanderen.be/id/concept/bioindicator/salmonella_spp.> , cb:micrococcus , cb:aureobasidium , cb:legio , cb:enterococcus_faecium , cb:tn , cb:ekc-fytobenthos , cb:clostridium_perfringens , cb:tcoli , cb:mwp , cb:anostraca , cb:giardia , cb:enterococcus_cacae , cb:o_myk96_lt , cb:enterococcus_italicus , cb:clostridium_tertium , cb:pyrodinium_sp , cb:cladosporium , cb:prorocentrum_mica , cb:corophium , cb:mucor , cb:penicillium_marneffei , cb:cyano_clfyl , cb:enterococcus_gilvus , cb:enterococcus_gallinarum , cb:p_sub72_lt , cb:ekc-visfauna , cb:o_myk96_lc , cb:aerococcus , cb:ekc-macro-invertebraten , cb:ientero , cb:ralstonia , cb:buttiauxella_izardii , cb:adenovirussen , cb:enterococcus_phoeniculicola , cb:salm , cb:nitrosomonas , cb:candida , cb:bacillus_cereus , cb:kluyvera , cb:fusarium , cb:sulfiet_reducerende_clostridia , cb:msp , cb:scopulariopsis , cb:aureobasidium_pullulans , cb:oenococcus , cb:somatische_colifagen , cb:kiemgetal_bij_22c_en_36c , cb:ps-kirchneriella_sc , cb:b_rer96_lc , cb:dermatofyten , cb:penicillium , cb:ostracod , cb:melkzuur_bacterien , cb:cryptosporidium , cb:pseudomonas , cb:enterococcus_moraviensis , cb:aeromonas_hydrophila , cb:som_roeipootkreeften_copepoda , cb:daphnia_magna , cb:ekc-fytoplankton , cb:tk22 , cb:cronobacter_sakazakii , cb:o_myk96_ec , cb:d_mag48_lc , cb:dinophysis_at , cb:enterococcus_sulfureus , cb:buttiauxella_gaviniae , cb:rhizophus , cb:alternaria , cb:ostracod_sd , cb:ha , cb:fyto_ki , cb:r_sub72_lc , cb:staf , cb:buttiauxella_ferragutiae , cb:klebsiella_oxytoca , cb:d_mag48_lt_na_zw , cb:cyano , cb:pyrodinium_bh , cb:buttiauxella_noackiae ;
-        skos:prefLabel      "Codelijst van de bioindicatoren"@nl .
+cb:serratia  a             skos:Concept ;
+        skos:inScheme      vlcs:bioindicator ;
+        skos:prefLabel     "Serratia"@nl ;
+        skos:topConceptOf  vlcs:bioindicator .
 
 cb:enterococcus_gilvus
         a                  skos:Concept ;
@@ -779,9 +703,10 @@ cb:misvormingen  a         skos:Concept ;
         skos:topConceptOf  vlcs:bioindicator ;
         cs:vmmParameterId  "-102"^^xsd:int .
 
-cb:serratia  a             skos:Concept ;
+cb:o_myk96  a              skos:Concept ;
         skos:inScheme      vlcs:bioindicator ;
-        skos:prefLabel     "Serratia"@nl ;
+        skos:notation      "O.myk96" ;
+        skos:prefLabel     "Oncorhynchus mykiss"@nl ;
         skos:topConceptOf  vlcs:bioindicator .
 
 cb:rhizophus  a            skos:Concept ;
@@ -822,13 +747,6 @@ cb:ekc-macro-invertebraten
         skos:topConceptOf  vlcs:bioindicator ;
         dcat:theme         gemet:15179 .
 
-cb:b_rer24_lc  a           skos:Concept ;
-        skos:inScheme      vlcs:bioindicator ;
-        skos:notation      "B.rer24 LC" ;
-        skos:prefLabel     "Brachydanio rerio - LC50 (24h)"@nl ;
-        skos:topConceptOf  vlcs:bioindicator ;
-        cs:vmmParameterId  "53"^^xsd:int .
-
 cb:aerococcus_viridans
         a                  skos:Concept ;
         skos:inScheme      vlcs:bioindicator ;
@@ -846,13 +764,6 @@ cb:aeromonas_eucrenophila
         skos:prefLabel     "Aeromonas eucrenophila"@nl ;
         skos:topConceptOf  vlcs:bioindicator .
 
-cb:p_sub72_lt_na_zw  a     skos:Concept ;
-        skos:inScheme      vlcs:bioindicator ;
-        skos:notation      "P.sub72 LT na ZW" ;
-        skos:prefLabel     "Pseudokirchneriella subcapitata 72h na ZahnWellens"@nl ;
-        skos:topConceptOf  vlcs:bioindicator ;
-        cs:vmmParameterId  "2120"^^xsd:int .
-
 cb:danio_rerio  a          skos:Concept ;
         skos:altLabel      "Zebravisembryo"@nl ;
         skos:inScheme      vlcs:bioindicator ;
@@ -866,13 +777,6 @@ cb:dermatofyten  a         skos:Concept ;
         skos:inScheme      vlcs:bioindicator ;
         skos:prefLabel     "Dermatofyten"@nl ;
         skos:topConceptOf  vlcs:bioindicator .
-
-cb:ostracod_gi  a          skos:Concept ;
-        skos:inScheme      vlcs:bioindicator ;
-        skos:notation      "Ostracod gi" ;
-        skos:prefLabel     "Ostracod, groei-inhibitie"@nl ;
-        skos:topConceptOf  vlcs:bioindicator ;
-        cs:vmmParameterId  "921"^^xsd:int .
 
 cb:streptococcus_salivarius
         a                  skos:Concept ;
@@ -916,13 +820,6 @@ cb:salm  a                 skos:Concept ;
         skos:topConceptOf  vlcs:bioindicator ;
         cs:vmmParameterId  "36"^^xsd:int .
 
-cb:d_mag48_lc  a           skos:Concept ;
-        skos:inScheme      vlcs:bioindicator ;
-        skos:notation      "D.mag48 LC" ;
-        skos:prefLabel     "Daphnia magna - LC50 (48h)"@nl ;
-        skos:topConceptOf  vlcs:bioindicator ;
-        cs:vmmParameterId  "945"^^xsd:int .
-
 cb:enterococcus_malodoratus
         a                  skos:Concept ;
         skos:inScheme      vlcs:bioindicator ;
@@ -937,9 +834,8 @@ cb:buttiauxella  a         skos:Concept ;
 cb:mwp  a                  skos:Concept ;
         skos:inScheme      vlcs:bioindicator ;
         skos:notation      "MWP" ;
-        skos:prefLabel     "Vibrio Fischeri 0,5h bac luminiscentie-inhibitie"@nl ;
-        skos:topConceptOf  vlcs:bioindicator ;
-        cs:vmmParameterId  "1852"^^xsd:int .
+        skos:prefLabel     "Vibrio Fischeri"@nl ;
+        skos:topConceptOf  vlcs:bioindicator .
 
 cb:adenovirussen  a        skos:Concept ;
         skos:inScheme      vlcs:bioindicator ;
@@ -982,21 +878,6 @@ cb:coagulase_positieve_staphylococci
         skos:related       co:WAC_V_A_004 ;
         skos:topConceptOf  vlcs:bioindicator ;
         dcat:theme         gemet:15179 .
-
-cb:o_myk96_ec  a           skos:Concept ;
-        skos:inScheme      vlcs:bioindicator ;
-        skos:notation      "O.myk96 EC" ;
-        skos:prefLabel     "Oncorhynchus mykiss - EC50 (96h)"@nl ;
-        skos:topConceptOf  vlcs:bioindicator ;
-        cs:vmmParameterId  "947"^^xsd:int .
-
-cb:ps-kirchneriella_sc
-        a                  skos:Concept ;
-        skos:inScheme      vlcs:bioindicator ;
-        skos:notation      "Ps-kirchneriella sc" ;
-        skos:prefLabel     "Pseudo-kirchneriella subcapitata"@nl ;
-        skos:topConceptOf  vlcs:bioindicator ;
-        cs:vmmParameterId  "1322"^^xsd:int .
 
 cb:streptococcus_equinus
         a                  skos:Concept ;
@@ -1100,13 +981,6 @@ cb:ekc-fytobenthos  a      skos:Concept ;
         skos:topConceptOf  vlcs:bioindicator ;
         dcat:theme         gemet:15179 .
 
-cb:hyal_sd  a              skos:Concept ;
-        skos:inScheme      vlcs:bioindicator ;
-        skos:notation      "Hyal sd" ;
-        skos:prefLabel     "Hyalella, st.dev."@nl ;
-        skos:topConceptOf  vlcs:bioindicator ;
-        cs:vmmParameterId  "781"^^xsd:int .
-
 cb:ribonucleïnezuur  a     skos:Concept ;
         skos:inScheme      vlcs:bioindicator ;
         skos:prefLabel     "Ribonucleïnezuur"@nl ;
@@ -1118,6 +992,12 @@ cb:ostracod  a             skos:Concept ;
         skos:prefLabel     "Ostracod"@nl ;
         skos:topConceptOf  vlcs:bioindicator ;
         cs:vmmParameterId  "903"^^xsd:int .
+
+cb:r_sub72  a              skos:Concept ;
+        skos:inScheme      vlcs:bioindicator ;
+        skos:notation      "R.sub" ;
+        skos:prefLabel     "Raphidocelis subcapitata"@nl ;
+        skos:topConceptOf  vlcs:bioindicator .
 
 cb:schaalamoeben  a        skos:Concept ;
         skos:inScheme      vlcs:bioindicator ;
@@ -1176,12 +1056,11 @@ cb:zwam  a                 skos:Concept ;
         skos:topConceptOf  vlcs:bioindicator ;
         cs:vmmParameterId  "673"^^xsd:int .
 
-cb:o_myk96_lt  a           skos:Concept ;
+cb:d_rer  a                skos:Concept ;
         skos:inScheme      vlcs:bioindicator ;
-        skos:notation      "O.myk96 LT" ;
-        skos:prefLabel     "Oncorthynchus mykiss 96h zoutw vis regenboogforel"@nl ;
-        skos:topConceptOf  vlcs:bioindicator ;
-        cs:vmmParameterId  "2066"^^xsd:int .
+        skos:notation      "D.rer" ;
+        skos:prefLabel     "Danio rerio"@nl ;
+        skos:topConceptOf  vlcs:bioindicator .
 
 cb:ie   a                  skos:Concept ;
         skos:inScheme      vlcs:bioindicator ;
@@ -1202,13 +1081,6 @@ cb:aeromonas_hydrophila
         skos:inScheme      vlcs:bioindicator ;
         skos:prefLabel     "Aeromonas hydrophila"@nl ;
         skos:topConceptOf  vlcs:bioindicator .
-
-cb:r_sub72_lc  a           skos:Concept ;
-        skos:inScheme      vlcs:bioindicator ;
-        skos:notation      "R.sub72 LC" ;
-        skos:prefLabel     "Raphidocelis subcapitata - LC50 (72h)"@nl ;
-        skos:topConceptOf  vlcs:bioindicator ;
-        cs:vmmParameterId  "943"^^xsd:int .
 
 cb:staphylococcus_epidermidis
         a                  skos:Concept ;

@@ -54,9 +54,6 @@
                     "@id": "cb:aeromonas_salmonicida"
                 },
                 {
-                    "@id": "cb:b_rer48_lc"
-                },
-                {
                     "@id": "cb:thamno"
                 },
                 {
@@ -64,12 +61,6 @@
                 },
                 {
                     "@id": "cb:chaetomium"
-                },
-                {
-                    "@id": "cb:d_mag48_ec"
-                },
-                {
-                    "@id": "cb:fyto_gi"
                 },
                 {
                     "@id": "cb:enterococcus_silesiacus"
@@ -88,12 +79,6 @@
                 },
                 {
                     "@id": "cb:lactobacillus_plantarum"
-                },
-                {
-                    "@id": "cb:r_sub72_ec"
-                },
-                {
-                    "@id": "cb:d_mag24_ec"
                 },
                 {
                     "@id": "cb:staphylococcus_epidermidis"
@@ -124,9 +109,6 @@
                 },
                 {
                     "@id": "cb:lactococcus_lactis"
-                },
-                {
-                    "@id": "cb:mwp_na_zw"
                 },
                 {
                     "@id": "cb:zwam"
@@ -168,16 +150,13 @@
                     "@id": "cb:phoma"
                 },
                 {
+                    "@id": "cb:o_myk96"
+                },
+                {
                     "@id": "cb:legionella_overgroei"
                 },
                 {
-                    "@id": "cb:d_rer_96_lt"
-                },
-                {
                     "@id": "cb:phaeodactylum_tricornutum"
-                },
-                {
-                    "@id": "cb:b_rer24_lc"
                 },
                 {
                     "@id": "cb:lelliottia_amnigena"
@@ -190,12 +169,6 @@
                 },
                 {
                     "@id": "cb:coliformen"
-                },
-                {
-                    "@id": "cb:ostracod_gi"
-                },
-                {
-                    "@id": "cb:hyal_sd"
                 },
                 {
                     "@id": "cb:pseud"
@@ -220,6 +193,9 @@
                 },
                 {
                     "@id": "cb:enterococcus_faecalis"
+                },
+                {
+                    "@id": "cb:d_mag"
                 },
                 {
                     "@id": "cb:hyal"
@@ -259,6 +235,9 @@
                 },
                 {
                     "@id": "cb:oncorhyncus_mykiss"
+                },
+                {
+                    "@id": "cb:r_sub72"
                 },
                 {
                     "@id": "cb:enterobacter_ludwigii"
@@ -312,9 +291,6 @@
                     "@id": "cb:intestinale_enterococci"
                 },
                 {
-                    "@id": "cb:d_mag48_lt"
-                },
-                {
                     "@id": "cb:enterobacter_cloacae"
                 },
                 {
@@ -322,9 +298,6 @@
                 },
                 {
                     "@id": "cb:rahnella_aquatilis"
-                },
-                {
-                    "@id": "cb:d_rer_96_lt_na_zw"
                 },
                 {
                     "@id": "cb:dinophysis_ft"
@@ -349,9 +322,6 @@
                 },
                 {
                     "@id": "cb:aspergillus"
-                },
-                {
-                    "@id": "cb:p_sub72_lt_na_zw"
                 },
                 {
                     "@id": "cb:tk37"
@@ -381,6 +351,9 @@
                     "@id": "cb:ekc-fytobenthos"
                 },
                 {
+                    "@id": "cb:fyto"
+                },
+                {
                     "@id": "cb:clostridium_perfringens"
                 },
                 {
@@ -397,9 +370,6 @@
                 },
                 {
                     "@id": "cb:enterococcus_cacae"
-                },
-                {
-                    "@id": "cb:o_myk96_lt"
                 },
                 {
                     "@id": "cb:enterococcus_italicus"
@@ -435,13 +405,7 @@
                     "@id": "cb:enterococcus_gallinarum"
                 },
                 {
-                    "@id": "cb:p_sub72_lt"
-                },
-                {
                     "@id": "cb:ekc-visfauna"
-                },
-                {
-                    "@id": "cb:o_myk96_lc"
                 },
                 {
                     "@id": "cb:aerococcus"
@@ -463,6 +427,9 @@
                 },
                 {
                     "@id": "cb:enterococcus_phoeniculicola"
+                },
+                {
+                    "@id": "cb:b_rer"
                 },
                 {
                     "@id": "cb:salm"
@@ -504,12 +471,6 @@
                     "@id": "cb:kiemgetal_bij_22c_en_36c"
                 },
                 {
-                    "@id": "cb:ps-kirchneriella_sc"
-                },
-                {
-                    "@id": "cb:b_rer96_lc"
-                },
-                {
                     "@id": "cb:penicillium"
                 },
                 {
@@ -549,12 +510,6 @@
                     "@id": "cb:cronobacter_sakazakii"
                 },
                 {
-                    "@id": "cb:d_mag48_lc"
-                },
-                {
-                    "@id": "cb:o_myk96_ec"
-                },
-                {
                     "@id": "cb:dinophysis_at"
                 },
                 {
@@ -570,19 +525,13 @@
                     "@id": "cb:alternaria"
                 },
                 {
-                    "@id": "cb:ostracod_sd"
+                    "@id": "cb:p_sub72"
+                },
+                {
+                    "@id": "cb:d_rer"
                 },
                 {
                     "@id": "cb:ha"
-                },
-                {
-                    "@id": "cb:fyto_ki"
-                },
-                {
-                    "@id": "cb:r_sub72_lc"
-                },
-                {
-                    "@id": "cb:d_mag48_lt_na_zw"
                 },
                 {
                     "@id": "cb:buttiauxella_ferragutiae"
@@ -745,19 +694,15 @@
             "@type": "skos:Concept"
         },
         {
-            "@id": "cb:b_rer96_lc",
-            "cs:vmmParameterId": {
-                "@value": "55",
-                "@type": "xsd:int"
-            },
+            "@id": "cb:b_rer",
             "skos:topConceptOf": {
                 "@id": "vlcs:bioindicator"
             },
             "skos:prefLabel": {
                 "@language": "nl",
-                "@value": "Brachydanio rerio - LC50 (96h)"
+                "@value": "Brachydanio rerio"
             },
-            "skos:notation": "B.rer96 LC",
+            "skos:notation": "B.rer96",
             "skos:inScheme": {
                 "@id": "vlcs:bioindicator"
             },
@@ -786,25 +731,6 @@
                 "@language": "nl",
                 "@value": "Enterococcus aquimarinus"
             },
-            "skos:inScheme": {
-                "@id": "vlcs:bioindicator"
-            },
-            "@type": "skos:Concept"
-        },
-        {
-            "@id": "cb:fyto_gi",
-            "cs:vmmParameterId": {
-                "@value": "1236",
-                "@type": "xsd:int"
-            },
-            "skos:topConceptOf": {
-                "@id": "vlcs:bioindicator"
-            },
-            "skos:prefLabel": {
-                "@language": "nl",
-                "@value": "Fytotox, groei-inhibitie"
-            },
-            "skos:notation": "Fyto gi",
             "skos:inScheme": {
                 "@id": "vlcs:bioindicator"
             },
@@ -852,25 +778,6 @@
                 "@value": "Cyano Chlorofyl"
             },
             "skos:notation": "Cyano Clfyl",
-            "skos:inScheme": {
-                "@id": "vlcs:bioindicator"
-            },
-            "@type": "skos:Concept"
-        },
-        {
-            "@id": "cb:d_mag48_ec",
-            "cs:vmmParameterId": {
-                "@value": "57",
-                "@type": "xsd:int"
-            },
-            "skos:topConceptOf": {
-                "@id": "vlcs:bioindicator"
-            },
-            "skos:prefLabel": {
-                "@language": "nl",
-                "@value": "Daphnia magna - EC50 (48h)"
-            },
-            "skos:notation": "D.mag48 EC",
             "skos:inScheme": {
                 "@id": "vlcs:bioindicator"
             },
@@ -1027,25 +934,6 @@
             "@type": "skos:Concept"
         },
         {
-            "@id": "cb:p_sub72_lt",
-            "cs:vmmParameterId": {
-                "@value": "1850",
-                "@type": "xsd:int"
-            },
-            "skos:topConceptOf": {
-                "@id": "vlcs:bioindicator"
-            },
-            "skos:prefLabel": {
-                "@language": "nl",
-                "@value": "Pseudokirchneriella subcapitata 72h zoetw alg"
-            },
-            "skos:notation": "P.sub72 LT",
-            "skos:inScheme": {
-                "@id": "vlcs:bioindicator"
-            },
-            "@type": "skos:Concept"
-        },
-        {
             "@id": "cb:thermofiele_actinomyceten",
             "skos:topConceptOf": {
                 "@id": "vlcs:bioindicator"
@@ -1087,44 +975,6 @@
                 "@language": "nl",
                 "@value": "Enterococcus thailandicus"
             },
-            "skos:inScheme": {
-                "@id": "vlcs:bioindicator"
-            },
-            "@type": "skos:Concept"
-        },
-        {
-            "@id": "cb:d_rer_96_lt",
-            "cs:vmmParameterId": {
-                "@value": "1849",
-                "@type": "xsd:int"
-            },
-            "skos:topConceptOf": {
-                "@id": "vlcs:bioindicator"
-            },
-            "skos:prefLabel": {
-                "@language": "nl",
-                "@value": "Danio rerio 96h zoetw visei zebravis"
-            },
-            "skos:notation": "D.rer 96 LT",
-            "skos:inScheme": {
-                "@id": "vlcs:bioindicator"
-            },
-            "@type": "skos:Concept"
-        },
-        {
-            "@id": "cb:d_mag24_ec",
-            "cs:vmmParameterId": {
-                "@value": "56",
-                "@type": "xsd:int"
-            },
-            "skos:topConceptOf": {
-                "@id": "vlcs:bioindicator"
-            },
-            "skos:prefLabel": {
-                "@language": "nl",
-                "@value": "Daphnia magna - EC50 (24h)"
-            },
-            "skos:notation": "D.mag24 EC",
             "skos:inScheme": {
                 "@id": "vlcs:bioindicator"
             },
@@ -1186,25 +1036,6 @@
                 "@language": "nl",
                 "@value": "Citrobacter gillenii"
             },
-            "skos:inScheme": {
-                "@id": "vlcs:bioindicator"
-            },
-            "@type": "skos:Concept"
-        },
-        {
-            "@id": "cb:d_mag48_lt",
-            "cs:vmmParameterId": {
-                "@value": "1847",
-                "@type": "xsd:int"
-            },
-            "skos:topConceptOf": {
-                "@id": "vlcs:bioindicator"
-            },
-            "skos:prefLabel": {
-                "@language": "nl",
-                "@value": "Daphnia magna 48h zoetw schaaldier"
-            },
-            "skos:notation": "D.mag48 LT",
             "skos:inScheme": {
                 "@id": "vlcs:bioindicator"
             },
@@ -1343,44 +1174,6 @@
             "@type": "skos:Concept"
         },
         {
-            "@id": "cb:d_rer_96_lt_na_zw",
-            "cs:vmmParameterId": {
-                "@value": "2122",
-                "@type": "xsd:int"
-            },
-            "skos:topConceptOf": {
-                "@id": "vlcs:bioindicator"
-            },
-            "skos:prefLabel": {
-                "@language": "nl",
-                "@value": "Danio rerio 96h zoetw visei  na Zahn Wellens"
-            },
-            "skos:notation": "D.rer 96 LT na ZW",
-            "skos:inScheme": {
-                "@id": "vlcs:bioindicator"
-            },
-            "@type": "skos:Concept"
-        },
-        {
-            "@id": "cb:r_sub72_ec",
-            "cs:vmmParameterId": {
-                "@value": "944",
-                "@type": "xsd:int"
-            },
-            "skos:topConceptOf": {
-                "@id": "vlcs:bioindicator"
-            },
-            "skos:prefLabel": {
-                "@language": "nl",
-                "@value": "Raphidocelis subcapitata - EC50 (72h)"
-            },
-            "skos:notation": "R.sub72 EC",
-            "skos:inScheme": {
-                "@id": "vlcs:bioindicator"
-            },
-            "@type": "skos:Concept"
-        },
-        {
             "@id": "cb:rhodotorula",
             "skos:topConceptOf": {
                 "@id": "vlcs:bioindicator"
@@ -1417,25 +1210,6 @@
                 "@language": "nl",
                 "@value": "Fusarium Solani"
             },
-            "skos:inScheme": {
-                "@id": "vlcs:bioindicator"
-            },
-            "@type": "skos:Concept"
-        },
-        {
-            "@id": "cb:fyto_ki",
-            "cs:vmmParameterId": {
-                "@value": "1235",
-                "@type": "xsd:int"
-            },
-            "skos:topConceptOf": {
-                "@id": "vlcs:bioindicator"
-            },
-            "skos:prefLabel": {
-                "@language": "nl",
-                "@value": "Fytotox, kieminhibitie"
-            },
-            "skos:notation": "Fyto ki",
             "skos:inScheme": {
                 "@id": "vlcs:bioindicator"
             },
@@ -1719,6 +1493,36 @@
             }
         },
         {
+            "@id": "cb:p_sub72",
+            "skos:topConceptOf": {
+                "@id": "vlcs:bioindicator"
+            },
+            "skos:prefLabel": {
+                "@language": "nl",
+                "@value": "Pseudokirchneriella subcapitata"
+            },
+            "skos:notation": "P.sub",
+            "skos:inScheme": {
+                "@id": "vlcs:bioindicator"
+            },
+            "@type": "skos:Concept"
+        },
+        {
+            "@id": "cb:d_mag",
+            "skos:topConceptOf": {
+                "@id": "vlcs:bioindicator"
+            },
+            "skos:prefLabel": {
+                "@language": "nl",
+                "@value": "Daphnia magna"
+            },
+            "skos:notation": "D.mag",
+            "skos:inScheme": {
+                "@id": "vlcs:bioindicator"
+            },
+            "@type": "skos:Concept"
+        },
+        {
             "@id": "cb:ivt",
             "cs:vmmParameterId": {
                 "@value": "1805",
@@ -1923,17 +1727,6 @@
             "@type": "skos:Concept"
         },
         {
-            "@id": "cob:water",
-            "skos:prefLabel": {
-                "@language": "nl",
-                "@value": "Collectie van bioindicatoren m.b.t. water."
-            },
-            "skos:inScheme": {
-                "@id": "vlcs:bioindicator"
-            },
-            "@type": "skos:Collection"
-        },
-        {
             "@id": "cb:lelliottia_amnigena",
             "skos:topConceptOf": {
                 "@id": "vlcs:bioindicator"
@@ -1948,23 +1741,15 @@
             "@type": "skos:Concept"
         },
         {
-            "@id": "cb:o_myk96_lc",
-            "cs:vmmParameterId": {
-                "@value": "946",
-                "@type": "xsd:int"
-            },
-            "skos:topConceptOf": {
-                "@id": "vlcs:bioindicator"
-            },
+            "@id": "cob:water",
             "skos:prefLabel": {
                 "@language": "nl",
-                "@value": "Oncorhynchus mykiss - LC50 (96h)"
+                "@value": "Collectie van bioindicatoren m.b.t. water."
             },
-            "skos:notation": "O.myk96 LC",
             "skos:inScheme": {
                 "@id": "vlcs:bioindicator"
             },
-            "@type": "skos:Concept"
+            "@type": "skos:Collection"
         },
         {
             "@id": "cb:coliformen",
@@ -2003,25 +1788,6 @@
                 "@language": "nl",
                 "@value": "Enterococcus cacae"
             },
-            "skos:inScheme": {
-                "@id": "vlcs:bioindicator"
-            },
-            "@type": "skos:Concept"
-        },
-        {
-            "@id": "cb:d_mag48_lt_na_zw",
-            "cs:vmmParameterId": {
-                "@value": "2121",
-                "@type": "xsd:int"
-            },
-            "skos:topConceptOf": {
-                "@id": "vlcs:bioindicator"
-            },
-            "skos:prefLabel": {
-                "@language": "nl",
-                "@value": "Daphnia magna 48h zoetw schaaldier na Zahn Wellens"
-            },
-            "skos:notation": "D.mag48 LT na ZW",
             "skos:inScheme": {
                 "@id": "vlcs:bioindicator"
             },
@@ -2083,25 +1849,6 @@
                 "@language": "nl",
                 "@value": "Buttiauxella ferragutiae"
             },
-            "skos:inScheme": {
-                "@id": "vlcs:bioindicator"
-            },
-            "@type": "skos:Concept"
-        },
-        {
-            "@id": "cb:ostracod_sd",
-            "cs:vmmParameterId": {
-                "@value": "920",
-                "@type": "xsd:int"
-            },
-            "skos:topConceptOf": {
-                "@id": "vlcs:bioindicator"
-            },
-            "skos:prefLabel": {
-                "@language": "nl",
-                "@value": "Ostracod, st.dev."
-            },
-            "skos:notation": "Ostracod sd",
             "skos:inScheme": {
                 "@id": "vlcs:bioindicator"
             },
@@ -2283,6 +2030,21 @@
             "@type": "skos:Concept"
         },
         {
+            "@id": "cb:fyto",
+            "skos:topConceptOf": {
+                "@id": "vlcs:bioindicator"
+            },
+            "skos:prefLabel": {
+                "@language": "nl",
+                "@value": "Fytotox"
+            },
+            "skos:notation": "Fyto",
+            "skos:inScheme": {
+                "@id": "vlcs:bioindicator"
+            },
+            "@type": "skos:Concept"
+        },
+        {
             "@id": "cb:buttiauxella_izardii",
             "skos:topConceptOf": {
                 "@id": "vlcs:bioindicator"
@@ -2291,44 +2053,6 @@
                 "@language": "nl",
                 "@value": "Buttiauxella izardii"
             },
-            "skos:inScheme": {
-                "@id": "vlcs:bioindicator"
-            },
-            "@type": "skos:Concept"
-        },
-        {
-            "@id": "cb:mwp_na_zw",
-            "cs:vmmParameterId": {
-                "@value": "2123",
-                "@type": "xsd:int"
-            },
-            "skos:topConceptOf": {
-                "@id": "vlcs:bioindicator"
-            },
-            "skos:prefLabel": {
-                "@language": "nl",
-                "@value": "Vibrio Fischeri 0,5h bac lum-inh na Zahn Wellens"
-            },
-            "skos:notation": "MWP na ZW",
-            "skos:inScheme": {
-                "@id": "vlcs:bioindicator"
-            },
-            "@type": "skos:Concept"
-        },
-        {
-            "@id": "cb:b_rer48_lc",
-            "cs:vmmParameterId": {
-                "@value": "54",
-                "@type": "xsd:int"
-            },
-            "skos:topConceptOf": {
-                "@id": "vlcs:bioindicator"
-            },
-            "skos:prefLabel": {
-                "@language": "nl",
-                "@value": "Brachydanio rerio - LC50 (48h)"
-            },
-            "skos:notation": "B.rer48 LC",
             "skos:inScheme": {
                 "@id": "vlcs:bioindicator"
             },
@@ -2584,6 +2308,20 @@
             "skos:altLabel": {
                 "@language": "nl",
                 "@value": "EKC-visfauna"
+            },
+            "@type": "skos:Concept"
+        },
+        {
+            "@id": "cb:rhizophus",
+            "skos:topConceptOf": {
+                "@id": "vlcs:bioindicator"
+            },
+            "skos:prefLabel": {
+                "@language": "nl",
+                "@value": "Rhizophus"
+            },
+            "skos:inScheme": {
+                "@id": "vlcs:bioindicator"
             },
             "@type": "skos:Concept"
         },
@@ -2936,19 +2674,15 @@
             "@type": "skos:Concept"
         },
         {
-            "@id": "cb:b_rer24_lc",
-            "cs:vmmParameterId": {
-                "@value": "53",
-                "@type": "xsd:int"
-            },
+            "@id": "cb:o_myk96",
             "skos:topConceptOf": {
                 "@id": "vlcs:bioindicator"
             },
             "skos:prefLabel": {
                 "@language": "nl",
-                "@value": "Brachydanio rerio - LC50 (24h)"
+                "@value": "Oncorhynchus mykiss"
             },
-            "skos:notation": "B.rer24 LC",
+            "skos:notation": "O.myk96",
             "skos:inScheme": {
                 "@id": "vlcs:bioindicator"
             },
@@ -2977,44 +2711,6 @@
                 "@language": "nl",
                 "@value": "Cronobacter"
             },
-            "skos:inScheme": {
-                "@id": "vlcs:bioindicator"
-            },
-            "@type": "skos:Concept"
-        },
-        {
-            "@id": "cb:ostracod_gi",
-            "cs:vmmParameterId": {
-                "@value": "921",
-                "@type": "xsd:int"
-            },
-            "skos:topConceptOf": {
-                "@id": "vlcs:bioindicator"
-            },
-            "skos:prefLabel": {
-                "@language": "nl",
-                "@value": "Ostracod, groei-inhibitie"
-            },
-            "skos:notation": "Ostracod gi",
-            "skos:inScheme": {
-                "@id": "vlcs:bioindicator"
-            },
-            "@type": "skos:Concept"
-        },
-        {
-            "@id": "cb:hyal_sd",
-            "cs:vmmParameterId": {
-                "@value": "781",
-                "@type": "xsd:int"
-            },
-            "skos:topConceptOf": {
-                "@id": "vlcs:bioindicator"
-            },
-            "skos:prefLabel": {
-                "@language": "nl",
-                "@value": "Hyalella, st.dev."
-            },
-            "skos:notation": "Hyal sd",
             "skos:inScheme": {
                 "@id": "vlcs:bioindicator"
             },
@@ -3151,6 +2847,21 @@
                 "@language": "nl",
                 "@value": "Enterobacter amnigenus"
             },
+            "skos:inScheme": {
+                "@id": "vlcs:bioindicator"
+            },
+            "@type": "skos:Concept"
+        },
+        {
+            "@id": "cb:r_sub72",
+            "skos:topConceptOf": {
+                "@id": "vlcs:bioindicator"
+            },
+            "skos:prefLabel": {
+                "@language": "nl",
+                "@value": "Raphidocelis subcapitata"
+            },
+            "skos:notation": "R.sub",
             "skos:inScheme": {
                 "@id": "vlcs:bioindicator"
             },
@@ -3401,25 +3112,6 @@
             "@type": "skos:Concept"
         },
         {
-            "@id": "cb:p_sub72_lt_na_zw",
-            "cs:vmmParameterId": {
-                "@value": "2120",
-                "@type": "xsd:int"
-            },
-            "skos:topConceptOf": {
-                "@id": "vlcs:bioindicator"
-            },
-            "skos:prefLabel": {
-                "@language": "nl",
-                "@value": "Pseudokirchneriella subcapitata 72h na ZahnWellens"
-            },
-            "skos:notation": "P.sub72 LT na ZW",
-            "skos:inScheme": {
-                "@id": "vlcs:bioindicator"
-            },
-            "@type": "skos:Concept"
-        },
-        {
             "@id": "cb:salmonella_spp.",
             "dcat:theme": {
                 "@id": "gemet:15179"
@@ -3557,37 +3249,14 @@
         },
         {
             "@id": "cb:mwp",
-            "cs:vmmParameterId": {
-                "@value": "1852",
-                "@type": "xsd:int"
-            },
             "skos:topConceptOf": {
                 "@id": "vlcs:bioindicator"
             },
             "skos:prefLabel": {
                 "@language": "nl",
-                "@value": "Vibrio Fischeri 0,5h bac luminiscentie-inhibitie"
+                "@value": "Vibrio Fischeri"
             },
             "skos:notation": "MWP",
-            "skos:inScheme": {
-                "@id": "vlcs:bioindicator"
-            },
-            "@type": "skos:Concept"
-        },
-        {
-            "@id": "cb:o_myk96_lt",
-            "cs:vmmParameterId": {
-                "@value": "2066",
-                "@type": "xsd:int"
-            },
-            "skos:topConceptOf": {
-                "@id": "vlcs:bioindicator"
-            },
-            "skos:prefLabel": {
-                "@language": "nl",
-                "@value": "Oncorthynchus mykiss 96h zoutw vis regenboogforel"
-            },
-            "skos:notation": "O.myk96 LT",
             "skos:inScheme": {
                 "@id": "vlcs:bioindicator"
             },
@@ -3816,25 +3485,6 @@
             "@type": "skos:Concept"
         },
         {
-            "@id": "cb:ps-kirchneriella_sc",
-            "cs:vmmParameterId": {
-                "@value": "1322",
-                "@type": "xsd:int"
-            },
-            "skos:topConceptOf": {
-                "@id": "vlcs:bioindicator"
-            },
-            "skos:prefLabel": {
-                "@language": "nl",
-                "@value": "Pseudo-kirchneriella subcapitata"
-            },
-            "skos:notation": "Ps-kirchneriella sc",
-            "skos:inScheme": {
-                "@id": "vlcs:bioindicator"
-            },
-            "@type": "skos:Concept"
-        },
-        {
             "@id": "cb:dermatofyten",
             "skos:topConceptOf": {
                 "@id": "vlcs:bioindicator"
@@ -3924,44 +3574,6 @@
             "@type": "skos:Concept"
         },
         {
-            "@id": "cb:d_mag48_lc",
-            "cs:vmmParameterId": {
-                "@value": "945",
-                "@type": "xsd:int"
-            },
-            "skos:topConceptOf": {
-                "@id": "vlcs:bioindicator"
-            },
-            "skos:prefLabel": {
-                "@language": "nl",
-                "@value": "Daphnia magna - LC50 (48h)"
-            },
-            "skos:notation": "D.mag48 LC",
-            "skos:inScheme": {
-                "@id": "vlcs:bioindicator"
-            },
-            "@type": "skos:Concept"
-        },
-        {
-            "@id": "cb:o_myk96_ec",
-            "cs:vmmParameterId": {
-                "@value": "947",
-                "@type": "xsd:int"
-            },
-            "skos:topConceptOf": {
-                "@id": "vlcs:bioindicator"
-            },
-            "skos:prefLabel": {
-                "@language": "nl",
-                "@value": "Oncorhynchus mykiss - EC50 (96h)"
-            },
-            "skos:notation": "O.myk96 EC",
-            "skos:inScheme": {
-                "@id": "vlcs:bioindicator"
-            },
-            "@type": "skos:Concept"
-        },
-        {
             "@id": "cb:dinophysis_at",
             "cs:vmmParameterId": {
                 "@value": "923",
@@ -3975,20 +3587,6 @@
                 "@value": "Dinophysis acuta"
             },
             "skos:notation": "Dinophysis at",
-            "skos:inScheme": {
-                "@id": "vlcs:bioindicator"
-            },
-            "@type": "skos:Concept"
-        },
-        {
-            "@id": "cb:rhizophus",
-            "skos:topConceptOf": {
-                "@id": "vlcs:bioindicator"
-            },
-            "skos:prefLabel": {
-                "@language": "nl",
-                "@value": "Rhizophus"
-            },
             "skos:inScheme": {
                 "@id": "vlcs:bioindicator"
             },
@@ -4009,19 +3607,15 @@
             "@type": "skos:Concept"
         },
         {
-            "@id": "cb:r_sub72_lc",
-            "cs:vmmParameterId": {
-                "@value": "943",
-                "@type": "xsd:int"
-            },
+            "@id": "cb:d_rer",
             "skos:topConceptOf": {
                 "@id": "vlcs:bioindicator"
             },
             "skos:prefLabel": {
                 "@language": "nl",
-                "@value": "Raphidocelis subcapitata - LC50 (72h)"
+                "@value": "Danio rerio"
             },
-            "skos:notation": "R.sub72 LC",
+            "skos:notation": "D.rer",
             "skos:inScheme": {
                 "@id": "vlcs:bioindicator"
             },
