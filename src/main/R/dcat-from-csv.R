@@ -131,7 +131,7 @@ artifactId <- xml_text( xml_find_first(x, "/project/artifactId") )
 version <- xml_text( xml_find_first(x, "/project/version") )
 name <- xml_text( xml_find_first(x, "/project/name") )
 class_path  <- gsub("\\.","/", groupId)
-version_next_release <- strsplit(version, '-')[[1]][1]
+version_next_release <- sub("-SNAPSHOT", "", version)
 version_next_release <- prompt_versie(version_next_release)
 packageFileName_ <- paste(name,'-',version_next_release,'.jar', sep = "")
 packageName_ <- paste(groupId, name, sep = ".")

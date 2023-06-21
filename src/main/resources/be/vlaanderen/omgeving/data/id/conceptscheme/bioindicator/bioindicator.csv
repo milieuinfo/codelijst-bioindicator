@@ -8,23 +8,23 @@ skos:Concept,cb:escherichia_coli,32,EColi,Escherichia coli,,Escherichia coli (E.
 skos:Concept,cb:intestinale_enterococci,,,intestinale enterococci,,enterokokken,gemet:15179,cob:water,WAC/V/A/003,co:WAC_V_A_003,vlcs:bioindicator,vlcs:bioindicator
 skos:Concept,cb:salmonella_spp.,,,Salmonella spp.,,Salmonella spp.,gemet:15179,cob:water,WAC/V/A/004,co:WAC_V_A_004,vlcs:bioindicator,vlcs:bioindicator
 skos:Concept,cb:legionella_pneumophila,,,Legionella pneumophila,,Legionella pneumophila,gemet:15179,cob:water,WAC/V/A/005,co:WAC_V_A_005,vlcs:bioindicator,vlcs:bioindicator
-skos:Concept,cb:legionella_spp._,928,Legio,Legionella spp. ,,Legionella spp. ,gemet:15179,cob:water,WAC/V/A/005,co:WAC_V_A_005,vlcs:bioindicator,vlcs:bioindicator
+skos:Concept,cb:legionella_spp._,928,Legio,Legionella spp.,,Legionella spp.,gemet:15179,cob:water,WAC/V/A/005,co:WAC_V_A_005,vlcs:bioindicator,vlcs:bioindicator
 skos:Concept,cb:pseudomonas_aeruginosa,,,Pseudomonas aeruginosa,,Pseudomonas aeruginosa,gemet:15179,cob:water,WAC/V/A/006,co:WAC_V_A_006,vlcs:bioindicator,vlcs:bioindicator
 skos:Concept,cb:clostridium_perfringens,,,Clostridium perfringens,,Clostridium perfringens,gemet:15179,cob:water,WAC/V/A/007,co:WAC_V_A_007,vlcs:bioindicator,vlcs:bioindicator
 skos:Concept,cb:coagulase_positieve_staphylococci,,,coagulase positieve staphylococci,,stafylokokken,gemet:15179,cob:water,WAC/V/A/008,co:WAC_V_A_008,vlcs:bioindicator,vlcs:bioindicator
 skos:Concept,cb:somatische_colifagen,,,somatische colifagen,,somatische colifagen,gemet:15179,cob:water,Drinkwaterrichtlijn (EU) 2020/2184,,vlcs:bioindicator,vlcs:bioindicator
-skos:Concept,cb:daphnia_magna,,,Daphnia magna,,Watervlo ,gemet:15179,cob:water,WAC/V/B/001,co:WAC_V_B_001,vlcs:bioindicator,vlcs:bioindicator
+skos:Concept,cb:daphnia_magna,,,Daphnia magna,,Watervlo,gemet:15179,cob:water,WAC/V/B/001,co:WAC_V_B_001,vlcs:bioindicator,vlcs:bioindicator
 skos:Concept,cb:anostraca,,,Anostraca,,Pekelkreeftje,gemet:15179,cob:water,WAC/V/B/001,co:WAC_V_B_001,vlcs:bioindicator,vlcs:bioindicator
-skos:Concept,cb:danio_rerio,,,Danio rerio,,Zebravisembryo ,gemet:15179,cob:water,WAC/V/B/002,co:WAC_V_B_002,vlcs:bioindicator,vlcs:bioindicator
-skos:Concept,cb:oncorhyncus_mykiss,,,Oncorhyncus mykiss,,Forel ,gemet:15179,cob:water,WAC/V/B/007,co:WAC_V_B_007,vlcs:bioindicator,vlcs:bioindicator
-skos:Concept,cb:pseudokirchneriella_subcapitata,,,Pseudokirchneriella subcapitata,,Zoetwateralg ,gemet:15179,cob:water,WAC/V/B/003,co:WAC_V_B_003,vlcs:bioindicator,vlcs:bioindicator
-skos:Concept,cb:phaeodactylum_tricornutum,,,Phaeodactylum tricornutum,,Mariene alg ,gemet:15179,cob:water,WAC/V/B/003,co:WAC_V_B_003,vlcs:bioindicator,vlcs:bioindicator
-skos:Concept,cb:aliivibrio_fischeri,,,Aliivibrio fischeri,,Luminescente bacterie ,gemet:15179,cob:water,WAC/V/B/004,co:WAC_V_B_004,vlcs:bioindicator,vlcs:bioindicator
+skos:Concept,cb:danio_rerio,,,Danio rerio,,Zebravisembryo,gemet:15179,cob:water,WAC/V/B/002,co:WAC_V_B_002,vlcs:bioindicator,vlcs:bioindicator
+skos:Concept,cb:oncorhyncus_mykiss,,,Oncorhyncus mykiss,,Forel,gemet:15179,cob:water,WAC/V/B/007,co:WAC_V_B_007,vlcs:bioindicator,vlcs:bioindicator
+skos:Concept,cb:pseudokirchneriella_subcapitata,,,Pseudokirchneriella subcapitata,,Zoetwateralg,gemet:15179,cob:water,WAC/V/B/003,co:WAC_V_B_003,vlcs:bioindicator,vlcs:bioindicator
+skos:Concept,cb:phaeodactylum_tricornutum,,,Phaeodactylum tricornutum,,Mariene alg,gemet:15179,cob:water,WAC/V/B/003,co:WAC_V_B_003,vlcs:bioindicator,vlcs:bioindicator
+skos:Concept,cb:aliivibrio_fischeri,,,Aliivibrio fischeri,,Luminescente bacterie,gemet:15179,cob:water,WAC/V/B/004,co:WAC_V_B_004,vlcs:bioindicator,vlcs:bioindicator
 skos:Concept,cb:ekc-fytoplankton,,,EKC-fytoplankton,,EKC-fytoplankton,gemet:15179,cob:water,VLAREM II,co:VLAREM_II,vlcs:bioindicator,vlcs:bioindicator
-skos:Concept,cb:ekc-macrofyten,,,EKC-macrofyten,,EKC-macrofyten,gemet:15179,cob:water,VLAREM II ,co:VLAREM_II,vlcs:bioindicator,vlcs:bioindicator
-skos:Concept,cb:ekc-fytobenthos,,,EKC-fytobenthos,,EKC-fytobenthos,gemet:15179,cob:water,VLAREM II ,co:VLAREM_II,vlcs:bioindicator,vlcs:bioindicator
-skos:Concept,cb:ekc-macro-invertebraten,,,EKC-macro-invertebraten,,EKC-macro-invertebraten,gemet:15179,cob:water,VLAREM II ,co:VLAREM_II,vlcs:bioindicator,vlcs:bioindicator
-skos:Concept,cb:ekc-visfauna,,,EKC-visfauna,,EKC-visfauna,gemet:15179,cob:water,VLAREM II ,co:VLAREM_II,vlcs:bioindicator,vlcs:bioindicator
+skos:Concept,cb:ekc-macrofyten,,,EKC-macrofyten,,EKC-macrofyten,gemet:15179,cob:water,VLAREM II,co:VLAREM_II,vlcs:bioindicator,vlcs:bioindicator
+skos:Concept,cb:ekc-fytobenthos,,,EKC-fytobenthos,,EKC-fytobenthos,gemet:15179,cob:water,VLAREM II,co:VLAREM_II,vlcs:bioindicator,vlcs:bioindicator
+skos:Concept,cb:ekc-macro-invertebraten,,,EKC-macro-invertebraten,,EKC-macro-invertebraten,gemet:15179,cob:water,VLAREM II,co:VLAREM_II,vlcs:bioindicator,vlcs:bioindicator
+skos:Concept,cb:ekc-visfauna,,,EKC-visfauna,,EKC-visfauna,gemet:15179,cob:water,VLAREM II,co:VLAREM_II,vlcs:bioindicator,vlcs:bioindicator
 skos:Concept,cb:pseudomonas,,,Pseudomonas,,,,,,,vlcs:bioindicator,vlcs:bioindicator
 skos:Concept,cb:schimmels,,,Schimmels,,,,,,,vlcs:bioindicator,vlcs:bioindicator
 skos:Concept,cb:sulfiet_reducerende_clostridia,,,Sulfiet reducerende clostridia,,,,,,,vlcs:bioindicator,vlcs:bioindicator

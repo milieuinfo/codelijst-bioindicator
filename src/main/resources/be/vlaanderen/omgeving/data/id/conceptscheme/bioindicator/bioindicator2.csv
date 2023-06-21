@@ -1,75 +1,73 @@
 type,uri,vmmParameterId,notation,prefLabel,inScheme,topConceptOf
-http://www.w3.org/2004/02/skos/core#Concept,https://data.omgeving.vlaanderen.be/id/concept/bioindicator/alexandrium_spp_,788,Alexandrium spp.,Alexandrium spp.,https://data.omgeving.vlaanderen.be/id/conceptscheme/bioindicator,https://data.omgeving.vlaanderen.be/id/conceptscheme/bioindicator
-http://www.w3.org/2004/02/skos/core#Concept,https://data.omgeving.vlaanderen.be/id/concept/bioindicator/b_rer24_lc,53,B.rer24 LC,Brachydanio rerio - LC50 (24h),https://data.omgeving.vlaanderen.be/id/conceptscheme/bioindicator,https://data.omgeving.vlaanderen.be/id/conceptscheme/bioindicator
-http://www.w3.org/2004/02/skos/core#Concept,https://data.omgeving.vlaanderen.be/id/concept/bioindicator/b_rer48_lc,54,B.rer48 LC,Brachydanio rerio - LC50 (48h),https://data.omgeving.vlaanderen.be/id/conceptscheme/bioindicator,https://data.omgeving.vlaanderen.be/id/conceptscheme/bioindicator
-http://www.w3.org/2004/02/skos/core#Concept,https://data.omgeving.vlaanderen.be/id/concept/bioindicator/b_rer96_lc,55,B.rer96 LC,Brachydanio rerio - LC50 (96h),https://data.omgeving.vlaanderen.be/id/conceptscheme/bioindicator,https://data.omgeving.vlaanderen.be/id/conceptscheme/bioindicator
-http://www.w3.org/2004/02/skos/core#Concept,https://data.omgeving.vlaanderen.be/id/concept/bioindicator/coolia_monotis,2065,Coolia monotis,Coolia monotis,https://data.omgeving.vlaanderen.be/id/conceptscheme/bioindicator,https://data.omgeving.vlaanderen.be/id/conceptscheme/bioindicator
-http://www.w3.org/2004/02/skos/core#Concept,https://data.omgeving.vlaanderen.be/id/concept/bioindicator/corophium,1009,Corophium,Corophium volutator,https://data.omgeving.vlaanderen.be/id/conceptscheme/bioindicator,https://data.omgeving.vlaanderen.be/id/conceptscheme/bioindicator
-http://www.w3.org/2004/02/skos/core#Concept,https://data.omgeving.vlaanderen.be/id/concept/bioindicator/cyano,1197,Cyano,Cyanobacteriën,https://data.omgeving.vlaanderen.be/id/conceptscheme/bioindicator,https://data.omgeving.vlaanderen.be/id/conceptscheme/bioindicator
-http://www.w3.org/2004/02/skos/core#Concept,https://data.omgeving.vlaanderen.be/id/concept/bioindicator/cyano_clfyl,1782,Cyano Clfyl,Cyano Chlorofyl,https://data.omgeving.vlaanderen.be/id/conceptscheme/bioindicator,https://data.omgeving.vlaanderen.be/id/conceptscheme/bioindicator
-http://www.w3.org/2004/02/skos/core#Concept,https://data.omgeving.vlaanderen.be/id/concept/bioindicator/d_mag24_ec,56,D.mag24 EC,Daphnia magna - EC50 (24h),https://data.omgeving.vlaanderen.be/id/conceptscheme/bioindicator,https://data.omgeving.vlaanderen.be/id/conceptscheme/bioindicator
-http://www.w3.org/2004/02/skos/core#Concept,https://data.omgeving.vlaanderen.be/id/concept/bioindicator/d_mag48_ec,57,D.mag48 EC,Daphnia magna - EC50 (48h),https://data.omgeving.vlaanderen.be/id/conceptscheme/bioindicator,https://data.omgeving.vlaanderen.be/id/conceptscheme/bioindicator
-http://www.w3.org/2004/02/skos/core#Concept,https://data.omgeving.vlaanderen.be/id/concept/bioindicator/d_mag48_lc,945,D.mag48 LC,Daphnia magna - LC50 (48h),https://data.omgeving.vlaanderen.be/id/conceptscheme/bioindicator,https://data.omgeving.vlaanderen.be/id/conceptscheme/bioindicator
-http://www.w3.org/2004/02/skos/core#Concept,https://data.omgeving.vlaanderen.be/id/concept/bioindicator/d_mag48_lt,1847,D.mag48 LT,Daphnia magna 48h zoetw schaaldier,https://data.omgeving.vlaanderen.be/id/conceptscheme/bioindicator,https://data.omgeving.vlaanderen.be/id/conceptscheme/bioindicator
-http://www.w3.org/2004/02/skos/core#Concept,https://data.omgeving.vlaanderen.be/id/concept/bioindicator/d_mag48_lt_na_zw,2121,D.mag48 LT na ZW,Daphnia magna 48h zoetw schaaldier na Zahn Wellens,https://data.omgeving.vlaanderen.be/id/conceptscheme/bioindicator,https://data.omgeving.vlaanderen.be/id/conceptscheme/bioindicator
-http://www.w3.org/2004/02/skos/core#Concept,https://data.omgeving.vlaanderen.be/id/concept/bioindicator/d_rer_96_lt,1849,D.rer 96 LT,Danio rerio 96h zoetw visei zebravis,https://data.omgeving.vlaanderen.be/id/conceptscheme/bioindicator,https://data.omgeving.vlaanderen.be/id/conceptscheme/bioindicator
-http://www.w3.org/2004/02/skos/core#Concept,https://data.omgeving.vlaanderen.be/id/concept/bioindicator/d_rer_96_lt_na_zw,2122,D.rer 96 LT na ZW,Danio rerio 96h zoetw visei  na Zahn Wellens,https://data.omgeving.vlaanderen.be/id/conceptscheme/bioindicator,https://data.omgeving.vlaanderen.be/id/conceptscheme/bioindicator
-http://www.w3.org/2004/02/skos/core#Concept,https://data.omgeving.vlaanderen.be/id/concept/bioindicator/dinophysis_ac,787,Dinophysis ac,Dinophysis acuminata,https://data.omgeving.vlaanderen.be/id/conceptscheme/bioindicator,https://data.omgeving.vlaanderen.be/id/conceptscheme/bioindicator
-http://www.w3.org/2004/02/skos/core#Concept,https://data.omgeving.vlaanderen.be/id/concept/bioindicator/dinophysis_at,923,Dinophysis at,Dinophysis acuta,https://data.omgeving.vlaanderen.be/id/conceptscheme/bioindicator,https://data.omgeving.vlaanderen.be/id/conceptscheme/bioindicator
-http://www.w3.org/2004/02/skos/core#Concept,https://data.omgeving.vlaanderen.be/id/concept/bioindicator/dinophysis_cd,2062,Dinophysis cd,Dinophysis caudata,https://data.omgeving.vlaanderen.be/id/conceptscheme/bioindicator,https://data.omgeving.vlaanderen.be/id/conceptscheme/bioindicator
-http://www.w3.org/2004/02/skos/core#Concept,https://data.omgeving.vlaanderen.be/id/concept/bioindicator/dinophysis_ft,2061,Dinophysis ft,Dinophysis fortii,https://data.omgeving.vlaanderen.be/id/conceptscheme/bioindicator,https://data.omgeving.vlaanderen.be/id/conceptscheme/bioindicator
-http://www.w3.org/2004/02/skos/core#Concept,https://data.omgeving.vlaanderen.be/id/concept/bioindicator/dinophysis_no,924,Dinophysis no,Dinophysis norvegica,https://data.omgeving.vlaanderen.be/id/conceptscheme/bioindicator,https://data.omgeving.vlaanderen.be/id/conceptscheme/bioindicator
-http://www.w3.org/2004/02/skos/core#Concept,https://data.omgeving.vlaanderen.be/id/concept/bioindicator/dinophysis_sa,925,Dinophysis sa,Dinophysis sacculus,https://data.omgeving.vlaanderen.be/id/conceptscheme/bioindicator,https://data.omgeving.vlaanderen.be/id/conceptscheme/bioindicator
-http://www.w3.org/2004/02/skos/core#Concept,https://data.omgeving.vlaanderen.be/id/concept/bioindicator/dinophysis_sp,1318,Dinophysis sp,Dinophysis sp,https://data.omgeving.vlaanderen.be/id/conceptscheme/bioindicator,https://data.omgeving.vlaanderen.be/id/conceptscheme/bioindicator
-http://www.w3.org/2004/02/skos/core#Concept,https://data.omgeving.vlaanderen.be/id/concept/bioindicator/ecoli,32,EColi,Escherichia Coli,https://data.omgeving.vlaanderen.be/id/conceptscheme/bioindicator,https://data.omgeving.vlaanderen.be/id/conceptscheme/bioindicator
-http://www.w3.org/2004/02/skos/core#Concept,https://data.omgeving.vlaanderen.be/id/concept/bioindicator/fcoli,33,FColi,Fecale coliformen,https://data.omgeving.vlaanderen.be/id/conceptscheme/bioindicator,https://data.omgeving.vlaanderen.be/id/conceptscheme/bioindicator
-http://www.w3.org/2004/02/skos/core#Concept,https://data.omgeving.vlaanderen.be/id/concept/bioindicator/fstrep,34,FStrep,Fecale Streptokokken,https://data.omgeving.vlaanderen.be/id/conceptscheme/bioindicator,https://data.omgeving.vlaanderen.be/id/conceptscheme/bioindicator
-http://www.w3.org/2004/02/skos/core#Concept,https://data.omgeving.vlaanderen.be/id/concept/bioindicator/fyto_gi,1236,Fyto gi,"Fytotox, groei-inhibitie",https://data.omgeving.vlaanderen.be/id/conceptscheme/bioindicator,https://data.omgeving.vlaanderen.be/id/conceptscheme/bioindicator
-http://www.w3.org/2004/02/skos/core#Concept,https://data.omgeving.vlaanderen.be/id/concept/bioindicator/fyto_ki,1235,Fyto ki,"Fytotox, kieminhibitie",https://data.omgeving.vlaanderen.be/id/conceptscheme/bioindicator,https://data.omgeving.vlaanderen.be/id/conceptscheme/bioindicator
-http://www.w3.org/2004/02/skos/core#Concept,https://data.omgeving.vlaanderen.be/id/concept/bioindicator/gymnodinium_ct,2064,Gymnodinium ct,Gymnodinium catenatum,https://data.omgeving.vlaanderen.be/id/conceptscheme/bioindicator,https://data.omgeving.vlaanderen.be/id/conceptscheme/bioindicator
-http://www.w3.org/2004/02/skos/core#Concept,https://data.omgeving.vlaanderen.be/id/concept/bioindicator/gymnodium_sp,1320,Gymnodium sp,Gymnodium sp,https://data.omgeving.vlaanderen.be/id/conceptscheme/bioindicator,https://data.omgeving.vlaanderen.be/id/conceptscheme/bioindicator
-http://www.w3.org/2004/02/skos/core#Concept,https://data.omgeving.vlaanderen.be/id/concept/bioindicator/ha,1806,HA,Hormoonverstorende activiteit in PM10 (LC),https://data.omgeving.vlaanderen.be/id/conceptscheme/bioindicator,https://data.omgeving.vlaanderen.be/id/conceptscheme/bioindicator
-http://www.w3.org/2004/02/skos/core#Concept,https://data.omgeving.vlaanderen.be/id/concept/bioindicator/hyal,780,Hyal,Hyalella,https://data.omgeving.vlaanderen.be/id/conceptscheme/bioindicator,https://data.omgeving.vlaanderen.be/id/conceptscheme/bioindicator
-http://www.w3.org/2004/02/skos/core#Concept,https://data.omgeving.vlaanderen.be/id/concept/bioindicator/hyal_sd,781,Hyal sd,"Hyalella, st.dev.",https://data.omgeving.vlaanderen.be/id/conceptscheme/bioindicator,https://data.omgeving.vlaanderen.be/id/conceptscheme/bioindicator
-http://www.w3.org/2004/02/skos/core#Concept,https://data.omgeving.vlaanderen.be/id/concept/bioindicator/ie,1803,IE,Inwonersequivalent,https://data.omgeving.vlaanderen.be/id/conceptscheme/bioindicator,https://data.omgeving.vlaanderen.be/id/conceptscheme/bioindicator
-http://www.w3.org/2004/02/skos/core#Concept,https://data.omgeving.vlaanderen.be/id/concept/bioindicator/ientero,927,IEntero,Intestinale Enterokokken,https://data.omgeving.vlaanderen.be/id/conceptscheme/bioindicator,https://data.omgeving.vlaanderen.be/id/conceptscheme/bioindicator
-http://www.w3.org/2004/02/skos/core#Concept,https://data.omgeving.vlaanderen.be/id/concept/bioindicator/ivt,1805,IVT,In-vitro Toxiciteit in PM10 (LC),https://data.omgeving.vlaanderen.be/id/conceptscheme/bioindicator,https://data.omgeving.vlaanderen.be/id/conceptscheme/bioindicator
-http://www.w3.org/2004/02/skos/core#Concept,https://data.omgeving.vlaanderen.be/id/concept/bioindicator/legio,928,Legio,Legionella,https://data.omgeving.vlaanderen.be/id/conceptscheme/bioindicator,https://data.omgeving.vlaanderen.be/id/conceptscheme/bioindicator
-http://www.w3.org/2004/02/skos/core#Concept,https://data.omgeving.vlaanderen.be/id/concept/bioindicator/misvormingen,-102,Misvormingen,Misvormingen,https://data.omgeving.vlaanderen.be/id/conceptscheme/bioindicator,https://data.omgeving.vlaanderen.be/id/conceptscheme/bioindicator
-http://www.w3.org/2004/02/skos/core#Concept,https://data.omgeving.vlaanderen.be/id/concept/bioindicator/msp,1008,MSP,Microtox Solid Phase,https://data.omgeving.vlaanderen.be/id/conceptscheme/bioindicator,https://data.omgeving.vlaanderen.be/id/conceptscheme/bioindicator
-http://www.w3.org/2004/02/skos/core#Concept,https://data.omgeving.vlaanderen.be/id/concept/bioindicator/mwp,1852,MWP,"Vibrio Fischeri 0,5h bac luminiscentie-inhibitie",https://data.omgeving.vlaanderen.be/id/conceptscheme/bioindicator,https://data.omgeving.vlaanderen.be/id/conceptscheme/bioindicator
-http://www.w3.org/2004/02/skos/core#Concept,https://data.omgeving.vlaanderen.be/id/concept/bioindicator/mwp_na_zw,2123,MWP na ZW,"Vibrio Fischeri 0,5h bac lum-inh na Zahn Wellens",https://data.omgeving.vlaanderen.be/id/conceptscheme/bioindicator,https://data.omgeving.vlaanderen.be/id/conceptscheme/bioindicator
-http://www.w3.org/2004/02/skos/core#Concept,https://data.omgeving.vlaanderen.be/id/concept/bioindicator/o_myk96_ec,947,O.myk96 EC,Oncorhynchus mykiss - EC50 (96h),https://data.omgeving.vlaanderen.be/id/conceptscheme/bioindicator,https://data.omgeving.vlaanderen.be/id/conceptscheme/bioindicator
-http://www.w3.org/2004/02/skos/core#Concept,https://data.omgeving.vlaanderen.be/id/concept/bioindicator/o_myk96_lc,946,O.myk96 LC,Oncorhynchus mykiss - LC50 (96h),https://data.omgeving.vlaanderen.be/id/conceptscheme/bioindicator,https://data.omgeving.vlaanderen.be/id/conceptscheme/bioindicator
-http://www.w3.org/2004/02/skos/core#Concept,https://data.omgeving.vlaanderen.be/id/concept/bioindicator/o_myk96_lt,2066,O.myk96 LT,Oncorthynchus mykiss 96h zoutw vis regenboogforel,https://data.omgeving.vlaanderen.be/id/conceptscheme/bioindicator,https://data.omgeving.vlaanderen.be/id/conceptscheme/bioindicator
-http://www.w3.org/2004/02/skos/core#Concept,https://data.omgeving.vlaanderen.be/id/concept/bioindicator/ostracod,903,Ostracod,Ostracod,https://data.omgeving.vlaanderen.be/id/conceptscheme/bioindicator,https://data.omgeving.vlaanderen.be/id/conceptscheme/bioindicator
-http://www.w3.org/2004/02/skos/core#Concept,https://data.omgeving.vlaanderen.be/id/concept/bioindicator/ostracod_gi,921,Ostracod gi,"Ostracod, groei-inhibitie",https://data.omgeving.vlaanderen.be/id/conceptscheme/bioindicator,https://data.omgeving.vlaanderen.be/id/conceptscheme/bioindicator
-http://www.w3.org/2004/02/skos/core#Concept,https://data.omgeving.vlaanderen.be/id/concept/bioindicator/ostracod_sd,920,Ostracod sd,"Ostracod, st.dev.",https://data.omgeving.vlaanderen.be/id/conceptscheme/bioindicator,https://data.omgeving.vlaanderen.be/id/conceptscheme/bioindicator
-http://www.w3.org/2004/02/skos/core#Concept,https://data.omgeving.vlaanderen.be/id/concept/bioindicator/p_sub72_lt,1850,P.sub72 LT,Pseudokirchneriella subcapitata 72h zoetw alg,https://data.omgeving.vlaanderen.be/id/conceptscheme/bioindicator,https://data.omgeving.vlaanderen.be/id/conceptscheme/bioindicator
-http://www.w3.org/2004/02/skos/core#Concept,https://data.omgeving.vlaanderen.be/id/concept/bioindicator/p_sub72_lt_na_zw,2120,P.sub72 LT na ZW,Pseudokirchneriella subcapitata 72h na ZahnWellens,https://data.omgeving.vlaanderen.be/id/conceptscheme/bioindicator,https://data.omgeving.vlaanderen.be/id/conceptscheme/bioindicator
-http://www.w3.org/2004/02/skos/core#Concept,https://data.omgeving.vlaanderen.be/id/concept/bioindicator/p_tric72_lt,1851,P.tric72 LT,Phaeodactylum tricornutum 72h zoutw alg,https://data.omgeving.vlaanderen.be/id/conceptscheme/bioindicator,https://data.omgeving.vlaanderen.be/id/conceptscheme/bioindicator
-http://www.w3.org/2004/02/skos/core#Concept,https://data.omgeving.vlaanderen.be/id/concept/bioindicator/pat__kiem,615,Pat. kiem,Pathogene kiemen,https://data.omgeving.vlaanderen.be/id/conceptscheme/bioindicator,https://data.omgeving.vlaanderen.be/id/conceptscheme/bioindicator
-http://www.w3.org/2004/02/skos/core#Concept,https://data.omgeving.vlaanderen.be/id/concept/bioindicator/pr_mo,2031,Pr mo,"Praesodymium, multi opgelost",https://data.omgeving.vlaanderen.be/id/conceptscheme/bioindicator,https://data.omgeving.vlaanderen.be/id/conceptscheme/bioindicator
-http://www.w3.org/2004/02/skos/core#Concept,https://data.omgeving.vlaanderen.be/id/concept/bioindicator/pr_mt,1958,Pr mt,"Praesodymium, multi totaal",https://data.omgeving.vlaanderen.be/id/conceptscheme/bioindicator,https://data.omgeving.vlaanderen.be/id/conceptscheme/bioindicator
-http://www.w3.org/2004/02/skos/core#Concept,https://data.omgeving.vlaanderen.be/id/concept/bioindicator/prorocentrum_lima,789,Prorocentrum lima,Prorocentrum lima,https://data.omgeving.vlaanderen.be/id/conceptscheme/bioindicator,https://data.omgeving.vlaanderen.be/id/conceptscheme/bioindicator
-http://www.w3.org/2004/02/skos/core#Concept,https://data.omgeving.vlaanderen.be/id/concept/bioindicator/prorocentrum_mica,816,Prorocentrum mica,Prorocentrum micans,https://data.omgeving.vlaanderen.be/id/conceptscheme/bioindicator,https://data.omgeving.vlaanderen.be/id/conceptscheme/bioindicator
-http://www.w3.org/2004/02/skos/core#Concept,https://data.omgeving.vlaanderen.be/id/concept/bioindicator/prorocentrum_min,790,Prorocentrum min,Prorocentrum minimum,https://data.omgeving.vlaanderen.be/id/conceptscheme/bioindicator,https://data.omgeving.vlaanderen.be/id/conceptscheme/bioindicator
-http://www.w3.org/2004/02/skos/core#Concept,https://data.omgeving.vlaanderen.be/id/concept/bioindicator/ps-kirchneriella_sc,1322,Ps-kirchneriella sc,Pseudo-kirchneriella subcapitata,https://data.omgeving.vlaanderen.be/id/conceptscheme/bioindicator,https://data.omgeving.vlaanderen.be/id/conceptscheme/bioindicator
-http://www.w3.org/2004/02/skos/core#Concept,https://data.omgeving.vlaanderen.be/id/concept/bioindicator/ps-nitzschia_del_,2060,Ps-nitzschia del.,Pseudo-nitzschia delicatissima complex,https://data.omgeving.vlaanderen.be/id/conceptscheme/bioindicator,https://data.omgeving.vlaanderen.be/id/conceptscheme/bioindicator
-http://www.w3.org/2004/02/skos/core#Concept,https://data.omgeving.vlaanderen.be/id/concept/bioindicator/ps-nitzschia_ser_,2059,Ps-nitzschia ser.,Pseudo-nitzschia seriata complex,https://data.omgeving.vlaanderen.be/id/conceptscheme/bioindicator,https://data.omgeving.vlaanderen.be/id/conceptscheme/bioindicator
-http://www.w3.org/2004/02/skos/core#Concept,https://data.omgeving.vlaanderen.be/id/concept/bioindicator/ps-nitzschia_spp_,791,Ps-nitzschia spp.,Pseudo-nitzschia spp.,https://data.omgeving.vlaanderen.be/id/conceptscheme/bioindicator,https://data.omgeving.vlaanderen.be/id/conceptscheme/bioindicator
-http://www.w3.org/2004/02/skos/core#Concept,https://data.omgeving.vlaanderen.be/id/concept/bioindicator/pseud,35,Pseud,Pseudomonas aeruginosa,https://data.omgeving.vlaanderen.be/id/conceptscheme/bioindicator,https://data.omgeving.vlaanderen.be/id/conceptscheme/bioindicator
-http://www.w3.org/2004/02/skos/core#Concept,https://data.omgeving.vlaanderen.be/id/concept/bioindicator/pyrodinium_bh,2063,Pyrodinium bh,Pyrodinium bahamense,https://data.omgeving.vlaanderen.be/id/conceptscheme/bioindicator,https://data.omgeving.vlaanderen.be/id/conceptscheme/bioindicator
-http://www.w3.org/2004/02/skos/core#Concept,https://data.omgeving.vlaanderen.be/id/concept/bioindicator/pyrodinium_sp,1319,Pyrodinium sp,Pyrodinium sp,https://data.omgeving.vlaanderen.be/id/conceptscheme/bioindicator,https://data.omgeving.vlaanderen.be/id/conceptscheme/bioindicator
-http://www.w3.org/2004/02/skos/core#Concept,https://data.omgeving.vlaanderen.be/id/concept/bioindicator/r_sub72_ec,944,R.sub72 EC,Raphidocelis subcapitata - EC50 (72h),https://data.omgeving.vlaanderen.be/id/conceptscheme/bioindicator,https://data.omgeving.vlaanderen.be/id/conceptscheme/bioindicator
-http://www.w3.org/2004/02/skos/core#Concept,https://data.omgeving.vlaanderen.be/id/concept/bioindicator/r_sub72_lc,943,R.sub72 LC,Raphidocelis subcapitata - LC50 (72h),https://data.omgeving.vlaanderen.be/id/conceptscheme/bioindicator,https://data.omgeving.vlaanderen.be/id/conceptscheme/bioindicator
-http://www.w3.org/2004/02/skos/core#Concept,https://data.omgeving.vlaanderen.be/id/concept/bioindicator/salm,36,Salm,Salmonella,https://data.omgeving.vlaanderen.be/id/conceptscheme/bioindicator,https://data.omgeving.vlaanderen.be/id/conceptscheme/bioindicator
-http://www.w3.org/2004/02/skos/core#Concept,https://data.omgeving.vlaanderen.be/id/concept/bioindicator/staf,37,Staf,Stafylokokken,https://data.omgeving.vlaanderen.be/id/conceptscheme/bioindicator,https://data.omgeving.vlaanderen.be/id/conceptscheme/bioindicator
-http://www.w3.org/2004/02/skos/core#Concept,https://data.omgeving.vlaanderen.be/id/concept/bioindicator/tcoli,39,TColi,Coliformen totale,https://data.omgeving.vlaanderen.be/id/conceptscheme/bioindicator,https://data.omgeving.vlaanderen.be/id/conceptscheme/bioindicator
-http://www.w3.org/2004/02/skos/core#Concept,https://data.omgeving.vlaanderen.be/id/concept/bioindicator/thamno,783,Thamno,Thamnocephalus,https://data.omgeving.vlaanderen.be/id/conceptscheme/bioindicator,https://data.omgeving.vlaanderen.be/id/conceptscheme/bioindicator
-http://www.w3.org/2004/02/skos/core#Concept,https://data.omgeving.vlaanderen.be/id/concept/bioindicator/tk22,40,TK22,"Kiemen, totale (22°C)",https://data.omgeving.vlaanderen.be/id/conceptscheme/bioindicator,https://data.omgeving.vlaanderen.be/id/conceptscheme/bioindicator
-http://www.w3.org/2004/02/skos/core#Concept,https://data.omgeving.vlaanderen.be/id/concept/bioindicator/tk37,41,TK37,"Kiemen, totale (37°C)",https://data.omgeving.vlaanderen.be/id/conceptscheme/bioindicator,https://data.omgeving.vlaanderen.be/id/conceptscheme/bioindicator
-http://www.w3.org/2004/02/skos/core#Concept,https://data.omgeving.vlaanderen.be/id/concept/bioindicator/tn,1807,TN,Trofisch niveau,https://data.omgeving.vlaanderen.be/id/conceptscheme/bioindicator,https://data.omgeving.vlaanderen.be/id/conceptscheme/bioindicator
-http://www.w3.org/2004/02/skos/core#Concept,https://data.omgeving.vlaanderen.be/id/concept/bioindicator/zwam,673,Zwam,Zwamachtigen,https://data.omgeving.vlaanderen.be/id/conceptscheme/bioindicator,https://data.omgeving.vlaanderen.be/id/conceptscheme/bioindicator
-http://www.w3.org/2004/02/skos/core#Concept,https://data.omgeving.vlaanderen.be/id/concept/bioindicator/alexandrium_spp_,788,Alexandrium spp.,Alexandrium spp.,https://data.omgeving.vlaanderen.be/id/conceptscheme/bioindicator,https://data.omgeving.vlaanderen.be/id/conceptscheme/bioindicator
-http://www.w3.org/2004/02/skos/core#Concept,https://data.omgeving.vlaanderen.be/id/concept/bioindicator/legio,928,Legio,Legionella,https://data.omgeving.vlaanderen.be/id/conceptscheme/bioindicator,https://data.omgeving.vlaanderen.be/id/conceptscheme/bioindicator
+skos:Concept,cb:alexandrium_spp_,788,Alexandrium spp.,Alexandrium spp.,vlcs:bioindicator,vlcs:bioindicator
+skos:Concept,cb:b_rer24_lc,53,B.rer24 LC,Brachydanio rerio - LC50 (24h),vlcs:bioindicator,vlcs:bioindicator
+skos:Concept,cb:b_rer48_lc,54,B.rer48 LC,Brachydanio rerio - LC50 (48h),vlcs:bioindicator,vlcs:bioindicator
+skos:Concept,cb:b_rer96_lc,55,B.rer96 LC,Brachydanio rerio - LC50 (96h),vlcs:bioindicator,vlcs:bioindicator
+skos:Concept,cb:coolia_monotis,2065,Coolia monotis,Coolia monotis,vlcs:bioindicator,vlcs:bioindicator
+skos:Concept,cb:corophium,1009,Corophium,Corophium volutator,vlcs:bioindicator,vlcs:bioindicator
+skos:Concept,cb:cyano,1197,Cyano,Cyanobacteriën,vlcs:bioindicator,vlcs:bioindicator
+skos:Concept,cb:cyano_clfyl,1782,Cyano Clfyl,Cyano Chlorofyl,vlcs:bioindicator,vlcs:bioindicator
+skos:Concept,cb:d_mag24_ec,56,D.mag24 EC,Daphnia magna - EC50 (24h),vlcs:bioindicator,vlcs:bioindicator
+skos:Concept,cb:d_mag48_ec,57,D.mag48 EC,Daphnia magna - EC50 (48h),vlcs:bioindicator,vlcs:bioindicator
+skos:Concept,cb:d_mag48_lc,945,D.mag48 LC,Daphnia magna - LC50 (48h),vlcs:bioindicator,vlcs:bioindicator
+skos:Concept,cb:d_mag48_lt,1847,D.mag48 LT,Daphnia magna 48h zoetw schaaldier,vlcs:bioindicator,vlcs:bioindicator
+skos:Concept,cb:d_mag48_lt_na_zw,2121,D.mag48 LT na ZW,Daphnia magna 48h zoetw schaaldier na Zahn Wellens,vlcs:bioindicator,vlcs:bioindicator
+skos:Concept,cb:d_rer_96_lt,1849,D.rer 96 LT,Danio rerio 96h zoetw visei zebravis,vlcs:bioindicator,vlcs:bioindicator
+skos:Concept,cb:d_rer_96_lt_na_zw,2122,D.rer 96 LT na ZW,Danio rerio 96h zoetw visei  na Zahn Wellens,vlcs:bioindicator,vlcs:bioindicator
+skos:Concept,cb:dinophysis_ac,787,Dinophysis ac,Dinophysis acuminata,vlcs:bioindicator,vlcs:bioindicator
+skos:Concept,cb:dinophysis_at,923,Dinophysis at,Dinophysis acuta,vlcs:bioindicator,vlcs:bioindicator
+skos:Concept,cb:dinophysis_cd,2062,Dinophysis cd,Dinophysis caudata,vlcs:bioindicator,vlcs:bioindicator
+skos:Concept,cb:dinophysis_ft,2061,Dinophysis ft,Dinophysis fortii,vlcs:bioindicator,vlcs:bioindicator
+skos:Concept,cb:dinophysis_no,924,Dinophysis no,Dinophysis norvegica,vlcs:bioindicator,vlcs:bioindicator
+skos:Concept,cb:dinophysis_sa,925,Dinophysis sa,Dinophysis sacculus,vlcs:bioindicator,vlcs:bioindicator
+skos:Concept,cb:dinophysis_sp,1318,Dinophysis sp,Dinophysis sp,vlcs:bioindicator,vlcs:bioindicator
+skos:Concept,cb:ecoli,32,EColi,Escherichia Coli,vlcs:bioindicator,vlcs:bioindicator
+skos:Concept,cb:fcoli,33,FColi,Fecale coliformen,vlcs:bioindicator,vlcs:bioindicator
+skos:Concept,cb:fstrep,34,FStrep,Fecale Streptokokken,vlcs:bioindicator,vlcs:bioindicator
+skos:Concept,cb:fyto_gi,1236,Fyto gi,"Fytotox, groei-inhibitie",vlcs:bioindicator,vlcs:bioindicator
+skos:Concept,cb:fyto_ki,1235,Fyto ki,"Fytotox, kieminhibitie",vlcs:bioindicator,vlcs:bioindicator
+skos:Concept,cb:gymnodinium_ct,2064,Gymnodinium ct,Gymnodinium catenatum,vlcs:bioindicator,vlcs:bioindicator
+skos:Concept,cb:gymnodium_sp,1320,Gymnodium sp,Gymnodium sp,vlcs:bioindicator,vlcs:bioindicator
+skos:Concept,cb:ha,1806,HA,Hormoonverstorende activiteit in PM10 (LC),vlcs:bioindicator,vlcs:bioindicator
+skos:Concept,cb:hyal,780,Hyal,Hyalella,vlcs:bioindicator,vlcs:bioindicator
+skos:Concept,cb:hyal_sd,781,Hyal sd,"Hyalella, st.dev.",vlcs:bioindicator,vlcs:bioindicator
+skos:Concept,cb:ie,1803,IE,Inwonersequivalent,vlcs:bioindicator,vlcs:bioindicator
+skos:Concept,cb:ientero,927,IEntero,Intestinale Enterokokken,vlcs:bioindicator,vlcs:bioindicator
+skos:Concept,cb:ivt,1805,IVT,In-vitro Toxiciteit in PM10 (LC),vlcs:bioindicator,vlcs:bioindicator
+skos:Concept,cb:legio,928,Legio,Legionella,vlcs:bioindicator,vlcs:bioindicator
+skos:Concept,cb:misvormingen,-102,Misvormingen,Misvormingen,vlcs:bioindicator,vlcs:bioindicator
+skos:Concept,cb:msp,1008,MSP,Microtox Solid Phase,vlcs:bioindicator,vlcs:bioindicator
+skos:Concept,cb:mwp,1852,MWP,"Vibrio Fischeri 0,5h bac luminiscentie-inhibitie",vlcs:bioindicator,vlcs:bioindicator
+skos:Concept,cb:mwp_na_zw,2123,MWP na ZW,"Vibrio Fischeri 0,5h bac lum-inh na Zahn Wellens",vlcs:bioindicator,vlcs:bioindicator
+skos:Concept,cb:o_myk96_ec,947,O.myk96 EC,Oncorhynchus mykiss - EC50 (96h),vlcs:bioindicator,vlcs:bioindicator
+skos:Concept,cb:o_myk96_lc,946,O.myk96 LC,Oncorhynchus mykiss - LC50 (96h),vlcs:bioindicator,vlcs:bioindicator
+skos:Concept,cb:o_myk96_lt,2066,O.myk96 LT,Oncorthynchus mykiss 96h zoutw vis regenboogforel,vlcs:bioindicator,vlcs:bioindicator
+skos:Concept,cb:ostracod,903,Ostracod,Ostracod,vlcs:bioindicator,vlcs:bioindicator
+skos:Concept,cb:ostracod_gi,921,Ostracod gi,"Ostracod, groei-inhibitie",vlcs:bioindicator,vlcs:bioindicator
+skos:Concept,cb:ostracod_sd,920,Ostracod sd,"Ostracod, st.dev.",vlcs:bioindicator,vlcs:bioindicator
+skos:Concept,cb:p_sub72_lt,1850,P.sub72 LT,Pseudokirchneriella subcapitata 72h zoetw alg,vlcs:bioindicator,vlcs:bioindicator
+skos:Concept,cb:p_sub72_lt_na_zw,2120,P.sub72 LT na ZW,Pseudokirchneriella subcapitata 72h na ZahnWellens,vlcs:bioindicator,vlcs:bioindicator
+skos:Concept,cb:p_tric72_lt,1851,P.tric72 LT,Phaeodactylum tricornutum 72h zoutw alg,vlcs:bioindicator,vlcs:bioindicator
+skos:Concept,cb:pat__kiem,615,Pat. kiem,Pathogene kiemen,vlcs:bioindicator,vlcs:bioindicator
+skos:Concept,cb:prorocentrum_lima,789,Prorocentrum lima,Prorocentrum lima,vlcs:bioindicator,vlcs:bioindicator
+skos:Concept,cb:prorocentrum_mica,816,Prorocentrum mica,Prorocentrum micans,vlcs:bioindicator,vlcs:bioindicator
+skos:Concept,cb:prorocentrum_min,790,Prorocentrum min,Prorocentrum minimum,vlcs:bioindicator,vlcs:bioindicator
+skos:Concept,cb:ps-kirchneriella_sc,1322,Ps-kirchneriella sc,Pseudo-kirchneriella subcapitata,vlcs:bioindicator,vlcs:bioindicator
+skos:Concept,cb:ps-nitzschia_del_,2060,Ps-nitzschia del.,Pseudo-nitzschia delicatissima complex,vlcs:bioindicator,vlcs:bioindicator
+skos:Concept,cb:ps-nitzschia_ser_,2059,Ps-nitzschia ser.,Pseudo-nitzschia seriata complex,vlcs:bioindicator,vlcs:bioindicator
+skos:Concept,cb:ps-nitzschia_spp_,791,Ps-nitzschia spp.,Pseudo-nitzschia spp.,vlcs:bioindicator,vlcs:bioindicator
+skos:Concept,cb:pseud,35,Pseud,Pseudomonas aeruginosa,vlcs:bioindicator,vlcs:bioindicator
+skos:Concept,cb:pyrodinium_bh,2063,Pyrodinium bh,Pyrodinium bahamense,vlcs:bioindicator,vlcs:bioindicator
+skos:Concept,cb:pyrodinium_sp,1319,Pyrodinium sp,Pyrodinium sp,vlcs:bioindicator,vlcs:bioindicator
+skos:Concept,cb:r_sub72_ec,944,R.sub72 EC,Raphidocelis subcapitata - EC50 (72h),vlcs:bioindicator,vlcs:bioindicator
+skos:Concept,cb:r_sub72_lc,943,R.sub72 LC,Raphidocelis subcapitata - LC50 (72h),vlcs:bioindicator,vlcs:bioindicator
+skos:Concept,cb:salm,36,Salm,Salmonella,vlcs:bioindicator,vlcs:bioindicator
+skos:Concept,cb:staf,37,Staf,Stafylokokken,vlcs:bioindicator,vlcs:bioindicator
+skos:Concept,cb:tcoli,39,TColi,Coliformen totale,vlcs:bioindicator,vlcs:bioindicator
+skos:Concept,cb:thamno,783,Thamno,Thamnocephalus,vlcs:bioindicator,vlcs:bioindicator
+skos:Concept,cb:tk22,40,TK22,"Kiemen, totale (22°C)",vlcs:bioindicator,vlcs:bioindicator
+skos:Concept,cb:tk37,41,TK37,"Kiemen, totale (37°C)",vlcs:bioindicator,vlcs:bioindicator
+skos:Concept,cb:tn,1807,TN,Trofisch niveau,vlcs:bioindicator,vlcs:bioindicator
+skos:Concept,cb:zwam,673,Zwam,Zwamachtigen,vlcs:bioindicator,vlcs:bioindicator
+skos:Concept,cb:alexandrium_spp_,788,Alexandrium spp.,Alexandrium spp.,vlcs:bioindicator,vlcs:bioindicator
+skos:Concept,cb:legio,928,Legio,Legionella,vlcs:bioindicator,vlcs:bioindicator

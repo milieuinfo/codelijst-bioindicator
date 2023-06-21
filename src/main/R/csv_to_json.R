@@ -4,7 +4,12 @@ library(dplyr)
 library(jsonlite)
 library(stringr)
 
+#setwd('/home/gehau/git/codelijst-bioindicator/src/main/R')
 df <- read.csv(file = "../resources/be/vlaanderen/omgeving/data/id/conceptscheme/bioindicator/bioindicator.csv", sep=",", na.strings=c("","NA"))
+df_ <- read.csv(file = "../resources/be/vlaanderen/omgeving/data/id/conceptscheme/bioindicator/bioindicator2.csv", sep=",", na.strings=c("","NA"))
+df <- bind_rows(df,df_)
+df <- df %>% 
+  mutate_if(is.character, str_trim)
 # fix
 df <- df %>%
   mutate_all(list(~ str_c("", .)))
