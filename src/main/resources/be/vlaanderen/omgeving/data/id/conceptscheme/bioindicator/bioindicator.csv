@@ -1,131 +1,131 @@
-type,uri,vmmParameterId,notation,prefLabel,definition,altLabel,theme,collection,isSubjectOf,related,inScheme,topConceptOf
-skos:Collection,cob:bodem,,,Collectie van bioindicatoren m.b.t. bodem.,,,,,,,vlcs:bioindicator,
-skos:Collection,cob:lucht,,,Collectie van bioindicatoren m.b.t. lucht.,,,,,,,vlcs:bioindicator,
-skos:Collection,cob:water,,,Collectie van bioindicatoren m.b.t. water.,,,,,,,vlcs:bioindicator,
-skos:Concept,cb:kiemgetal_bij_22c_en_36c,,,kiemgetal bij 22°C en 36°C,,kiemgetal bij 22°C en 36°C,gemet:15179,cob:water,WAC/V/A/001,co:WAC_V_A_001,vlcs:bioindicator,vlcs:bioindicator
-skos:Concept,cb:coliformen,,,coliformen,,coliformen,gemet:15179,cob:water,WAC/V/A/002,co:WAC_V_A_002,vlcs:bioindicator,vlcs:bioindicator
-skos:Concept,cb:escherichia_coli,32,EColi,Escherichia coli,,Escherichia coli (E. coli),gemet:15179,cob:water,WAC/V/A/002,co:WAC_V_A_002,vlcs:bioindicator,vlcs:bioindicator
-skos:Concept,cb:intestinale_enterococci,,,intestinale enterococci,,enterokokken,gemet:15179,cob:water,WAC/V/A/003,co:WAC_V_A_003,vlcs:bioindicator,vlcs:bioindicator
-skos:Concept,cb:salmonella_spp.,,,Salmonella spp.,,Salmonella spp.,gemet:15179,cob:water,WAC/V/A/004,co:WAC_V_A_004,vlcs:bioindicator,vlcs:bioindicator
-skos:Concept,cb:legionella_pneumophila,,,Legionella pneumophila,,Legionella pneumophila,gemet:15179,cob:water,WAC/V/A/005,co:WAC_V_A_005,vlcs:bioindicator,vlcs:bioindicator
-skos:Concept,cb:legionella_spp._,928,Legio,Legionella spp.,,Legionella spp.,gemet:15179,cob:water,WAC/V/A/005,co:WAC_V_A_005,vlcs:bioindicator,vlcs:bioindicator
-skos:Concept,cb:pseudomonas_aeruginosa,,,Pseudomonas aeruginosa,,Pseudomonas aeruginosa,gemet:15179,cob:water,WAC/V/A/006,co:WAC_V_A_006,vlcs:bioindicator,vlcs:bioindicator
-skos:Concept,cb:clostridium_perfringens,,,Clostridium perfringens,,Clostridium perfringens,gemet:15179,cob:water,WAC/V/A/007,co:WAC_V_A_007,vlcs:bioindicator,vlcs:bioindicator
-skos:Concept,cb:coagulase_positieve_staphylococci,,,coagulase positieve staphylococci,,stafylokokken,gemet:15179,cob:water,WAC/V/A/008,co:WAC_V_A_008,vlcs:bioindicator,vlcs:bioindicator
-skos:Concept,cb:somatische_colifagen,,,somatische colifagen,,somatische colifagen,gemet:15179,cob:water,Drinkwaterrichtlijn (EU) 2020/2184,,vlcs:bioindicator,vlcs:bioindicator
-skos:Concept,cb:daphnia_magna,,,Daphnia magna,,Watervlo,gemet:15179,cob:water,WAC/V/B/001,co:WAC_V_B_001,vlcs:bioindicator,vlcs:bioindicator
-skos:Concept,cb:anostraca,,,Anostraca,,Pekelkreeftje,gemet:15179,cob:water,WAC/V/B/001,co:WAC_V_B_001,vlcs:bioindicator,vlcs:bioindicator
-skos:Concept,cb:danio_rerio,,,Danio rerio,,Zebravisembryo,gemet:15179,cob:water,WAC/V/B/002,co:WAC_V_B_002,vlcs:bioindicator,vlcs:bioindicator
-skos:Concept,cb:oncorhyncus_mykiss,,,Oncorhyncus mykiss,,Forel,gemet:15179,cob:water,WAC/V/B/007,co:WAC_V_B_007,vlcs:bioindicator,vlcs:bioindicator
-skos:Concept,cb:pseudokirchneriella_subcapitata,,,Pseudokirchneriella subcapitata,,Zoetwateralg,gemet:15179,cob:water,WAC/V/B/003,co:WAC_V_B_003,vlcs:bioindicator,vlcs:bioindicator
-skos:Concept,cb:phaeodactylum_tricornutum,,,Phaeodactylum tricornutum,,Mariene alg,gemet:15179,cob:water,WAC/V/B/003,co:WAC_V_B_003,vlcs:bioindicator,vlcs:bioindicator
-skos:Concept,cb:aliivibrio_fischeri,,,Aliivibrio fischeri,,Luminescente bacterie,gemet:15179,cob:water,WAC/V/B/004,co:WAC_V_B_004,vlcs:bioindicator,vlcs:bioindicator
-skos:Concept,cb:ekc-fytoplankton,,,EKC-fytoplankton,,EKC-fytoplankton,gemet:15179,cob:water,VLAREM II,co:VLAREM_II,vlcs:bioindicator,vlcs:bioindicator
-skos:Concept,cb:ekc-macrofyten,,,EKC-macrofyten,,EKC-macrofyten,gemet:15179,cob:water,VLAREM II,co:VLAREM_II,vlcs:bioindicator,vlcs:bioindicator
-skos:Concept,cb:ekc-fytobenthos,,,EKC-fytobenthos,,EKC-fytobenthos,gemet:15179,cob:water,VLAREM II,co:VLAREM_II,vlcs:bioindicator,vlcs:bioindicator
-skos:Concept,cb:ekc-macro-invertebraten,,,EKC-macro-invertebraten,,EKC-macro-invertebraten,gemet:15179,cob:water,VLAREM II,co:VLAREM_II,vlcs:bioindicator,vlcs:bioindicator
-skos:Concept,cb:ekc-visfauna,,,EKC-visfauna,,EKC-visfauna,gemet:15179,cob:water,VLAREM II,co:VLAREM_II,vlcs:bioindicator,vlcs:bioindicator
-skos:Concept,cb:pseudomonas,,,Pseudomonas,,,,,,,vlcs:bioindicator,vlcs:bioindicator
-skos:Concept,cb:schimmels,,,Schimmels,,,,,,,vlcs:bioindicator,vlcs:bioindicator
-skos:Concept,cb:sulfiet_reducerende_clostridia,,,Sulfiet reducerende clostridia,,,,,,,vlcs:bioindicator,vlcs:bioindicator
-skos:Concept,cb:aeromonas,,,Aeromonas,,,,,,,vlcs:bioindicator,vlcs:bioindicator
-skos:Concept,cb:melkzuur_bacterien,,,Melkzuur bacteriën,,,,,,,vlcs:bioindicator,vlcs:bioindicator
-skos:Concept,cb:actinomyceten,,,Actinomyceten,,,,,,,vlcs:bioindicator,vlcs:bioindicator
-skos:Concept,cb:clostridium_perfringens,,,Clostridium perfringens,,,,,,,vlcs:bioindicator,vlcs:bioindicator
-skos:Concept,cb:cryptosporidium,,,Cryptosporidium,,,,,,,vlcs:bioindicator,vlcs:bioindicator
-skos:Concept,cb:enterococcen,,,Enterococcen,,,,,,,vlcs:bioindicator,vlcs:bioindicator
-skos:Concept,cb:giardia,,,Giardia,,,,,,,vlcs:bioindicator,vlcs:bioindicator
-skos:Concept,cb:naaktamoeben,,,Naaktamoeben,,,,,,,vlcs:bioindicator,vlcs:bioindicator
-skos:Concept,cb:schaalamoeben,,,Schaalamoeben,,,,,,,vlcs:bioindicator,vlcs:bioindicator
-skos:Concept,cb:som_roeipootkreeften_copepoda,,,som Roeipootkreeften (Copepoda),,,,,,,vlcs:bioindicator,vlcs:bioindicator
-skos:Concept,cb:adenovirussen,,,Adenovirussen,,,,,,,vlcs:bioindicator,vlcs:bioindicator
-skos:Concept,cb:aerococcus,,,Aerococcus,,,,,,,vlcs:bioindicator,vlcs:bioindicator
-skos:Concept,cb:aerococcus_viridans,,,Aerococcus viridans,,,,,,,vlcs:bioindicator,vlcs:bioindicator
-skos:Concept,cb:aeromonas_caviae,,,Aeromonas caviae,,,,,,,vlcs:bioindicator,vlcs:bioindicator
-skos:Concept,cb:aeromonas_eucrenophila,,,Aeromonas eucrenophila,,,,,,,vlcs:bioindicator,vlcs:bioindicator
-skos:Concept,cb:aeromonas_hydrophila,,,Aeromonas hydrophila,,,,,,,vlcs:bioindicator,vlcs:bioindicator
-skos:Concept,cb:aeromonas_salmonicida,,,Aeromonas salmonicida,,,,,,,vlcs:bioindicator,vlcs:bioindicator
-skos:Concept,cb:aeromonas_veronii,,,Aeromonas veronii,,,,,,,vlcs:bioindicator,vlcs:bioindicator
-skos:Concept,cb:alternaria,,,Alternaria,,,,,,,vlcs:bioindicator,vlcs:bioindicator
-skos:Concept,cb:aspergillus,,,Aspergillus,,,,,,,vlcs:bioindicator,vlcs:bioindicator
-skos:Concept,cb:aspergillus_fumigatus,,,Aspergillus fumigatus,,,,,,,vlcs:bioindicator,vlcs:bioindicator
-skos:Concept,cb:aureobasidium,,,Aureobasidium,,,,,,,vlcs:bioindicator,vlcs:bioindicator
-skos:Concept,cb:aureobasidium_pullulans,,,Aureobasidium pullulans,,,,,,,vlcs:bioindicator,vlcs:bioindicator
-skos:Concept,cb:bacillus_cereus,,,Bacillus cereus,,,,,,,vlcs:bioindicator,vlcs:bioindicator
-skos:Concept,cb:bacteriofagen,,,Bacteriofagen,,,,,,,vlcs:bioindicator,vlcs:bioindicator
-skos:Concept,cb:buttiauxella,,,Buttiauxella,,,,,,,vlcs:bioindicator,vlcs:bioindicator
-skos:Concept,cb:buttiauxella_ferragutiae,,,Buttiauxella ferragutiae,,,,,,,vlcs:bioindicator,vlcs:bioindicator
-skos:Concept,cb:buttiauxella_gaviniae,,,Buttiauxella gaviniae,,,,,,,vlcs:bioindicator,vlcs:bioindicator
-skos:Concept,cb:buttiauxella_izardii,,,Buttiauxella izardii,,,,,,,vlcs:bioindicator,vlcs:bioindicator
-skos:Concept,cb:buttiauxella_noackiae,,,Buttiauxella noackiae,,,,,,,vlcs:bioindicator,vlcs:bioindicator
-skos:Concept,cb:candida,,,Candida,,,,,,,vlcs:bioindicator,vlcs:bioindicator
-skos:Concept,cb:chaetomium,,,Chaetomium,,,,,,,vlcs:bioindicator,vlcs:bioindicator
-skos:Concept,cb:citrobacter,,,Citrobacter,,,,,,,vlcs:bioindicator,vlcs:bioindicator
-skos:Concept,cb:citrobacter_gillenii,,,Citrobacter gillenii,,,,,,,vlcs:bioindicator,vlcs:bioindicator
-skos:Concept,cb:cladosporium,,,Cladosporium,,,,,,,vlcs:bioindicator,vlcs:bioindicator
-skos:Concept,cb:clostridium_tertium,,,Clostridium tertium,,,,,,,vlcs:bioindicator,vlcs:bioindicator
-skos:Concept,cb:cronobacter,,,Cronobacter,,,,,,,vlcs:bioindicator,vlcs:bioindicator
-skos:Concept,cb:cronobacter_sakazakii,,,Cronobacter sakazakii,,,,,,,vlcs:bioindicator,vlcs:bioindicator
-skos:Concept,cb:dermatofyten,,,Dermatofyten,,,,,,,vlcs:bioindicator,vlcs:bioindicator
-skos:Concept,cb:enterobacter_amnigenus,,,Enterobacter amnigenus,,,,,,,vlcs:bioindicator,vlcs:bioindicator
-skos:Concept,cb:enterobacter_cloacae,,,Enterobacter cloacae,,,,,,,vlcs:bioindicator,vlcs:bioindicator
-skos:Concept,cb:enterobacter_ludwigii,,,Enterobacter ludwigii,,,,,,,vlcs:bioindicator,vlcs:bioindicator
-skos:Concept,cb:enterococcus_aquimarinus,,,Enterococcus aquimarinus,,,,,,,vlcs:bioindicator,vlcs:bioindicator
-skos:Concept,cb:enterococcus_cacae,,,Enterococcus cacae,,,,,,,vlcs:bioindicator,vlcs:bioindicator
-skos:Concept,cb:enterococcus_casseliflavus,,,Enterococcus casseliflavus,,,,,,,vlcs:bioindicator,vlcs:bioindicator
-skos:Concept,cb:enterococcus_durans,,,Enterococcus durans,,,,,,,vlcs:bioindicator,vlcs:bioindicator
-skos:Concept,cb:enterococcus_faecalis,,,Enterococcus faecalis,,,,,,,vlcs:bioindicator,vlcs:bioindicator
-skos:Concept,cb:enterococcus_faecium,,,Enterococcus faecium,,,,,,,vlcs:bioindicator,vlcs:bioindicator
-skos:Concept,cb:enterococcus_gallinarum,,,Enterococcus gallinarum,,,,,,,vlcs:bioindicator,vlcs:bioindicator
-skos:Concept,cb:enterococcus_gilvus,,,Enterococcus gilvus,,,,,,,vlcs:bioindicator,vlcs:bioindicator
-skos:Concept,cb:enterococcus_haemoperoxidus,,,Enterococcus haemoperoxidus,,,,,,,vlcs:bioindicator,vlcs:bioindicator
-skos:Concept,cb:enterococcus_hirae,,,Enterococcus hirae,,,,,,,vlcs:bioindicator,vlcs:bioindicator
-skos:Concept,cb:enterococcus_italicus,,,Enterococcus italicus,,,,,,,vlcs:bioindicator,vlcs:bioindicator
-skos:Concept,cb:enterococcus_malodoratus,,,Enterococcus malodoratus,,,,,,,vlcs:bioindicator,vlcs:bioindicator
-skos:Concept,cb:enterococcus_moraviensis,,,Enterococcus moraviensis,,,,,,,vlcs:bioindicator,vlcs:bioindicator
-skos:Concept,cb:enterococcus_mundtii,,,Enterococcus mundtii,,,,,,,vlcs:bioindicator,vlcs:bioindicator
-skos:Concept,cb:enterococcus_phoeniculicola,,,Enterococcus phoeniculicola,,,,,,,vlcs:bioindicator,vlcs:bioindicator
-skos:Concept,cb:enterococcus_silesiacus,,,Enterococcus silesiacus,,,,,,,vlcs:bioindicator,vlcs:bioindicator
-skos:Concept,cb:enterococcus_sulfureus,,,Enterococcus sulfureus,,,,,,,vlcs:bioindicator,vlcs:bioindicator
-skos:Concept,cb:enterococcus_termitis,,,Enterococcus termitis,,,,,,,vlcs:bioindicator,vlcs:bioindicator
-skos:Concept,cb:enterococcus_thailandicus,,,Enterococcus thailandicus,,,,,,,vlcs:bioindicator,vlcs:bioindicator
-skos:Concept,cb:enterovirussen,,,Enterovirussen,,,,,,,vlcs:bioindicator,vlcs:bioindicator
-skos:Concept,cb:eurotium,,,Eurotium,,,,,,,vlcs:bioindicator,vlcs:bioindicator
-skos:Concept,cb:fusarium,,,Fusarium,,,,,,,vlcs:bioindicator,vlcs:bioindicator
-skos:Concept,cb:fusarium_solani,,,Fusarium Solani,,,,,,,vlcs:bioindicator,vlcs:bioindicator
-skos:Concept,cb:gallionella,,,Gallionella,,,,,,,vlcs:bioindicator,vlcs:bioindicator
-skos:Concept,cb:klebsiella,,,Klebsiella,,,,,,,vlcs:bioindicator,vlcs:bioindicator
-skos:Concept,cb:klebsiella_oxytoca,,,Klebsiella oxytoca,,,,,,,vlcs:bioindicator,vlcs:bioindicator
-skos:Concept,cb:klebsiella_pneumoniae,,,Klebsiella pneumoniae,,,,,,,vlcs:bioindicator,vlcs:bioindicator
-skos:Concept,cb:kluyvera,,,Kluyvera,,,,,,,vlcs:bioindicator,vlcs:bioindicator
-skos:Concept,cb:lactobacillus_plantarum,,,Lactobacillus plantarum,,,,,,,vlcs:bioindicator,vlcs:bioindicator
-skos:Concept,cb:lactococcus_lactis,,,Lactococcus lactis,,,,,,,vlcs:bioindicator,vlcs:bioindicator
-skos:Concept,cb:legionella_overgroei,,,Legionella overgroei,,,,,,,vlcs:bioindicator,vlcs:bioindicator
-skos:Concept,cb:lelliottia_amnigena,,,Lelliottia amnigena,,,,,,,vlcs:bioindicator,vlcs:bioindicator
-skos:Concept,cb:micrococcus,,,Micrococcus,,,,,,,vlcs:bioindicator,vlcs:bioindicator
-skos:Concept,cb:mucor,,,Mucor,,,,,,,vlcs:bioindicator,vlcs:bioindicator
-skos:Concept,cb:nitrosomonas,,,Nitrosomonas,,,,,,,vlcs:bioindicator,vlcs:bioindicator
-skos:Concept,cb:oenococcus,,,Oenococcus,,,,,,,vlcs:bioindicator,vlcs:bioindicator
-skos:Concept,cb:penicillium,,,Penicillium,,,,,,,vlcs:bioindicator,vlcs:bioindicator
-skos:Concept,cb:penicillium_marneffei,,,Penicillium marneffei,,,,,,,vlcs:bioindicator,vlcs:bioindicator
-skos:Concept,cb:phoma,,,Phoma,,,,,,,vlcs:bioindicator,vlcs:bioindicator
-skos:Concept,cb:rahnella_aquatilis,,,Rahnella aquatilis,,,,,,,vlcs:bioindicator,vlcs:bioindicator
-skos:Concept,cb:ralstonia,,,Ralstonia,,,,,,,vlcs:bioindicator,vlcs:bioindicator
-skos:Concept,cb:reovirussen,,,Reovirussen,,,,,,,vlcs:bioindicator,vlcs:bioindicator
-skos:Concept,cb:rhizophus,,,Rhizophus,,,,,,,vlcs:bioindicator,vlcs:bioindicator
-skos:Concept,cb:rhodotorula,,,Rhodotorula,,,,,,,vlcs:bioindicator,vlcs:bioindicator
-skos:Concept,cb:ribonucleïnezuur,,,Ribonucleïnezuur,,,,,,,vlcs:bioindicator,vlcs:bioindicator
-skos:Concept,cb:scopulariopsis,,,Scopulariopsis,,,,,,,vlcs:bioindicator,vlcs:bioindicator
-skos:Concept,cb:serratia,,,Serratia,,,,,,,vlcs:bioindicator,vlcs:bioindicator
-skos:Concept,cb:stachybotrys,,,Stachybotrys,,,,,,,vlcs:bioindicator,vlcs:bioindicator
-skos:Concept,cb:staphylococcus_epidermidis,,,Staphylococcus epidermidis,,,,,,,vlcs:bioindicator,vlcs:bioindicator
-skos:Concept,cb:staphylococcus_pasteuri,,,Staphylococcus pasteuri,,,,,,,vlcs:bioindicator,vlcs:bioindicator
-skos:Concept,cb:staphylococcus_saprophyticus,,,Staphylococcus saprophyticus,,,,,,,vlcs:bioindicator,vlcs:bioindicator
-skos:Concept,cb:staphylococcus_warneri,,,Staphylococcus warneri,,,,,,,vlcs:bioindicator,vlcs:bioindicator
-skos:Concept,cb:streptococcus,,,Streptococcus,,,,,,,vlcs:bioindicator,vlcs:bioindicator
-skos:Concept,cb:streptococcus_equinus,,,Streptococcus equinus,,,,,,,vlcs:bioindicator,vlcs:bioindicator
-skos:Concept,cb:streptococcus_gallolyticus,,,Streptococcus gallolyticus,,,,,,,vlcs:bioindicator,vlcs:bioindicator
-skos:Concept,cb:streptococcus_lutetiensis,,,Streptococcus lutetiensis,,,,,,,vlcs:bioindicator,vlcs:bioindicator
-skos:Concept,cb:streptococcus_salivarius,,,Streptococcus salivarius,,,,,,,vlcs:bioindicator,vlcs:bioindicator
-skos:Concept,cb:thermofiele_actinomyceten,,,Thermofiele Actinomyceten,,,,,,,vlcs:bioindicator,vlcs:bioindicator
-skos:ConceptScheme,vlcs:bioindicator,,,Codelijst van de bioindicatoren,Een organisme waarmee een verandering of verontreiniging van het milieu kan worden gesignaleerd. Het principe achter het gebruik van bio-indicatoren is dat de natuurlijke samenstelling van een levensgemeenschap wordt bepaald door de fysische en chemische eigenschappen van het ecosysteem.,,,,,,,
+type,uri,notation,prefLabel,definition,altLabel,theme,collection,isSubjectOf,related,inScheme,topConceptOf
+skos:Collection,cob:bodem,,Collectie van bioindicatoren m.b.t. bodem.,,,,,,,vlcs:bioindicator,
+skos:Collection,cob:lucht,,Collectie van bioindicatoren m.b.t. lucht.,,,,,,,vlcs:bioindicator,
+skos:Collection,cob:water,,Collectie van bioindicatoren m.b.t. water.,,,,,,,vlcs:bioindicator,
+skos:Concept,cb:kiemgetal_bij_22c_en_36c,,kiemgetal bij 22°C en 36°C,,kiemgetal bij 22°C en 36°C,gemet:15179,cob:water,WAC/V/A/001,co:WAC_V_A_001,vlcs:bioindicator,vlcs:bioindicator
+skos:Concept,cb:coliformen,,coliformen,,coliformen,gemet:15179,cob:water,WAC/V/A/002,co:WAC_V_A_002,vlcs:bioindicator,vlcs:bioindicator
+skos:Concept,cb:escherichia_coli,EColi,Escherichia coli,,Escherichia coli (E. coli),gemet:15179,cob:water,WAC/V/A/002,co:WAC_V_A_002,vlcs:bioindicator,vlcs:bioindicator
+skos:Concept,cb:intestinale_enterococci,,intestinale enterococci,,enterokokken,gemet:15179,cob:water,WAC/V/A/003,co:WAC_V_A_003,vlcs:bioindicator,vlcs:bioindicator
+skos:Concept,cb:salmonella_spp.,,Salmonella spp.,,Salmonella spp.,gemet:15179,cob:water,WAC/V/A/004,co:WAC_V_A_004,vlcs:bioindicator,vlcs:bioindicator
+skos:Concept,cb:legionella_pneumophila,,Legionella pneumophila,,Legionella pneumophila,gemet:15179,cob:water,WAC/V/A/005,co:WAC_V_A_005,vlcs:bioindicator,vlcs:bioindicator
+skos:Concept,cb:legionella_spp._,Legio,Legionella spp.,,Legionella spp.,gemet:15179,cob:water,WAC/V/A/005,co:WAC_V_A_005,vlcs:bioindicator,vlcs:bioindicator
+skos:Concept,cb:pseudomonas_aeruginosa,,Pseudomonas aeruginosa,,Pseudomonas aeruginosa,gemet:15179,cob:water,WAC/V/A/006,co:WAC_V_A_006,vlcs:bioindicator,vlcs:bioindicator
+skos:Concept,cb:clostridium_perfringens,,Clostridium perfringens,,Clostridium perfringens,gemet:15179,cob:water,WAC/V/A/007,co:WAC_V_A_007,vlcs:bioindicator,vlcs:bioindicator
+skos:Concept,cb:coagulase_positieve_staphylococci,,coagulase positieve staphylococci,,stafylokokken,gemet:15179,cob:water,WAC/V/A/008,co:WAC_V_A_008,vlcs:bioindicator,vlcs:bioindicator
+skos:Concept,cb:somatische_colifagen,,somatische colifagen,,somatische colifagen,gemet:15179,cob:water,Drinkwaterrichtlijn (EU) 2020/2184,,vlcs:bioindicator,vlcs:bioindicator
+skos:Concept,cb:daphnia_magna,,Daphnia magna,,Watervlo,gemet:15179,cob:water,WAC/V/B/001,co:WAC_V_B_001,vlcs:bioindicator,vlcs:bioindicator
+skos:Concept,cb:anostraca,,Anostraca,,Pekelkreeftje,gemet:15179,cob:water,WAC/V/B/001,co:WAC_V_B_001,vlcs:bioindicator,vlcs:bioindicator
+skos:Concept,cb:danio_rerio,,Danio rerio,,Zebravisembryo,gemet:15179,cob:water,WAC/V/B/002,co:WAC_V_B_002,vlcs:bioindicator,vlcs:bioindicator
+skos:Concept,cb:oncorhyncus_mykiss,,Oncorhyncus mykiss,,Forel,gemet:15179,cob:water,WAC/V/B/007,co:WAC_V_B_007,vlcs:bioindicator,vlcs:bioindicator
+skos:Concept,cb:pseudokirchneriella_subcapitata,,Pseudokirchneriella subcapitata,,Zoetwateralg,gemet:15179,cob:water,WAC/V/B/003,co:WAC_V_B_003,vlcs:bioindicator,vlcs:bioindicator
+skos:Concept,cb:phaeodactylum_tricornutum,,Phaeodactylum tricornutum,,Mariene alg,gemet:15179,cob:water,WAC/V/B/003,co:WAC_V_B_003,vlcs:bioindicator,vlcs:bioindicator
+skos:Concept,cb:aliivibrio_fischeri,,Aliivibrio fischeri,,Luminescente bacterie,gemet:15179,cob:water,WAC/V/B/004,co:WAC_V_B_004,vlcs:bioindicator,vlcs:bioindicator
+skos:Concept,cb:ekc-fytoplankton,,EKC-fytoplankton,,EKC-fytoplankton,gemet:15179,cob:water,VLAREM II,co:VLAREM_II,vlcs:bioindicator,vlcs:bioindicator
+skos:Concept,cb:ekc-macrofyten,,EKC-macrofyten,,EKC-macrofyten,gemet:15179,cob:water,VLAREM II,co:VLAREM_II,vlcs:bioindicator,vlcs:bioindicator
+skos:Concept,cb:ekc-fytobenthos,,EKC-fytobenthos,,EKC-fytobenthos,gemet:15179,cob:water,VLAREM II,co:VLAREM_II,vlcs:bioindicator,vlcs:bioindicator
+skos:Concept,cb:ekc-macro-invertebraten,,EKC-macro-invertebraten,,EKC-macro-invertebraten,gemet:15179,cob:water,VLAREM II,co:VLAREM_II,vlcs:bioindicator,vlcs:bioindicator
+skos:Concept,cb:ekc-visfauna,,EKC-visfauna,,EKC-visfauna,gemet:15179,cob:water,VLAREM II,co:VLAREM_II,vlcs:bioindicator,vlcs:bioindicator
+skos:Concept,cb:pseudomonas,,Pseudomonas,,,,,,,vlcs:bioindicator,vlcs:bioindicator
+skos:Concept,cb:schimmels,,Schimmels,,,,,,,vlcs:bioindicator,vlcs:bioindicator
+skos:Concept,cb:sulfiet_reducerende_clostridia,,Sulfiet reducerende clostridia,,,,,,,vlcs:bioindicator,vlcs:bioindicator
+skos:Concept,cb:aeromonas,,Aeromonas,,,,,,,vlcs:bioindicator,vlcs:bioindicator
+skos:Concept,cb:melkzuur_bacterien,,Melkzuur bacteriën,,,,,,,vlcs:bioindicator,vlcs:bioindicator
+skos:Concept,cb:actinomyceten,,Actinomyceten,,,,,,,vlcs:bioindicator,vlcs:bioindicator
+skos:Concept,cb:clostridium_perfringens,,Clostridium perfringens,,,,,,,vlcs:bioindicator,vlcs:bioindicator
+skos:Concept,cb:cryptosporidium,,Cryptosporidium,,,,,,,vlcs:bioindicator,vlcs:bioindicator
+skos:Concept,cb:enterococcen,,Enterococcen,,,,,,,vlcs:bioindicator,vlcs:bioindicator
+skos:Concept,cb:giardia,,Giardia,,,,,,,vlcs:bioindicator,vlcs:bioindicator
+skos:Concept,cb:naaktamoeben,,Naaktamoeben,,,,,,,vlcs:bioindicator,vlcs:bioindicator
+skos:Concept,cb:schaalamoeben,,Schaalamoeben,,,,,,,vlcs:bioindicator,vlcs:bioindicator
+skos:Concept,cb:som_roeipootkreeften_copepoda,,som Roeipootkreeften (Copepoda),,,,,,,vlcs:bioindicator,vlcs:bioindicator
+skos:Concept,cb:adenovirussen,,Adenovirussen,,,,,,,vlcs:bioindicator,vlcs:bioindicator
+skos:Concept,cb:aerococcus,,Aerococcus,,,,,,,vlcs:bioindicator,vlcs:bioindicator
+skos:Concept,cb:aerococcus_viridans,,Aerococcus viridans,,,,,,,vlcs:bioindicator,vlcs:bioindicator
+skos:Concept,cb:aeromonas_caviae,,Aeromonas caviae,,,,,,,vlcs:bioindicator,vlcs:bioindicator
+skos:Concept,cb:aeromonas_eucrenophila,,Aeromonas eucrenophila,,,,,,,vlcs:bioindicator,vlcs:bioindicator
+skos:Concept,cb:aeromonas_hydrophila,,Aeromonas hydrophila,,,,,,,vlcs:bioindicator,vlcs:bioindicator
+skos:Concept,cb:aeromonas_salmonicida,,Aeromonas salmonicida,,,,,,,vlcs:bioindicator,vlcs:bioindicator
+skos:Concept,cb:aeromonas_veronii,,Aeromonas veronii,,,,,,,vlcs:bioindicator,vlcs:bioindicator
+skos:Concept,cb:alternaria,,Alternaria,,,,,,,vlcs:bioindicator,vlcs:bioindicator
+skos:Concept,cb:aspergillus,,Aspergillus,,,,,,,vlcs:bioindicator,vlcs:bioindicator
+skos:Concept,cb:aspergillus_fumigatus,,Aspergillus fumigatus,,,,,,,vlcs:bioindicator,vlcs:bioindicator
+skos:Concept,cb:aureobasidium,,Aureobasidium,,,,,,,vlcs:bioindicator,vlcs:bioindicator
+skos:Concept,cb:aureobasidium_pullulans,,Aureobasidium pullulans,,,,,,,vlcs:bioindicator,vlcs:bioindicator
+skos:Concept,cb:bacillus_cereus,,Bacillus cereus,,,,,,,vlcs:bioindicator,vlcs:bioindicator
+skos:Concept,cb:bacteriofagen,,Bacteriofagen,,,,,,,vlcs:bioindicator,vlcs:bioindicator
+skos:Concept,cb:buttiauxella,,Buttiauxella,,,,,,,vlcs:bioindicator,vlcs:bioindicator
+skos:Concept,cb:buttiauxella_ferragutiae,,Buttiauxella ferragutiae,,,,,,,vlcs:bioindicator,vlcs:bioindicator
+skos:Concept,cb:buttiauxella_gaviniae,,Buttiauxella gaviniae,,,,,,,vlcs:bioindicator,vlcs:bioindicator
+skos:Concept,cb:buttiauxella_izardii,,Buttiauxella izardii,,,,,,,vlcs:bioindicator,vlcs:bioindicator
+skos:Concept,cb:buttiauxella_noackiae,,Buttiauxella noackiae,,,,,,,vlcs:bioindicator,vlcs:bioindicator
+skos:Concept,cb:candida,,Candida,,,,,,,vlcs:bioindicator,vlcs:bioindicator
+skos:Concept,cb:chaetomium,,Chaetomium,,,,,,,vlcs:bioindicator,vlcs:bioindicator
+skos:Concept,cb:citrobacter,,Citrobacter,,,,,,,vlcs:bioindicator,vlcs:bioindicator
+skos:Concept,cb:citrobacter_gillenii,,Citrobacter gillenii,,,,,,,vlcs:bioindicator,vlcs:bioindicator
+skos:Concept,cb:cladosporium,,Cladosporium,,,,,,,vlcs:bioindicator,vlcs:bioindicator
+skos:Concept,cb:clostridium_tertium,,Clostridium tertium,,,,,,,vlcs:bioindicator,vlcs:bioindicator
+skos:Concept,cb:cronobacter,,Cronobacter,,,,,,,vlcs:bioindicator,vlcs:bioindicator
+skos:Concept,cb:cronobacter_sakazakii,,Cronobacter sakazakii,,,,,,,vlcs:bioindicator,vlcs:bioindicator
+skos:Concept,cb:dermatofyten,,Dermatofyten,,,,,,,vlcs:bioindicator,vlcs:bioindicator
+skos:Concept,cb:enterobacter_amnigenus,,Enterobacter amnigenus,,,,,,,vlcs:bioindicator,vlcs:bioindicator
+skos:Concept,cb:enterobacter_cloacae,,Enterobacter cloacae,,,,,,,vlcs:bioindicator,vlcs:bioindicator
+skos:Concept,cb:enterobacter_ludwigii,,Enterobacter ludwigii,,,,,,,vlcs:bioindicator,vlcs:bioindicator
+skos:Concept,cb:enterococcus_aquimarinus,,Enterococcus aquimarinus,,,,,,,vlcs:bioindicator,vlcs:bioindicator
+skos:Concept,cb:enterococcus_cacae,,Enterococcus cacae,,,,,,,vlcs:bioindicator,vlcs:bioindicator
+skos:Concept,cb:enterococcus_casseliflavus,,Enterococcus casseliflavus,,,,,,,vlcs:bioindicator,vlcs:bioindicator
+skos:Concept,cb:enterococcus_durans,,Enterococcus durans,,,,,,,vlcs:bioindicator,vlcs:bioindicator
+skos:Concept,cb:enterococcus_faecalis,,Enterococcus faecalis,,,,,,,vlcs:bioindicator,vlcs:bioindicator
+skos:Concept,cb:enterococcus_faecium,,Enterococcus faecium,,,,,,,vlcs:bioindicator,vlcs:bioindicator
+skos:Concept,cb:enterococcus_gallinarum,,Enterococcus gallinarum,,,,,,,vlcs:bioindicator,vlcs:bioindicator
+skos:Concept,cb:enterococcus_gilvus,,Enterococcus gilvus,,,,,,,vlcs:bioindicator,vlcs:bioindicator
+skos:Concept,cb:enterococcus_haemoperoxidus,,Enterococcus haemoperoxidus,,,,,,,vlcs:bioindicator,vlcs:bioindicator
+skos:Concept,cb:enterococcus_hirae,,Enterococcus hirae,,,,,,,vlcs:bioindicator,vlcs:bioindicator
+skos:Concept,cb:enterococcus_italicus,,Enterococcus italicus,,,,,,,vlcs:bioindicator,vlcs:bioindicator
+skos:Concept,cb:enterococcus_malodoratus,,Enterococcus malodoratus,,,,,,,vlcs:bioindicator,vlcs:bioindicator
+skos:Concept,cb:enterococcus_moraviensis,,Enterococcus moraviensis,,,,,,,vlcs:bioindicator,vlcs:bioindicator
+skos:Concept,cb:enterococcus_mundtii,,Enterococcus mundtii,,,,,,,vlcs:bioindicator,vlcs:bioindicator
+skos:Concept,cb:enterococcus_phoeniculicola,,Enterococcus phoeniculicola,,,,,,,vlcs:bioindicator,vlcs:bioindicator
+skos:Concept,cb:enterococcus_silesiacus,,Enterococcus silesiacus,,,,,,,vlcs:bioindicator,vlcs:bioindicator
+skos:Concept,cb:enterococcus_sulfureus,,Enterococcus sulfureus,,,,,,,vlcs:bioindicator,vlcs:bioindicator
+skos:Concept,cb:enterococcus_termitis,,Enterococcus termitis,,,,,,,vlcs:bioindicator,vlcs:bioindicator
+skos:Concept,cb:enterococcus_thailandicus,,Enterococcus thailandicus,,,,,,,vlcs:bioindicator,vlcs:bioindicator
+skos:Concept,cb:enterovirussen,,Enterovirussen,,,,,,,vlcs:bioindicator,vlcs:bioindicator
+skos:Concept,cb:eurotium,,Eurotium,,,,,,,vlcs:bioindicator,vlcs:bioindicator
+skos:Concept,cb:fusarium,,Fusarium,,,,,,,vlcs:bioindicator,vlcs:bioindicator
+skos:Concept,cb:fusarium_solani,,Fusarium Solani,,,,,,,vlcs:bioindicator,vlcs:bioindicator
+skos:Concept,cb:gallionella,,Gallionella,,,,,,,vlcs:bioindicator,vlcs:bioindicator
+skos:Concept,cb:klebsiella,,Klebsiella,,,,,,,vlcs:bioindicator,vlcs:bioindicator
+skos:Concept,cb:klebsiella_oxytoca,,Klebsiella oxytoca,,,,,,,vlcs:bioindicator,vlcs:bioindicator
+skos:Concept,cb:klebsiella_pneumoniae,,Klebsiella pneumoniae,,,,,,,vlcs:bioindicator,vlcs:bioindicator
+skos:Concept,cb:kluyvera,,Kluyvera,,,,,,,vlcs:bioindicator,vlcs:bioindicator
+skos:Concept,cb:lactobacillus_plantarum,,Lactobacillus plantarum,,,,,,,vlcs:bioindicator,vlcs:bioindicator
+skos:Concept,cb:lactococcus_lactis,,Lactococcus lactis,,,,,,,vlcs:bioindicator,vlcs:bioindicator
+skos:Concept,cb:legionella_overgroei,,Legionella overgroei,,,,,,,vlcs:bioindicator,vlcs:bioindicator
+skos:Concept,cb:lelliottia_amnigena,,Lelliottia amnigena,,,,,,,vlcs:bioindicator,vlcs:bioindicator
+skos:Concept,cb:micrococcus,,Micrococcus,,,,,,,vlcs:bioindicator,vlcs:bioindicator
+skos:Concept,cb:mucor,,Mucor,,,,,,,vlcs:bioindicator,vlcs:bioindicator
+skos:Concept,cb:nitrosomonas,,Nitrosomonas,,,,,,,vlcs:bioindicator,vlcs:bioindicator
+skos:Concept,cb:oenococcus,,Oenococcus,,,,,,,vlcs:bioindicator,vlcs:bioindicator
+skos:Concept,cb:penicillium,,Penicillium,,,,,,,vlcs:bioindicator,vlcs:bioindicator
+skos:Concept,cb:penicillium_marneffei,,Penicillium marneffei,,,,,,,vlcs:bioindicator,vlcs:bioindicator
+skos:Concept,cb:phoma,,Phoma,,,,,,,vlcs:bioindicator,vlcs:bioindicator
+skos:Concept,cb:rahnella_aquatilis,,Rahnella aquatilis,,,,,,,vlcs:bioindicator,vlcs:bioindicator
+skos:Concept,cb:ralstonia,,Ralstonia,,,,,,,vlcs:bioindicator,vlcs:bioindicator
+skos:Concept,cb:reovirussen,,Reovirussen,,,,,,,vlcs:bioindicator,vlcs:bioindicator
+skos:Concept,cb:rhizophus,,Rhizophus,,,,,,,vlcs:bioindicator,vlcs:bioindicator
+skos:Concept,cb:rhodotorula,,Rhodotorula,,,,,,,vlcs:bioindicator,vlcs:bioindicator
+skos:Concept,cb:ribonucleïnezuur,,Ribonucleïnezuur,,,,,,,vlcs:bioindicator,vlcs:bioindicator
+skos:Concept,cb:scopulariopsis,,Scopulariopsis,,,,,,,vlcs:bioindicator,vlcs:bioindicator
+skos:Concept,cb:serratia,,Serratia,,,,,,,vlcs:bioindicator,vlcs:bioindicator
+skos:Concept,cb:stachybotrys,,Stachybotrys,,,,,,,vlcs:bioindicator,vlcs:bioindicator
+skos:Concept,cb:staphylococcus_epidermidis,,Staphylococcus epidermidis,,,,,,,vlcs:bioindicator,vlcs:bioindicator
+skos:Concept,cb:staphylococcus_pasteuri,,Staphylococcus pasteuri,,,,,,,vlcs:bioindicator,vlcs:bioindicator
+skos:Concept,cb:staphylococcus_saprophyticus,,Staphylococcus saprophyticus,,,,,,,vlcs:bioindicator,vlcs:bioindicator
+skos:Concept,cb:staphylococcus_warneri,,Staphylococcus warneri,,,,,,,vlcs:bioindicator,vlcs:bioindicator
+skos:Concept,cb:streptococcus,,Streptococcus,,,,,,,vlcs:bioindicator,vlcs:bioindicator
+skos:Concept,cb:streptococcus_equinus,,Streptococcus equinus,,,,,,,vlcs:bioindicator,vlcs:bioindicator
+skos:Concept,cb:streptococcus_gallolyticus,,Streptococcus gallolyticus,,,,,,,vlcs:bioindicator,vlcs:bioindicator
+skos:Concept,cb:streptococcus_lutetiensis,,Streptococcus lutetiensis,,,,,,,vlcs:bioindicator,vlcs:bioindicator
+skos:Concept,cb:streptococcus_salivarius,,Streptococcus salivarius,,,,,,,vlcs:bioindicator,vlcs:bioindicator
+skos:Concept,cb:thermofiele_actinomyceten,,Thermofiele Actinomyceten,,,,,,,vlcs:bioindicator,vlcs:bioindicator
+skos:ConceptScheme,vlcs:bioindicator,,Codelijst van de bioindicatoren,Een organisme waarmee een verandering of verontreiniging van het milieu kan worden gesignaleerd. Het principe achter het gebruik van bio-indicatoren is dat de natuurlijke samenstelling van een levensgemeenschap wordt bepaald door de fysische en chemische eigenschappen van het ecosysteem.,,,,,,,

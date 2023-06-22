@@ -564,10 +564,6 @@
         },
         {
             "@id": "cb:tk37",
-            "cs:vmmParameterId": {
-                "@value": "41",
-                "@type": "xsd:int"
-            },
             "skos:topConceptOf": {
                 "@id": "vlcs:bioindicator"
             },
@@ -766,10 +762,6 @@
         },
         {
             "@id": "cb:cyano_clfyl",
-            "cs:vmmParameterId": {
-                "@value": "1782",
-                "@type": "xsd:int"
-            },
             "skos:topConceptOf": {
                 "@id": "vlcs:bioindicator"
             },
@@ -785,10 +777,6 @@
         },
         {
             "@id": "cb:dinophysis_sa",
-            "cs:vmmParameterId": {
-                "@value": "925",
-                "@type": "xsd:int"
-            },
             "skos:topConceptOf": {
                 "@id": "vlcs:bioindicator"
             },
@@ -846,10 +834,6 @@
         },
         {
             "@id": "cb:pseud",
-            "cs:vmmParameterId": {
-                "@value": "35",
-                "@type": "xsd:int"
-            },
             "skos:topConceptOf": {
                 "@id": "vlcs:bioindicator"
             },
@@ -949,10 +933,6 @@
         },
         {
             "@id": "cb:ps-nitzschia_del_",
-            "cs:vmmParameterId": {
-                "@value": "2060",
-                "@type": "xsd:int"
-            },
             "skos:topConceptOf": {
                 "@id": "vlcs:bioindicator"
             },
@@ -982,36 +962,32 @@
         },
         {
             "@id": "cb:legionella_spp._",
+            "dcat:theme": {
+                "@id": "gemet:15179"
+            },
+            "skos:topConceptOf": {
+                "@id": "vlcs:bioindicator"
+            },
             "skos:related": {
                 "@id": "co:WAC_V_A_005"
-            },
-            "cs:vmmParameterId": {
-                "@value": "928",
-                "@type": "xsd:int"
-            },
-            "skos:isSubjectOf": {
-                "@language": "nl",
-                "@value": "WAC/V/A/005"
             },
             "skos:prefLabel": {
                 "@language": "nl",
                 "@value": "Legionella spp."
             },
-            "dcat:theme": {
-                "@id": "gemet:15179"
+            "skos:notation": "Legio",
+            "skos:isSubjectOf": {
+                "@language": "nl",
+                "@value": "WAC/V/A/005"
+            },
+            "skos:inScheme": {
+                "@id": "vlcs:bioindicator"
             },
             "skos:altLabel": {
                 "@language": "nl",
                 "@value": "Legionella spp."
             },
-            "skos:notation": "Legio",
-            "skos:inScheme": {
-                "@id": "vlcs:bioindicator"
-            },
-            "@type": "skos:Concept",
-            "skos:topConceptOf": {
-                "@id": "vlcs:bioindicator"
-            }
+            "@type": "skos:Concept"
         },
         {
             "@id": "cb:enterobacter_cloacae",
@@ -1057,10 +1033,6 @@
         },
         {
             "@id": "cb:tn",
-            "cs:vmmParameterId": {
-                "@value": "1807",
-                "@type": "xsd:int"
-            },
             "skos:topConceptOf": {
                 "@id": "vlcs:bioindicator"
             },
@@ -1090,10 +1062,6 @@
         },
         {
             "@id": "cb:p_tric72_lt",
-            "cs:vmmParameterId": {
-                "@value": "1851",
-                "@type": "xsd:int"
-            },
             "skos:topConceptOf": {
                 "@id": "vlcs:bioindicator"
             },
@@ -1109,10 +1077,6 @@
         },
         {
             "@id": "cb:ps-nitzschia_ser_",
-            "cs:vmmParameterId": {
-                "@value": "2059",
-                "@type": "xsd:int"
-            },
             "skos:topConceptOf": {
                 "@id": "vlcs:bioindicator"
             },
@@ -1142,10 +1106,6 @@
         },
         {
             "@id": "cb:pyrodinium_sp",
-            "cs:vmmParameterId": {
-                "@value": "1319",
-                "@type": "xsd:int"
-            },
             "skos:topConceptOf": {
                 "@id": "vlcs:bioindicator"
             },
@@ -1231,10 +1191,6 @@
         },
         {
             "@id": "cb:tk22",
-            "cs:vmmParameterId": {
-                "@value": "40",
-                "@type": "xsd:int"
-            },
             "skos:topConceptOf": {
                 "@id": "vlcs:bioindicator"
             },
@@ -1250,10 +1206,6 @@
         },
         {
             "@id": "cb:dinophysis_cd",
-            "cs:vmmParameterId": {
-                "@value": "2062",
-                "@type": "xsd:int"
-            },
             "skos:topConceptOf": {
                 "@id": "vlcs:bioindicator"
             },
@@ -1269,10 +1221,6 @@
         },
         {
             "@id": "cb:dinophysis_ac",
-            "cs:vmmParameterId": {
-                "@value": "787",
-                "@type": "xsd:int"
-            },
             "skos:topConceptOf": {
                 "@id": "vlcs:bioindicator"
             },
@@ -1372,10 +1320,6 @@
         },
         {
             "@id": "cb:hyal",
-            "cs:vmmParameterId": {
-                "@value": "780",
-                "@type": "xsd:int"
-            },
             "skos:topConceptOf": {
                 "@id": "vlcs:bioindicator"
             },
@@ -1461,9 +1405,23 @@
         },
         {
             "@id": "cb:escherichia_coli",
+            "dcat:theme": {
+                "@id": "gemet:15179"
+            },
+            "skos:topConceptOf": {
+                "@id": "vlcs:bioindicator"
+            },
+            "skos:related": {
+                "@id": "co:WAC_V_A_002"
+            },
             "skos:prefLabel": {
                 "@language": "nl",
                 "@value": "Escherichia coli"
+            },
+            "skos:notation": "EColi",
+            "skos:isSubjectOf": {
+                "@language": "nl",
+                "@value": "WAC/V/A/002"
             },
             "skos:inScheme": {
                 "@id": "vlcs:bioindicator"
@@ -1472,25 +1430,7 @@
                 "@language": "nl",
                 "@value": "Escherichia coli (E. coli)"
             },
-            "skos:notation": "EColi",
-            "cs:vmmParameterId": {
-                "@value": "32",
-                "@type": "xsd:int"
-            },
-            "skos:topConceptOf": {
-                "@id": "vlcs:bioindicator"
-            },
-            "@type": "skos:Concept",
-            "dcat:theme": {
-                "@id": "gemet:15179"
-            },
-            "skos:isSubjectOf": {
-                "@language": "nl",
-                "@value": "WAC/V/A/002"
-            },
-            "skos:related": {
-                "@id": "co:WAC_V_A_002"
-            }
+            "@type": "skos:Concept"
         },
         {
             "@id": "cb:p_sub72",
@@ -1524,10 +1464,6 @@
         },
         {
             "@id": "cb:ivt",
-            "cs:vmmParameterId": {
-                "@value": "1805",
-                "@type": "xsd:int"
-            },
             "skos:topConceptOf": {
                 "@id": "vlcs:bioindicator"
             },
@@ -1543,10 +1479,6 @@
         },
         {
             "@id": "cb:dinophysis_no",
-            "cs:vmmParameterId": {
-                "@value": "924",
-                "@type": "xsd:int"
-            },
             "skos:topConceptOf": {
                 "@id": "vlcs:bioindicator"
             },
@@ -1562,10 +1494,6 @@
         },
         {
             "@id": "cb:coolia_monotis",
-            "cs:vmmParameterId": {
-                "@value": "2065",
-                "@type": "xsd:int"
-            },
             "skos:topConceptOf": {
                 "@id": "vlcs:bioindicator"
             },
@@ -1595,10 +1523,6 @@
         },
         {
             "@id": "cb:prorocentrum_lima",
-            "cs:vmmParameterId": {
-                "@value": "789",
-                "@type": "xsd:int"
-            },
             "skos:topConceptOf": {
                 "@id": "vlcs:bioindicator"
             },
@@ -1642,10 +1566,6 @@
         },
         {
             "@id": "cb:cyano",
-            "cs:vmmParameterId": {
-                "@value": "1197",
-                "@type": "xsd:int"
-            },
             "skos:topConceptOf": {
                 "@id": "vlcs:bioindicator"
             },
@@ -1823,10 +1743,6 @@
         },
         {
             "@id": "cb:corophium",
-            "cs:vmmParameterId": {
-                "@value": "1009",
-                "@type": "xsd:int"
-            },
             "skos:topConceptOf": {
                 "@id": "vlcs:bioindicator"
             },
@@ -1898,10 +1814,6 @@
         },
         {
             "@id": "cb:pyrodinium_bh",
-            "cs:vmmParameterId": {
-                "@value": "2063",
-                "@type": "xsd:int"
-            },
             "skos:topConceptOf": {
                 "@id": "vlcs:bioindicator"
             },
@@ -2012,10 +1924,6 @@
         },
         {
             "@id": "cb:msp",
-            "cs:vmmParameterId": {
-                "@value": "1008",
-                "@type": "xsd:int"
-            },
             "skos:topConceptOf": {
                 "@id": "vlcs:bioindicator"
             },
@@ -2074,10 +1982,6 @@
         },
         {
             "@id": "cb:pat__kiem",
-            "cs:vmmParameterId": {
-                "@value": "615",
-                "@type": "xsd:int"
-            },
             "skos:topConceptOf": {
                 "@id": "vlcs:bioindicator"
             },
@@ -2205,10 +2109,6 @@
         },
         {
             "@id": "cb:ha",
-            "cs:vmmParameterId": {
-                "@value": "1806",
-                "@type": "xsd:int"
-            },
             "skos:topConceptOf": {
                 "@id": "vlcs:bioindicator"
             },
@@ -2266,10 +2166,6 @@
         },
         {
             "@id": "cb:staf",
-            "cs:vmmParameterId": {
-                "@value": "37",
-                "@type": "xsd:int"
-            },
             "skos:topConceptOf": {
                 "@id": "vlcs:bioindicator"
             },
@@ -2355,10 +2251,6 @@
         },
         {
             "@id": "cb:prorocentrum_min",
-            "cs:vmmParameterId": {
-                "@value": "790",
-                "@type": "xsd:int"
-            },
             "skos:topConceptOf": {
                 "@id": "vlcs:bioindicator"
             },
@@ -2388,10 +2280,6 @@
         },
         {
             "@id": "cb:thamno",
-            "cs:vmmParameterId": {
-                "@value": "783",
-                "@type": "xsd:int"
-            },
             "skos:topConceptOf": {
                 "@id": "vlcs:bioindicator"
             },
@@ -2435,10 +2323,6 @@
         },
         {
             "@id": "cb:misvormingen",
-            "cs:vmmParameterId": {
-                "@value": "-102",
-                "@type": "xsd:int"
-            },
             "skos:topConceptOf": {
                 "@id": "vlcs:bioindicator"
             },
@@ -2496,10 +2380,6 @@
         },
         {
             "@id": "cb:fcoli",
-            "cs:vmmParameterId": {
-                "@value": "33",
-                "@type": "xsd:int"
-            },
             "skos:topConceptOf": {
                 "@id": "vlcs:bioindicator"
             },
@@ -2543,10 +2423,6 @@
         },
         {
             "@id": "cb:zwam",
-            "cs:vmmParameterId": {
-                "@value": "673",
-                "@type": "xsd:int"
-            },
             "skos:topConceptOf": {
                 "@id": "vlcs:bioindicator"
             },
@@ -2576,10 +2452,6 @@
         },
         {
             "@id": "cb:ps-nitzschia_spp_",
-            "cs:vmmParameterId": {
-                "@value": "791",
-                "@type": "xsd:int"
-            },
             "skos:topConceptOf": {
                 "@id": "vlcs:bioindicator"
             },
@@ -2609,10 +2481,6 @@
         },
         {
             "@id": "cb:dinophysis_sp",
-            "cs:vmmParameterId": {
-                "@value": "1318",
-                "@type": "xsd:int"
-            },
             "skos:topConceptOf": {
                 "@id": "vlcs:bioindicator"
             },
@@ -2656,10 +2524,6 @@
         },
         {
             "@id": "cb:alexandrium_spp_",
-            "cs:vmmParameterId": {
-                "@value": "788",
-                "@type": "xsd:int"
-            },
             "skos:topConceptOf": {
                 "@id": "vlcs:bioindicator"
             },
@@ -2746,10 +2610,6 @@
         },
         {
             "@id": "cb:fstrep",
-            "cs:vmmParameterId": {
-                "@value": "34",
-                "@type": "xsd:int"
-            },
             "skos:topConceptOf": {
                 "@id": "vlcs:bioindicator"
             },
@@ -2793,10 +2653,6 @@
         },
         {
             "@id": "cb:ie",
-            "cs:vmmParameterId": {
-                "@value": "1803",
-                "@type": "xsd:int"
-            },
             "skos:topConceptOf": {
                 "@id": "vlcs:bioindicator"
             },
@@ -2883,10 +2739,6 @@
         },
         {
             "@id": "cb:ecoli",
-            "cs:vmmParameterId": {
-                "@value": "32",
-                "@type": "xsd:int"
-            },
             "skos:topConceptOf": {
                 "@id": "vlcs:bioindicator"
             },
@@ -2944,10 +2796,6 @@
         },
         {
             "@id": "cb:gymnodinium_ct",
-            "cs:vmmParameterId": {
-                "@value": "2064",
-                "@type": "xsd:int"
-            },
             "skos:topConceptOf": {
                 "@id": "vlcs:bioindicator"
             },
@@ -3005,10 +2853,6 @@
         },
         {
             "@id": "cb:gymnodium_sp",
-            "cs:vmmParameterId": {
-                "@value": "1320",
-                "@type": "xsd:int"
-            },
             "skos:topConceptOf": {
                 "@id": "vlcs:bioindicator"
             },
@@ -3052,10 +2896,6 @@
         },
         {
             "@id": "cb:dinophysis_ft",
-            "cs:vmmParameterId": {
-                "@value": "2061",
-                "@type": "xsd:int"
-            },
             "skos:topConceptOf": {
                 "@id": "vlcs:bioindicator"
             },
@@ -3155,10 +2995,6 @@
         },
         {
             "@id": "cb:legio",
-            "cs:vmmParameterId": {
-                "@value": "928",
-                "@type": "xsd:int"
-            },
             "skos:topConceptOf": {
                 "@id": "vlcs:bioindicator"
             },
@@ -3230,10 +3066,6 @@
         },
         {
             "@id": "cb:tcoli",
-            "cs:vmmParameterId": {
-                "@value": "39",
-                "@type": "xsd:int"
-            },
             "skos:topConceptOf": {
                 "@id": "vlcs:bioindicator"
             },
@@ -3264,10 +3096,6 @@
         },
         {
             "@id": "cb:prorocentrum_mica",
-            "cs:vmmParameterId": {
-                "@value": "816",
-                "@type": "xsd:int"
-            },
             "skos:topConceptOf": {
                 "@id": "vlcs:bioindicator"
             },
@@ -3367,10 +3195,6 @@
         },
         {
             "@id": "cb:ientero",
-            "cs:vmmParameterId": {
-                "@value": "927",
-                "@type": "xsd:int"
-            },
             "skos:topConceptOf": {
                 "@id": "vlcs:bioindicator"
             },
@@ -3400,10 +3224,6 @@
         },
         {
             "@id": "cb:salm",
-            "cs:vmmParameterId": {
-                "@value": "36",
-                "@type": "xsd:int"
-            },
             "skos:topConceptOf": {
                 "@id": "vlcs:bioindicator"
             },
@@ -3500,10 +3320,6 @@
         },
         {
             "@id": "cb:ostracod",
-            "cs:vmmParameterId": {
-                "@value": "903",
-                "@type": "xsd:int"
-            },
             "skos:topConceptOf": {
                 "@id": "vlcs:bioindicator"
             },
@@ -3575,10 +3391,6 @@
         },
         {
             "@id": "cb:dinophysis_at",
-            "cs:vmmParameterId": {
-                "@value": "923",
-                "@type": "xsd:int"
-            },
             "skos:topConceptOf": {
                 "@id": "vlcs:bioindicator"
             },

@@ -1,56 +1,56 @@
-type,uri,vmmParameterId,notation,prefLabel,inScheme,topConceptOf
-skos:Concept,cb:alexandrium_spp_,788,Alexandrium spp.,Alexandrium spp.,vlcs:bioindicator,vlcs:bioindicator
-skos:Concept,cb:b_rer,,B.rer96,Brachydanio rerio,vlcs:bioindicator,vlcs:bioindicator
-skos:Concept,cb:coolia_monotis,2065,Coolia monotis,Coolia monotis,vlcs:bioindicator,vlcs:bioindicator
-skos:Concept,cb:corophium,1009,Corophium,Corophium volutator,vlcs:bioindicator,vlcs:bioindicator
-skos:Concept,cb:cyano,1197,Cyano,Cyanobacteriën,vlcs:bioindicator,vlcs:bioindicator
-skos:Concept,cb:cyano_clfyl,1782,Cyano Clfyl,Cyano Chlorofyl,vlcs:bioindicator,vlcs:bioindicator
-skos:Concept,cb:d_mag,,D.mag,Daphnia magna,vlcs:bioindicator,vlcs:bioindicator
-skos:Concept,cb:d_rer,,D.rer,Danio rerio,vlcs:bioindicator,vlcs:bioindicator
-skos:Concept,cb:dinophysis_ac,787,Dinophysis ac,Dinophysis acuminata,vlcs:bioindicator,vlcs:bioindicator
-skos:Concept,cb:dinophysis_at,923,Dinophysis at,Dinophysis acuta,vlcs:bioindicator,vlcs:bioindicator
-skos:Concept,cb:dinophysis_cd,2062,Dinophysis cd,Dinophysis caudata,vlcs:bioindicator,vlcs:bioindicator
-skos:Concept,cb:dinophysis_ft,2061,Dinophysis ft,Dinophysis fortii,vlcs:bioindicator,vlcs:bioindicator
-skos:Concept,cb:dinophysis_no,924,Dinophysis no,Dinophysis norvegica,vlcs:bioindicator,vlcs:bioindicator
-skos:Concept,cb:dinophysis_sa,925,Dinophysis sa,Dinophysis sacculus,vlcs:bioindicator,vlcs:bioindicator
-skos:Concept,cb:dinophysis_sp,1318,Dinophysis sp,Dinophysis sp,vlcs:bioindicator,vlcs:bioindicator
-skos:Concept,cb:ecoli,32,EColi,Escherichia Coli,vlcs:bioindicator,vlcs:bioindicator
-skos:Concept,cb:fcoli,33,FColi,Fecale coliformen,vlcs:bioindicator,vlcs:bioindicator
-skos:Concept,cb:fstrep,34,FStrep,Fecale Streptokokken,vlcs:bioindicator,vlcs:bioindicator
-skos:Concept,cb:fyto,,Fyto,Fytotox,vlcs:bioindicator,vlcs:bioindicator
-skos:Concept,cb:gymnodinium_ct,2064,Gymnodinium ct,Gymnodinium catenatum,vlcs:bioindicator,vlcs:bioindicator
-skos:Concept,cb:gymnodium_sp,1320,Gymnodium sp,Gymnodium sp,vlcs:bioindicator,vlcs:bioindicator
-skos:Concept,cb:ha,1806,HA,Hormoonverstorende activiteit in PM10 (LC),vlcs:bioindicator,vlcs:bioindicator
-skos:Concept,cb:hyal,780,Hyal,Hyalella,vlcs:bioindicator,vlcs:bioindicator
-skos:Concept,cb:ie,1803,IE,Inwonersequivalent,vlcs:bioindicator,vlcs:bioindicator
-skos:Concept,cb:ientero,927,IEntero,Intestinale Enterokokken,vlcs:bioindicator,vlcs:bioindicator
-skos:Concept,cb:ivt,1805,IVT,In-vitro Toxiciteit in PM10 (LC),vlcs:bioindicator,vlcs:bioindicator
-skos:Concept,cb:legio,928,Legio,Legionella,vlcs:bioindicator,vlcs:bioindicator
-skos:Concept,cb:misvormingen,-102,Misvormingen,Misvormingen,vlcs:bioindicator,vlcs:bioindicator
-skos:Concept,cb:msp,1008,MSP,Microtox Solid Phase,vlcs:bioindicator,vlcs:bioindicator
-skos:Concept,cb:mwp,,MWP,Vibrio Fischeri,vlcs:bioindicator,vlcs:bioindicator
-skos:Concept,cb:o_myk96,,O.myk96,Oncorhynchus mykiss,vlcs:bioindicator,vlcs:bioindicator
-skos:Concept,cb:ostracod,903,Ostracod,Ostracod,vlcs:bioindicator,vlcs:bioindicator
-skos:Concept,cb:p_sub72,,P.sub,Pseudokirchneriella subcapitata,vlcs:bioindicator,vlcs:bioindicator
-skos:Concept,cb:p_tric72_lt,1851,P.tric72 LT,Phaeodactylum tricornutum 72h zoutw alg,vlcs:bioindicator,vlcs:bioindicator
-skos:Concept,cb:pat__kiem,615,Pat. kiem,Pathogene kiemen,vlcs:bioindicator,vlcs:bioindicator
-skos:Concept,cb:prorocentrum_lima,789,Prorocentrum lima,Prorocentrum lima,vlcs:bioindicator,vlcs:bioindicator
-skos:Concept,cb:prorocentrum_mica,816,Prorocentrum mica,Prorocentrum micans,vlcs:bioindicator,vlcs:bioindicator
-skos:Concept,cb:prorocentrum_min,790,Prorocentrum min,Prorocentrum minimum,vlcs:bioindicator,vlcs:bioindicator
-skos:Concept,cb:ps-nitzschia_del_,2060,Ps-nitzschia del.,Pseudo-nitzschia delicatissima complex,vlcs:bioindicator,vlcs:bioindicator
-skos:Concept,cb:ps-nitzschia_ser_,2059,Ps-nitzschia ser.,Pseudo-nitzschia seriata complex,vlcs:bioindicator,vlcs:bioindicator
-skos:Concept,cb:ps-nitzschia_spp_,791,Ps-nitzschia spp.,Pseudo-nitzschia spp.,vlcs:bioindicator,vlcs:bioindicator
-skos:Concept,cb:pseud,35,Pseud,Pseudomonas aeruginosa,vlcs:bioindicator,vlcs:bioindicator
-skos:Concept,cb:pyrodinium_bh,2063,Pyrodinium bh,Pyrodinium bahamense,vlcs:bioindicator,vlcs:bioindicator
-skos:Concept,cb:pyrodinium_sp,1319,Pyrodinium sp,Pyrodinium sp,vlcs:bioindicator,vlcs:bioindicator
-skos:Concept,cb:r_sub72,,R.sub,Raphidocelis subcapitata,vlcs:bioindicator,vlcs:bioindicator
-skos:Concept,cb:salm,36,Salm,Salmonella,vlcs:bioindicator,vlcs:bioindicator
-skos:Concept,cb:staf,37,Staf,Stafylokokken,vlcs:bioindicator,vlcs:bioindicator
-skos:Concept,cb:tcoli,39,TColi,Coliformen totale,vlcs:bioindicator,vlcs:bioindicator
-skos:Concept,cb:thamno,783,Thamno,Thamnocephalus,vlcs:bioindicator,vlcs:bioindicator
-skos:Concept,cb:tk22,40,TK22,"Kiemen, totale (22°C)",vlcs:bioindicator,vlcs:bioindicator
-skos:Concept,cb:tk37,41,TK37,"Kiemen, totale (37°C)",vlcs:bioindicator,vlcs:bioindicator
-skos:Concept,cb:tn,1807,TN,Trofisch niveau,vlcs:bioindicator,vlcs:bioindicator
-skos:Concept,cb:zwam,673,Zwam,Zwamachtigen,vlcs:bioindicator,vlcs:bioindicator
-skos:Concept,cb:alexandrium_spp_,788,Alexandrium spp.,Alexandrium spp.,vlcs:bioindicator,vlcs:bioindicator
-skos:Concept,cb:legio,928,Legio,Legionella,vlcs:bioindicator,vlcs:bioindicator
+type,uri,notation,prefLabel,inScheme,topConceptOf
+skos:Concept,cb:alexandrium_spp_,Alexandrium spp.,Alexandrium spp.,vlcs:bioindicator,vlcs:bioindicator
+skos:Concept,cb:b_rer,B.rer96,Brachydanio rerio,vlcs:bioindicator,vlcs:bioindicator
+skos:Concept,cb:coolia_monotis,Coolia monotis,Coolia monotis,vlcs:bioindicator,vlcs:bioindicator
+skos:Concept,cb:corophium,Corophium,Corophium volutator,vlcs:bioindicator,vlcs:bioindicator
+skos:Concept,cb:cyano,Cyano,Cyanobacteriën,vlcs:bioindicator,vlcs:bioindicator
+skos:Concept,cb:cyano_clfyl,Cyano Clfyl,Cyano Chlorofyl,vlcs:bioindicator,vlcs:bioindicator
+skos:Concept,cb:d_mag,D.mag,Daphnia magna,vlcs:bioindicator,vlcs:bioindicator
+skos:Concept,cb:d_rer,D.rer,Danio rerio,vlcs:bioindicator,vlcs:bioindicator
+skos:Concept,cb:dinophysis_ac,Dinophysis ac,Dinophysis acuminata,vlcs:bioindicator,vlcs:bioindicator
+skos:Concept,cb:dinophysis_at,Dinophysis at,Dinophysis acuta,vlcs:bioindicator,vlcs:bioindicator
+skos:Concept,cb:dinophysis_cd,Dinophysis cd,Dinophysis caudata,vlcs:bioindicator,vlcs:bioindicator
+skos:Concept,cb:dinophysis_ft,Dinophysis ft,Dinophysis fortii,vlcs:bioindicator,vlcs:bioindicator
+skos:Concept,cb:dinophysis_no,Dinophysis no,Dinophysis norvegica,vlcs:bioindicator,vlcs:bioindicator
+skos:Concept,cb:dinophysis_sa,Dinophysis sa,Dinophysis sacculus,vlcs:bioindicator,vlcs:bioindicator
+skos:Concept,cb:dinophysis_sp,Dinophysis sp,Dinophysis sp,vlcs:bioindicator,vlcs:bioindicator
+skos:Concept,cb:ecoli,EColi,Escherichia Coli,vlcs:bioindicator,vlcs:bioindicator
+skos:Concept,cb:fcoli,FColi,Fecale coliformen,vlcs:bioindicator,vlcs:bioindicator
+skos:Concept,cb:fstrep,FStrep,Fecale Streptokokken,vlcs:bioindicator,vlcs:bioindicator
+skos:Concept,cb:fyto,Fyto,Fytotox,vlcs:bioindicator,vlcs:bioindicator
+skos:Concept,cb:gymnodinium_ct,Gymnodinium ct,Gymnodinium catenatum,vlcs:bioindicator,vlcs:bioindicator
+skos:Concept,cb:gymnodium_sp,Gymnodium sp,Gymnodium sp,vlcs:bioindicator,vlcs:bioindicator
+skos:Concept,cb:ha,HA,Hormoonverstorende activiteit in PM10 (LC),vlcs:bioindicator,vlcs:bioindicator
+skos:Concept,cb:hyal,Hyal,Hyalella,vlcs:bioindicator,vlcs:bioindicator
+skos:Concept,cb:ie,IE,Inwonersequivalent,vlcs:bioindicator,vlcs:bioindicator
+skos:Concept,cb:ientero,IEntero,Intestinale Enterokokken,vlcs:bioindicator,vlcs:bioindicator
+skos:Concept,cb:ivt,IVT,In-vitro Toxiciteit in PM10 (LC),vlcs:bioindicator,vlcs:bioindicator
+skos:Concept,cb:legio,Legio,Legionella,vlcs:bioindicator,vlcs:bioindicator
+skos:Concept,cb:misvormingen,Misvormingen,Misvormingen,vlcs:bioindicator,vlcs:bioindicator
+skos:Concept,cb:msp,MSP,Microtox Solid Phase,vlcs:bioindicator,vlcs:bioindicator
+skos:Concept,cb:mwp,MWP,Vibrio Fischeri,vlcs:bioindicator,vlcs:bioindicator
+skos:Concept,cb:o_myk96,O.myk96,Oncorhynchus mykiss,vlcs:bioindicator,vlcs:bioindicator
+skos:Concept,cb:ostracod,Ostracod,Ostracod,vlcs:bioindicator,vlcs:bioindicator
+skos:Concept,cb:p_sub72,P.sub,Pseudokirchneriella subcapitata,vlcs:bioindicator,vlcs:bioindicator
+skos:Concept,cb:p_tric72_lt,P.tric72 LT,Phaeodactylum tricornutum 72h zoutw alg,vlcs:bioindicator,vlcs:bioindicator
+skos:Concept,cb:pat__kiem,Pat. kiem,Pathogene kiemen,vlcs:bioindicator,vlcs:bioindicator
+skos:Concept,cb:prorocentrum_lima,Prorocentrum lima,Prorocentrum lima,vlcs:bioindicator,vlcs:bioindicator
+skos:Concept,cb:prorocentrum_mica,Prorocentrum mica,Prorocentrum micans,vlcs:bioindicator,vlcs:bioindicator
+skos:Concept,cb:prorocentrum_min,Prorocentrum min,Prorocentrum minimum,vlcs:bioindicator,vlcs:bioindicator
+skos:Concept,cb:ps-nitzschia_del_,Ps-nitzschia del.,Pseudo-nitzschia delicatissima complex,vlcs:bioindicator,vlcs:bioindicator
+skos:Concept,cb:ps-nitzschia_ser_,Ps-nitzschia ser.,Pseudo-nitzschia seriata complex,vlcs:bioindicator,vlcs:bioindicator
+skos:Concept,cb:ps-nitzschia_spp_,Ps-nitzschia spp.,Pseudo-nitzschia spp.,vlcs:bioindicator,vlcs:bioindicator
+skos:Concept,cb:pseud,Pseud,Pseudomonas aeruginosa,vlcs:bioindicator,vlcs:bioindicator
+skos:Concept,cb:pyrodinium_bh,Pyrodinium bh,Pyrodinium bahamense,vlcs:bioindicator,vlcs:bioindicator
+skos:Concept,cb:pyrodinium_sp,Pyrodinium sp,Pyrodinium sp,vlcs:bioindicator,vlcs:bioindicator
+skos:Concept,cb:r_sub72,R.sub,Raphidocelis subcapitata,vlcs:bioindicator,vlcs:bioindicator
+skos:Concept,cb:salm,Salm,Salmonella,vlcs:bioindicator,vlcs:bioindicator
+skos:Concept,cb:staf,Staf,Stafylokokken,vlcs:bioindicator,vlcs:bioindicator
+skos:Concept,cb:tcoli,TColi,Coliformen totale,vlcs:bioindicator,vlcs:bioindicator
+skos:Concept,cb:thamno,Thamno,Thamnocephalus,vlcs:bioindicator,vlcs:bioindicator
+skos:Concept,cb:tk22,TK22,"Kiemen, totale (22°C)",vlcs:bioindicator,vlcs:bioindicator
+skos:Concept,cb:tk37,TK37,"Kiemen, totale (37°C)",vlcs:bioindicator,vlcs:bioindicator
+skos:Concept,cb:tn,TN,Trofisch niveau,vlcs:bioindicator,vlcs:bioindicator
+skos:Concept,cb:zwam,Zwam,Zwamachtigen,vlcs:bioindicator,vlcs:bioindicator
+skos:Concept,cb:alexandrium_spp_,Alexandrium spp.,Alexandrium spp.,vlcs:bioindicator,vlcs:bioindicator
+skos:Concept,cb:legio,Legio,Legionella,vlcs:bioindicator,vlcs:bioindicator
