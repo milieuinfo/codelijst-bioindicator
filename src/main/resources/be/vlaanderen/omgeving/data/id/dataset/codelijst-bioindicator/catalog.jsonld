@@ -1,38 +1,24 @@
 {
     "@graph": [
         {
-            "@id": "omg_distribution:codelijst-bioindicator_ttl.1.1.2",
+            "@id": "omg_distribution:codelijst-bioindicator_ttl.1.1.3",
+            "dcterms:issued": {
+                "@value": "2023-06-26",
+                "@type": "xsd:date"
+            },
+            "foaf:page": {
+                "@id": "https://data.omgeving.vlaanderen.be/doc/distribution/codelijst-bioindicator_ttl.html"
+            },
             "@type": "dcat:Distribution",
             "rdfs:label": {
                 "@language": "nl",
                 "@value": "Codelijst bioindicator, in Turtle rdf-formaat."
             },
-            "owl:versionInfo": "1.1.2",
-            "dcterms:format": {
-                "@id": "file_type:RDF_TURTLE"
-            },
-            "dcterms:issued": {
-                "@value": "2023-02-21",
-                "@type": "xsd:date"
-            },
-            "dc:identifier": "be.vlaanderen.omgeving.data.id.distribution.codelijst-bioindicator_ttl.1.1.2",
             "dcterms:accessRights": {
                 "@id": "access_right:PUBLIC"
             },
             "dcat:mediaType": {
                 "@id": "https://www.iana.org/assignments/media-types/text/turtle"
-            },
-            "foaf:page": {
-                "@id": "https://data.omgeving.vlaanderen.be/doc/distribution/codelijst-bioindicator_ttl.html"
-            },
-            "dcat:accessURL": {
-                "@id": "https://github.com/milieuinfo/codelijst-bioindicator.git"
-            },
-            "dcterms:rightsHolder": {
-                "@id": "ovo:OVO003751"
-            },
-            "dcat:downloadURL": {
-                "@id": "https://raw.githubusercontent.com/milieuinfo/codelijst-bioindicator/codelijst-bioindicator-1.1.2/src/main/resources/be/vlaanderen/omgeving/data/id/conceptscheme/bioindicator/bioindicator.ttl"
             },
             "dcterms:title": {
                 "@language": "nl",
@@ -42,263 +28,80 @@
                 "@language": "nl",
                 "@value": "Codelijst bioindicator, geserialiseerd in Turtle bestand."
             },
+            "dc:identifier": "be.vlaanderen.omgeving.data.id.distribution.codelijst-bioindicator_ttl.1.1.3",
+            "dcterms:rightsHolder": {
+                "@id": "ovo:OVO003751"
+            },
+            "dcterms:format": {
+                "@id": "file_type:RDF_TURTLE"
+            },
             "dcterms:identifier": {
-                "@id": "omg_distribution:codelijst-bioindicator_ttl.1.1.2"
+                "@id": "omg_distribution:codelijst-bioindicator_ttl.1.1.3"
+            },
+            "dcat:downloadURL": {
+                "@id": "https://raw.githubusercontent.com/milieuinfo/codelijst-bioindicator/codelijst-bioindicator-1.1.3/src/main/resources/be/vlaanderen/omgeving/data/id/conceptscheme/bioindicator/bioindicator.ttl"
             },
             "dcat:compressFormat": {
                 "@id": "http://www.iana.org/assignments/media-types/application/gzip"
-            }
+            },
+            "dcat:accessURL": {
+                "@id": "https://github.com/milieuinfo/codelijst-bioindicator.git"
+            },
+            "owl:versionInfo": "1.1.3"
         },
         {
-            "@id": "omg_distribution:codelijst-bioindicator_csv.1.1.2",
-            "foaf:page": {
-                "@id": "https://data.omgeving.vlaanderen.be/doc/distribution/codelijst-bioindicator_csv.html"
+            "@id": "omg_distribution:codelijst-bioindicator_csv.1.1.3",
+            "dcat:compressFormat": {
+                "@id": "http://www.iana.org/assignments/media-types/application/gzip"
             },
-            "dc:identifier": "be.vlaanderen.omgeving.data.id.distribution.codelijst-bioindicator_csv.1.1.2",
-            "dcterms:accessRights": {
-                "@id": "access_right:PUBLIC"
-            },
-            "owl:versionInfo": "1.1.2",
-            "@type": "dcat:Distribution",
-            "rdfs:label": {
-                "@language": "nl",
-                "@value": "Codelijst bioindicator, in text/csv formaat."
-            },
+            "dc:identifier": "be.vlaanderen.omgeving.data.id.distribution.codelijst-bioindicator_csv.1.1.3",
             "dcterms:format": {
                 "@id": "file_type:CSV"
             },
-            "dcat:downloadURL": {
-                "@id": "https://raw.githubusercontent.com/milieuinfo/codelijst-bioindicator/codelijst-bioindicator-1.1.2/src/main/resources/be/vlaanderen/omgeving/data/id/conceptscheme/bioindicator/bioindicator.csv"
+            "owl:versionInfo": "1.1.3",
+            "dcterms:rightsHolder": {
+                "@id": "ovo:OVO003751"
+            },
+            "dcterms:issued": {
+                "@value": "2023-06-26",
+                "@type": "xsd:date"
             },
             "dcat:mediaType": {
                 "@id": "https://www.iana.org/assignments/media-types/text/csv"
             },
-            "dcat:compressFormat": {
-                "@id": "http://www.iana.org/assignments/media-types/application/gzip"
+            "dcterms:identifier": {
+                "@id": "omg_distribution:codelijst-bioindicator_csv.1.1.3"
+            },
+            "@type": "dcat:Distribution",
+            "dcat:accessURL": {
+                "@id": "https://github.com/milieuinfo/codelijst-bioindicator.git"
             },
             "dcterms:title": {
                 "@language": "nl",
                 "@value": "Codelijst bioindicator in text/csv formaat."
             },
-            "dcterms:rightsHolder": {
-                "@id": "ovo:OVO003751"
+            "dcterms:accessRights": {
+                "@id": "access_right:PUBLIC"
             },
-            "dcterms:issued": {
-                "@value": "2023-02-21",
-                "@type": "xsd:date"
+            "dcat:downloadURL": {
+                "@id": "https://raw.githubusercontent.com/milieuinfo/codelijst-bioindicator/codelijst-bioindicator-1.1.3/src/main/resources/be/vlaanderen/omgeving/data/id/conceptscheme/bioindicator/bioindicator.csv"
+            },
+            "foaf:page": {
+                "@id": "https://data.omgeving.vlaanderen.be/doc/distribution/codelijst-bioindicator_csv.html"
             },
             "dcterms:description": {
                 "@language": "nl",
                 "@value": "Codelijst bioindicator, geserialiseerd in csv tabelformaat."
             },
-            "dcat:accessURL": {
-                "@id": "https://github.com/milieuinfo/codelijst-bioindicator.git"
-            },
-            "dcterms:identifier": {
-                "@id": "omg_distribution:codelijst-bioindicator_csv.1.1.2"
-            }
-        },
-        {
-            "@id": "omg_dataset:codelijst-bioindicator.1.1.2",
-            "dcterms:issued": {
-                "@value": "2023-02-21",
-                "@type": "xsd:date"
-            },
-            "dcterms:spatial": [
-                {
-                    "@id": "https://www.geonames.org/3337388/flanders"
-                },
-                {
-                    "@id": "country:BEL"
-                }
-            ],
-            "dcat:theme": [
-                {
-                    "@id": "datatheme_eu:ENVI"
-                },
-                {
-                    "@id": "eurovoc:2407"
-                },
-                {
-                    "@id": "datatheme_be:ENVI"
-                },
-                {
-                    "@id": "gemet:10087"
-                }
-            ],
-            "dcat:distribution": [
-                {
-                    "@id": "omg_distribution:codelijst-bioindicator_csv.1.1.2"
-                },
-                {
-                    "@id": "omg_distribution:codelijst-bioindicator_jsonld.1.1.2"
-                },
-                {
-                    "@id": "omg_distribution:codelijst-bioindicator_ttl.1.1.2"
-                },
-                {
-                    "@id": "omg_id:package/be.vlaanderen.omgeving.data.id.graph.codelijst-bioindicator.1.1.2"
-                }
-            ],
             "rdfs:label": {
                 "@language": "nl",
-                "@value": "Dataset Codelijst bioindicator"
-            },
-            "dcterms:alternative": {
-                "@language": "nl",
-                "@value": "Codelijst bioindicator Dataset"
-            },
-            "dcat:landingPage": {
-                "@id": "https://data.omgeving.vlaanderen.be/doc/catalog/codelijst.html"
-            },
-            "dcat:contactPoint": {
-                "@id": "omg_id:vcard/helpdesk"
-            },
-            "owl:versionInfo": "1.1.2",
-            "dcterms:title": {
-                "@language": "nl",
-                "@value": "Thesaurus bio-indicatoren"
-            },
-            "foaf:page": {
-                "@id": "https://data.omgeving.vlaanderen.be/doc/dataset/codelijst-bioindicator.html"
-            },
-            "dcterms:description": {
-                "@language": "nl",
-                "@value": "Deze dataset bevat een lijst van bio-indicatoren, die gebruikt worden binnen het beleidsdomein omgeving van de Vlaamse Overheid en zoals die initieel binnen het kader van het OSLO thema omgeving is opgesteld."
-            },
-            "dcterms:publisher": {
-                "@id": "ovo:OVO003323"
-            },
-            "dcterms:language": {
-                "@id": "language:NLD"
-            },
-            "dcterms:identifier": {
-                "@id": "omg_dataset:codelijst-bioindicator.1.1.2"
-            },
-            "@type": "dcat:Dataset",
-            "void:rootResource": {
-                "@id": "omg_conceptscheme:bioindicator"
-            },
-            "dc:language": {
-                "@language": "nl",
-                "@value": "nl"
-            },
-            "dcterms:rightsHolder": {
-                "@id": "ovo:OVO003751"
-            },
-            "dcterms:accessRights": {
-                "@id": "access_right:PUBLIC"
-            },
-            "dcterms:accrualPeriodicity": {
-                "@id": "frequency:IRREG"
-            },
-            "dcterms:temporal": {
-                "@id": "omg_id:periodoftime/dataset_omg"
-            },
-            "dc:identifier": "be.vlaanderen.omgeving.data.id.dataset.codelijst-bioindicator.1.1.2",
-            "dcterms:license": {
-                "@id": "http://data.vlaanderen.be/id/licentie/modellicentie-gratis-hergebruik/v1.0"
-            }
-        },
-        {
-            "@id": "omg_distribution:codelijst-bioindicator_jsonld.1.1.2",
-            "dcterms:accessRights": {
-                "@id": "access_right:PUBLIC"
-            },
-            "dcterms:description": {
-                "@language": "nl",
-                "@value": "Codelijst bioindicator, geserialiseerd in een jsonld bestand."
-            },
-            "dcat:downloadURL": {
-                "@id": "https://raw.githubusercontent.com/milieuinfo/codelijst-bioindicator/codelijst-bioindicator-1.1.2/src/main/resources/be/vlaanderen/omgeving/data/id/conceptscheme/bioindicator/bioindicator.jsonld"
-            },
-            "dcterms:issued": {
-                "@value": "2023-02-21",
-                "@type": "xsd:date"
-            },
-            "dcat:accessURL": {
-                "@id": "https://github.com/milieuinfo/codelijst-bioindicator.git"
-            },
-            "dcterms:title": {
-                "@language": "nl",
-                "@value": "Codelijst bioindicator in jsonld rdf-formaat."
-            },
-            "rdfs:label": {
-                "@language": "nl",
-                "@value": "Codelijst bioindicator, in jsonld rdf-formaat."
-            },
-            "dcat:mediaType": {
-                "@id": "https://www.iana.org/assignments/media-types/application/ld+json"
-            },
-            "dcat:compressFormat": {
-                "@id": "http://www.iana.org/assignments/media-types/application/gzip"
-            },
-            "dc:identifier": "be.vlaanderen.omgeving.data.id.distribution.codelijst-bioindicator_jsonld.1.1.2",
-            "@type": "dcat:Distribution",
-            "owl:versionInfo": "1.1.2",
-            "foaf:page": {
-                "@id": "https://data.omgeving.vlaanderen.be/doc/distribution/codelijst-bioindicator_jsonld.html"
-            },
-            "dcterms:identifier": {
-                "@id": "omg_distribution:codelijst-bioindicator_jsonld.1.1.2"
-            },
-            "dcterms:format": {
-                "@id": "file_type:JSON_LD"
-            },
-            "dcterms:rightsHolder": {
-                "@id": "ovo:OVO003751"
-            }
-        },
-        {
-            "@id": "omg_id:package/be.vlaanderen.omgeving.data.id.graph.codelijst-bioindicator.1.1.2",
-            "dcterms:description": {
-                "@language": "nl",
-                "@value": "Codelijst bioindicator, Jar maven package."
-            },
-            "dcterms:identifier": {
-                "@id": "omg_id:package/be.vlaanderen.omgeving.data.id.graph.codelijst-bioindicator.1.1.2"
-            },
-            "@type": [
-                "dcat:Distribution",
-                "spdx:Package"
-            ],
-            "rdfs:label": {
-                "@language": "nl",
-                "@value": "Package codelijst-bioindicator"
-            },
-            "dcterms:format": {
-                "@id": "file_type:JAR"
-            },
-            "dc:identifier": "be.vlaanderen.omgeving.data.id.graph.codelijst-bioindicator.1.1.2",
-            "dcat:downloadURL": {
-                "@id": "https://repo.omgeving.vlaanderen.be/artifactory/release/be/vlaanderen/omgeving/data/id/graph/codelijst-bioindicator/1.1.2/codelijst-bioindicator-1.1.2.jar"
-            },
-            "owl:versionInfo": "1.1.2",
-            "dcterms:rightsHolder": {
-                "@id": "ovo:OVO003751"
-            },
-            "spdx:packageName": "be.vlaanderen.omgeving.data.id.graph.codelijst-bioindicator",
-            "spdx:downloadLocation": {
-                "@id": "https://repo.omgeving.vlaanderen.be/artifactory/release/be/vlaanderen/omgeving/data/id/graph/codelijst-bioindicator/1.1.2/codelijst-bioindicator-1.1.2.jar"
-            },
-            "dcterms:accessRights": {
-                "@id": "access_right:PUBLIC"
-            },
-            "spdx:versionInfo": "1.1.2",
-            "dcterms:issued": {
-                "@value": "2023-02-21",
-                "@type": "xsd:date"
-            },
-            "spdx:packageFileName": "codelijst-bioindicator-1.1.2.jar",
-            "dcterms:title": {
-                "@language": "nl",
-                "@value": "Codelijst bioindicator in jar-formaat."
+                "@value": "Codelijst bioindicator, in text/csv formaat."
             }
         },
         {
             "@id": "omg_dataset:codelijst-bioindicator",
             "dcterms:hasVersion": {
-                "@id": "omg_dataset:codelijst-bioindicator.1.1.2"
+                "@id": "omg_dataset:codelijst-bioindicator.1.1.3"
             },
             "rdfs:label": {
                 "@language": "nl",
@@ -307,11 +110,208 @@
             "@type": "dcat:Dataset"
         },
         {
+            "@id": "omg_dataset:codelijst-bioindicator.1.1.3",
+            "dcat:theme": [
+                {
+                    "@id": "datatheme_eu:ENVI"
+                },
+                {
+                    "@id": "datatheme_be:ENVI"
+                },
+                {
+                    "@id": "gemet:10087"
+                },
+                {
+                    "@id": "eurovoc:2407"
+                }
+            ],
+            "dcterms:accessRights": {
+                "@id": "access_right:PUBLIC"
+            },
+            "void:rootResource": {
+                "@id": "omg_conceptscheme:bioindicator"
+            },
+            "dcterms:title": {
+                "@language": "nl",
+                "@value": "Thesaurus bio-indicatoren"
+            },
+            "dcterms:license": {
+                "@id": "http://data.vlaanderen.be/id/licentie/modellicentie-gratis-hergebruik/v1.0"
+            },
+            "dcterms:temporal": {
+                "@id": "omg_id:periodoftime/dataset_omg"
+            },
+            "dcterms:publisher": {
+                "@id": "ovo:OVO003323"
+            },
+            "@type": "dcat:Dataset",
+            "dcat:distribution": [
+                {
+                    "@id": "omg_distribution:codelijst-bioindicator_jsonld.1.1.3"
+                },
+                {
+                    "@id": "omg_distribution:codelijst-bioindicator_csv.1.1.3"
+                },
+                {
+                    "@id": "omg_id:package/be.vlaanderen.omgeving.data.id.graph.codelijst-bioindicator.1.1.3"
+                },
+                {
+                    "@id": "omg_distribution:codelijst-bioindicator_ttl.1.1.3"
+                }
+            ],
+            "dcterms:identifier": {
+                "@id": "omg_dataset:codelijst-bioindicator.1.1.3"
+            },
+            "dcterms:accrualPeriodicity": {
+                "@id": "frequency:IRREG"
+            },
+            "dcterms:spatial": [
+                {
+                    "@id": "country:BEL"
+                },
+                {
+                    "@id": "https://www.geonames.org/3337388/flanders"
+                }
+            ],
+            "dcat:contactPoint": {
+                "@id": "omg_id:vcard/helpdesk"
+            },
+            "dcterms:alternative": {
+                "@language": "nl",
+                "@value": "Codelijst bioindicator Dataset"
+            },
+            "owl:versionInfo": "1.1.3",
+            "dcterms:issued": {
+                "@value": "2023-06-26",
+                "@type": "xsd:date"
+            },
+            "dcat:landingPage": {
+                "@id": "https://data.omgeving.vlaanderen.be/doc/catalog/codelijst.html"
+            },
+            "dc:identifier": "be.vlaanderen.omgeving.data.id.dataset.codelijst-bioindicator.1.1.3",
+            "dcterms:language": {
+                "@id": "language:NLD"
+            },
+            "dc:language": {
+                "@language": "nl",
+                "@value": "nl"
+            },
+            "dcterms:description": {
+                "@language": "nl",
+                "@value": "Deze dataset bevat een lijst van bio-indicatoren, die gebruikt worden binnen het beleidsdomein omgeving van de Vlaamse Overheid en zoals die initieel binnen het kader van het OSLO thema omgeving is opgesteld."
+            },
+            "rdfs:label": {
+                "@language": "nl",
+                "@value": "Dataset Codelijst bioindicator"
+            },
+            "foaf:page": {
+                "@id": "https://data.omgeving.vlaanderen.be/doc/dataset/codelijst-bioindicator.html"
+            },
+            "dcterms:rightsHolder": {
+                "@id": "ovo:OVO003751"
+            }
+        },
+        {
             "@id": "omg_catalog:codelijst",
             "dcat:dataset": {
                 "@id": "omg_dataset:codelijst-bioindicator"
             },
             "@type": "dcat:Catalog"
+        },
+        {
+            "@id": "omg_distribution:codelijst-bioindicator_jsonld.1.1.3",
+            "rdfs:label": {
+                "@language": "nl",
+                "@value": "Codelijst bioindicator, in jsonld rdf-formaat."
+            },
+            "dcterms:format": {
+                "@id": "file_type:JSON_LD"
+            },
+            "dcterms:description": {
+                "@language": "nl",
+                "@value": "Codelijst bioindicator, geserialiseerd in een jsonld bestand."
+            },
+            "dc:identifier": "be.vlaanderen.omgeving.data.id.distribution.codelijst-bioindicator_jsonld.1.1.3",
+            "dcat:compressFormat": {
+                "@id": "http://www.iana.org/assignments/media-types/application/gzip"
+            },
+            "dcat:accessURL": {
+                "@id": "https://github.com/milieuinfo/codelijst-bioindicator.git"
+            },
+            "dcterms:title": {
+                "@language": "nl",
+                "@value": "Codelijst bioindicator in jsonld rdf-formaat."
+            },
+            "dcterms:identifier": {
+                "@id": "omg_distribution:codelijst-bioindicator_jsonld.1.1.3"
+            },
+            "dcat:downloadURL": {
+                "@id": "https://raw.githubusercontent.com/milieuinfo/codelijst-bioindicator/codelijst-bioindicator-1.1.3/src/main/resources/be/vlaanderen/omgeving/data/id/conceptscheme/bioindicator/bioindicator.jsonld"
+            },
+            "dcterms:issued": {
+                "@value": "2023-06-26",
+                "@type": "xsd:date"
+            },
+            "owl:versionInfo": "1.1.3",
+            "dcat:mediaType": {
+                "@id": "https://www.iana.org/assignments/media-types/application/ld+json"
+            },
+            "dcterms:rightsHolder": {
+                "@id": "ovo:OVO003751"
+            },
+            "@type": "dcat:Distribution",
+            "foaf:page": {
+                "@id": "https://data.omgeving.vlaanderen.be/doc/distribution/codelijst-bioindicator_jsonld.html"
+            },
+            "dcterms:accessRights": {
+                "@id": "access_right:PUBLIC"
+            }
+        },
+        {
+            "@id": "omg_id:package/be.vlaanderen.omgeving.data.id.graph.codelijst-bioindicator.1.1.3",
+            "dcterms:issued": {
+                "@value": "2023-06-26",
+                "@type": "xsd:date"
+            },
+            "@type": [
+                "spdx:Package",
+                "dcat:Distribution"
+            ],
+            "dc:identifier": "be.vlaanderen.omgeving.data.id.graph.codelijst-bioindicator.1.1.3",
+            "spdx:packageFileName": "codelijst-bioindicator-1.1.3.jar",
+            "rdfs:label": {
+                "@language": "nl",
+                "@value": "Package codelijst-bioindicator"
+            },
+            "dcterms:identifier": {
+                "@id": "omg_id:package/be.vlaanderen.omgeving.data.id.graph.codelijst-bioindicator.1.1.3"
+            },
+            "dcterms:format": {
+                "@id": "file_type:JAR"
+            },
+            "dcterms:title": {
+                "@language": "nl",
+                "@value": "Codelijst bioindicator in jar-formaat."
+            },
+            "dcterms:description": {
+                "@language": "nl",
+                "@value": "Codelijst bioindicator, Jar maven package."
+            },
+            "spdx:downloadLocation": {
+                "@id": "https://repo.omgeving.vlaanderen.be/artifactory/release/be/vlaanderen/omgeving/data/id/graph/codelijst-bioindicator/1.1.3/codelijst-bioindicator-1.1.3.jar"
+            },
+            "dcterms:rightsHolder": {
+                "@id": "ovo:OVO003751"
+            },
+            "spdx:versionInfo": "1.1.3",
+            "dcat:downloadURL": {
+                "@id": "https://repo.omgeving.vlaanderen.be/artifactory/release/be/vlaanderen/omgeving/data/id/graph/codelijst-bioindicator/1.1.3/codelijst-bioindicator-1.1.3.jar"
+            },
+            "owl:versionInfo": "1.1.3",
+            "dcterms:accessRights": {
+                "@id": "access_right:PUBLIC"
+            },
+            "spdx:packageName": "be.vlaanderen.omgeving.data.id.graph.codelijst-bioindicator"
         }
     ],
     "@context": {
