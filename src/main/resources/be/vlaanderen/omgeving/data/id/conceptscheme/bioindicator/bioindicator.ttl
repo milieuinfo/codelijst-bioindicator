@@ -1,1133 +1,706 @@
-@prefix cb:    <https://data.omgeving.vlaanderen.be/id/concept/bioindicator/> .
-@prefix co:    <https://data.omgeving.vlaanderen.be/id/concept/observatieprocedure/> .
-@prefix cob:   <https://data.omgeving.vlaanderen.be/id/collection/bioindicator/> .
-@prefix cs:    <https://data.vlaanderen.be/ns/chemische_stof#> .
-@prefix dc:    <http://purl.org/dc/elements/1.1/> .
-@prefix dcat:  <http://www.w3.org/ns/dcat#> .
-@prefix dct:   <http://purl.org/dc/terms/> .
-@prefix gemet: <http://www.eionet.europa.eu/gemet/concept/> .
-@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
-@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
-@prefix vlcs:  <https://data.omgeving.vlaanderen.be/id/conceptscheme/> .
-@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
-
-cb:clostridium_tertium
-        a                  skos:Concept ;
-        skos:inScheme      vlcs:bioindicator ;
-        skos:prefLabel     "Clostridium tertium"@nl ;
-        skos:topConceptOf  vlcs:bioindicator .
-
-cb:tk37  a                 skos:Concept ;
-        skos:inScheme      vlcs:bioindicator ;
-        skos:notation      "TK37" ;
-        skos:prefLabel     "Kiemen, totale (37°C)"@nl ;
-        skos:topConceptOf  vlcs:bioindicator .
-
-cb:staphylococcus_pasteuri
-        a                  skos:Concept ;
-        skos:inScheme      vlcs:bioindicator ;
-        skos:prefLabel     "Staphylococcus pasteuri"@nl ;
-        skos:topConceptOf  vlcs:bioindicator .
-
-cb:enterococcus_mundtii
-        a                  skos:Concept ;
-        skos:inScheme      vlcs:bioindicator ;
-        skos:prefLabel     "Enterococcus mundtii"@nl ;
-        skos:topConceptOf  vlcs:bioindicator .
-
-cb:intestinale_enterococci
-        a                  skos:Concept ;
-        skos:altLabel      "enterokokken"@nl ;
-        skos:inScheme      vlcs:bioindicator ;
-        skos:isSubjectOf   "WAC/V/A/003"@nl ;
-        skos:prefLabel     "intestinale enterococci"@nl ;
-        skos:related       co:WAC_V_A_003 ;
-        skos:topConceptOf  vlcs:bioindicator ;
-        dcat:theme         gemet:15179 .
-
-cb:enterococcus_casseliflavus
-        a                  skos:Concept ;
-        skos:inScheme      vlcs:bioindicator ;
-        skos:prefLabel     "Enterococcus casseliflavus"@nl ;
-        skos:topConceptOf  vlcs:bioindicator .
-
-cb:enterococcus_italicus
-        a                  skos:Concept ;
-        skos:inScheme      vlcs:bioindicator ;
-        skos:prefLabel     "Enterococcus italicus"@nl ;
-        skos:topConceptOf  vlcs:bioindicator .
-
-cb:phaeodactylum_tricornutum
-        a                  skos:Concept ;
-        skos:altLabel      "Mariene alg"@nl ;
-        skos:inScheme      vlcs:bioindicator ;
-        skos:isSubjectOf   "WAC/V/B/003"@nl ;
-        skos:prefLabel     "Phaeodactylum tricornutum"@nl ;
-        skos:related       co:WAC_V_B_003 ;
-        skos:topConceptOf  vlcs:bioindicator ;
-        dcat:theme         gemet:15179 .
-
-cb:b_rer  a                skos:Concept ;
-        skos:inScheme      vlcs:bioindicator ;
-        skos:notation      "B.rer96" ;
-        skos:prefLabel     "Brachydanio rerio"@nl ;
-        skos:topConceptOf  vlcs:bioindicator .
-
-cb:buttiauxella_gaviniae
-        a                  skos:Concept ;
-        skos:inScheme      vlcs:bioindicator ;
-        skos:prefLabel     "Buttiauxella gaviniae"@nl ;
-        skos:topConceptOf  vlcs:bioindicator .
-
-cb:enterococcus_aquimarinus
-        a                  skos:Concept ;
-        skos:inScheme      vlcs:bioindicator ;
-        skos:prefLabel     "Enterococcus aquimarinus"@nl ;
-        skos:topConceptOf  vlcs:bioindicator .
-
-cb:enterococcus_faecium
-        a                  skos:Concept ;
-        skos:inScheme      vlcs:bioindicator ;
-        skos:prefLabel     "Enterococcus faecium"@nl ;
-        skos:topConceptOf  vlcs:bioindicator .
-
-cb:reovirussen  a          skos:Concept ;
-        skos:inScheme      vlcs:bioindicator ;
-        skos:prefLabel     "Reovirussen"@nl ;
-        skos:topConceptOf  vlcs:bioindicator .
-
-cb:cyano_clfyl  a          skos:Concept ;
-        skos:inScheme      vlcs:bioindicator ;
-        skos:notation      "Cyano Clfyl" ;
-        skos:prefLabel     "Cyano Chlorofyl"@nl ;
-        skos:topConceptOf  vlcs:bioindicator .
-
-cb:dinophysis_sa  a        skos:Concept ;
-        skos:inScheme      vlcs:bioindicator ;
-        skos:notation      "Dinophysis sa" ;
-        skos:prefLabel     "Dinophysis sacculus"@nl ;
-        skos:topConceptOf  vlcs:bioindicator .
-
-cb:kluyvera  a             skos:Concept ;
-        skos:inScheme      vlcs:bioindicator ;
-        skos:prefLabel     "Kluyvera"@nl ;
-        skos:topConceptOf  vlcs:bioindicator .
-
-cb:gallionella  a          skos:Concept ;
-        skos:inScheme      vlcs:bioindicator ;
-        skos:prefLabel     "Gallionella"@nl ;
-        skos:topConceptOf  vlcs:bioindicator .
-
-cb:phoma  a                skos:Concept ;
-        skos:inScheme      vlcs:bioindicator ;
-        skos:prefLabel     "Phoma"@nl ;
-        skos:topConceptOf  vlcs:bioindicator .
-
-cb:pseud  a                skos:Concept ;
-        skos:inScheme      vlcs:bioindicator ;
-        skos:notation      "Pseud" ;
-        skos:prefLabel     "Pseudomonas aeruginosa"@nl ;
-        skos:topConceptOf  vlcs:bioindicator .
-
-cb:scopulariopsis  a       skos:Concept ;
-        skos:inScheme      vlcs:bioindicator ;
-        skos:prefLabel     "Scopulariopsis"@nl ;
-        skos:topConceptOf  vlcs:bioindicator .
-
-cb:enterococcus_phoeniculicola
-        a                  skos:Concept ;
-        skos:inScheme      vlcs:bioindicator ;
-        skos:prefLabel     "Enterococcus phoeniculicola"@nl ;
-        skos:topConceptOf  vlcs:bioindicator .
-
-cb:streptococcus  a        skos:Concept ;
-        skos:inScheme      vlcs:bioindicator ;
-        skos:prefLabel     "Streptococcus"@nl ;
-        skos:topConceptOf  vlcs:bioindicator .
-
-cb:bacillus_cereus  a      skos:Concept ;
-        skos:inScheme      vlcs:bioindicator ;
-        skos:prefLabel     "Bacillus cereus"@nl ;
-        skos:topConceptOf  vlcs:bioindicator .
-
-cb:aureobasidium_pullulans
-        a                  skos:Concept ;
-        skos:inScheme      vlcs:bioindicator ;
-        skos:prefLabel     "Aureobasidium pullulans"@nl ;
-        skos:topConceptOf  vlcs:bioindicator .
-
-cb:thermofiele_actinomyceten
-        a                  skos:Concept ;
-        skos:inScheme      vlcs:bioindicator ;
-        skos:prefLabel     "Thermofiele Actinomyceten"@nl ;
-        skos:topConceptOf  vlcs:bioindicator .
-
-cb:ps-nitzschia_del_  a    skos:Concept ;
-        skos:inScheme      vlcs:bioindicator ;
-        skos:notation      "Ps-nitzschia del." ;
-        skos:prefLabel     "Pseudo-nitzschia delicatissima complex"@nl ;
-        skos:topConceptOf  vlcs:bioindicator .
-
-cb:enterococcus_thailandicus
-        a                  skos:Concept ;
-        skos:inScheme      vlcs:bioindicator ;
-        skos:prefLabel     "Enterococcus thailandicus"@nl ;
-        skos:topConceptOf  vlcs:bioindicator .
-
-cb:legionella_spp._  a     skos:Concept ;
-        skos:altLabel      "Legionella spp."@nl ;
-        skos:inScheme      vlcs:bioindicator ;
-        skos:isSubjectOf   "WAC/V/A/005"@nl ;
-        skos:notation      "Legio" ;
-        skos:prefLabel     "Legionella spp."@nl ;
-        skos:related       co:WAC_V_A_005 ;
-        skos:topConceptOf  vlcs:bioindicator ;
-        dcat:theme         gemet:15179 .
-
-cb:enterobacter_cloacae
-        a                  skos:Concept ;
-        skos:inScheme      vlcs:bioindicator ;
-        skos:prefLabel     "Enterobacter cloacae"@nl ;
-        skos:topConceptOf  vlcs:bioindicator .
-
-cb:citrobacter_gillenii
-        a                  skos:Concept ;
-        skos:inScheme      vlcs:bioindicator ;
-        skos:prefLabel     "Citrobacter gillenii"@nl ;
-        skos:topConceptOf  vlcs:bioindicator .
-
-cb:streptococcus_gallolyticus
-        a                  skos:Concept ;
-        skos:inScheme      vlcs:bioindicator ;
-        skos:prefLabel     "Streptococcus gallolyticus"@nl ;
-        skos:topConceptOf  vlcs:bioindicator .
-
-cb:tn   a                  skos:Concept ;
-        skos:inScheme      vlcs:bioindicator ;
-        skos:notation      "TN" ;
-        skos:prefLabel     "Trofisch niveau"@nl ;
-        skos:topConceptOf  vlcs:bioindicator .
-
-cb:klebsiella  a           skos:Concept ;
-        skos:inScheme      vlcs:bioindicator ;
-        skos:prefLabel     "Klebsiella"@nl ;
-        skos:topConceptOf  vlcs:bioindicator .
-
-cb:p_tric72_lt  a          skos:Concept ;
-        skos:inScheme      vlcs:bioindicator ;
-        skos:notation      "P.tric72 LT" ;
-        skos:prefLabel     "Phaeodactylum tricornutum 72h zoutw alg"@nl ;
-        skos:topConceptOf  vlcs:bioindicator .
-
-cb:ps-nitzschia_ser_  a    skos:Concept ;
-        skos:inScheme      vlcs:bioindicator ;
-        skos:notation      "Ps-nitzschia ser." ;
-        skos:prefLabel     "Pseudo-nitzschia seriata complex"@nl ;
-        skos:topConceptOf  vlcs:bioindicator .
-
-cb:giardia  a              skos:Concept ;
-        skos:inScheme      vlcs:bioindicator ;
-        skos:prefLabel     "Giardia"@nl ;
-        skos:topConceptOf  vlcs:bioindicator .
-
-cb:pyrodinium_sp  a        skos:Concept ;
-        skos:inScheme      vlcs:bioindicator ;
-        skos:notation      "Pyrodinium sp" ;
-        skos:prefLabel     "Pyrodinium sp"@nl ;
-        skos:topConceptOf  vlcs:bioindicator .
-
-cb:enterococcus_hirae
-        a                  skos:Concept ;
-        skos:inScheme      vlcs:bioindicator ;
-        skos:prefLabel     "Enterococcus hirae"@nl ;
-        skos:topConceptOf  vlcs:bioindicator .
-
-cb:rhodotorula  a          skos:Concept ;
-        skos:inScheme      vlcs:bioindicator ;
-        skos:prefLabel     "Rhodotorula"@nl ;
-        skos:topConceptOf  vlcs:bioindicator .
-
-cb:fusarium  a             skos:Concept ;
-        skos:inScheme      vlcs:bioindicator ;
-        skos:prefLabel     "Fusarium"@nl ;
-        skos:topConceptOf  vlcs:bioindicator .
-
-cb:fusarium_solani  a      skos:Concept ;
-        skos:inScheme      vlcs:bioindicator ;
-        skos:prefLabel     "Fusarium Solani"@nl ;
-        skos:topConceptOf  vlcs:bioindicator .
-
-cb:klebsiella_pneumoniae
-        a                  skos:Concept ;
-        skos:inScheme      vlcs:bioindicator ;
-        skos:prefLabel     "Klebsiella pneumoniae"@nl ;
-        skos:topConceptOf  vlcs:bioindicator .
-
-cb:tk22  a                 skos:Concept ;
-        skos:inScheme      vlcs:bioindicator ;
-        skos:notation      "TK22" ;
-        skos:prefLabel     "Kiemen, totale (22°C)"@nl ;
-        skos:topConceptOf  vlcs:bioindicator .
-
-cb:dinophysis_cd  a        skos:Concept ;
-        skos:inScheme      vlcs:bioindicator ;
-        skos:notation      "Dinophysis cd" ;
-        skos:prefLabel     "Dinophysis caudata"@nl ;
-        skos:topConceptOf  vlcs:bioindicator .
-
-cb:dinophysis_ac  a        skos:Concept ;
-        skos:inScheme      vlcs:bioindicator ;
-        skos:notation      "Dinophysis ac" ;
-        skos:prefLabel     "Dinophysis acuminata"@nl ;
-        skos:topConceptOf  vlcs:bioindicator .
-
-cb:pseudomonas  a          skos:Concept ;
-        skos:inScheme      vlcs:bioindicator ;
-        skos:prefLabel     "Pseudomonas"@nl ;
-        skos:topConceptOf  vlcs:bioindicator .
-
-cb:pseudokirchneriella_subcapitata
-        a                  skos:Concept ;
-        skos:altLabel      "Zoetwateralg"@nl ;
-        skos:inScheme      vlcs:bioindicator ;
-        skos:isSubjectOf   "WAC/V/B/003"@nl ;
-        skos:prefLabel     "Pseudokirchneriella subcapitata"@nl ;
-        skos:related       co:WAC_V_B_003 ;
-        skos:topConceptOf  vlcs:bioindicator ;
-        dcat:theme         gemet:15179 .
-
-cb:kiemgetal_bij_22c_en_36c
-        a                  skos:Concept ;
-        skos:altLabel      "kiemgetal bij 22°C en 36°C"@nl ;
-        skos:inScheme      vlcs:bioindicator ;
-        skos:isSubjectOf   "WAC/V/A/001"@nl ;
-        skos:prefLabel     "kiemgetal bij 22°C en 36°C"@nl ;
-        skos:related       co:WAC_V_A_001 ;
-        skos:topConceptOf  vlcs:bioindicator ;
-        dcat:theme         gemet:15179 .
-
-cb:ralstonia  a            skos:Concept ;
-        skos:inScheme      vlcs:bioindicator ;
-        skos:prefLabel     "Ralstonia"@nl ;
-        skos:topConceptOf  vlcs:bioindicator .
-
-cb:hyal  a                 skos:Concept ;
-        skos:inScheme      vlcs:bioindicator ;
-        skos:notation      "Hyal" ;
-        skos:prefLabel     "Hyalella"@nl ;
-        skos:topConceptOf  vlcs:bioindicator .
-
-cb:cronobacter_sakazakii
-        a                  skos:Concept ;
-        skos:inScheme      vlcs:bioindicator ;
-        skos:prefLabel     "Cronobacter sakazakii"@nl ;
-        skos:topConceptOf  vlcs:bioindicator .
-
-cb:aeromonas_salmonicida
-        a                  skos:Concept ;
-        skos:inScheme      vlcs:bioindicator ;
-        skos:prefLabel     "Aeromonas salmonicida"@nl ;
-        skos:topConceptOf  vlcs:bioindicator .
-
-cb:ekc-fytoplankton  a     skos:Concept ;
-        skos:altLabel      "EKC-fytoplankton"@nl ;
-        skos:inScheme      vlcs:bioindicator ;
-        skos:isSubjectOf   "VLAREM II"@nl ;
-        skos:prefLabel     "EKC-fytoplankton"@nl ;
-        skos:related       co:VLAREM_II ;
-        skos:topConceptOf  vlcs:bioindicator ;
-        dcat:theme         gemet:15179 .
-
-cb:enterococcus_gallinarum
-        a                  skos:Concept ;
-        skos:inScheme      vlcs:bioindicator ;
-        skos:prefLabel     "Enterococcus gallinarum"@nl ;
-        skos:topConceptOf  vlcs:bioindicator .
-
-cb:escherichia_coli  a     skos:Concept ;
-        skos:altLabel      "Escherichia coli (E. coli)"@nl ;
-        skos:inScheme      vlcs:bioindicator ;
-        skos:isSubjectOf   "WAC/V/A/002"@nl ;
-        skos:notation      "EColi" ;
-        skos:prefLabel     "Escherichia coli"@nl ;
-        skos:related       co:WAC_V_A_002 ;
-        skos:topConceptOf  vlcs:bioindicator ;
-        dcat:theme         gemet:15179 .
-
-cb:p_sub72  a              skos:Concept ;
-        skos:inScheme      vlcs:bioindicator ;
-        skos:notation      "P.sub" ;
-        skos:prefLabel     "Pseudokirchneriella subcapitata"@nl ;
-        skos:topConceptOf  vlcs:bioindicator .
-
-cb:d_mag  a                skos:Concept ;
-        skos:inScheme      vlcs:bioindicator ;
-        skos:notation      "D.mag" ;
-        skos:prefLabel     "Daphnia magna"@nl ;
-        skos:topConceptOf  vlcs:bioindicator .
-
-cb:ivt  a                  skos:Concept ;
-        skos:inScheme      vlcs:bioindicator ;
-        skos:notation      "IVT" ;
-        skos:prefLabel     "In-vitro Toxiciteit in PM10 (LC)"@nl ;
-        skos:topConceptOf  vlcs:bioindicator .
-
-cb:dinophysis_no  a        skos:Concept ;
-        skos:inScheme      vlcs:bioindicator ;
-        skos:notation      "Dinophysis no" ;
-        skos:prefLabel     "Dinophysis norvegica"@nl ;
-        skos:topConceptOf  vlcs:bioindicator .
-
-cb:coolia_monotis  a       skos:Concept ;
-        skos:inScheme      vlcs:bioindicator ;
-        skos:notation      "Coolia monotis" ;
-        skos:prefLabel     "Coolia monotis"@nl ;
-        skos:topConceptOf  vlcs:bioindicator .
-
-cb:aeromonas_caviae  a     skos:Concept ;
-        skos:inScheme      vlcs:bioindicator ;
-        skos:prefLabel     "Aeromonas caviae"@nl ;
-        skos:topConceptOf  vlcs:bioindicator .
-
-cb:prorocentrum_lima  a    skos:Concept ;
-        skos:inScheme      vlcs:bioindicator ;
-        skos:notation      "Prorocentrum lima" ;
-        skos:prefLabel     "Prorocentrum lima"@nl ;
-        skos:topConceptOf  vlcs:bioindicator .
-
-cb:nitrosomonas  a         skos:Concept ;
-        skos:inScheme      vlcs:bioindicator ;
-        skos:prefLabel     "Nitrosomonas"@nl ;
-        skos:topConceptOf  vlcs:bioindicator .
-
-cb:cladosporium  a         skos:Concept ;
-        skos:inScheme      vlcs:bioindicator ;
-        skos:prefLabel     "Cladosporium"@nl ;
-        skos:topConceptOf  vlcs:bioindicator .
-
-cb:cyano  a                skos:Concept ;
-        skos:inScheme      vlcs:bioindicator ;
-        skos:notation      "Cyano" ;
-        skos:prefLabel     "Cyanobacteriën"@nl ;
-        skos:topConceptOf  vlcs:bioindicator .
-
-cb:aspergillus  a          skos:Concept ;
-        skos:inScheme      vlcs:bioindicator ;
-        skos:prefLabel     "Aspergillus"@nl ;
-        skos:topConceptOf  vlcs:bioindicator .
-
-cob:bodem  a            skos:Collection ;
-        skos:inScheme   vlcs:bioindicator ;
-        skos:prefLabel  "Collectie van bioindicatoren m.b.t. bodem."@nl .
-
-cb:aspergillus_fumigatus
-        a                  skos:Concept ;
-        skos:inScheme      vlcs:bioindicator ;
-        skos:prefLabel     "Aspergillus fumigatus"@nl ;
-        skos:topConceptOf  vlcs:bioindicator .
-
-cb:buttiauxella_noackiae
-        a                  skos:Concept ;
-        skos:inScheme      vlcs:bioindicator ;
-        skos:prefLabel     "Buttiauxella noackiae"@nl ;
-        skos:topConceptOf  vlcs:bioindicator .
-
-cb:legionella_overgroei
-        a                  skos:Concept ;
-        skos:inScheme      vlcs:bioindicator ;
-        skos:prefLabel     "Legionella overgroei"@nl ;
-        skos:topConceptOf  vlcs:bioindicator .
-
-cb:lelliottia_amnigena
-        a                  skos:Concept ;
-        skos:inScheme      vlcs:bioindicator ;
-        skos:prefLabel     "Lelliottia amnigena"@nl ;
-        skos:topConceptOf  vlcs:bioindicator .
-
-cob:water  a            skos:Collection ;
-        skos:inScheme   vlcs:bioindicator ;
-        skos:prefLabel  "Collectie van bioindicatoren m.b.t. water."@nl .
-
-cb:coliformen  a           skos:Concept ;
-        skos:altLabel      "coliformen"@nl ;
-        skos:inScheme      vlcs:bioindicator ;
-        skos:isSubjectOf   "WAC/V/A/002"@nl ;
-        skos:prefLabel     "coliformen"@nl ;
-        skos:related       co:WAC_V_A_002 ;
-        skos:topConceptOf  vlcs:bioindicator ;
-        dcat:theme         gemet:15179 .
-
-cb:enterococcus_cacae
-        a                  skos:Concept ;
-        skos:inScheme      vlcs:bioindicator ;
-        skos:prefLabel     "Enterococcus cacae"@nl ;
-        skos:topConceptOf  vlcs:bioindicator .
-
-cb:ekc-macrofyten  a       skos:Concept ;
-        skos:altLabel      "EKC-macrofyten"@nl ;
-        skos:inScheme      vlcs:bioindicator ;
-        skos:isSubjectOf   "VLAREM II"@nl ;
-        skos:prefLabel     "EKC-macrofyten"@nl ;
-        skos:related       co:VLAREM_II ;
-        skos:topConceptOf  vlcs:bioindicator ;
-        dcat:theme         gemet:15179 .
-
-cb:corophium  a            skos:Concept ;
-        skos:inScheme      vlcs:bioindicator ;
-        skos:notation      "Corophium" ;
-        skos:prefLabel     "Corophium volutator"@nl ;
-        skos:topConceptOf  vlcs:bioindicator .
-
-cb:buttiauxella_ferragutiae
-        a                  skos:Concept ;
-        skos:inScheme      vlcs:bioindicator ;
-        skos:prefLabel     "Buttiauxella ferragutiae"@nl ;
-        skos:topConceptOf  vlcs:bioindicator .
-
-cb:som_roeipootkreeften_copepoda
-        a                  skos:Concept ;
-        skos:inScheme      vlcs:bioindicator ;
-        skos:prefLabel     "som Roeipootkreeften (Copepoda)"@nl ;
-        skos:topConceptOf  vlcs:bioindicator .
-
-cb:aeromonas  a            skos:Concept ;
-        skos:inScheme      vlcs:bioindicator ;
-        skos:prefLabel     "Aeromonas"@nl ;
-        skos:topConceptOf  vlcs:bioindicator .
-
-cb:actinomyceten  a        skos:Concept ;
-        skos:inScheme      vlcs:bioindicator ;
-        skos:prefLabel     "Actinomyceten"@nl ;
-        skos:topConceptOf  vlcs:bioindicator .
-
-cb:pyrodinium_bh  a        skos:Concept ;
-        skos:inScheme      vlcs:bioindicator ;
-        skos:notation      "Pyrodinium bh" ;
-        skos:prefLabel     "Pyrodinium bahamense"@nl ;
-        skos:topConceptOf  vlcs:bioindicator .
-
-cb:pseudomonas_aeruginosa
-        a                  skos:Concept ;
-        skos:altLabel      "Pseudomonas aeruginosa"@nl ;
-        skos:inScheme      vlcs:bioindicator ;
-        skos:isSubjectOf   "WAC/V/A/006"@nl ;
-        skos:prefLabel     "Pseudomonas aeruginosa"@nl ;
-        skos:related       co:WAC_V_A_006 ;
-        skos:topConceptOf  vlcs:bioindicator ;
-        dcat:theme         gemet:15179 .
-
-cb:oncorhyncus_mykiss
-        a                  skos:Concept ;
-        skos:altLabel      "Forel"@nl ;
-        skos:inScheme      vlcs:bioindicator ;
-        skos:isSubjectOf   "WAC/V/B/007"@nl ;
-        skos:prefLabel     "Oncorhyncus mykiss"@nl ;
-        skos:related       co:WAC_V_B_007 ;
-        skos:topConceptOf  vlcs:bioindicator ;
-        dcat:theme         gemet:15179 .
-
-cob:lucht  a            skos:Collection ;
-        skos:inScheme   vlcs:bioindicator ;
-        skos:prefLabel  "Collectie van bioindicatoren m.b.t. lucht."@nl .
-
-cb:enterococcus_sulfureus
-        a                  skos:Concept ;
-        skos:inScheme      vlcs:bioindicator ;
-        skos:prefLabel     "Enterococcus sulfureus"@nl ;
-        skos:topConceptOf  vlcs:bioindicator .
-
-cb:schimmels  a            skos:Concept ;
-        skos:inScheme      vlcs:bioindicator ;
-        skos:prefLabel     "Schimmels"@nl ;
-        skos:topConceptOf  vlcs:bioindicator .
-
-cb:msp  a                  skos:Concept ;
-        skos:inScheme      vlcs:bioindicator ;
-        skos:notation      "MSP" ;
-        skos:prefLabel     "Microtox Solid Phase"@nl ;
-        skos:topConceptOf  vlcs:bioindicator .
-
-cb:fyto  a                 skos:Concept ;
-        skos:inScheme      vlcs:bioindicator ;
-        skos:notation      "Fyto" ;
-        skos:prefLabel     "Fytotox"@nl ;
-        skos:topConceptOf  vlcs:bioindicator .
-
-cb:buttiauxella_izardii
-        a                  skos:Concept ;
-        skos:inScheme      vlcs:bioindicator ;
-        skos:prefLabel     "Buttiauxella izardii"@nl ;
-        skos:topConceptOf  vlcs:bioindicator .
-
-cb:micrococcus  a          skos:Concept ;
-        skos:inScheme      vlcs:bioindicator ;
-        skos:prefLabel     "Micrococcus"@nl ;
-        skos:topConceptOf  vlcs:bioindicator .
-
-cb:pat__kiem  a            skos:Concept ;
-        skos:inScheme      vlcs:bioindicator ;
-        skos:notation      "Pat. kiem" ;
-        skos:prefLabel     "Pathogene kiemen"@nl ;
-        skos:topConceptOf  vlcs:bioindicator .
-
-cb:penicillium  a          skos:Concept ;
-        skos:inScheme      vlcs:bioindicator ;
-        skos:prefLabel     "Penicillium"@nl ;
-        skos:topConceptOf  vlcs:bioindicator .
-
-cb:daphnia_magna  a        skos:Concept ;
-        skos:altLabel      "Watervlo"@nl ;
-        skos:inScheme      vlcs:bioindicator ;
-        skos:isSubjectOf   "WAC/V/B/001"@nl ;
-        skos:prefLabel     "Daphnia magna"@nl ;
-        skos:related       co:WAC_V_B_001 ;
-        skos:topConceptOf  vlcs:bioindicator ;
-        dcat:theme         gemet:15179 .
-
-cb:lactococcus_lactis
-        a                  skos:Concept ;
-        skos:inScheme      vlcs:bioindicator ;
-        skos:prefLabel     "Lactococcus lactis"@nl ;
-        skos:topConceptOf  vlcs:bioindicator .
-
-cb:anostraca  a            skos:Concept ;
-        skos:altLabel      "Pekelkreeftje"@nl ;
-        skos:inScheme      vlcs:bioindicator ;
-        skos:isSubjectOf   "WAC/V/B/001"@nl ;
-        skos:prefLabel     "Anostraca"@nl ;
-        skos:related       co:WAC_V_B_001 ;
-        skos:topConceptOf  vlcs:bioindicator ;
-        dcat:theme         gemet:15179 .
-
-cb:lactobacillus_plantarum
-        a                  skos:Concept ;
-        skos:inScheme      vlcs:bioindicator ;
-        skos:prefLabel     "Lactobacillus plantarum"@nl ;
-        skos:topConceptOf  vlcs:bioindicator .
-
-cb:enterococcus_faecalis
-        a                  skos:Concept ;
-        skos:inScheme      vlcs:bioindicator ;
-        skos:prefLabel     "Enterococcus faecalis"@nl ;
-        skos:topConceptOf  vlcs:bioindicator .
-
-cb:ha   a                  skos:Concept ;
-        skos:inScheme      vlcs:bioindicator ;
-        skos:notation      "HA" ;
-        skos:prefLabel     "Hormoonverstorende activiteit in PM10 (LC)"@nl ;
-        skos:topConceptOf  vlcs:bioindicator .
-
-cb:naaktamoeben  a         skos:Concept ;
-        skos:inScheme      vlcs:bioindicator ;
-        skos:prefLabel     "Naaktamoeben"@nl ;
-        skos:topConceptOf  vlcs:bioindicator .
-
-cb:staphylococcus_saprophyticus
-        a                  skos:Concept ;
-        skos:inScheme      vlcs:bioindicator ;
-        skos:prefLabel     "Staphylococcus saprophyticus"@nl ;
-        skos:topConceptOf  vlcs:bioindicator .
-
-cb:enterococcus_haemoperoxidus
-        a                  skos:Concept ;
-        skos:inScheme      vlcs:bioindicator ;
-        skos:prefLabel     "Enterococcus haemoperoxidus"@nl ;
-        skos:topConceptOf  vlcs:bioindicator .
-
-cb:staf  a                 skos:Concept ;
-        skos:inScheme      vlcs:bioindicator ;
-        skos:notation      "Staf" ;
-        skos:prefLabel     "Stafylokokken"@nl ;
-        skos:topConceptOf  vlcs:bioindicator .
-
-cb:ekc-visfauna  a         skos:Concept ;
-        skos:altLabel      "EKC-visfauna"@nl ;
-        skos:inScheme      vlcs:bioindicator ;
-        skos:isSubjectOf   "VLAREM II"@nl ;
-        skos:prefLabel     "EKC-visfauna"@nl ;
-        skos:related       co:VLAREM_II ;
-        skos:topConceptOf  vlcs:bioindicator ;
-        dcat:theme         gemet:15179 .
-
-vlcs:bioindicator  a        skos:ConceptScheme ;
-        skos:definition     "Een organisme waarmee een verandering of verontreiniging van het milieu kan worden gesignaleerd. Het principe achter het gebruik van bio-indicatoren is dat de natuurlijke samenstelling van een levensgemeenschap wordt bepaald door de fysische en chemische eigenschappen van het ecosysteem."@nl ;
-        skos:hasTopConcept  cb:citrobacter , cb:dinophysis_ac , cb:prorocentrum_min , cb:enterococcus_termitis , cb:thermofiele_actinomyceten , cb:pseudomonas_aeruginosa , cb:klebsiella_pneumoniae , cb:streptococcus_gallolyticus , cb:prorocentrum_lima , cb:p_tric72_lt , cb:gallionella , cb:aeromonas_salmonicida , cb:thamno , cb:klebsiella , cb:chaetomium , cb:enterococcus_silesiacus , cb:rhodotorula , cb:misvormingen , cb:aeromonas , cb:aeromonas_caviae , cb:lactobacillus_plantarum , cb:staphylococcus_epidermidis , cb:dinophysis_no , cb:aeromonas_veronii , cb:staphylococcus_warneri , cb:fcoli , cb:schimmels , cb:streptococcus_salivarius , cb:bacteriofagen , cb:staphylococcus_pasteuri , cb:lactococcus_lactis , cb:zwam , cb:legionella_spp._ , cb:streptococcus , cb:enterovirussen , cb:coolia_monotis , cb:ps-nitzschia_spp_ , cb:enterococcus_aquimarinus , cb:enterococcus_haemoperoxidus , cb:ribonucleïnezuur , cb:dinophysis_sp , cb:danio_rerio , cb:alexandrium_spp_ , cb:phoma , cb:o_myk96 , cb:legionella_overgroei , cb:phaeodactylum_tricornutum , cb:lelliottia_amnigena , cb:enterococcus_durans , cb:cronobacter , cb:coliformen , cb:pseud , cb:schaalamoeben , cb:buttiauxella , cb:enterococcus_hirae , cb:fstrep , cb:enterococcen , cb:aspergillus_fumigatus , cb:enterococcus_faecalis , cb:d_mag , cb:hyal , cb:actinomyceten , cb:staphylococcus_saprophyticus , cb:legionella_pneumophila , cb:ekc-macrofyten , cb:ie , cb:dinophysis_sa , cb:escherichia_coli , cb:aliivibrio_fischeri , cb:enterobacter_amnigenus , cb:pseudokirchneriella_subcapitata , cb:enterococcus_casseliflavus , cb:r_sub72 , cb:oncorhyncus_mykiss , cb:enterobacter_ludwigii , cb:ecoli , cb:ivt , cb:serratia , cb:coagulase_positieve_staphylococci , cb:gymnodinium_ct , cb:reovirussen , cb:dinophysis_cd , cb:aeromonas_eucrenophila , cb:pat__kiem , cb:citrobacter_gillenii , cb:aerococcus_viridans , cb:ps-nitzschia_del_ , cb:enterococcus_mundtii , cb:streptococcus_equinus , cb:gymnodium_sp , cb:intestinale_enterococci , cb:enterobacter_cloacae , cb:enterococcus_malodoratus , cb:rahnella_aquatilis , cb:dinophysis_ft , cb:fusarium_solani , cb:ps-nitzschia_ser_ , cb:eurotium , cb:streptococcus_lutetiensis , cb:stachybotrys , cb:enterococcus_thailandicus , cb:aspergillus , cb:tk37 , cb:naaktamoeben , <https://data.omgeving.vlaanderen.be/id/concept/bioindicator/salmonella_spp.> , cb:micrococcus , cb:aureobasidium , cb:legio , cb:enterococcus_faecium , cb:tn , cb:ekc-fytobenthos , cb:fyto , cb:clostridium_perfringens , cb:tcoli , cb:mwp , cb:anostraca , cb:giardia , cb:enterococcus_cacae , cb:enterococcus_italicus , cb:clostridium_tertium , cb:pyrodinium_sp , cb:cladosporium , cb:prorocentrum_mica , cb:corophium , cb:mucor , cb:penicillium_marneffei , cb:cyano_clfyl , cb:enterococcus_gilvus , cb:enterococcus_gallinarum , cb:ekc-visfauna , cb:aerococcus , cb:ekc-macro-invertebraten , cb:ientero , cb:ralstonia , cb:buttiauxella_izardii , cb:adenovirussen , cb:enterococcus_phoeniculicola , cb:salm , cb:b_rer , cb:nitrosomonas , cb:candida , cb:bacillus_cereus , cb:kluyvera , cb:fusarium , cb:sulfiet_reducerende_clostridia , cb:msp , cb:scopulariopsis , cb:aureobasidium_pullulans , cb:oenococcus , cb:somatische_colifagen , cb:kiemgetal_bij_22c_en_36c , cb:dermatofyten , cb:penicillium , cb:ostracod , cb:melkzuur_bacterien , cb:cryptosporidium , cb:pseudomonas , cb:enterococcus_moraviensis , cb:aeromonas_hydrophila , cb:som_roeipootkreeften_copepoda , cb:daphnia_magna , cb:ekc-fytoplankton , cb:tk22 , cb:cronobacter_sakazakii , cb:dinophysis_at , cb:enterococcus_sulfureus , cb:buttiauxella_gaviniae , cb:rhizophus , cb:p_sub72 , cb:alternaria , cb:d_rer , cb:ha , cb:buttiauxella_ferragutiae , cb:klebsiella_oxytoca , cb:staf , cb:cyano , cb:pyrodinium_bh , cb:buttiauxella_noackiae ;
-        skos:prefLabel      "Codelijst van de bioindicatoren"@nl .
-
-cb:enterococcen  a         skos:Concept ;
-        skos:inScheme      vlcs:bioindicator ;
-        skos:prefLabel     "Enterococcen"@nl ;
-        skos:topConceptOf  vlcs:bioindicator .
-
-cb:serratia  a             skos:Concept ;
-        skos:inScheme      vlcs:bioindicator ;
-        skos:prefLabel     "Serratia"@nl ;
-        skos:topConceptOf  vlcs:bioindicator .
-
-cb:enterococcus_gilvus
-        a                  skos:Concept ;
-        skos:inScheme      vlcs:bioindicator ;
-        skos:prefLabel     "Enterococcus gilvus"@nl ;
-        skos:topConceptOf  vlcs:bioindicator .
-
-cb:misvormingen  a         skos:Concept ;
-        skos:inScheme      vlcs:bioindicator ;
-        skos:notation      "Misvormingen" ;
-        skos:prefLabel     "Misvormingen"@nl ;
-        skos:topConceptOf  vlcs:bioindicator .
-
-cb:o_myk96  a              skos:Concept ;
-        skos:inScheme      vlcs:bioindicator ;
-        skos:notation      "O.myk96" ;
-        skos:prefLabel     "Oncorhynchus mykiss"@nl ;
-        skos:topConceptOf  vlcs:bioindicator .
-
-cb:rhizophus  a            skos:Concept ;
-        skos:inScheme      vlcs:bioindicator ;
-        skos:prefLabel     "Rhizophus"@nl ;
-        skos:topConceptOf  vlcs:bioindicator .
-
-cb:enterobacter_amnigenus
-        a                  skos:Concept ;
-        skos:inScheme      vlcs:bioindicator ;
-        skos:prefLabel     "Enterobacter amnigenus"@nl ;
-        skos:topConceptOf  vlcs:bioindicator .
-
-cb:fstrep  a               skos:Concept ;
-        skos:inScheme      vlcs:bioindicator ;
-        skos:notation      "FStrep" ;
-        skos:prefLabel     "Fecale Streptokokken"@nl ;
-        skos:topConceptOf  vlcs:bioindicator .
-
-cb:stachybotrys  a         skos:Concept ;
-        skos:inScheme      vlcs:bioindicator ;
-        skos:prefLabel     "Stachybotrys"@nl ;
-        skos:topConceptOf  vlcs:bioindicator .
-
-cb:oenococcus  a           skos:Concept ;
-        skos:inScheme      vlcs:bioindicator ;
-        skos:prefLabel     "Oenococcus"@nl ;
-        skos:topConceptOf  vlcs:bioindicator .
-
-cb:ekc-macro-invertebraten
-        a                  skos:Concept ;
-        skos:altLabel      "EKC-macro-invertebraten"@nl ;
-        skos:inScheme      vlcs:bioindicator ;
-        skos:isSubjectOf   "VLAREM II"@nl ;
-        skos:prefLabel     "EKC-macro-invertebraten"@nl ;
-        skos:related       co:VLAREM_II ;
-        skos:topConceptOf  vlcs:bioindicator ;
-        dcat:theme         gemet:15179 .
-
-cb:aerococcus_viridans
-        a                  skos:Concept ;
-        skos:inScheme      vlcs:bioindicator ;
-        skos:prefLabel     "Aerococcus viridans"@nl ;
-        skos:topConceptOf  vlcs:bioindicator .
-
-cb:chaetomium  a           skos:Concept ;
-        skos:inScheme      vlcs:bioindicator ;
-        skos:prefLabel     "Chaetomium"@nl ;
-        skos:topConceptOf  vlcs:bioindicator .
-
-cb:aeromonas_eucrenophila
-        a                  skos:Concept ;
-        skos:inScheme      vlcs:bioindicator ;
-        skos:prefLabel     "Aeromonas eucrenophila"@nl ;
-        skos:topConceptOf  vlcs:bioindicator .
-
-cb:danio_rerio  a          skos:Concept ;
-        skos:altLabel      "Zebravisembryo"@nl ;
-        skos:inScheme      vlcs:bioindicator ;
-        skos:isSubjectOf   "WAC/V/B/002"@nl ;
-        skos:prefLabel     "Danio rerio"@nl ;
-        skos:related       co:WAC_V_B_002 ;
-        skos:topConceptOf  vlcs:bioindicator ;
-        dcat:theme         gemet:15179 .
-
-cb:dermatofyten  a         skos:Concept ;
-        skos:inScheme      vlcs:bioindicator ;
-        skos:prefLabel     "Dermatofyten"@nl ;
-        skos:topConceptOf  vlcs:bioindicator .
-
-cb:streptococcus_salivarius
-        a                  skos:Concept ;
-        skos:inScheme      vlcs:bioindicator ;
-        skos:prefLabel     "Streptococcus salivarius"@nl ;
-        skos:topConceptOf  vlcs:bioindicator .
-
-cb:aureobasidium  a        skos:Concept ;
-        skos:inScheme      vlcs:bioindicator ;
-        skos:prefLabel     "Aureobasidium"@nl ;
-        skos:topConceptOf  vlcs:bioindicator .
-
-cb:rahnella_aquatilis
-        a                  skos:Concept ;
-        skos:inScheme      vlcs:bioindicator ;
-        skos:prefLabel     "Rahnella aquatilis"@nl ;
-        skos:topConceptOf  vlcs:bioindicator .
-
-cb:enterobacter_ludwigii
-        a                  skos:Concept ;
-        skos:inScheme      vlcs:bioindicator ;
-        skos:prefLabel     "Enterobacter ludwigii"@nl ;
-        skos:topConceptOf  vlcs:bioindicator .
-
-cb:enterovirussen  a       skos:Concept ;
-        skos:inScheme      vlcs:bioindicator ;
-        skos:prefLabel     "Enterovirussen"@nl ;
-        skos:topConceptOf  vlcs:bioindicator .
-
-cb:ientero  a              skos:Concept ;
-        skos:inScheme      vlcs:bioindicator ;
-        skos:notation      "IEntero" ;
-        skos:prefLabel     "Intestinale Enterokokken"@nl ;
-        skos:topConceptOf  vlcs:bioindicator .
-
-cb:salm  a                 skos:Concept ;
-        skos:inScheme      vlcs:bioindicator ;
-        skos:notation      "Salm" ;
-        skos:prefLabel     "Salmonella"@nl ;
-        skos:topConceptOf  vlcs:bioindicator .
-
-cb:enterococcus_malodoratus
-        a                  skos:Concept ;
-        skos:inScheme      vlcs:bioindicator ;
-        skos:prefLabel     "Enterococcus malodoratus"@nl ;
-        skos:topConceptOf  vlcs:bioindicator .
-
-cb:buttiauxella  a         skos:Concept ;
-        skos:inScheme      vlcs:bioindicator ;
-        skos:prefLabel     "Buttiauxella"@nl ;
-        skos:topConceptOf  vlcs:bioindicator .
-
-cb:mwp  a                  skos:Concept ;
-        skos:inScheme      vlcs:bioindicator ;
-        skos:notation      "MWP" ;
-        skos:prefLabel     "Vibrio Fischeri"@nl ;
-        skos:topConceptOf  vlcs:bioindicator .
-
-cb:adenovirussen  a        skos:Concept ;
-        skos:inScheme      vlcs:bioindicator ;
-        skos:prefLabel     "Adenovirussen"@nl ;
-        skos:topConceptOf  vlcs:bioindicator .
-
-cb:aerococcus  a           skos:Concept ;
-        skos:inScheme      vlcs:bioindicator ;
-        skos:prefLabel     "Aerococcus"@nl ;
-        skos:topConceptOf  vlcs:bioindicator .
-
-cb:alternaria  a           skos:Concept ;
-        skos:inScheme      vlcs:bioindicator ;
-        skos:prefLabel     "Alternaria"@nl ;
-        skos:topConceptOf  vlcs:bioindicator .
-
-cb:tcoli  a                skos:Concept ;
-        skos:inScheme      vlcs:bioindicator ;
-        skos:notation      "TColi" ;
-        skos:prefLabel     "Coliformen totale"@nl ;
-        skos:topConceptOf  vlcs:bioindicator .
-
-cb:coagulase_positieve_staphylococci
-        a                  skos:Concept ;
-        skos:altLabel      "stafylokokken"@nl ;
-        skos:inScheme      vlcs:bioindicator ;
-        skos:isSubjectOf   "WAC/V/A/008"@nl ;
-        skos:prefLabel     "coagulase positieve staphylococci"@nl ;
-        skos:related       co:WAC_V_A_008 ;
-        skos:topConceptOf  vlcs:bioindicator ;
-        dcat:theme         gemet:15179 .
-
-<https://data.omgeving.vlaanderen.be/id/concept/bioindicator/salmonella_spp.>
-        a                  skos:Concept ;
-        skos:altLabel      "Salmonella spp."@nl ;
-        skos:inScheme      vlcs:bioindicator ;
-        skos:isSubjectOf   "WAC/V/A/004"@nl ;
-        skos:prefLabel     "Salmonella spp."@nl ;
-        skos:related       co:WAC_V_A_004 ;
-        skos:topConceptOf  vlcs:bioindicator ;
-        dcat:theme         gemet:15179 .
-
-cb:streptococcus_equinus
-        a                  skos:Concept ;
-        skos:inScheme      vlcs:bioindicator ;
-        skos:prefLabel     "Streptococcus equinus"@nl ;
-        skos:topConceptOf  vlcs:bioindicator .
-
-cb:prorocentrum_min  a     skos:Concept ;
-        skos:inScheme      vlcs:bioindicator ;
-        skos:notation      "Prorocentrum min" ;
-        skos:prefLabel     "Prorocentrum minimum"@nl ;
-        skos:topConceptOf  vlcs:bioindicator .
-
-cb:sulfiet_reducerende_clostridia
-        a                  skos:Concept ;
-        skos:inScheme      vlcs:bioindicator ;
-        skos:prefLabel     "Sulfiet reducerende clostridia"@nl ;
-        skos:topConceptOf  vlcs:bioindicator .
-
-cb:dinophysis_at  a        skos:Concept ;
-        skos:inScheme      vlcs:bioindicator ;
-        skos:notation      "Dinophysis at" ;
-        skos:prefLabel     "Dinophysis acuta"@nl ;
-        skos:topConceptOf  vlcs:bioindicator .
-
-cb:dinophysis_sp  a        skos:Concept ;
-        skos:inScheme      vlcs:bioindicator ;
-        skos:notation      "Dinophysis sp" ;
-        skos:prefLabel     "Dinophysis sp"@nl ;
-        skos:topConceptOf  vlcs:bioindicator .
-
-cb:clostridium_perfringens
-        a                  skos:Concept ;
-        skos:altLabel      "Clostridium perfringens"@nl ;
-        skos:inScheme      vlcs:bioindicator ;
-        skos:isSubjectOf   "WAC/V/A/007"@nl ;
-        skos:prefLabel     "Clostridium perfringens"@nl ;
-        skos:related       co:WAC_V_A_007 ;
-        skos:topConceptOf  vlcs:bioindicator ;
-        dcat:theme         gemet:15179 .
-
-cb:staphylococcus_warneri
-        a                  skos:Concept ;
-        skos:inScheme      vlcs:bioindicator ;
-        skos:prefLabel     "Staphylococcus warneri"@nl ;
-        skos:topConceptOf  vlcs:bioindicator .
-
-cb:candida  a              skos:Concept ;
-        skos:inScheme      vlcs:bioindicator ;
-        skos:prefLabel     "Candida"@nl ;
-        skos:topConceptOf  vlcs:bioindicator .
-
-cb:ecoli  a                skos:Concept ;
-        skos:inScheme      vlcs:bioindicator ;
-        skos:notation      "EColi" ;
-        skos:prefLabel     "Escherichia Coli"@nl ;
-        skos:topConceptOf  vlcs:bioindicator .
-
-cb:enterococcus_moraviensis
-        a                  skos:Concept ;
-        skos:inScheme      vlcs:bioindicator ;
-        skos:prefLabel     "Enterococcus moraviensis"@nl ;
-        skos:topConceptOf  vlcs:bioindicator .
-
-cb:enterococcus_termitis
-        a                  skos:Concept ;
-        skos:inScheme      vlcs:bioindicator ;
-        skos:prefLabel     "Enterococcus termitis"@nl ;
-        skos:topConceptOf  vlcs:bioindicator .
-
-cb:gymnodinium_ct  a       skos:Concept ;
-        skos:inScheme      vlcs:bioindicator ;
-        skos:notation      "Gymnodinium ct" ;
-        skos:prefLabel     "Gymnodinium catenatum"@nl ;
-        skos:topConceptOf  vlcs:bioindicator .
-
-cb:dinophysis_ft  a        skos:Concept ;
-        skos:inScheme      vlcs:bioindicator ;
-        skos:notation      "Dinophysis ft" ;
-        skos:prefLabel     "Dinophysis fortii"@nl ;
-        skos:topConceptOf  vlcs:bioindicator .
-
-cb:enterococcus_durans
-        a                  skos:Concept ;
-        skos:inScheme      vlcs:bioindicator ;
-        skos:prefLabel     "Enterococcus durans"@nl ;
-        skos:topConceptOf  vlcs:bioindicator .
-
-cb:ekc-fytobenthos  a      skos:Concept ;
-        skos:altLabel      "EKC-fytobenthos"@nl ;
-        skos:inScheme      vlcs:bioindicator ;
-        skos:isSubjectOf   "VLAREM II"@nl ;
-        skos:prefLabel     "EKC-fytobenthos"@nl ;
-        skos:related       co:VLAREM_II ;
-        skos:topConceptOf  vlcs:bioindicator ;
-        dcat:theme         gemet:15179 .
-
-cb:ribonucleïnezuur  a     skos:Concept ;
-        skos:inScheme      vlcs:bioindicator ;
-        skos:prefLabel     "Ribonucleïnezuur"@nl ;
-        skos:topConceptOf  vlcs:bioindicator .
-
-cb:ostracod  a             skos:Concept ;
-        skos:inScheme      vlcs:bioindicator ;
-        skos:notation      "Ostracod" ;
-        skos:prefLabel     "Ostracod"@nl ;
-        skos:topConceptOf  vlcs:bioindicator .
-
-cb:r_sub72  a              skos:Concept ;
-        skos:inScheme      vlcs:bioindicator ;
-        skos:notation      "R.sub" ;
-        skos:prefLabel     "Raphidocelis subcapitata"@nl ;
-        skos:topConceptOf  vlcs:bioindicator .
-
-cb:schaalamoeben  a        skos:Concept ;
-        skos:inScheme      vlcs:bioindicator ;
-        skos:prefLabel     "Schaalamoeben"@nl ;
-        skos:topConceptOf  vlcs:bioindicator .
-
-cb:citrobacter  a          skos:Concept ;
-        skos:inScheme      vlcs:bioindicator ;
-        skos:prefLabel     "Citrobacter"@nl ;
-        skos:topConceptOf  vlcs:bioindicator .
-
-cb:legionella_pneumophila
-        a                  skos:Concept ;
-        skos:altLabel      "Legionella pneumophila"@nl ;
-        skos:inScheme      vlcs:bioindicator ;
-        skos:isSubjectOf   "WAC/V/A/005"@nl ;
-        skos:prefLabel     "Legionella pneumophila"@nl ;
-        skos:related       co:WAC_V_A_005 ;
-        skos:topConceptOf  vlcs:bioindicator ;
-        dcat:theme         gemet:15179 .
-
-cb:thamno  a               skos:Concept ;
-        skos:inScheme      vlcs:bioindicator ;
-        skos:notation      "Thamno" ;
-        skos:prefLabel     "Thamnocephalus"@nl ;
-        skos:topConceptOf  vlcs:bioindicator .
-
-cb:melkzuur_bacterien
-        a                  skos:Concept ;
-        skos:inScheme      vlcs:bioindicator ;
-        skos:prefLabel     "Melkzuur bacteriën"@nl ;
-        skos:topConceptOf  vlcs:bioindicator .
-
-cb:ps-nitzschia_spp_  a    skos:Concept ;
-        skos:inScheme      vlcs:bioindicator ;
-        skos:notation      "Ps-nitzschia spp." ;
-        skos:prefLabel     "Pseudo-nitzschia spp."@nl ;
-        skos:topConceptOf  vlcs:bioindicator .
-
-cb:cronobacter  a          skos:Concept ;
-        skos:inScheme      vlcs:bioindicator ;
-        skos:prefLabel     "Cronobacter"@nl ;
-        skos:topConceptOf  vlcs:bioindicator .
-
-cb:mucor  a                skos:Concept ;
-        skos:inScheme      vlcs:bioindicator ;
-        skos:prefLabel     "Mucor"@nl ;
-        skos:topConceptOf  vlcs:bioindicator .
-
-cb:zwam  a                 skos:Concept ;
-        skos:inScheme      vlcs:bioindicator ;
-        skos:notation      "Zwam" ;
-        skos:prefLabel     "Zwamachtigen"@nl ;
-        skos:topConceptOf  vlcs:bioindicator .
-
-cb:d_rer  a                skos:Concept ;
-        skos:inScheme      vlcs:bioindicator ;
-        skos:notation      "D.rer" ;
-        skos:prefLabel     "Danio rerio"@nl ;
-        skos:topConceptOf  vlcs:bioindicator .
-
-cb:ie   a                  skos:Concept ;
-        skos:inScheme      vlcs:bioindicator ;
-        skos:notation      "IE" ;
-        skos:prefLabel     "Inwonersequivalent"@nl ;
-        skos:topConceptOf  vlcs:bioindicator .
-
-cb:alexandrium_spp_  a     skos:Concept ;
-        skos:inScheme      vlcs:bioindicator ;
-        skos:notation      "Alexandrium spp." ;
-        skos:prefLabel     "Alexandrium spp."@nl ;
-        skos:topConceptOf  vlcs:bioindicator .
-
-cb:aeromonas_hydrophila
-        a                  skos:Concept ;
-        skos:inScheme      vlcs:bioindicator ;
-        skos:prefLabel     "Aeromonas hydrophila"@nl ;
-        skos:topConceptOf  vlcs:bioindicator .
-
-cb:staphylococcus_epidermidis
-        a                  skos:Concept ;
-        skos:inScheme      vlcs:bioindicator ;
-        skos:prefLabel     "Staphylococcus epidermidis"@nl ;
-        skos:topConceptOf  vlcs:bioindicator .
-
-cb:legio  a                skos:Concept ;
-        skos:inScheme      vlcs:bioindicator ;
-        skos:notation      "Legio" ;
-        skos:prefLabel     "Legionella"@nl ;
-        skos:topConceptOf  vlcs:bioindicator .
-
-cb:aeromonas_veronii  a    skos:Concept ;
-        skos:inScheme      vlcs:bioindicator ;
-        skos:prefLabel     "Aeromonas veronii"@nl ;
-        skos:topConceptOf  vlcs:bioindicator .
-
-cb:aliivibrio_fischeri
-        a                  skos:Concept ;
-        skos:altLabel      "Luminescente bacterie"@nl ;
-        skos:inScheme      vlcs:bioindicator ;
-        skos:isSubjectOf   "WAC/V/B/004"@nl ;
-        skos:prefLabel     "Aliivibrio fischeri"@nl ;
-        skos:related       co:WAC_V_B_004 ;
-        skos:topConceptOf  vlcs:bioindicator ;
-        dcat:theme         gemet:15179 .
-
-cb:cryptosporidium  a      skos:Concept ;
-        skos:inScheme      vlcs:bioindicator ;
-        skos:prefLabel     "Cryptosporidium"@nl ;
-        skos:topConceptOf  vlcs:bioindicator .
-
-cb:klebsiella_oxytoca
-        a                  skos:Concept ;
-        skos:inScheme      vlcs:bioindicator ;
-        skos:prefLabel     "Klebsiella oxytoca"@nl ;
-        skos:topConceptOf  vlcs:bioindicator .
-
-cb:fcoli  a                skos:Concept ;
-        skos:inScheme      vlcs:bioindicator ;
-        skos:notation      "FColi" ;
-        skos:prefLabel     "Fecale coliformen"@nl ;
-        skos:topConceptOf  vlcs:bioindicator .
-
-cb:streptococcus_lutetiensis
-        a                  skos:Concept ;
-        skos:inScheme      vlcs:bioindicator ;
-        skos:prefLabel     "Streptococcus lutetiensis"@nl ;
-        skos:topConceptOf  vlcs:bioindicator .
-
-cb:prorocentrum_mica  a    skos:Concept ;
-        skos:inScheme      vlcs:bioindicator ;
-        skos:notation      "Prorocentrum mica" ;
-        skos:prefLabel     "Prorocentrum micans"@nl ;
-        skos:topConceptOf  vlcs:bioindicator .
-
-cb:somatische_colifagen
-        a                  skos:Concept ;
-        skos:altLabel      "somatische colifagen"@nl ;
-        skos:inScheme      vlcs:bioindicator ;
-        skos:isSubjectOf   "Drinkwaterrichtlijn (EU) 2020/2184"@nl ;
-        skos:prefLabel     "somatische colifagen"@nl ;
-        skos:topConceptOf  vlcs:bioindicator ;
-        dcat:theme         gemet:15179 .
-
-cb:eurotium  a             skos:Concept ;
-        skos:inScheme      vlcs:bioindicator ;
-        skos:prefLabel     "Eurotium"@nl ;
-        skos:topConceptOf  vlcs:bioindicator .
-
-cb:gymnodium_sp  a         skos:Concept ;
-        skos:inScheme      vlcs:bioindicator ;
-        skos:notation      "Gymnodium sp" ;
-        skos:prefLabel     "Gymnodium sp"@nl ;
-        skos:topConceptOf  vlcs:bioindicator .
-
-cb:bacteriofagen  a        skos:Concept ;
-        skos:inScheme      vlcs:bioindicator ;
-        skos:prefLabel     "Bacteriofagen"@nl ;
-        skos:topConceptOf  vlcs:bioindicator .
-
-cb:enterococcus_silesiacus
-        a                  skos:Concept ;
-        skos:inScheme      vlcs:bioindicator ;
-        skos:prefLabel     "Enterococcus silesiacus"@nl ;
-        skos:topConceptOf  vlcs:bioindicator .
-
-cb:penicillium_marneffei
-        a                  skos:Concept ;
-        skos:inScheme      vlcs:bioindicator ;
-        skos:prefLabel     "Penicillium marneffei"@nl ;
-        skos:topConceptOf  vlcs:bioindicator .
+@prefix access_right: <http://publications.europa.eu/resource/authority/access-right/>.
+@prefix adms: <http://www.w3.org/ns/adms#>.
+@prefix assettype: <http://purl.org/adms/assettype/>.
+@prefix chemische_stof: <https://data.omgeving.vlaanderen.be/id/concept/chemische_stof/>.
+@prefix compound: <https://pubchem.ncbi.nlm.nih.gov/compound/>.
+@prefix conceptscheme: <https://data.omgeving.vlaanderen.be/id/conceptscheme/>.
+@prefix country: <http://publications.europa.eu/resource/authority/country/>.
+@prefix datasets: <https://datasets.omgeving.vlaanderen.be/>.
+@prefix datatheme_be: <http://vocab.belgif.be/auth/datatheme/>.
+@prefix datatheme_eu: <http://publications.europa.eu/resource/authority/data-theme/>.
+@prefix dbo: <http://dbpedia.org/ontology/>.
+@prefix dcat: <http://www.w3.org/ns/dcat#>.
+@prefix dc: <http://purl.org/dc/elements/1.1/>.
+@prefix dcterms: <http://purl.org/dc/terms/>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix eurovoc: <http://eurovoc.europa.eu/>.
+@prefix file_type: <http://publications.europa.eu/resource/authority/file-type/>.
+@prefix foaf: <http://xmlns.com/foaf/0.1/>.
+@prefix formats: <http://www.w3.org/ns/formats/>.
+@prefix frequency: <http://publications.europa.eu/resource/authority/frequency/>.
+@prefix gemet: <http://www.eionet.europa.eu/gemet/concept/>.
+@prefix licence: <http://data.vlaanderen.be/id/licentie/modellicentie-gratis-hergebruik/>.
+@prefix bioindicator: <https://data.omgeving.vlaanderen.be/id/concept/bioindicator/>.
+@prefix observatieprocedure: <https://data.omgeving.vlaanderen.be/id/concept/observatieprocedure/>.
+@prefix metadata: <https://data.omgeving.vlaanderen.be/ns/metadata#>.
+@prefix omg_catalog: <https://data.omgeving.vlaanderen.be/id/catalog/>.
+@prefix omg_catalog_doc: <https://data.omgeving.vlaanderen.be/doc/catalog/>.
+@prefix omg_collection: <https://data.omgeving.vlaanderen.be/id/collection/>.
+@prefix omg_dataservice: <https://data.omgeving.vlaanderen.be/id/dataservice/>.
+@prefix omg_dataset_doc: <https://data.omgeving.vlaanderen.be/doc/dataset/>.
+@prefix omg_dataset: <https://data.omgeving.vlaanderen.be/id/dataset/>.
+@prefix omg_distribution_doc: <https://data.omgeving.vlaanderen.be/doc/distribution/>.
+@prefix omg_distribution: <https://data.omgeving.vlaanderen.be/id/distribution/>.
+@prefix omg_graphcollection: <https://data.omgeving.vlaanderen.be/id/graphcollection/>.
+@prefix omg_graph: <https://data.omgeving.vlaanderen.be/id/graph/>.
+@prefix omg_id: <https://data.omgeving.vlaanderen.be/id/>.
+@prefix omg_named_graph: <https://data.omgeving.vlaanderen.be/id/namedgraph/>.
+@prefix omg_ontology: <https://data.omgeving.vlaanderen.be/id/ontology/>.
+@prefix omg_package: <https://data.omgeving.vlaanderen.be/id/package/>.
+@prefix omg_periodoftime: <https://data.omgeving.vlaanderen.be/id/periodoftime/>.
+@prefix omg_service: <https://data.omgeving.vlaanderen.be/id/service/>.
+@prefix omg_vcard: <https://data.omgeving.vlaanderen.be/id/vcard/>.
+@prefix ovo: <http://data.vlaanderen.be/id/organisatie/>.
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix repo: <https://repo.omgeving.vlaanderen.be/artifactory/release/>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix sd: <http://www.w3.org/ns/sparql-service-description#>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix spdx: <http://spdx.org/rdf/terms#>.
+@prefix ssd: <http://www.w3.org/ns/sparql-service-description#>.
+@prefix ts: <http://www.w3.org/ns/formats/>.
+@prefix vcard: <http://www.w3.org/2006/vcard/ns#>.
+@prefix void: <http://rdfs.org/ns/void#>.
+@prefix wise: <http://dd.eionet.europa.eu/vocabulary/wise/ObservedProperty/>.
+@prefix xkos: <http://rdf-vocabulary.ddialliance.org/xkos#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+
+<https://data.omgeving.vlaanderen.be/id/collection/bioindicator/bodem> skos:inScheme conceptscheme:bioindicator;
+    skos:prefLabel "Collectie van bioindicatoren m.b.t. bodem."@nl.
+<https://data.omgeving.vlaanderen.be/id/collection/bioindicator/lucht> skos:inScheme conceptscheme:bioindicator;
+    skos:prefLabel "Collectie van bioindicatoren m.b.t. lucht."@nl.
+<https://data.omgeving.vlaanderen.be/id/collection/bioindicator/water> a skos:Collection;
+    skos:inScheme conceptscheme:bioindicator;
+    skos:member bioindicator:aliivibrio_fischeri, bioindicator:anostraca, bioindicator:clostridium_perfringens, bioindicator:coagulase_positieve_staphylococci, bioindicator:coliformen, bioindicator:danio_rerio, bioindicator:daphnia_magna, bioindicator:ekc-fytobenthos, bioindicator:ekc-fytoplankton, bioindicator:ekc-macro-invertebraten, bioindicator:ekc-macrofyten, bioindicator:ekc-visfauna, bioindicator:escherichia_coli, bioindicator:intestinale_enterococci, bioindicator:kiemgetal_bij_22c_en_36c, bioindicator:legionella_pneumophila, <https://data.omgeving.vlaanderen.be/id/concept/bioindicator/legionella_spp._>, bioindicator:oncorhyncus_mykiss, bioindicator:phaeodactylum_tricornutum, bioindicator:pseudokirchneriella_subcapitata, bioindicator:pseudomonas_aeruginosa, <https://data.omgeving.vlaanderen.be/id/concept/bioindicator/salmonella_spp.>, bioindicator:somatische_colifagen;
+    skos:prefLabel "Collectie van bioindicatoren m.b.t. water."@nl.
+bioindicator:actinomyceten a skos:Concept;
+    skos:inScheme conceptscheme:bioindicator;
+    skos:prefLabel "Actinomyceten"@nl;
+    skos:topConceptOf conceptscheme:bioindicator.
+bioindicator:adenovirussen a skos:Concept;
+    skos:inScheme conceptscheme:bioindicator;
+    skos:prefLabel "Adenovirussen"@nl;
+    skos:topConceptOf conceptscheme:bioindicator.
+bioindicator:aerococcus a skos:Concept;
+    skos:inScheme conceptscheme:bioindicator;
+    skos:prefLabel "Aerococcus"@nl;
+    skos:topConceptOf conceptscheme:bioindicator.
+bioindicator:aerococcus_viridans a skos:Concept;
+    skos:inScheme conceptscheme:bioindicator;
+    skos:prefLabel "Aerococcus viridans"@nl;
+    skos:topConceptOf conceptscheme:bioindicator.
+bioindicator:aeromonas a skos:Concept;
+    skos:inScheme conceptscheme:bioindicator;
+    skos:prefLabel "Aeromonas"@nl;
+    skos:topConceptOf conceptscheme:bioindicator.
+bioindicator:aeromonas_caviae a skos:Concept;
+    skos:inScheme conceptscheme:bioindicator;
+    skos:prefLabel "Aeromonas caviae"@nl;
+    skos:topConceptOf conceptscheme:bioindicator.
+bioindicator:aeromonas_eucrenophila a skos:Concept;
+    skos:inScheme conceptscheme:bioindicator;
+    skos:prefLabel "Aeromonas eucrenophila"@nl;
+    skos:topConceptOf conceptscheme:bioindicator.
+bioindicator:aeromonas_hydrophila a skos:Concept;
+    skos:inScheme conceptscheme:bioindicator;
+    skos:prefLabel "Aeromonas hydrophila"@nl;
+    skos:topConceptOf conceptscheme:bioindicator.
+bioindicator:aeromonas_salmonicida a skos:Concept;
+    skos:inScheme conceptscheme:bioindicator;
+    skos:prefLabel "Aeromonas salmonicida"@nl;
+    skos:topConceptOf conceptscheme:bioindicator.
+bioindicator:aeromonas_veronii a skos:Concept;
+    skos:inScheme conceptscheme:bioindicator;
+    skos:prefLabel "Aeromonas veronii"@nl;
+    skos:topConceptOf conceptscheme:bioindicator.
+bioindicator:aliivibrio_fischeri dct:isReferencedBy observatieprocedure:WAC_V_B_004;
+    dct:relation observatieprocedure:WAC_V_B_004;
+    a rdfs:Resource, skos:Concept;
+    skos:altLabel "Luminescente bacterie"@nl;
+    skos:inScheme conceptscheme:bioindicator;
+    skos:prefLabel "Aliivibrio fischeri"@nl;
+    skos:topConceptOf conceptscheme:bioindicator;
+    dcat:theme <http://www.eionet.europa.eu/gemet/concept/15179>.
+bioindicator:alternaria a skos:Concept;
+    skos:inScheme conceptscheme:bioindicator;
+    skos:prefLabel "Alternaria"@nl;
+    skos:topConceptOf conceptscheme:bioindicator.
+bioindicator:anostraca dct:isReferencedBy observatieprocedure:WAC_V_B_001;
+    dct:relation observatieprocedure:WAC_V_B_001;
+    a rdfs:Resource, skos:Concept;
+    skos:altLabel "Pekelkreeftje"@nl;
+    skos:inScheme conceptscheme:bioindicator;
+    skos:prefLabel "Anostraca"@nl;
+    skos:topConceptOf conceptscheme:bioindicator;
+    dcat:theme <http://www.eionet.europa.eu/gemet/concept/15179>.
+bioindicator:aspergillus a skos:Concept;
+    skos:inScheme conceptscheme:bioindicator;
+    skos:prefLabel "Aspergillus"@nl;
+    skos:topConceptOf conceptscheme:bioindicator.
+bioindicator:aspergillus_fumigatus a skos:Concept;
+    skos:inScheme conceptscheme:bioindicator;
+    skos:prefLabel "Aspergillus fumigatus"@nl;
+    skos:topConceptOf conceptscheme:bioindicator.
+bioindicator:aureobasidium a skos:Concept;
+    skos:inScheme conceptscheme:bioindicator;
+    skos:prefLabel "Aureobasidium"@nl;
+    skos:topConceptOf conceptscheme:bioindicator.
+bioindicator:aureobasidium_pullulans a skos:Concept;
+    skos:inScheme conceptscheme:bioindicator;
+    skos:prefLabel "Aureobasidium pullulans"@nl;
+    skos:topConceptOf conceptscheme:bioindicator.
+bioindicator:bacillus_cereus a skos:Concept;
+    skos:inScheme conceptscheme:bioindicator;
+    skos:prefLabel "Bacillus cereus"@nl;
+    skos:topConceptOf conceptscheme:bioindicator.
+bioindicator:bacteriofagen a skos:Concept;
+    skos:inScheme conceptscheme:bioindicator;
+    skos:prefLabel "Bacteriofagen"@nl;
+    skos:topConceptOf conceptscheme:bioindicator.
+bioindicator:buttiauxella a skos:Concept;
+    skos:inScheme conceptscheme:bioindicator;
+    skos:prefLabel "Buttiauxella"@nl;
+    skos:topConceptOf conceptscheme:bioindicator.
+bioindicator:buttiauxella_ferragutiae a skos:Concept;
+    skos:inScheme conceptscheme:bioindicator;
+    skos:prefLabel "Buttiauxella ferragutiae"@nl;
+    skos:topConceptOf conceptscheme:bioindicator.
+bioindicator:buttiauxella_gaviniae a skos:Concept;
+    skos:inScheme conceptscheme:bioindicator;
+    skos:prefLabel "Buttiauxella gaviniae"@nl;
+    skos:topConceptOf conceptscheme:bioindicator.
+bioindicator:buttiauxella_izardii a skos:Concept;
+    skos:inScheme conceptscheme:bioindicator;
+    skos:prefLabel "Buttiauxella izardii"@nl;
+    skos:topConceptOf conceptscheme:bioindicator.
+bioindicator:buttiauxella_noackiae a skos:Concept;
+    skos:inScheme conceptscheme:bioindicator;
+    skos:prefLabel "Buttiauxella noackiae"@nl;
+    skos:topConceptOf conceptscheme:bioindicator.
+bioindicator:candida a skos:Concept;
+    skos:inScheme conceptscheme:bioindicator;
+    skos:prefLabel "Candida"@nl;
+    skos:topConceptOf conceptscheme:bioindicator.
+bioindicator:chaetomium a skos:Concept;
+    skos:inScheme conceptscheme:bioindicator;
+    skos:prefLabel "Chaetomium"@nl;
+    skos:topConceptOf conceptscheme:bioindicator.
+bioindicator:citrobacter a skos:Concept;
+    skos:inScheme conceptscheme:bioindicator;
+    skos:prefLabel "Citrobacter"@nl;
+    skos:topConceptOf conceptscheme:bioindicator.
+bioindicator:citrobacter_gillenii a skos:Concept;
+    skos:inScheme conceptscheme:bioindicator;
+    skos:prefLabel "Citrobacter gillenii"@nl;
+    skos:topConceptOf conceptscheme:bioindicator.
+bioindicator:cladosporium a skos:Concept;
+    skos:inScheme conceptscheme:bioindicator;
+    skos:prefLabel "Cladosporium"@nl;
+    skos:topConceptOf conceptscheme:bioindicator.
+bioindicator:clostridium_perfringens dct:isReferencedBy observatieprocedure:WAC_V_A_007;
+    dct:relation observatieprocedure:WAC_V_A_007;
+    a rdfs:Resource, skos:Concept;
+    skos:altLabel "Clostridium perfringens"@nl;
+    skos:inScheme conceptscheme:bioindicator;
+    skos:prefLabel "Clostridium perfringens"@nl;
+    skos:topConceptOf conceptscheme:bioindicator;
+    dcat:theme <http://www.eionet.europa.eu/gemet/concept/15179>.
+bioindicator:clostridium_tertium a skos:Concept;
+    skos:inScheme conceptscheme:bioindicator;
+    skos:prefLabel "Clostridium tertium"@nl;
+    skos:topConceptOf conceptscheme:bioindicator.
+bioindicator:coagulase_positieve_staphylococci dct:isReferencedBy observatieprocedure:WAC_V_A_008;
+    dct:relation observatieprocedure:WAC_V_A_008;
+    a rdfs:Resource, skos:Concept;
+    skos:altLabel "stafylokokken"@nl;
+    skos:inScheme conceptscheme:bioindicator;
+    skos:prefLabel "coagulase positieve staphylococci"@nl;
+    skos:topConceptOf conceptscheme:bioindicator;
+    dcat:theme <http://www.eionet.europa.eu/gemet/concept/15179>.
+bioindicator:coliformen dct:isReferencedBy observatieprocedure:WAC_V_A_002;
+    dct:relation observatieprocedure:WAC_V_A_002;
+    a rdfs:Resource, skos:Concept;
+    skos:altLabel "coliformen"@nl;
+    skos:inScheme conceptscheme:bioindicator;
+    skos:prefLabel "coliformen"@nl;
+    skos:topConceptOf conceptscheme:bioindicator;
+    dcat:theme <http://www.eionet.europa.eu/gemet/concept/15179>.
+bioindicator:cronobacter a skos:Concept;
+    skos:inScheme conceptscheme:bioindicator;
+    skos:prefLabel "Cronobacter"@nl;
+    skos:topConceptOf conceptscheme:bioindicator.
+bioindicator:cronobacter_sakazakii a skos:Concept;
+    skos:inScheme conceptscheme:bioindicator;
+    skos:prefLabel "Cronobacter sakazakii"@nl;
+    skos:topConceptOf conceptscheme:bioindicator.
+bioindicator:cryptosporidium a skos:Concept;
+    skos:inScheme conceptscheme:bioindicator;
+    skos:prefLabel "Cryptosporidium"@nl;
+    skos:topConceptOf conceptscheme:bioindicator.
+bioindicator:danio_rerio dct:isReferencedBy observatieprocedure:WAC_V_B_002;
+    dct:relation observatieprocedure:WAC_V_B_002;
+    a rdfs:Resource, skos:Concept;
+    skos:altLabel "Zebravisembryo"@nl;
+    skos:inScheme conceptscheme:bioindicator;
+    skos:prefLabel "Danio rerio"@nl;
+    skos:topConceptOf conceptscheme:bioindicator;
+    dcat:theme <http://www.eionet.europa.eu/gemet/concept/15179>.
+bioindicator:daphnia_magna dct:isReferencedBy observatieprocedure:WAC_V_B_001;
+    dct:relation observatieprocedure:WAC_V_B_001;
+    a rdfs:Resource, skos:Concept;
+    skos:altLabel "Watervlo"@nl;
+    skos:inScheme conceptscheme:bioindicator;
+    skos:prefLabel "Daphnia magna"@nl;
+    skos:topConceptOf conceptscheme:bioindicator;
+    dcat:theme <http://www.eionet.europa.eu/gemet/concept/15179>.
+bioindicator:dermatofyten a skos:Concept;
+    skos:inScheme conceptscheme:bioindicator;
+    skos:prefLabel "Dermatofyten"@nl;
+    skos:topConceptOf conceptscheme:bioindicator.
+bioindicator:ekc-fytobenthos dct:isReferencedBy observatieprocedure:VLAREM_II;
+    dct:relation observatieprocedure:VLAREM_II;
+    a rdfs:Resource, skos:Concept;
+    skos:altLabel "EKC-fytobenthos"@nl;
+    skos:inScheme conceptscheme:bioindicator;
+    skos:prefLabel "EKC-fytobenthos"@nl;
+    skos:topConceptOf conceptscheme:bioindicator;
+    dcat:theme <http://www.eionet.europa.eu/gemet/concept/15179>.
+bioindicator:ekc-fytoplankton dct:isReferencedBy observatieprocedure:VLAREM_II;
+    dct:relation observatieprocedure:VLAREM_II;
+    a rdfs:Resource, skos:Concept;
+    skos:altLabel "EKC-fytoplankton"@nl;
+    skos:inScheme conceptscheme:bioindicator;
+    skos:prefLabel "EKC-fytoplankton"@nl;
+    skos:topConceptOf conceptscheme:bioindicator;
+    dcat:theme <http://www.eionet.europa.eu/gemet/concept/15179>.
+bioindicator:ekc-macro-invertebraten dct:isReferencedBy observatieprocedure:VLAREM_II;
+    dct:relation observatieprocedure:VLAREM_II;
+    a rdfs:Resource, skos:Concept;
+    skos:altLabel "EKC-macro-invertebraten"@nl;
+    skos:inScheme conceptscheme:bioindicator;
+    skos:prefLabel "EKC-macro-invertebraten"@nl;
+    skos:topConceptOf conceptscheme:bioindicator;
+    dcat:theme <http://www.eionet.europa.eu/gemet/concept/15179>.
+bioindicator:ekc-macrofyten dct:isReferencedBy observatieprocedure:VLAREM_II;
+    dct:relation observatieprocedure:VLAREM_II;
+    a rdfs:Resource, skos:Concept;
+    skos:altLabel "EKC-macrofyten"@nl;
+    skos:inScheme conceptscheme:bioindicator;
+    skos:prefLabel "EKC-macrofyten"@nl;
+    skos:topConceptOf conceptscheme:bioindicator;
+    dcat:theme <http://www.eionet.europa.eu/gemet/concept/15179>.
+bioindicator:ekc-visfauna dct:isReferencedBy observatieprocedure:VLAREM_II;
+    dct:relation observatieprocedure:VLAREM_II;
+    a rdfs:Resource, skos:Concept;
+    skos:altLabel "EKC-visfauna"@nl;
+    skos:inScheme conceptscheme:bioindicator;
+    skos:prefLabel "EKC-visfauna"@nl;
+    skos:topConceptOf conceptscheme:bioindicator;
+    dcat:theme <http://www.eionet.europa.eu/gemet/concept/15179>.
+bioindicator:enterobacter_amnigenus a skos:Concept;
+    skos:inScheme conceptscheme:bioindicator;
+    skos:prefLabel "Enterobacter amnigenus"@nl;
+    skos:topConceptOf conceptscheme:bioindicator.
+bioindicator:enterobacter_cloacae a skos:Concept;
+    skos:inScheme conceptscheme:bioindicator;
+    skos:prefLabel "Enterobacter cloacae"@nl;
+    skos:topConceptOf conceptscheme:bioindicator.
+bioindicator:enterobacter_ludwigii a skos:Concept;
+    skos:inScheme conceptscheme:bioindicator;
+    skos:prefLabel "Enterobacter ludwigii"@nl;
+    skos:topConceptOf conceptscheme:bioindicator.
+bioindicator:enterococcen a skos:Concept;
+    skos:inScheme conceptscheme:bioindicator;
+    skos:prefLabel "Enterococcen"@nl;
+    skos:topConceptOf conceptscheme:bioindicator.
+bioindicator:enterococcus_aquimarinus a skos:Concept;
+    skos:inScheme conceptscheme:bioindicator;
+    skos:prefLabel "Enterococcus aquimarinus"@nl;
+    skos:topConceptOf conceptscheme:bioindicator.
+bioindicator:enterococcus_cacae a skos:Concept;
+    skos:inScheme conceptscheme:bioindicator;
+    skos:prefLabel "Enterococcus cacae"@nl;
+    skos:topConceptOf conceptscheme:bioindicator.
+bioindicator:enterococcus_casseliflavus a skos:Concept;
+    skos:inScheme conceptscheme:bioindicator;
+    skos:prefLabel "Enterococcus casseliflavus"@nl;
+    skos:topConceptOf conceptscheme:bioindicator.
+bioindicator:enterococcus_durans a skos:Concept;
+    skos:inScheme conceptscheme:bioindicator;
+    skos:prefLabel "Enterococcus durans"@nl;
+    skos:topConceptOf conceptscheme:bioindicator.
+bioindicator:enterococcus_faecalis a skos:Concept;
+    skos:inScheme conceptscheme:bioindicator;
+    skos:prefLabel "Enterococcus faecalis"@nl;
+    skos:topConceptOf conceptscheme:bioindicator.
+bioindicator:enterococcus_faecium a skos:Concept;
+    skos:inScheme conceptscheme:bioindicator;
+    skos:prefLabel "Enterococcus faecium"@nl;
+    skos:topConceptOf conceptscheme:bioindicator.
+bioindicator:enterococcus_gallinarum a skos:Concept;
+    skos:inScheme conceptscheme:bioindicator;
+    skos:prefLabel "Enterococcus gallinarum"@nl;
+    skos:topConceptOf conceptscheme:bioindicator.
+bioindicator:enterococcus_gilvus a skos:Concept;
+    skos:inScheme conceptscheme:bioindicator;
+    skos:prefLabel "Enterococcus gilvus"@nl;
+    skos:topConceptOf conceptscheme:bioindicator.
+bioindicator:enterococcus_haemoperoxidus a skos:Concept;
+    skos:inScheme conceptscheme:bioindicator;
+    skos:prefLabel "Enterococcus haemoperoxidus"@nl;
+    skos:topConceptOf conceptscheme:bioindicator.
+bioindicator:enterococcus_hirae a skos:Concept;
+    skos:inScheme conceptscheme:bioindicator;
+    skos:prefLabel "Enterococcus hirae"@nl;
+    skos:topConceptOf conceptscheme:bioindicator.
+bioindicator:enterococcus_italicus a skos:Concept;
+    skos:inScheme conceptscheme:bioindicator;
+    skos:prefLabel "Enterococcus italicus"@nl;
+    skos:topConceptOf conceptscheme:bioindicator.
+bioindicator:enterococcus_malodoratus a skos:Concept;
+    skos:inScheme conceptscheme:bioindicator;
+    skos:prefLabel "Enterococcus malodoratus"@nl;
+    skos:topConceptOf conceptscheme:bioindicator.
+bioindicator:enterococcus_moraviensis a skos:Concept;
+    skos:inScheme conceptscheme:bioindicator;
+    skos:prefLabel "Enterococcus moraviensis"@nl;
+    skos:topConceptOf conceptscheme:bioindicator.
+bioindicator:enterococcus_mundtii a skos:Concept;
+    skos:inScheme conceptscheme:bioindicator;
+    skos:prefLabel "Enterococcus mundtii"@nl;
+    skos:topConceptOf conceptscheme:bioindicator.
+bioindicator:enterococcus_phoeniculicola a skos:Concept;
+    skos:inScheme conceptscheme:bioindicator;
+    skos:prefLabel "Enterococcus phoeniculicola"@nl;
+    skos:topConceptOf conceptscheme:bioindicator.
+bioindicator:enterococcus_silesiacus a skos:Concept;
+    skos:inScheme conceptscheme:bioindicator;
+    skos:prefLabel "Enterococcus silesiacus"@nl;
+    skos:topConceptOf conceptscheme:bioindicator.
+bioindicator:enterococcus_sulfureus a skos:Concept;
+    skos:inScheme conceptscheme:bioindicator;
+    skos:prefLabel "Enterococcus sulfureus"@nl;
+    skos:topConceptOf conceptscheme:bioindicator.
+bioindicator:enterococcus_termitis a skos:Concept;
+    skos:inScheme conceptscheme:bioindicator;
+    skos:prefLabel "Enterococcus termitis"@nl;
+    skos:topConceptOf conceptscheme:bioindicator.
+bioindicator:enterococcus_thailandicus a skos:Concept;
+    skos:inScheme conceptscheme:bioindicator;
+    skos:prefLabel "Enterococcus thailandicus"@nl;
+    skos:topConceptOf conceptscheme:bioindicator.
+bioindicator:enterovirussen a skos:Concept;
+    skos:inScheme conceptscheme:bioindicator;
+    skos:prefLabel "Enterovirussen"@nl;
+    skos:topConceptOf conceptscheme:bioindicator.
+bioindicator:escherichia_coli dct:isReferencedBy observatieprocedure:WAC_V_A_002;
+    dct:relation observatieprocedure:WAC_V_A_002;
+    a rdfs:Resource, skos:Concept;
+    skos:altLabel "Escherichia coli (E. coli)"@nl;
+    skos:inScheme conceptscheme:bioindicator;
+    skos:notation "EColi";
+    skos:prefLabel "Escherichia coli"@nl;
+    skos:topConceptOf conceptscheme:bioindicator;
+    dcat:theme <http://www.eionet.europa.eu/gemet/concept/15179>.
+bioindicator:eurotium a skos:Concept;
+    skos:inScheme conceptscheme:bioindicator;
+    skos:prefLabel "Eurotium"@nl;
+    skos:topConceptOf conceptscheme:bioindicator.
+bioindicator:fusarium a skos:Concept;
+    skos:inScheme conceptscheme:bioindicator;
+    skos:prefLabel "Fusarium"@nl;
+    skos:topConceptOf conceptscheme:bioindicator.
+bioindicator:fusarium_solani a skos:Concept;
+    skos:inScheme conceptscheme:bioindicator;
+    skos:prefLabel "Fusarium Solani"@nl;
+    skos:topConceptOf conceptscheme:bioindicator.
+bioindicator:gallionella a skos:Concept;
+    skos:inScheme conceptscheme:bioindicator;
+    skos:prefLabel "Gallionella"@nl;
+    skos:topConceptOf conceptscheme:bioindicator.
+bioindicator:giardia a skos:Concept;
+    skos:inScheme conceptscheme:bioindicator;
+    skos:prefLabel "Giardia"@nl;
+    skos:topConceptOf conceptscheme:bioindicator.
+bioindicator:intestinale_enterococci dct:isReferencedBy observatieprocedure:WAC_V_A_003;
+    dct:relation observatieprocedure:WAC_V_A_003;
+    a rdfs:Resource, skos:Concept;
+    skos:altLabel "enterokokken"@nl;
+    skos:inScheme conceptscheme:bioindicator;
+    skos:prefLabel "intestinale enterococci"@nl;
+    skos:topConceptOf conceptscheme:bioindicator;
+    dcat:theme <http://www.eionet.europa.eu/gemet/concept/15179>.
+bioindicator:kiemgetal_bij_22c_en_36c dct:isReferencedBy observatieprocedure:WAC_V_A_001;
+    dct:relation observatieprocedure:WAC_V_A_001;
+    a rdfs:Resource, skos:Concept;
+    skos:altLabel "kiemgetal bij 22°C en 36°C"@nl;
+    skos:inScheme conceptscheme:bioindicator;
+    skos:prefLabel "kiemgetal bij 22°C en 36°C"@nl;
+    skos:topConceptOf conceptscheme:bioindicator;
+    dcat:theme <http://www.eionet.europa.eu/gemet/concept/15179>.
+bioindicator:klebsiella a skos:Concept;
+    skos:inScheme conceptscheme:bioindicator;
+    skos:prefLabel "Klebsiella"@nl;
+    skos:topConceptOf conceptscheme:bioindicator.
+bioindicator:klebsiella_oxytoca a skos:Concept;
+    skos:inScheme conceptscheme:bioindicator;
+    skos:prefLabel "Klebsiella oxytoca"@nl;
+    skos:topConceptOf conceptscheme:bioindicator.
+bioindicator:klebsiella_pneumoniae a skos:Concept;
+    skos:inScheme conceptscheme:bioindicator;
+    skos:prefLabel "Klebsiella pneumoniae"@nl;
+    skos:topConceptOf conceptscheme:bioindicator.
+bioindicator:kluyvera a skos:Concept;
+    skos:inScheme conceptscheme:bioindicator;
+    skos:prefLabel "Kluyvera"@nl;
+    skos:topConceptOf conceptscheme:bioindicator.
+bioindicator:lactobacillus_plantarum a skos:Concept;
+    skos:inScheme conceptscheme:bioindicator;
+    skos:prefLabel "Lactobacillus plantarum"@nl;
+    skos:topConceptOf conceptscheme:bioindicator.
+bioindicator:lactococcus_lactis a skos:Concept;
+    skos:inScheme conceptscheme:bioindicator;
+    skos:prefLabel "Lactococcus lactis"@nl;
+    skos:topConceptOf conceptscheme:bioindicator.
+bioindicator:legionella_overgroei a skos:Concept;
+    skos:inScheme conceptscheme:bioindicator;
+    skos:prefLabel "Legionella overgroei"@nl;
+    skos:topConceptOf conceptscheme:bioindicator.
+bioindicator:legionella_pneumophila dct:isReferencedBy observatieprocedure:WAC_V_A_005;
+    dct:relation observatieprocedure:WAC_V_A_005;
+    a rdfs:Resource, skos:Concept;
+    skos:altLabel "Legionella pneumophila"@nl;
+    skos:inScheme conceptscheme:bioindicator;
+    skos:prefLabel "Legionella pneumophila"@nl;
+    skos:topConceptOf conceptscheme:bioindicator;
+    dcat:theme <http://www.eionet.europa.eu/gemet/concept/15179>.
+<https://data.omgeving.vlaanderen.be/id/concept/bioindicator/legionella_spp._> dct:isReferencedBy observatieprocedure:WAC_V_A_005;
+    dct:relation observatieprocedure:WAC_V_A_005;
+    a rdfs:Resource, skos:Concept;
+    skos:altLabel "Legionella spp."@nl;
+    skos:inScheme conceptscheme:bioindicator;
+    skos:notation "Legio";
+    skos:prefLabel "Legionella spp."@nl;
+    skos:topConceptOf conceptscheme:bioindicator;
+    dcat:theme <http://www.eionet.europa.eu/gemet/concept/15179>.
+bioindicator:lelliottia_amnigena a skos:Concept;
+    skos:inScheme conceptscheme:bioindicator;
+    skos:prefLabel "Lelliottia amnigena"@nl;
+    skos:topConceptOf conceptscheme:bioindicator.
+bioindicator:melkzuur_bacterien a skos:Concept;
+    skos:inScheme conceptscheme:bioindicator;
+    skos:prefLabel "Melkzuur bacteriën"@nl;
+    skos:topConceptOf conceptscheme:bioindicator.
+bioindicator:micrococcus a skos:Concept;
+    skos:inScheme conceptscheme:bioindicator;
+    skos:prefLabel "Micrococcus"@nl;
+    skos:topConceptOf conceptscheme:bioindicator.
+bioindicator:mucor a skos:Concept;
+    skos:inScheme conceptscheme:bioindicator;
+    skos:prefLabel "Mucor"@nl;
+    skos:topConceptOf conceptscheme:bioindicator.
+bioindicator:naaktamoeben a skos:Concept;
+    skos:inScheme conceptscheme:bioindicator;
+    skos:prefLabel "Naaktamoeben"@nl;
+    skos:topConceptOf conceptscheme:bioindicator.
+bioindicator:nitrosomonas a skos:Concept;
+    skos:inScheme conceptscheme:bioindicator;
+    skos:prefLabel "Nitrosomonas"@nl;
+    skos:topConceptOf conceptscheme:bioindicator.
+bioindicator:oenococcus a skos:Concept;
+    skos:inScheme conceptscheme:bioindicator;
+    skos:prefLabel "Oenococcus"@nl;
+    skos:topConceptOf conceptscheme:bioindicator.
+bioindicator:oncorhyncus_mykiss dct:isReferencedBy observatieprocedure:WAC_V_B_007;
+    dct:relation observatieprocedure:WAC_V_B_007;
+    a rdfs:Resource, skos:Concept;
+    skos:altLabel "Forel"@nl;
+    skos:inScheme conceptscheme:bioindicator;
+    skos:prefLabel "Oncorhyncus mykiss"@nl;
+    skos:topConceptOf conceptscheme:bioindicator;
+    dcat:theme <http://www.eionet.europa.eu/gemet/concept/15179>.
+bioindicator:penicillium a skos:Concept;
+    skos:inScheme conceptscheme:bioindicator;
+    skos:prefLabel "Penicillium"@nl;
+    skos:topConceptOf conceptscheme:bioindicator.
+bioindicator:penicillium_marneffei a skos:Concept;
+    skos:inScheme conceptscheme:bioindicator;
+    skos:prefLabel "Penicillium marneffei"@nl;
+    skos:topConceptOf conceptscheme:bioindicator.
+bioindicator:phaeodactylum_tricornutum dct:isReferencedBy observatieprocedure:WAC_V_B_003;
+    dct:relation observatieprocedure:WAC_V_B_003;
+    a rdfs:Resource, skos:Concept;
+    skos:altLabel "Mariene alg"@nl;
+    skos:inScheme conceptscheme:bioindicator;
+    skos:prefLabel "Phaeodactylum tricornutum"@nl;
+    skos:topConceptOf conceptscheme:bioindicator;
+    dcat:theme <http://www.eionet.europa.eu/gemet/concept/15179>.
+bioindicator:phoma a skos:Concept;
+    skos:inScheme conceptscheme:bioindicator;
+    skos:prefLabel "Phoma"@nl;
+    skos:topConceptOf conceptscheme:bioindicator.
+bioindicator:pseudokirchneriella_subcapitata dct:isReferencedBy observatieprocedure:WAC_V_B_003;
+    dct:relation observatieprocedure:WAC_V_B_003;
+    a rdfs:Resource, skos:Concept;
+    skos:altLabel "Zoetwateralg"@nl;
+    skos:inScheme conceptscheme:bioindicator;
+    skos:prefLabel "Pseudokirchneriella subcapitata"@nl;
+    skos:topConceptOf conceptscheme:bioindicator;
+    dcat:theme <http://www.eionet.europa.eu/gemet/concept/15179>.
+bioindicator:pseudomonas a skos:Concept;
+    skos:inScheme conceptscheme:bioindicator;
+    skos:prefLabel "Pseudomonas"@nl;
+    skos:topConceptOf conceptscheme:bioindicator.
+bioindicator:pseudomonas_aeruginosa dct:isReferencedBy observatieprocedure:WAC_V_A_006;
+    dct:relation observatieprocedure:WAC_V_A_006;
+    a rdfs:Resource, skos:Concept;
+    skos:altLabel "Pseudomonas aeruginosa"@nl;
+    skos:inScheme conceptscheme:bioindicator;
+    skos:prefLabel "Pseudomonas aeruginosa"@nl;
+    skos:topConceptOf conceptscheme:bioindicator;
+    dcat:theme <http://www.eionet.europa.eu/gemet/concept/15179>.
+bioindicator:rahnella_aquatilis a skos:Concept;
+    skos:inScheme conceptscheme:bioindicator;
+    skos:prefLabel "Rahnella aquatilis"@nl;
+    skos:topConceptOf conceptscheme:bioindicator.
+bioindicator:ralstonia a skos:Concept;
+    skos:inScheme conceptscheme:bioindicator;
+    skos:prefLabel "Ralstonia"@nl;
+    skos:topConceptOf conceptscheme:bioindicator.
+bioindicator:reovirussen a skos:Concept;
+    skos:inScheme conceptscheme:bioindicator;
+    skos:prefLabel "Reovirussen"@nl;
+    skos:topConceptOf conceptscheme:bioindicator.
+bioindicator:rhizophus a skos:Concept;
+    skos:inScheme conceptscheme:bioindicator;
+    skos:prefLabel "Rhizophus"@nl;
+    skos:topConceptOf conceptscheme:bioindicator.
+bioindicator:rhodotorula a skos:Concept;
+    skos:inScheme conceptscheme:bioindicator;
+    skos:prefLabel "Rhodotorula"@nl;
+    skos:topConceptOf conceptscheme:bioindicator.
+<https://data.omgeving.vlaanderen.be/id/concept/bioindicator/ribonucleïnezuur> a skos:Concept;
+    skos:inScheme conceptscheme:bioindicator;
+    skos:prefLabel "Ribonucleïnezuur"@nl;
+    skos:topConceptOf conceptscheme:bioindicator.
+<https://data.omgeving.vlaanderen.be/id/concept/bioindicator/salmonella_spp.> dct:isReferencedBy observatieprocedure:WAC_V_A_004;
+    dct:relation observatieprocedure:WAC_V_A_004;
+    a rdfs:Resource, skos:Concept;
+    skos:altLabel "Salmonella spp."@nl;
+    skos:inScheme conceptscheme:bioindicator;
+    skos:prefLabel "Salmonella spp."@nl;
+    skos:topConceptOf conceptscheme:bioindicator;
+    dcat:theme <http://www.eionet.europa.eu/gemet/concept/15179>.
+bioindicator:schaalamoeben a skos:Concept;
+    skos:inScheme conceptscheme:bioindicator;
+    skos:prefLabel "Schaalamoeben"@nl;
+    skos:topConceptOf conceptscheme:bioindicator.
+bioindicator:schimmels a skos:Concept;
+    skos:inScheme conceptscheme:bioindicator;
+    skos:prefLabel "Schimmels"@nl;
+    skos:topConceptOf conceptscheme:bioindicator.
+bioindicator:scopulariopsis a skos:Concept;
+    skos:inScheme conceptscheme:bioindicator;
+    skos:prefLabel "Scopulariopsis"@nl;
+    skos:topConceptOf conceptscheme:bioindicator.
+bioindicator:serratia a skos:Concept;
+    skos:inScheme conceptscheme:bioindicator;
+    skos:prefLabel "Serratia"@nl;
+    skos:topConceptOf conceptscheme:bioindicator.
+bioindicator:som_roeipootkreeften_copepoda a skos:Concept;
+    skos:inScheme conceptscheme:bioindicator;
+    skos:prefLabel "som Roeipootkreeften (Copepoda)"@nl;
+    skos:topConceptOf conceptscheme:bioindicator.
+bioindicator:somatische_colifagen a skos:Concept;
+    skos:altLabel "somatische colifagen"@nl;
+    skos:inScheme conceptscheme:bioindicator;
+    skos:prefLabel "somatische colifagen"@nl;
+    skos:topConceptOf conceptscheme:bioindicator;
+    dcat:theme <http://www.eionet.europa.eu/gemet/concept/15179>.
+bioindicator:stachybotrys a skos:Concept;
+    skos:inScheme conceptscheme:bioindicator;
+    skos:prefLabel "Stachybotrys"@nl;
+    skos:topConceptOf conceptscheme:bioindicator.
+bioindicator:staphylococcus_epidermidis a skos:Concept;
+    skos:inScheme conceptscheme:bioindicator;
+    skos:prefLabel "Staphylococcus epidermidis"@nl;
+    skos:topConceptOf conceptscheme:bioindicator.
+bioindicator:staphylococcus_pasteuri a skos:Concept;
+    skos:inScheme conceptscheme:bioindicator;
+    skos:prefLabel "Staphylococcus pasteuri"@nl;
+    skos:topConceptOf conceptscheme:bioindicator.
+bioindicator:staphylococcus_saprophyticus a skos:Concept;
+    skos:inScheme conceptscheme:bioindicator;
+    skos:prefLabel "Staphylococcus saprophyticus"@nl;
+    skos:topConceptOf conceptscheme:bioindicator.
+bioindicator:staphylococcus_warneri a skos:Concept;
+    skos:inScheme conceptscheme:bioindicator;
+    skos:prefLabel "Staphylococcus warneri"@nl;
+    skos:topConceptOf conceptscheme:bioindicator.
+bioindicator:streptococcus a skos:Concept;
+    skos:inScheme conceptscheme:bioindicator;
+    skos:prefLabel "Streptococcus"@nl;
+    skos:topConceptOf conceptscheme:bioindicator.
+bioindicator:streptococcus_equinus a skos:Concept;
+    skos:inScheme conceptscheme:bioindicator;
+    skos:prefLabel "Streptococcus equinus"@nl;
+    skos:topConceptOf conceptscheme:bioindicator.
+bioindicator:streptococcus_gallolyticus a skos:Concept;
+    skos:inScheme conceptscheme:bioindicator;
+    skos:prefLabel "Streptococcus gallolyticus"@nl;
+    skos:topConceptOf conceptscheme:bioindicator.
+bioindicator:streptococcus_lutetiensis a skos:Concept;
+    skos:inScheme conceptscheme:bioindicator;
+    skos:prefLabel "Streptococcus lutetiensis"@nl;
+    skos:topConceptOf conceptscheme:bioindicator.
+bioindicator:streptococcus_salivarius a skos:Concept;
+    skos:inScheme conceptscheme:bioindicator;
+    skos:prefLabel "Streptococcus salivarius"@nl;
+    skos:topConceptOf conceptscheme:bioindicator.
+bioindicator:sulfiet_reducerende_clostridia a skos:Concept;
+    skos:inScheme conceptscheme:bioindicator;
+    skos:prefLabel "Sulfiet reducerende clostridia"@nl;
+    skos:topConceptOf conceptscheme:bioindicator.
+bioindicator:thermofiele_actinomyceten a skos:Concept;
+    skos:inScheme conceptscheme:bioindicator;
+    skos:prefLabel "Thermofiele Actinomyceten"@nl;
+    skos:topConceptOf conceptscheme:bioindicator.
+observatieprocedure:VLAREM_II dct:references bioindicator:ekc-fytobenthos, bioindicator:ekc-fytoplankton, bioindicator:ekc-macro-invertebraten, bioindicator:ekc-macrofyten, bioindicator:ekc-visfauna;
+    dct:relation bioindicator:ekc-fytobenthos, bioindicator:ekc-fytoplankton, bioindicator:ekc-macro-invertebraten, bioindicator:ekc-macrofyten, bioindicator:ekc-visfauna;
+    a rdfs:Resource.
+observatieprocedure:WAC_V_A_001 dct:references bioindicator:kiemgetal_bij_22c_en_36c;
+    dct:relation bioindicator:kiemgetal_bij_22c_en_36c;
+    a rdfs:Resource.
+observatieprocedure:WAC_V_A_002 dct:references bioindicator:coliformen, bioindicator:escherichia_coli;
+    dct:relation bioindicator:coliformen, bioindicator:escherichia_coli;
+    a rdfs:Resource.
+observatieprocedure:WAC_V_A_003 dct:references bioindicator:intestinale_enterococci;
+    dct:relation bioindicator:intestinale_enterococci;
+    a rdfs:Resource.
+observatieprocedure:WAC_V_A_004 dct:references <https://data.omgeving.vlaanderen.be/id/concept/bioindicator/salmonella_spp.>;
+    dct:relation <https://data.omgeving.vlaanderen.be/id/concept/bioindicator/salmonella_spp.>;
+    a rdfs:Resource.
+observatieprocedure:WAC_V_A_005 dct:references bioindicator:legionella_pneumophila, <https://data.omgeving.vlaanderen.be/id/concept/bioindicator/legionella_spp._>;
+    dct:relation bioindicator:legionella_pneumophila, <https://data.omgeving.vlaanderen.be/id/concept/bioindicator/legionella_spp._>;
+    a rdfs:Resource.
+observatieprocedure:WAC_V_A_006 dct:references bioindicator:pseudomonas_aeruginosa;
+    dct:relation bioindicator:pseudomonas_aeruginosa;
+    a rdfs:Resource.
+observatieprocedure:WAC_V_A_007 dct:references bioindicator:clostridium_perfringens;
+    dct:relation bioindicator:clostridium_perfringens;
+    a rdfs:Resource.
+observatieprocedure:WAC_V_A_008 dct:references bioindicator:coagulase_positieve_staphylococci;
+    dct:relation bioindicator:coagulase_positieve_staphylococci;
+    a rdfs:Resource.
+observatieprocedure:WAC_V_B_001 dct:references bioindicator:anostraca, bioindicator:daphnia_magna;
+    dct:relation bioindicator:anostraca, bioindicator:daphnia_magna;
+    a rdfs:Resource.
+observatieprocedure:WAC_V_B_002 dct:references bioindicator:danio_rerio;
+    dct:relation bioindicator:danio_rerio;
+    a rdfs:Resource.
+observatieprocedure:WAC_V_B_003 dct:references bioindicator:phaeodactylum_tricornutum, bioindicator:pseudokirchneriella_subcapitata;
+    dct:relation bioindicator:phaeodactylum_tricornutum, bioindicator:pseudokirchneriella_subcapitata;
+    a rdfs:Resource.
+observatieprocedure:WAC_V_B_004 dct:references bioindicator:aliivibrio_fischeri;
+    dct:relation bioindicator:aliivibrio_fischeri;
+    a rdfs:Resource.
+observatieprocedure:WAC_V_B_007 dct:references bioindicator:oncorhyncus_mykiss;
+    dct:relation bioindicator:oncorhyncus_mykiss;
+    a rdfs:Resource.
+conceptscheme:bioindicator xkos:belongsTo omg_dataset:codelijst-bioindicator;
+    a skos:ConceptScheme;
+    skos:definition "Een organisme waarmee een verandering of verontreiniging van het milieu kan worden gesignaleerd. Het principe achter het gebruik van bio-indicatoren is dat de natuurlijke samenstelling van een levensgemeenschap wordt bepaald door de fysische en chemische eigenschappen van het ecosysteem."@nl;
+    skos:hasTopConcept bioindicator:actinomyceten, bioindicator:adenovirussen, bioindicator:aerococcus, bioindicator:aerococcus_viridans, bioindicator:aeromonas, bioindicator:aeromonas_caviae, bioindicator:aeromonas_eucrenophila, bioindicator:aeromonas_hydrophila, bioindicator:aeromonas_salmonicida, bioindicator:aeromonas_veronii, bioindicator:aliivibrio_fischeri, bioindicator:alternaria, bioindicator:anostraca, bioindicator:aspergillus, bioindicator:aspergillus_fumigatus, bioindicator:aureobasidium, bioindicator:aureobasidium_pullulans, bioindicator:bacillus_cereus, bioindicator:bacteriofagen, bioindicator:buttiauxella, bioindicator:buttiauxella_ferragutiae, bioindicator:buttiauxella_gaviniae, bioindicator:buttiauxella_izardii, bioindicator:buttiauxella_noackiae, bioindicator:candida, bioindicator:chaetomium, bioindicator:citrobacter, bioindicator:citrobacter_gillenii, bioindicator:cladosporium, bioindicator:clostridium_perfringens, bioindicator:clostridium_tertium, bioindicator:coagulase_positieve_staphylococci, bioindicator:coliformen, bioindicator:cronobacter, bioindicator:cronobacter_sakazakii, bioindicator:cryptosporidium, bioindicator:danio_rerio, bioindicator:daphnia_magna, bioindicator:dermatofyten, bioindicator:ekc-fytobenthos, bioindicator:ekc-fytoplankton, bioindicator:ekc-macro-invertebraten, bioindicator:ekc-macrofyten, bioindicator:ekc-visfauna, bioindicator:enterobacter_amnigenus, bioindicator:enterobacter_cloacae, bioindicator:enterobacter_ludwigii, bioindicator:enterococcen, bioindicator:enterococcus_aquimarinus, bioindicator:enterococcus_cacae, bioindicator:enterococcus_casseliflavus, bioindicator:enterococcus_durans, bioindicator:enterococcus_faecalis, bioindicator:enterococcus_faecium, bioindicator:enterococcus_gallinarum, bioindicator:enterococcus_gilvus, bioindicator:enterococcus_haemoperoxidus, bioindicator:enterococcus_hirae, bioindicator:enterococcus_italicus, bioindicator:enterococcus_malodoratus, bioindicator:enterococcus_moraviensis, bioindicator:enterococcus_mundtii, bioindicator:enterococcus_phoeniculicola, bioindicator:enterococcus_silesiacus, bioindicator:enterococcus_sulfureus, bioindicator:enterococcus_termitis, bioindicator:enterococcus_thailandicus, bioindicator:enterovirussen, bioindicator:escherichia_coli, bioindicator:eurotium, bioindicator:fusarium, bioindicator:fusarium_solani, bioindicator:gallionella, bioindicator:giardia, bioindicator:intestinale_enterococci, bioindicator:kiemgetal_bij_22c_en_36c, bioindicator:klebsiella, bioindicator:klebsiella_oxytoca, bioindicator:klebsiella_pneumoniae, bioindicator:kluyvera, bioindicator:lactobacillus_plantarum, bioindicator:lactococcus_lactis, bioindicator:legionella_overgroei, bioindicator:legionella_pneumophila, <https://data.omgeving.vlaanderen.be/id/concept/bioindicator/legionella_spp._>, bioindicator:lelliottia_amnigena, bioindicator:melkzuur_bacterien, bioindicator:micrococcus, bioindicator:mucor, bioindicator:naaktamoeben, bioindicator:nitrosomonas, bioindicator:oenococcus, bioindicator:oncorhyncus_mykiss, bioindicator:penicillium, bioindicator:penicillium_marneffei, bioindicator:phaeodactylum_tricornutum, bioindicator:phoma, bioindicator:pseudokirchneriella_subcapitata, bioindicator:pseudomonas, bioindicator:pseudomonas_aeruginosa, bioindicator:rahnella_aquatilis, bioindicator:ralstonia, bioindicator:reovirussen, bioindicator:rhizophus, bioindicator:rhodotorula, <https://data.omgeving.vlaanderen.be/id/concept/bioindicator/ribonucleïnezuur>, <https://data.omgeving.vlaanderen.be/id/concept/bioindicator/salmonella_spp.>, bioindicator:schaalamoeben, bioindicator:schimmels, bioindicator:scopulariopsis, bioindicator:serratia, bioindicator:som_roeipootkreeften_copepoda, bioindicator:somatische_colifagen, bioindicator:stachybotrys, bioindicator:staphylococcus_epidermidis, bioindicator:staphylococcus_pasteuri, bioindicator:staphylococcus_saprophyticus, bioindicator:staphylococcus_warneri, bioindicator:streptococcus, bioindicator:streptococcus_equinus, bioindicator:streptococcus_gallolyticus, bioindicator:streptococcus_lutetiensis, bioindicator:streptococcus_salivarius, bioindicator:sulfiet_reducerende_clostridia, bioindicator:thermofiele_actinomyceten;
+    skos:note "Een organisme waarmee een verandering of verontreiniging van het milieu kan worden gesignaleerd. Het principe achter het gebruik van bio-indicatoren is dat de natuurlijke samenstelling van een levensgemeenschap wordt bepaald door de fysische en chemische eigenschappen van het ecosysteem."@nl;
+    skos:prefLabel "Codelijst van de bioindicatoren"@nl.
