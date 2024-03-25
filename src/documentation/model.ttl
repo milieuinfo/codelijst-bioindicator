@@ -1,6 +1,7 @@
 @prefix access_right:         <http://publications.europa.eu/resource/authority/access-right/> .
 @prefix adms:                 <http://www.w3.org/ns/adms#> .
 @prefix assettype:            <http://purl.org/adms/assettype/> .
+@prefix bioindicator:         <https://data.omgeving.vlaanderen.be/id/concept/bioindicator/> .
 @prefix chemische_stof:       <https://data.omgeving.vlaanderen.be/id/concept/chemische_stof/> .
 @prefix compound:             <https://pubchem.ncbi.nlm.nih.gov/compound/> .
 @prefix conceptscheme:        <https://data.omgeving.vlaanderen.be/id/conceptscheme/> .
@@ -16,7 +17,6 @@
 @prefix dcat:                 <http://www.w3.org/ns/dcat#> .
 @prefix dct:                  <http://purl.org/dc/terms/> .
 @prefix dcterms:              <http://purl.org/dc/terms/> .
-@prefix emissie:              <https://data.omgeving.vlaanderen.be/id/concept/emissie/> .
 @prefix eurovoc:              <http://eurovoc.europa.eu/> .
 @prefix file_type:            <http://publications.europa.eu/resource/authority/file-type/> .
 @prefix foaf:                 <http://xmlns.com/foaf/0.1/> .
@@ -24,9 +24,8 @@
 @prefix frequency:            <http://publications.europa.eu/resource/authority/frequency/> .
 @prefix gemet:                <http://www.eionet.europa.eu/gemet/concept/> .
 @prefix licence:              <http://data.vlaanderen.be/id/licentie/modellicentie-gratis-hergebruik/> .
-@prefix lozingswijze:         <https://data.omgeving.vlaanderen.be/id/concept/lozingswijze/> .
-@prefix lozingswijze_imjv:    <https://data.omgeving.vlaanderen.be/id/concept/lozingswijze_imjv/> .
 @prefix metadata:             <https://data.omgeving.vlaanderen.be/ns/metadata#> .
+@prefix observatieprocedure:  <https://data.omgeving.vlaanderen.be/id/concept/observatieprocedure/> .
 @prefix omg_catalog:          <https://data.omgeving.vlaanderen.be/id/catalog/> .
 @prefix omg_catalog_doc:      <https://data.omgeving.vlaanderen.be/doc/catalog/> .
 @prefix omg_collection:       <https://data.omgeving.vlaanderen.be/id/collection/> .
@@ -61,27 +60,35 @@
 @prefix xkos:                 <http://rdf-vocabulary.ddialliance.org/xkos#> .
 @prefix xsd:                  <http://www.w3.org/2001/XMLSchema#> .
 
-skos:Concept  rdf:type     "rdfs:Resource";
-        skos:definition    "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString";
-        skos:inScheme      skos:ConceptScheme;
-        skos:notation      "http://www.w3.org/2001/XMLSchema#string";
-        skos:note          "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString";
-        skos:prefLabel     "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString";
-        skos:topConceptOf  skos:ConceptScheme;
-        dcat:theme         "rdfs:Resource" .
+skos:Concept  rdf:type      "rdfs:Resource";
+        dct:isReferencedBy  rdfs:Resource;
+        dct:relation        rdfs:Resource;
+        skos:altLabel       "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString";
+        skos:inScheme       skos:ConceptScheme;
+        skos:notation       "http://www.w3.org/2001/XMLSchema#string";
+        skos:prefLabel      "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString";
+        skos:topConceptOf   skos:ConceptScheme;
+        dcat:theme          "rdfs:Resource" .
+
+rdfs:Resource  rdf:type     "rdfs:Resource";
+        dct:isReferencedBy  rdfs:Resource;
+        dct:references      skos:Concept , rdfs:Resource;
+        dct:relation        skos:Concept , rdfs:Resource;
+        skos:altLabel       "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString";
+        skos:inScheme       skos:ConceptScheme;
+        skos:notation       "http://www.w3.org/2001/XMLSchema#string";
+        skos:prefLabel      "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString";
+        skos:topConceptOf   skos:ConceptScheme;
+        dcat:theme          "rdfs:Resource" .
 
 skos:Collection  rdf:type  "rdfs:Resource";
-        skos:definition  "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString";
-        skos:inScheme    skos:ConceptScheme;
-        skos:member      skos:Concept;
-        skos:notation    "http://www.w3.org/2001/XMLSchema#string";
-        skos:note        "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString";
-        skos:prefLabel   "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString" .
+        skos:inScheme   skos:ConceptScheme;
+        skos:member     rdfs:Resource , skos:Concept;
+        skos:prefLabel  "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString" .
 
 skos:ConceptScheme  rdf:type  "rdfs:Resource";
         xkos:belongsTo      "rdfs:Resource";
         skos:definition     "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString";
-        skos:hasTopConcept  skos:Concept;
-        skos:notation       "http://www.w3.org/2001/XMLSchema#string";
+        skos:hasTopConcept  rdfs:Resource , skos:Concept;
         skos:note           "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString";
         skos:prefLabel      "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString" .
