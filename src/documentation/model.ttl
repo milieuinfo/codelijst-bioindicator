@@ -48,6 +48,7 @@
 @prefix rdf:                  <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs:                 <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix repo:                 <https://repo.omgeving.vlaanderen.be/artifactory/release/> .
+@prefix schema:               <https://schema.org/> .
 @prefix sd:                   <http://www.w3.org/ns/sparql-service-description#> .
 @prefix skos:                 <http://www.w3.org/2004/02/skos/core#> .
 @prefix spdx:                 <http://spdx.org/rdf/terms#> .
@@ -60,35 +61,23 @@
 @prefix xkos:                 <http://rdf-vocabulary.ddialliance.org/xkos#> .
 @prefix xsd:                  <http://www.w3.org/2001/XMLSchema#> .
 
-skos:Concept  rdf:type      "rdfs:Resource";
-        dct:isReferencedBy  rdfs:Resource;
-        dct:relation        rdfs:Resource;
-        skos:altLabel       "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString";
-        skos:inScheme       skos:ConceptScheme;
-        skos:notation       "http://www.w3.org/2001/XMLSchema#string";
-        skos:prefLabel      "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString";
-        skos:topConceptOf   skos:ConceptScheme;
-        dcat:theme          "rdfs:Resource" .
-
-rdfs:Resource  rdf:type     "rdfs:Resource";
-        dct:isReferencedBy  rdfs:Resource;
-        dct:references      skos:Concept , rdfs:Resource;
-        dct:relation        skos:Concept , rdfs:Resource;
-        skos:altLabel       "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString";
-        skos:inScheme       skos:ConceptScheme;
-        skos:notation       "http://www.w3.org/2001/XMLSchema#string";
-        skos:prefLabel      "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString";
-        skos:topConceptOf   skos:ConceptScheme;
-        dcat:theme          "rdfs:Resource" .
+skos:Concept  rdf:type     "rdfs:Resource";
+        skos:altLabel      "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString";
+        skos:inScheme      skos:ConceptScheme;
+        skos:notation      "http://www.w3.org/2001/XMLSchema#string";
+        skos:prefLabel     "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString";
+        skos:topConceptOf  skos:ConceptScheme;
+        dcat:theme         "rdfs:Resource";
+        schema:subjectOf   "http://www.w3.org/2001/XMLSchema#string" .
 
 skos:Collection  rdf:type  "rdfs:Resource";
         skos:inScheme   skos:ConceptScheme;
-        skos:member     rdfs:Resource , skos:Concept;
+        skos:member     skos:Concept;
         skos:prefLabel  "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString" .
 
 skos:ConceptScheme  rdf:type  "rdfs:Resource";
         xkos:belongsTo      "rdfs:Resource";
         skos:definition     "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString";
-        skos:hasTopConcept  rdfs:Resource , skos:Concept;
+        skos:hasTopConcept  skos:Concept;
         skos:note           "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString";
         skos:prefLabel      "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString" .

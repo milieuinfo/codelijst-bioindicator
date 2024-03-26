@@ -334,6 +334,9 @@
   },
   "dc_elements_identifier" : {
     "@id" : "http://purl.org/dc/elements/1.1/identifier"
+  },
+  "subjectOf" : {
+    "@id" : "https://schema.org/subjectOf"
   }
 }
 

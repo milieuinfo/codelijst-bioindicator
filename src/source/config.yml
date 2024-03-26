@@ -87,6 +87,7 @@ prefixes :
   access_right: http://publications.europa.eu/resource/authority/access-right/
   adms: http://www.w3.org/ns/adms#
   assettype: http://purl.org/adms/assettype/
+  bioindicator: https://data.omgeving.vlaanderen.be/id/concept/bioindicator/
   chemische_stof: https://data.omgeving.vlaanderen.be/id/concept/chemische_stof/
   compound : https://pubchem.ncbi.nlm.nih.gov/compound/
   conceptscheme: https://data.omgeving.vlaanderen.be/id/conceptscheme/
@@ -106,7 +107,6 @@ prefixes :
   frequency: http://publications.europa.eu/resource/authority/frequency/
   gemet: http://www.eionet.europa.eu/gemet/concept/
   licence: http://data.vlaanderen.be/id/licentie/modellicentie-gratis-hergebruik/
-  bioindicator: https://data.omgeving.vlaanderen.be/id/concept/bioindicator/
   observatieprocedure: https://data.omgeving.vlaanderen.be/id/concept/observatieprocedure/
   metadata: https://data.omgeving.vlaanderen.be/ns/metadata#
   omg_catalog: https://data.omgeving.vlaanderen.be/id/catalog/
@@ -131,6 +131,7 @@ prefixes :
   repo: https://repo.omgeving.vlaanderen.be/artifactory/release/
   rdf: http://www.w3.org/1999/02/22-rdf-syntax-ns#
   rdfs: http://www.w3.org/2000/01/rdf-schema#
+  schema: https://schema.org/
   sd: http://www.w3.org/ns/sparql-service-description#
   skos: http://www.w3.org/2004/02/skos/core#
   spdx: http://spdx.org/rdf/terms#

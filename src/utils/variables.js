@@ -106,7 +106,6 @@ const frame_skos_no_prefixes = {
         "@embed": "@never",
         "@omitDefault": true
     },
-
     "topConceptOf": {
         "@type": "http://www.w3.org/2004/02/skos/core#ConceptScheme",
         "@embed": "@never",

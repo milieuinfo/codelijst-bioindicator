@@ -25,7 +25,7 @@
 omg_ont:bioindicator-ap-constraints
     a               owl:Ontology ;
     rdfs:comment
-                    "Specifieert hoe de data in de codelijst van fysico-chemische eigenschap te encoderen in RDF (i.e. RDF termen, kardinaliteiten,...)."@en ;
+                    "Specifieert hoe de data in de codelijst van bioindicatoren te encoderen in RDF (i.e. RDF termen, kardinaliteiten,...)."@en ;
     rdfs:label      "Sommatie van stoffen AP Constraints Limited"@en ;
     dct:abstract    "Het fysico-chemische eigenschap applicatieprofiel specifieert de RDF termen (klassen en properties) en bijhorende constraints die gebruikt worden voor het beschrijven van fysico-chemische eigenschap. Het maakt hierbij zoveel mogelijk gebruik van bestaande termen (klassen en properties) uit bestaande , skos, dbo, dbp en een minimale set van nieuwe termen gedefinieerd in het Sommatie van stoffen Vocabularium."@en ;
     dct:alternative "Sommatie van stoffen AP Shapes"@en ;
@@ -79,8 +79,6 @@ ons:bioindicator_collection
     sh:targetClass   skos:Collection .
 
 
-
-
 ons:bioindicator
     a                sh:NodeShape ;
     rdfs:label       "fysico-chemische eigenschap"@en ;
@@ -92,13 +90,21 @@ ons:bioindicator
                      omg_ps:bioindicator_notation,  omg_ps:bioindicator_exactMatch, omg_ps:bioindicator_closeMatch, omg_ps:bioindicator_inScheme,
                      omg_ps:bioindicator_comment, omg_ps:bioindicator_note, omg_ps:bioindicator_definition,
                      omg_ps:bioindicator_altLabel,  omg_ps:bioindicator_prefLabel, omg_ps:bioindicator_narrowMatch,
-                     omg_ps:bioindicator_theme, omg_ps:bioindicator_topConceptOf, omg_ps:bioindicator_broader, omg_ps:bioindicator_casNumber,
+                     omg_ps:bioindicator_theme, omg_ps:bioindicator_topConceptOf, omg_ps:bioindicator_broader, omg_ps:schema_subjectOf,
                      omg_ps:bioindicator_narrower, omg_ps:bioindicator_relation, omg_ps:bioindicator_narrowerTransitive, omg_ps:bioindicator_mappingRelation, omg_ps:bioindicator_broadMatch, omg_ps:bioindicator_semanticRelation, omg_ps:bioindicator_broaderTransitive;
     sh:closed true ;
-    sh:targetSubjectsOf dcat:theme .
-#sh:targetClass   skos:Concept .
+    #sh:targetSubjectsOf dcat:theme .
+    sh:targetClass   skos:Concept .
 
-
+omg_ps:schema_subjectOf
+    a                sh:PropertyShape ;
+    rdfs:label       "subjectOf"@en ;
+    sh:name          "subjectOf"@en ;
+    sh:description   "Values expected to be one of these types    CreativeWork"@en ;
+    rdfs:isDefinedBy omg_ont:bioindicator-ap-constraints, omg_voc:bioindicator-ap-constraints ;
+    sh:datatype      xsd:string ;
+    sh:nodeKind      sh:Literal ;
+    sh:path          <https://schema.org/subjectOf>  .
 
 omg_ps:bioindicator_casNumber
     a                sh:PropertyShape ;

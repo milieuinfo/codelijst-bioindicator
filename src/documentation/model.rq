@@ -16,14 +16,12 @@ where
 {{
     ?s a ?type ; ?p ?o .
     optional{?o a ?type2}
-
     bind(  COALESCE(
     IF(isliteral(?o), str(datatype(?o)) , 1/0),
     IF(exists{?o a ?type2}, ?type2, 1/0),
     #IF(?o = rdf:nil, "rdf:nil", 1/0),
     "rdfs:Resource"
     )  as ?datatype)
-
 }
 
 }

@@ -335,11 +335,15 @@
         "dc_elements_identifier": {
             "@id": "http://purl.org/dc/elements/1.1/identifier"
         },
+        "subjectOf": {
+            "@id": "https://schema.org/subjectOf"
+        },
         "concept": "https://data.omgeving.vlaanderen.be/id/concept/bioindicator/",
         "collectie": "https://data.omgeving.vlaanderen.be/id/collection/bioindicator/",
         "access_right": "http://publications.europa.eu/resource/authority/access-right/",
         "adms": "http://www.w3.org/ns/adms#",
         "assettype": "http://purl.org/adms/assettype/",
+        "bioindicator": "https://data.omgeving.vlaanderen.be/id/concept/bioindicator/",
         "chemische_stof": "https://data.omgeving.vlaanderen.be/id/concept/chemische_stof/",
         "compound": "https://pubchem.ncbi.nlm.nih.gov/compound/",
         "conceptscheme": "https://data.omgeving.vlaanderen.be/id/conceptscheme/",
@@ -359,7 +363,6 @@
         "frequency": "http://publications.europa.eu/resource/authority/frequency/",
         "gemet": "http://www.eionet.europa.eu/gemet/concept/",
         "licence": "http://data.vlaanderen.be/id/licentie/modellicentie-gratis-hergebruik/",
-        "bioindicator": "https://data.omgeving.vlaanderen.be/id/concept/bioindicator/",
         "observatieprocedure": "https://data.omgeving.vlaanderen.be/id/concept/observatieprocedure/",
         "metadata": "https://data.omgeving.vlaanderen.be/ns/metadata#",
         "omg_catalog": "https://data.omgeving.vlaanderen.be/id/catalog/",
@@ -384,6 +387,7 @@
         "repo": "https://repo.omgeving.vlaanderen.be/artifactory/release/",
         "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
         "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "schema": "https://schema.org/",
         "sd": "http://www.w3.org/ns/sparql-service-description#",
         "skos": "http://www.w3.org/2004/02/skos/core#",
         "spdx": "http://spdx.org/rdf/terms#",
@@ -500,17 +504,13 @@
         },
         {
             "id": "concept:aliivibrio_fischeri",
-            "type": [
-                "skos:Concept",
-                "rdfs:Resource"
-            ],
-            "isReferencedBy": "observatieprocedure:WAC_V_B_004",
-            "relation": "observatieprocedure:WAC_V_B_004",
+            "type": "skos:Concept",
             "altLabel": "Luminescente bacterie",
             "inScheme": "conceptscheme:bioindicator",
             "prefLabel": "Aliivibrio fischeri",
             "topConceptOf": "conceptscheme:bioindicator",
-            "theme": "gemet:15179"
+            "theme": "gemet:15179",
+            "subjectOf": "WAC/V/B/004"
         },
         {
             "id": "concept:alternaria",
@@ -521,17 +521,13 @@
         },
         {
             "id": "concept:anostraca",
-            "type": [
-                "skos:Concept",
-                "rdfs:Resource"
-            ],
-            "isReferencedBy": "observatieprocedure:WAC_V_B_001",
-            "relation": "observatieprocedure:WAC_V_B_001",
+            "type": "skos:Concept",
             "altLabel": "Pekelkreeftje",
             "inScheme": "conceptscheme:bioindicator",
             "prefLabel": "Anostraca",
             "topConceptOf": "conceptscheme:bioindicator",
-            "theme": "gemet:15179"
+            "theme": "gemet:15179",
+            "subjectOf": "WAC/V/B/001"
         },
         {
             "id": "concept:aspergillus",
@@ -647,17 +643,13 @@
         },
         {
             "id": "concept:clostridium_perfringens",
-            "type": [
-                "skos:Concept",
-                "rdfs:Resource"
-            ],
-            "isReferencedBy": "observatieprocedure:WAC_V_A_007",
-            "relation": "observatieprocedure:WAC_V_A_007",
+            "type": "skos:Concept",
             "altLabel": "Clostridium perfringens",
             "inScheme": "conceptscheme:bioindicator",
             "prefLabel": "Clostridium perfringens",
             "topConceptOf": "conceptscheme:bioindicator",
-            "theme": "gemet:15179"
+            "theme": "gemet:15179",
+            "subjectOf": "WAC/V/A/007"
         },
         {
             "id": "concept:clostridium_tertium",
@@ -668,31 +660,23 @@
         },
         {
             "id": "concept:coagulase_positieve_staphylococci",
-            "type": [
-                "skos:Concept",
-                "rdfs:Resource"
-            ],
-            "isReferencedBy": "observatieprocedure:WAC_V_A_008",
-            "relation": "observatieprocedure:WAC_V_A_008",
+            "type": "skos:Concept",
             "altLabel": "stafylokokken",
             "inScheme": "conceptscheme:bioindicator",
             "prefLabel": "coagulase positieve staphylococci",
             "topConceptOf": "conceptscheme:bioindicator",
-            "theme": "gemet:15179"
+            "theme": "gemet:15179",
+            "subjectOf": "WAC/V/A/008"
         },
         {
             "id": "concept:coliformen",
-            "type": [
-                "skos:Concept",
-                "rdfs:Resource"
-            ],
-            "isReferencedBy": "observatieprocedure:WAC_V_A_002",
-            "relation": "observatieprocedure:WAC_V_A_002",
+            "type": "skos:Concept",
             "altLabel": "coliformen",
             "inScheme": "conceptscheme:bioindicator",
             "prefLabel": "coliformen",
             "topConceptOf": "conceptscheme:bioindicator",
-            "theme": "gemet:15179"
+            "theme": "gemet:15179",
+            "subjectOf": "WAC/V/A/002"
         },
         {
             "id": "concept:cronobacter",
@@ -717,31 +701,23 @@
         },
         {
             "id": "concept:danio_rerio",
-            "type": [
-                "skos:Concept",
-                "rdfs:Resource"
-            ],
-            "isReferencedBy": "observatieprocedure:WAC_V_B_002",
-            "relation": "observatieprocedure:WAC_V_B_002",
+            "type": "skos:Concept",
             "altLabel": "Zebravisembryo",
             "inScheme": "conceptscheme:bioindicator",
             "prefLabel": "Danio rerio",
             "topConceptOf": "conceptscheme:bioindicator",
-            "theme": "gemet:15179"
+            "theme": "gemet:15179",
+            "subjectOf": "WAC/V/B/002"
         },
         {
             "id": "concept:daphnia_magna",
-            "type": [
-                "skos:Concept",
-                "rdfs:Resource"
-            ],
-            "isReferencedBy": "observatieprocedure:WAC_V_B_001",
-            "relation": "observatieprocedure:WAC_V_B_001",
+            "type": "skos:Concept",
             "altLabel": "Watervlo",
             "inScheme": "conceptscheme:bioindicator",
             "prefLabel": "Daphnia magna",
             "topConceptOf": "conceptscheme:bioindicator",
-            "theme": "gemet:15179"
+            "theme": "gemet:15179",
+            "subjectOf": "WAC/V/B/001"
         },
         {
             "id": "concept:dermatofyten",
@@ -752,73 +728,53 @@
         },
         {
             "id": "concept:ekc-fytobenthos",
-            "type": [
-                "skos:Concept",
-                "rdfs:Resource"
-            ],
-            "isReferencedBy": "observatieprocedure:VLAREM_II",
-            "relation": "observatieprocedure:VLAREM_II",
+            "type": "skos:Concept",
             "altLabel": "EKC-fytobenthos",
             "inScheme": "conceptscheme:bioindicator",
             "prefLabel": "EKC-fytobenthos",
             "topConceptOf": "conceptscheme:bioindicator",
-            "theme": "gemet:15179"
+            "theme": "gemet:15179",
+            "subjectOf": "VLAREM II"
         },
         {
             "id": "concept:ekc-fytoplankton",
-            "type": [
-                "skos:Concept",
-                "rdfs:Resource"
-            ],
-            "isReferencedBy": "observatieprocedure:VLAREM_II",
-            "relation": "observatieprocedure:VLAREM_II",
+            "type": "skos:Concept",
             "altLabel": "EKC-fytoplankton",
             "inScheme": "conceptscheme:bioindicator",
             "prefLabel": "EKC-fytoplankton",
             "topConceptOf": "conceptscheme:bioindicator",
-            "theme": "gemet:15179"
+            "theme": "gemet:15179",
+            "subjectOf": "VLAREM II"
         },
         {
             "id": "concept:ekc-macro-invertebraten",
-            "type": [
-                "skos:Concept",
-                "rdfs:Resource"
-            ],
-            "isReferencedBy": "observatieprocedure:VLAREM_II",
-            "relation": "observatieprocedure:VLAREM_II",
+            "type": "skos:Concept",
             "altLabel": "EKC-macro-invertebraten",
             "inScheme": "conceptscheme:bioindicator",
             "prefLabel": "EKC-macro-invertebraten",
             "topConceptOf": "conceptscheme:bioindicator",
-            "theme": "gemet:15179"
+            "theme": "gemet:15179",
+            "subjectOf": "VLAREM II"
         },
         {
             "id": "concept:ekc-macrofyten",
-            "type": [
-                "skos:Concept",
-                "rdfs:Resource"
-            ],
-            "isReferencedBy": "observatieprocedure:VLAREM_II",
-            "relation": "observatieprocedure:VLAREM_II",
+            "type": "skos:Concept",
             "altLabel": "EKC-macrofyten",
             "inScheme": "conceptscheme:bioindicator",
             "prefLabel": "EKC-macrofyten",
             "topConceptOf": "conceptscheme:bioindicator",
-            "theme": "gemet:15179"
+            "theme": "gemet:15179",
+            "subjectOf": "VLAREM II"
         },
         {
             "id": "concept:ekc-visfauna",
-            "type": [
-                "skos:Concept",
-                "rdfs:Resource"
-            ],
-            "isReferencedBy": "observatieprocedure:VLAREM_II",
-            "relation": "observatieprocedure:VLAREM_II",
+            "type": "skos:Concept",
             "altLabel": "EKC-visfauna",
             "inScheme": "conceptscheme:bioindicator",
             "prefLabel": "EKC-visfauna",
             "topConceptOf": "conceptscheme:bioindicator",
-            "theme": "gemet:15179"
+            "theme": "gemet:15179",
+            "subjectOf": "VLAREM II"
         },
         {
             "id": "concept:enterobacter_amnigenus",
@@ -990,18 +946,14 @@
         },
         {
             "id": "concept:escherichia_coli",
-            "type": [
-                "skos:Concept",
-                "rdfs:Resource"
-            ],
-            "isReferencedBy": "observatieprocedure:WAC_V_A_002",
-            "relation": "observatieprocedure:WAC_V_A_002",
+            "type": "skos:Concept",
             "altLabel": "Escherichia coli (E. coli)",
             "inScheme": "conceptscheme:bioindicator",
             "notation": "EColi",
             "prefLabel": "Escherichia coli",
             "topConceptOf": "conceptscheme:bioindicator",
-            "theme": "gemet:15179"
+            "theme": "gemet:15179",
+            "subjectOf": "WAC/V/A/002"
         },
         {
             "id": "concept:eurotium",
@@ -1040,31 +992,23 @@
         },
         {
             "id": "concept:intestinale_enterococci",
-            "type": [
-                "skos:Concept",
-                "rdfs:Resource"
-            ],
-            "isReferencedBy": "observatieprocedure:WAC_V_A_003",
-            "relation": "observatieprocedure:WAC_V_A_003",
+            "type": "skos:Concept",
             "altLabel": "enterokokken",
             "inScheme": "conceptscheme:bioindicator",
             "prefLabel": "intestinale enterococci",
             "topConceptOf": "conceptscheme:bioindicator",
-            "theme": "gemet:15179"
+            "theme": "gemet:15179",
+            "subjectOf": "WAC/V/A/003"
         },
         {
             "id": "concept:kiemgetal_bij_22c_en_36c",
-            "type": [
-                "skos:Concept",
-                "rdfs:Resource"
-            ],
-            "isReferencedBy": "observatieprocedure:WAC_V_A_001",
-            "relation": "observatieprocedure:WAC_V_A_001",
+            "type": "skos:Concept",
             "altLabel": "kiemgetal bij 22°C en 36°C",
             "inScheme": "conceptscheme:bioindicator",
             "prefLabel": "kiemgetal bij 22°C en 36°C",
             "topConceptOf": "conceptscheme:bioindicator",
-            "theme": "gemet:15179"
+            "theme": "gemet:15179",
+            "subjectOf": "WAC/V/A/001"
         },
         {
             "id": "concept:klebsiella",
@@ -1117,32 +1061,24 @@
         },
         {
             "id": "concept:legionella_pneumophila",
-            "type": [
-                "skos:Concept",
-                "rdfs:Resource"
-            ],
-            "isReferencedBy": "observatieprocedure:WAC_V_A_005",
-            "relation": "observatieprocedure:WAC_V_A_005",
+            "type": "skos:Concept",
             "altLabel": "Legionella pneumophila",
             "inScheme": "conceptscheme:bioindicator",
             "prefLabel": "Legionella pneumophila",
             "topConceptOf": "conceptscheme:bioindicator",
-            "theme": "gemet:15179"
+            "theme": "gemet:15179",
+            "subjectOf": "WAC/V/A/005"
         },
         {
             "id": "concept:legionella_spp._",
-            "type": [
-                "skos:Concept",
-                "rdfs:Resource"
-            ],
-            "isReferencedBy": "observatieprocedure:WAC_V_A_005",
-            "relation": "observatieprocedure:WAC_V_A_005",
+            "type": "skos:Concept",
             "altLabel": "Legionella spp.",
             "inScheme": "conceptscheme:bioindicator",
             "notation": "Legio",
             "prefLabel": "Legionella spp.",
             "topConceptOf": "conceptscheme:bioindicator",
-            "theme": "gemet:15179"
+            "theme": "gemet:15179",
+            "subjectOf": "WAC/V/A/005"
         },
         {
             "id": "concept:lelliottia_amnigena",
@@ -1195,17 +1131,13 @@
         },
         {
             "id": "concept:oncorhyncus_mykiss",
-            "type": [
-                "skos:Concept",
-                "rdfs:Resource"
-            ],
-            "isReferencedBy": "observatieprocedure:WAC_V_B_007",
-            "relation": "observatieprocedure:WAC_V_B_007",
+            "type": "skos:Concept",
             "altLabel": "Forel",
             "inScheme": "conceptscheme:bioindicator",
             "prefLabel": "Oncorhyncus mykiss",
             "topConceptOf": "conceptscheme:bioindicator",
-            "theme": "gemet:15179"
+            "theme": "gemet:15179",
+            "subjectOf": "WAC/V/B/007"
         },
         {
             "id": "concept:penicillium",
@@ -1223,17 +1155,13 @@
         },
         {
             "id": "concept:phaeodactylum_tricornutum",
-            "type": [
-                "skos:Concept",
-                "rdfs:Resource"
-            ],
-            "isReferencedBy": "observatieprocedure:WAC_V_B_003",
-            "relation": "observatieprocedure:WAC_V_B_003",
+            "type": "skos:Concept",
             "altLabel": "Mariene alg",
             "inScheme": "conceptscheme:bioindicator",
             "prefLabel": "Phaeodactylum tricornutum",
             "topConceptOf": "conceptscheme:bioindicator",
-            "theme": "gemet:15179"
+            "theme": "gemet:15179",
+            "subjectOf": "WAC/V/B/003"
         },
         {
             "id": "concept:phoma",
@@ -1244,17 +1172,13 @@
         },
         {
             "id": "concept:pseudokirchneriella_subcapitata",
-            "type": [
-                "skos:Concept",
-                "rdfs:Resource"
-            ],
-            "isReferencedBy": "observatieprocedure:WAC_V_B_003",
-            "relation": "observatieprocedure:WAC_V_B_003",
+            "type": "skos:Concept",
             "altLabel": "Zoetwateralg",
             "inScheme": "conceptscheme:bioindicator",
             "prefLabel": "Pseudokirchneriella subcapitata",
             "topConceptOf": "conceptscheme:bioindicator",
-            "theme": "gemet:15179"
+            "theme": "gemet:15179",
+            "subjectOf": "WAC/V/B/003"
         },
         {
             "id": "concept:pseudomonas",
@@ -1265,17 +1189,13 @@
         },
         {
             "id": "concept:pseudomonas_aeruginosa",
-            "type": [
-                "skos:Concept",
-                "rdfs:Resource"
-            ],
-            "isReferencedBy": "observatieprocedure:WAC_V_A_006",
-            "relation": "observatieprocedure:WAC_V_A_006",
+            "type": "skos:Concept",
             "altLabel": "Pseudomonas aeruginosa",
             "inScheme": "conceptscheme:bioindicator",
             "prefLabel": "Pseudomonas aeruginosa",
             "topConceptOf": "conceptscheme:bioindicator",
-            "theme": "gemet:15179"
+            "theme": "gemet:15179",
+            "subjectOf": "WAC/V/A/006"
         },
         {
             "id": "concept:rahnella_aquatilis",
@@ -1321,17 +1241,13 @@
         },
         {
             "id": "concept:salmonella_spp.",
-            "type": [
-                "skos:Concept",
-                "rdfs:Resource"
-            ],
-            "isReferencedBy": "observatieprocedure:WAC_V_A_004",
-            "relation": "observatieprocedure:WAC_V_A_004",
+            "type": "skos:Concept",
             "altLabel": "Salmonella spp.",
             "inScheme": "conceptscheme:bioindicator",
             "prefLabel": "Salmonella spp.",
             "topConceptOf": "conceptscheme:bioindicator",
-            "theme": "gemet:15179"
+            "theme": "gemet:15179",
+            "subjectOf": "WAC/V/A/004"
         },
         {
             "id": "concept:schaalamoeben",
@@ -1375,7 +1291,8 @@
             "inScheme": "conceptscheme:bioindicator",
             "prefLabel": "somatische colifagen",
             "topConceptOf": "conceptscheme:bioindicator",
-            "theme": "gemet:15179"
+            "theme": "gemet:15179",
+            "subjectOf": "Drinkwaterrichtlijn (EU) 2020/2184"
         },
         {
             "id": "concept:stachybotrys",
@@ -1460,126 +1377,6 @@
             "inScheme": "conceptscheme:bioindicator",
             "prefLabel": "Thermofiele Actinomyceten",
             "topConceptOf": "conceptscheme:bioindicator"
-        },
-        {
-            "id": "observatieprocedure:VLAREM_II",
-            "type": "rdfs:Resource",
-            "references": [
-                "concept:ekc-fytobenthos",
-                "concept:ekc-fytoplankton",
-                "concept:ekc-macro-invertebraten",
-                "concept:ekc-macrofyten",
-                "concept:ekc-visfauna"
-            ],
-            "relation": [
-                "concept:ekc-fytobenthos",
-                "concept:ekc-fytoplankton",
-                "concept:ekc-macro-invertebraten",
-                "concept:ekc-macrofyten",
-                "concept:ekc-visfauna"
-            ]
-        },
-        {
-            "id": "observatieprocedure:WAC_V_A_001",
-            "type": "rdfs:Resource",
-            "references": "concept:kiemgetal_bij_22c_en_36c",
-            "relation": "concept:kiemgetal_bij_22c_en_36c"
-        },
-        {
-            "id": "observatieprocedure:WAC_V_A_002",
-            "type": "rdfs:Resource",
-            "references": [
-                "concept:coliformen",
-                "concept:escherichia_coli"
-            ],
-            "relation": [
-                "concept:coliformen",
-                "concept:escherichia_coli"
-            ]
-        },
-        {
-            "id": "observatieprocedure:WAC_V_A_003",
-            "type": "rdfs:Resource",
-            "references": "concept:intestinale_enterococci",
-            "relation": "concept:intestinale_enterococci"
-        },
-        {
-            "id": "observatieprocedure:WAC_V_A_004",
-            "type": "rdfs:Resource",
-            "references": "concept:salmonella_spp.",
-            "relation": "concept:salmonella_spp."
-        },
-        {
-            "id": "observatieprocedure:WAC_V_A_005",
-            "type": "rdfs:Resource",
-            "references": [
-                "concept:legionella_pneumophila",
-                "concept:legionella_spp._"
-            ],
-            "relation": [
-                "concept:legionella_pneumophila",
-                "concept:legionella_spp._"
-            ]
-        },
-        {
-            "id": "observatieprocedure:WAC_V_A_006",
-            "type": "rdfs:Resource",
-            "references": "concept:pseudomonas_aeruginosa",
-            "relation": "concept:pseudomonas_aeruginosa"
-        },
-        {
-            "id": "observatieprocedure:WAC_V_A_007",
-            "type": "rdfs:Resource",
-            "references": "concept:clostridium_perfringens",
-            "relation": "concept:clostridium_perfringens"
-        },
-        {
-            "id": "observatieprocedure:WAC_V_A_008",
-            "type": "rdfs:Resource",
-            "references": "concept:coagulase_positieve_staphylococci",
-            "relation": "concept:coagulase_positieve_staphylococci"
-        },
-        {
-            "id": "observatieprocedure:WAC_V_B_001",
-            "type": "rdfs:Resource",
-            "references": [
-                "concept:anostraca",
-                "concept:daphnia_magna"
-            ],
-            "relation": [
-                "concept:anostraca",
-                "concept:daphnia_magna"
-            ]
-        },
-        {
-            "id": "observatieprocedure:WAC_V_B_002",
-            "type": "rdfs:Resource",
-            "references": "concept:danio_rerio",
-            "relation": "concept:danio_rerio"
-        },
-        {
-            "id": "observatieprocedure:WAC_V_B_003",
-            "type": "rdfs:Resource",
-            "references": [
-                "concept:phaeodactylum_tricornutum",
-                "concept:pseudokirchneriella_subcapitata"
-            ],
-            "relation": [
-                "concept:phaeodactylum_tricornutum",
-                "concept:pseudokirchneriella_subcapitata"
-            ]
-        },
-        {
-            "id": "observatieprocedure:WAC_V_B_004",
-            "type": "rdfs:Resource",
-            "references": "concept:aliivibrio_fischeri",
-            "relation": "concept:aliivibrio_fischeri"
-        },
-        {
-            "id": "observatieprocedure:WAC_V_B_007",
-            "type": "rdfs:Resource",
-            "references": "concept:oncorhyncus_mykiss",
-            "relation": "concept:oncorhyncus_mykiss"
         },
         {
             "id": "conceptscheme:bioindicator",
