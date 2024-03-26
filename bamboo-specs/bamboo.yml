@@ -2,8 +2,8 @@
 version: 2
 plan:
   project-key: CODELIJST
-  key: MATRIX
-  name: codelijst-matrix
+  key: BIOINDICATOR
+  name: codelijst-bioindicator
 
 triggers:
   - polling: 130
@@ -69,7 +69,7 @@ Release:
 ---
 version: 2
 plan:
-  key: CODELIJST-MATRIX
+  key: CODELIJST-BIOINDICATOR
 
 plan-permissions:
   - groups:
