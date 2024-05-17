@@ -1,3 +1,5 @@
+@prefix concept: <https://data.omgeving.vlaanderen.be/id/concept/bioindicator/>.
+@prefix collectie: <https://data.omgeving.vlaanderen.be/id/collection/bioindicator/>.
 @prefix access_right: <http://publications.europa.eu/resource/authority/access-right/>.
 @prefix adms: <http://www.w3.org/ns/adms#>.
 @prefix assettype: <http://purl.org/adms/assettype/>.
@@ -57,11 +59,11 @@
 @prefix xkos: <http://rdf-vocabulary.ddialliance.org/xkos#>.
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
 
-<https://data.omgeving.vlaanderen.be/id/collection/bioindicator/bodem> skos:inScheme conceptscheme:bioindicator;
+collectie:bodem skos:inScheme conceptscheme:bioindicator;
     skos:prefLabel "Collectie van bioindicatoren m.b.t. bodem."@nl.
-<https://data.omgeving.vlaanderen.be/id/collection/bioindicator/lucht> skos:inScheme conceptscheme:bioindicator;
+collectie:lucht skos:inScheme conceptscheme:bioindicator;
     skos:prefLabel "Collectie van bioindicatoren m.b.t. lucht."@nl.
-<https://data.omgeving.vlaanderen.be/id/collection/bioindicator/water> a skos:Collection;
+collectie:water a skos:Collection;
     skos:inScheme conceptscheme:bioindicator;
     skos:member bioindicator:aliivibrio_fischeri, bioindicator:anostraca, bioindicator:clostridium_perfringens, bioindicator:coagulase_positieve_staphylococci, bioindicator:coliformen, bioindicator:danio_rerio, bioindicator:daphnia_magna, bioindicator:ekc-fytobenthos, bioindicator:ekc-fytoplankton, bioindicator:ekc-macro-invertebraten, bioindicator:ekc-macrofyten, bioindicator:ekc-visfauna, bioindicator:escherichia_coli, bioindicator:intestinale_enterococci, bioindicator:kiemgetal_bij_22c_en_36c, bioindicator:legionella_pneumophila, <https://data.omgeving.vlaanderen.be/id/concept/bioindicator/legionella_spp._>, bioindicator:oncorhyncus_mykiss, bioindicator:phaeodactylum_tricornutum, bioindicator:pseudokirchneriella_subcapitata, bioindicator:pseudomonas_aeruginosa, <https://data.omgeving.vlaanderen.be/id/concept/bioindicator/salmonella_spp.>, bioindicator:somatische_colifagen;
     skos:prefLabel "Collectie van bioindicatoren m.b.t. water."@nl.
