@@ -11,3 +11,5 @@ buildNumber.properties
 .mvn/wrapper/maven-wrapper.jar
 /.idea/
 temp/
+src/.env
+src/utils/setenv.js
