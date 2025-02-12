@@ -123,6 +123,7 @@ prefixes :
   frequency: http://publications.europa.eu/resource/authority/frequency/
   gemet: http://www.eionet.europa.eu/gemet/concept/
   licence: http://data.vlaanderen.be/id/licentie/modellicentie-gratis-hergebruik/
+  list: https://data.omgeving.vlaanderen.be/id/list/
   observatieprocedure: https://data.omgeving.vlaanderen.be/id/concept/observatieprocedure/
   metadata: https://data.omgeving.vlaanderen.be/ns/metadata#
   omg_catalog: https://data.omgeving.vlaanderen.be/id/catalog/

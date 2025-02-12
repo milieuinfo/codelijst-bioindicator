@@ -105,6 +105,14 @@
     "@id" : "http://purl.org/dc/terms/accessRights",
     "@type" : "@id"
   },
+  "first" : {
+    "@id" : "rdf:first",
+    "@type" : "@id"
+  },
+  "rest" : {
+    "@id" : "rdf:rest",
+    "@type" : "@id"
+  },
   "license" : {
     "@id" : "http://purl.org/dc/terms/license",
     "@type" : "@id"

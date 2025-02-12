@@ -23,6 +23,7 @@
 @prefix frequency: <http://publications.europa.eu/resource/authority/frequency/>.
 @prefix gemet: <http://www.eionet.europa.eu/gemet/concept/>.
 @prefix licence: <http://data.vlaanderen.be/id/licentie/modellicentie-gratis-hergebruik/>.
+@prefix list: <https://data.omgeving.vlaanderen.be/id/list/>.
 @prefix observatieprocedure: <https://data.omgeving.vlaanderen.be/id/concept/observatieprocedure/>.
 @prefix metadata: <https://data.omgeving.vlaanderen.be/ns/metadata#>.
 @prefix omg_catalog: <https://data.omgeving.vlaanderen.be/id/catalog/>.
