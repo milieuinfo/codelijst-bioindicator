@@ -13,4 +13,5 @@ buildNumber.properties
 temp/
 src/.env
 src/utils/setenv.js
-
+node_modules
+validation

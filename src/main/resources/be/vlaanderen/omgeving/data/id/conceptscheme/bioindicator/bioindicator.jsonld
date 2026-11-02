@@ -1,5 +1,8 @@
 {
     "@context": {
+        "provenance": {
+            "@id": "http://purl.org/dc/terms/provenance"
+        },
         "sparql-service-description-graph": {
             "@id": "http://www.w3.org/ns/sparql-service-description#graph",
             "@type": "@id"
@@ -253,7 +256,8 @@
         },
         "hasTopConcept": {
             "@id": "http://www.w3.org/2004/02/skos/core#hasTopConcept",
-            "@type": "@id"
+            "@type": "@id",
+            "@container": "@set"
         },
         "uri": {
             "@id": "@id",
@@ -661,7 +665,6 @@
         {
             "id": "concept:clostridium_perfringens",
             "type": "skos:Concept",
-            "altLabel": "Clostridium perfringens",
             "inScheme": "conceptscheme:bioindicator",
             "prefLabel": "Clostridium perfringens",
             "topConceptOf": "conceptscheme:bioindicator",
@@ -688,7 +691,6 @@
         {
             "id": "concept:coliformen",
             "type": "skos:Concept",
-            "altLabel": "coliformen",
             "inScheme": "conceptscheme:bioindicator",
             "prefLabel": "coliformen",
             "topConceptOf": "conceptscheme:bioindicator",
@@ -746,7 +748,6 @@
         {
             "id": "concept:ekc-fytobenthos",
             "type": "skos:Concept",
-            "altLabel": "EKC-fytobenthos",
             "inScheme": "conceptscheme:bioindicator",
             "prefLabel": "EKC-fytobenthos",
             "topConceptOf": "conceptscheme:bioindicator",
@@ -756,7 +757,6 @@
         {
             "id": "concept:ekc-fytoplankton",
             "type": "skos:Concept",
-            "altLabel": "EKC-fytoplankton",
             "inScheme": "conceptscheme:bioindicator",
             "prefLabel": "EKC-fytoplankton",
             "topConceptOf": "conceptscheme:bioindicator",
@@ -766,7 +766,6 @@
         {
             "id": "concept:ekc-macro-invertebraten",
             "type": "skos:Concept",
-            "altLabel": "EKC-macro-invertebraten",
             "inScheme": "conceptscheme:bioindicator",
             "prefLabel": "EKC-macro-invertebraten",
             "topConceptOf": "conceptscheme:bioindicator",
@@ -776,7 +775,6 @@
         {
             "id": "concept:ekc-macrofyten",
             "type": "skos:Concept",
-            "altLabel": "EKC-macrofyten",
             "inScheme": "conceptscheme:bioindicator",
             "prefLabel": "EKC-macrofyten",
             "topConceptOf": "conceptscheme:bioindicator",
@@ -786,7 +784,6 @@
         {
             "id": "concept:ekc-visfauna",
             "type": "skos:Concept",
-            "altLabel": "EKC-visfauna",
             "inScheme": "conceptscheme:bioindicator",
             "prefLabel": "EKC-visfauna",
             "topConceptOf": "conceptscheme:bioindicator",
@@ -1020,7 +1017,6 @@
         {
             "id": "concept:kiemgetal_bij_22c_en_36c",
             "type": "skos:Concept",
-            "altLabel": "kiemgetal bij 22°C en 36°C",
             "inScheme": "conceptscheme:bioindicator",
             "prefLabel": "kiemgetal bij 22°C en 36°C",
             "topConceptOf": "conceptscheme:bioindicator",
@@ -1079,7 +1075,6 @@
         {
             "id": "concept:legionella_pneumophila",
             "type": "skos:Concept",
-            "altLabel": "Legionella pneumophila",
             "inScheme": "conceptscheme:bioindicator",
             "prefLabel": "Legionella pneumophila",
             "topConceptOf": "conceptscheme:bioindicator",
@@ -1089,7 +1084,6 @@
         {
             "id": "concept:legionella_spp._",
             "type": "skos:Concept",
-            "altLabel": "Legionella spp.",
             "inScheme": "conceptscheme:bioindicator",
             "notation": "Legio",
             "prefLabel": "Legionella spp.",
@@ -1207,7 +1201,6 @@
         {
             "id": "concept:pseudomonas_aeruginosa",
             "type": "skos:Concept",
-            "altLabel": "Pseudomonas aeruginosa",
             "inScheme": "conceptscheme:bioindicator",
             "prefLabel": "Pseudomonas aeruginosa",
             "topConceptOf": "conceptscheme:bioindicator",
@@ -1259,7 +1252,6 @@
         {
             "id": "concept:salmonella_spp.",
             "type": "skos:Concept",
-            "altLabel": "Salmonella spp.",
             "inScheme": "conceptscheme:bioindicator",
             "prefLabel": "Salmonella spp.",
             "topConceptOf": "conceptscheme:bioindicator",
@@ -1304,7 +1296,6 @@
         {
             "id": "concept:somatische_colifagen",
             "type": "skos:Concept",
-            "altLabel": "somatische colifagen",
             "inScheme": "conceptscheme:bioindicator",
             "prefLabel": "somatische colifagen",
             "topConceptOf": "conceptscheme:bioindicator",

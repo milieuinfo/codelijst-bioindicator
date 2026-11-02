@@ -66,7 +66,7 @@ collectie:lucht skos:inScheme conceptscheme:bioindicator;
     skos:prefLabel "Collectie van bioindicatoren m.b.t. lucht."@nl.
 collectie:water a skos:Collection;
     skos:inScheme conceptscheme:bioindicator;
-    skos:member bioindicator:aliivibrio_fischeri, bioindicator:anostraca, bioindicator:clostridium_perfringens, bioindicator:coagulase_positieve_staphylococci, bioindicator:coliformen, bioindicator:danio_rerio, bioindicator:daphnia_magna, bioindicator:ekc-fytobenthos, bioindicator:ekc-fytoplankton, bioindicator:ekc-macro-invertebraten, bioindicator:ekc-macrofyten, bioindicator:ekc-visfauna, bioindicator:escherichia_coli, bioindicator:intestinale_enterococci, bioindicator:kiemgetal_bij_22c_en_36c, bioindicator:legionella_pneumophila, <https://data.omgeving.vlaanderen.be/id/concept/bioindicator/legionella_spp._>, bioindicator:oncorhyncus_mykiss, bioindicator:phaeodactylum_tricornutum, bioindicator:pseudokirchneriella_subcapitata, bioindicator:pseudomonas_aeruginosa, <https://data.omgeving.vlaanderen.be/id/concept/bioindicator/salmonella_spp.>, bioindicator:somatische_colifagen;
+    skos:member bioindicator:aliivibrio_fischeri, bioindicator:anostraca, bioindicator:clostridium_perfringens, bioindicator:coagulase_positieve_staphylococci, bioindicator:coliformen, bioindicator:danio_rerio, bioindicator:daphnia_magna, bioindicator:ekc-fytobenthos, bioindicator:ekc-fytoplankton, bioindicator:ekc-macro-invertebraten, bioindicator:ekc-macrofyten, bioindicator:ekc-visfauna, bioindicator:escherichia_coli, bioindicator:intestinale_enterococci, bioindicator:kiemgetal_bij_22c_en_36c, bioindicator:legionella_pneumophila, bioindicator:legionella_spp._, bioindicator:oncorhyncus_mykiss, bioindicator:phaeodactylum_tricornutum, bioindicator:pseudokirchneriella_subcapitata, bioindicator:pseudomonas_aeruginosa, <https://data.omgeving.vlaanderen.be/id/concept/bioindicator/salmonella_spp.>, bioindicator:somatische_colifagen;
     skos:prefLabel "Collectie van bioindicatoren m.b.t. water."@nl.
 bioindicator:actinomyceten a skos:Concept;
     skos:inScheme conceptscheme:bioindicator;
@@ -113,7 +113,7 @@ bioindicator:aliivibrio_fischeri a skos:Concept;
     skos:inScheme conceptscheme:bioindicator;
     skos:prefLabel "Aliivibrio fischeri"@nl;
     skos:topConceptOf conceptscheme:bioindicator;
-    dcat:theme <http://www.eionet.europa.eu/gemet/concept/15179>;
+    dcat:theme gemet:15179;
     schema:subjectOf "WAC/V/B/004".
 bioindicator:alternaria a skos:Concept;
     skos:inScheme conceptscheme:bioindicator;
@@ -124,7 +124,7 @@ bioindicator:anostraca a skos:Concept;
     skos:inScheme conceptscheme:bioindicator;
     skos:prefLabel "Anostraca"@nl;
     skos:topConceptOf conceptscheme:bioindicator;
-    dcat:theme <http://www.eionet.europa.eu/gemet/concept/15179>;
+    dcat:theme gemet:15179;
     schema:subjectOf "WAC/V/B/001".
 bioindicator:aspergillus a skos:Concept;
     skos:inScheme conceptscheme:bioindicator;
@@ -191,11 +191,10 @@ bioindicator:cladosporium a skos:Concept;
     skos:prefLabel "Cladosporium"@nl;
     skos:topConceptOf conceptscheme:bioindicator.
 bioindicator:clostridium_perfringens a skos:Concept;
-    skos:altLabel "Clostridium perfringens"@nl;
     skos:inScheme conceptscheme:bioindicator;
     skos:prefLabel "Clostridium perfringens"@nl;
     skos:topConceptOf conceptscheme:bioindicator;
-    dcat:theme <http://www.eionet.europa.eu/gemet/concept/15179>;
+    dcat:theme gemet:15179;
     schema:subjectOf "WAC/V/A/007".
 bioindicator:clostridium_tertium a skos:Concept;
     skos:inScheme conceptscheme:bioindicator;
@@ -206,14 +205,13 @@ bioindicator:coagulase_positieve_staphylococci a skos:Concept;
     skos:inScheme conceptscheme:bioindicator;
     skos:prefLabel "coagulase positieve staphylococci"@nl;
     skos:topConceptOf conceptscheme:bioindicator;
-    dcat:theme <http://www.eionet.europa.eu/gemet/concept/15179>;
+    dcat:theme gemet:15179;
     schema:subjectOf "WAC/V/A/008".
 bioindicator:coliformen a skos:Concept;
-    skos:altLabel "coliformen"@nl;
     skos:inScheme conceptscheme:bioindicator;
     skos:prefLabel "coliformen"@nl;
     skos:topConceptOf conceptscheme:bioindicator;
-    dcat:theme <http://www.eionet.europa.eu/gemet/concept/15179>;
+    dcat:theme gemet:15179;
     schema:subjectOf "WAC/V/A/002".
 bioindicator:cronobacter a skos:Concept;
     skos:inScheme conceptscheme:bioindicator;
@@ -232,53 +230,48 @@ bioindicator:danio_rerio a skos:Concept;
     skos:inScheme conceptscheme:bioindicator;
     skos:prefLabel "Danio rerio"@nl;
     skos:topConceptOf conceptscheme:bioindicator;
-    dcat:theme <http://www.eionet.europa.eu/gemet/concept/15179>;
+    dcat:theme gemet:15179;
     schema:subjectOf "WAC/V/B/002".
 bioindicator:daphnia_magna a skos:Concept;
     skos:altLabel "Watervlo"@nl;
     skos:inScheme conceptscheme:bioindicator;
     skos:prefLabel "Daphnia magna"@nl;
     skos:topConceptOf conceptscheme:bioindicator;
-    dcat:theme <http://www.eionet.europa.eu/gemet/concept/15179>;
+    dcat:theme gemet:15179;
     schema:subjectOf "WAC/V/B/001".
 bioindicator:dermatofyten a skos:Concept;
     skos:inScheme conceptscheme:bioindicator;
     skos:prefLabel "Dermatofyten"@nl;
     skos:topConceptOf conceptscheme:bioindicator.
 bioindicator:ekc-fytobenthos a skos:Concept;
-    skos:altLabel "EKC-fytobenthos"@nl;
     skos:inScheme conceptscheme:bioindicator;
     skos:prefLabel "EKC-fytobenthos"@nl;
     skos:topConceptOf conceptscheme:bioindicator;
-    dcat:theme <http://www.eionet.europa.eu/gemet/concept/15179>;
+    dcat:theme gemet:15179;
     schema:subjectOf "VLAREM II".
 bioindicator:ekc-fytoplankton a skos:Concept;
-    skos:altLabel "EKC-fytoplankton"@nl;
     skos:inScheme conceptscheme:bioindicator;
     skos:prefLabel "EKC-fytoplankton"@nl;
     skos:topConceptOf conceptscheme:bioindicator;
-    dcat:theme <http://www.eionet.europa.eu/gemet/concept/15179>;
+    dcat:theme gemet:15179;
     schema:subjectOf "VLAREM II".
 bioindicator:ekc-macro-invertebraten a skos:Concept;
-    skos:altLabel "EKC-macro-invertebraten"@nl;
     skos:inScheme conceptscheme:bioindicator;
     skos:prefLabel "EKC-macro-invertebraten"@nl;
     skos:topConceptOf conceptscheme:bioindicator;
-    dcat:theme <http://www.eionet.europa.eu/gemet/concept/15179>;
+    dcat:theme gemet:15179;
     schema:subjectOf "VLAREM II".
 bioindicator:ekc-macrofyten a skos:Concept;
-    skos:altLabel "EKC-macrofyten"@nl;
     skos:inScheme conceptscheme:bioindicator;
     skos:prefLabel "EKC-macrofyten"@nl;
     skos:topConceptOf conceptscheme:bioindicator;
-    dcat:theme <http://www.eionet.europa.eu/gemet/concept/15179>;
+    dcat:theme gemet:15179;
     schema:subjectOf "VLAREM II".
 bioindicator:ekc-visfauna a skos:Concept;
-    skos:altLabel "EKC-visfauna"@nl;
     skos:inScheme conceptscheme:bioindicator;
     skos:prefLabel "EKC-visfauna"@nl;
     skos:topConceptOf conceptscheme:bioindicator;
-    dcat:theme <http://www.eionet.europa.eu/gemet/concept/15179>;
+    dcat:theme gemet:15179;
     schema:subjectOf "VLAREM II".
 bioindicator:enterobacter_amnigenus a skos:Concept;
     skos:inScheme conceptscheme:bioindicator;
@@ -382,7 +375,7 @@ bioindicator:escherichia_coli a skos:Concept;
     skos:notation "EColi";
     skos:prefLabel "Escherichia coli"@nl;
     skos:topConceptOf conceptscheme:bioindicator;
-    dcat:theme <http://www.eionet.europa.eu/gemet/concept/15179>;
+    dcat:theme gemet:15179;
     schema:subjectOf "WAC/V/A/002".
 bioindicator:eurotium a skos:Concept;
     skos:inScheme conceptscheme:bioindicator;
@@ -409,14 +402,13 @@ bioindicator:intestinale_enterococci a skos:Concept;
     skos:inScheme conceptscheme:bioindicator;
     skos:prefLabel "intestinale enterococci"@nl;
     skos:topConceptOf conceptscheme:bioindicator;
-    dcat:theme <http://www.eionet.europa.eu/gemet/concept/15179>;
+    dcat:theme gemet:15179;
     schema:subjectOf "WAC/V/A/003".
 bioindicator:kiemgetal_bij_22c_en_36c a skos:Concept;
-    skos:altLabel "kiemgetal bij 22°C en 36°C"@nl;
     skos:inScheme conceptscheme:bioindicator;
     skos:prefLabel "kiemgetal bij 22°C en 36°C"@nl;
     skos:topConceptOf conceptscheme:bioindicator;
-    dcat:theme <http://www.eionet.europa.eu/gemet/concept/15179>;
+    dcat:theme gemet:15179;
     schema:subjectOf "WAC/V/A/001".
 bioindicator:klebsiella a skos:Concept;
     skos:inScheme conceptscheme:bioindicator;
@@ -447,19 +439,17 @@ bioindicator:legionella_overgroei a skos:Concept;
     skos:prefLabel "Legionella overgroei"@nl;
     skos:topConceptOf conceptscheme:bioindicator.
 bioindicator:legionella_pneumophila a skos:Concept;
-    skos:altLabel "Legionella pneumophila"@nl;
     skos:inScheme conceptscheme:bioindicator;
     skos:prefLabel "Legionella pneumophila"@nl;
     skos:topConceptOf conceptscheme:bioindicator;
-    dcat:theme <http://www.eionet.europa.eu/gemet/concept/15179>;
+    dcat:theme gemet:15179;
     schema:subjectOf "WAC/V/A/005".
-<https://data.omgeving.vlaanderen.be/id/concept/bioindicator/legionella_spp._> a skos:Concept;
-    skos:altLabel "Legionella spp."@nl;
+bioindicator:legionella_spp._ a skos:Concept;
     skos:inScheme conceptscheme:bioindicator;
     skos:notation "Legio";
     skos:prefLabel "Legionella spp."@nl;
     skos:topConceptOf conceptscheme:bioindicator;
-    dcat:theme <http://www.eionet.europa.eu/gemet/concept/15179>;
+    dcat:theme gemet:15179;
     schema:subjectOf "WAC/V/A/005".
 bioindicator:lelliottia_amnigena a skos:Concept;
     skos:inScheme conceptscheme:bioindicator;
@@ -494,7 +484,7 @@ bioindicator:oncorhyncus_mykiss a skos:Concept;
     skos:inScheme conceptscheme:bioindicator;
     skos:prefLabel "Oncorhyncus mykiss"@nl;
     skos:topConceptOf conceptscheme:bioindicator;
-    dcat:theme <http://www.eionet.europa.eu/gemet/concept/15179>;
+    dcat:theme gemet:15179;
     schema:subjectOf "WAC/V/B/007".
 bioindicator:penicillium a skos:Concept;
     skos:inScheme conceptscheme:bioindicator;
@@ -509,7 +499,7 @@ bioindicator:phaeodactylum_tricornutum a skos:Concept;
     skos:inScheme conceptscheme:bioindicator;
     skos:prefLabel "Phaeodactylum tricornutum"@nl;
     skos:topConceptOf conceptscheme:bioindicator;
-    dcat:theme <http://www.eionet.europa.eu/gemet/concept/15179>;
+    dcat:theme gemet:15179;
     schema:subjectOf "WAC/V/B/003".
 bioindicator:phoma a skos:Concept;
     skos:inScheme conceptscheme:bioindicator;
@@ -520,18 +510,17 @@ bioindicator:pseudokirchneriella_subcapitata a skos:Concept;
     skos:inScheme conceptscheme:bioindicator;
     skos:prefLabel "Pseudokirchneriella subcapitata"@nl;
     skos:topConceptOf conceptscheme:bioindicator;
-    dcat:theme <http://www.eionet.europa.eu/gemet/concept/15179>;
+    dcat:theme gemet:15179;
     schema:subjectOf "WAC/V/B/003".
 bioindicator:pseudomonas a skos:Concept;
     skos:inScheme conceptscheme:bioindicator;
     skos:prefLabel "Pseudomonas"@nl;
     skos:topConceptOf conceptscheme:bioindicator.
 bioindicator:pseudomonas_aeruginosa a skos:Concept;
-    skos:altLabel "Pseudomonas aeruginosa"@nl;
     skos:inScheme conceptscheme:bioindicator;
     skos:prefLabel "Pseudomonas aeruginosa"@nl;
     skos:topConceptOf conceptscheme:bioindicator;
-    dcat:theme <http://www.eionet.europa.eu/gemet/concept/15179>;
+    dcat:theme gemet:15179;
     schema:subjectOf "WAC/V/A/006".
 bioindicator:rahnella_aquatilis a skos:Concept;
     skos:inScheme conceptscheme:bioindicator;
@@ -558,11 +547,10 @@ bioindicator:rhodotorula a skos:Concept;
     skos:prefLabel "Ribonucleïnezuur"@nl;
     skos:topConceptOf conceptscheme:bioindicator.
 <https://data.omgeving.vlaanderen.be/id/concept/bioindicator/salmonella_spp.> a skos:Concept;
-    skos:altLabel "Salmonella spp."@nl;
     skos:inScheme conceptscheme:bioindicator;
     skos:prefLabel "Salmonella spp."@nl;
     skos:topConceptOf conceptscheme:bioindicator;
-    dcat:theme <http://www.eionet.europa.eu/gemet/concept/15179>;
+    dcat:theme gemet:15179;
     schema:subjectOf "WAC/V/A/004".
 bioindicator:schaalamoeben a skos:Concept;
     skos:inScheme conceptscheme:bioindicator;
@@ -585,11 +573,10 @@ bioindicator:som_roeipootkreeften_copepoda a skos:Concept;
     skos:prefLabel "som Roeipootkreeften (Copepoda)"@nl;
     skos:topConceptOf conceptscheme:bioindicator.
 bioindicator:somatische_colifagen a skos:Concept;
-    skos:altLabel "somatische colifagen"@nl;
     skos:inScheme conceptscheme:bioindicator;
     skos:prefLabel "somatische colifagen"@nl;
     skos:topConceptOf conceptscheme:bioindicator;
-    dcat:theme <http://www.eionet.europa.eu/gemet/concept/15179>;
+    dcat:theme gemet:15179;
     schema:subjectOf "Drinkwaterrichtlijn (EU) 2020/2184".
 bioindicator:stachybotrys a skos:Concept;
     skos:inScheme conceptscheme:bioindicator;
@@ -642,6 +629,6 @@ bioindicator:thermofiele_actinomyceten a skos:Concept;
 conceptscheme:bioindicator xkos:belongsTo omg_dataset:codelijst-bioindicator;
     a skos:ConceptScheme;
     skos:definition "Een organisme waarmee een verandering of verontreiniging van het milieu kan worden gesignaleerd. Het principe achter het gebruik van bio-indicatoren is dat de natuurlijke samenstelling van een levensgemeenschap wordt bepaald door de fysische en chemische eigenschappen van het ecosysteem."@nl;
-    skos:hasTopConcept bioindicator:actinomyceten, bioindicator:adenovirussen, bioindicator:aerococcus, bioindicator:aerococcus_viridans, bioindicator:aeromonas, bioindicator:aeromonas_caviae, bioindicator:aeromonas_eucrenophila, bioindicator:aeromonas_hydrophila, bioindicator:aeromonas_salmonicida, bioindicator:aeromonas_veronii, bioindicator:aliivibrio_fischeri, bioindicator:alternaria, bioindicator:anostraca, bioindicator:aspergillus, bioindicator:aspergillus_fumigatus, bioindicator:aureobasidium, bioindicator:aureobasidium_pullulans, bioindicator:bacillus_cereus, bioindicator:bacteriofagen, bioindicator:buttiauxella, bioindicator:buttiauxella_ferragutiae, bioindicator:buttiauxella_gaviniae, bioindicator:buttiauxella_izardii, bioindicator:buttiauxella_noackiae, bioindicator:candida, bioindicator:chaetomium, bioindicator:citrobacter, bioindicator:citrobacter_gillenii, bioindicator:cladosporium, bioindicator:clostridium_perfringens, bioindicator:clostridium_tertium, bioindicator:coagulase_positieve_staphylococci, bioindicator:coliformen, bioindicator:cronobacter, bioindicator:cronobacter_sakazakii, bioindicator:cryptosporidium, bioindicator:danio_rerio, bioindicator:daphnia_magna, bioindicator:dermatofyten, bioindicator:ekc-fytobenthos, bioindicator:ekc-fytoplankton, bioindicator:ekc-macro-invertebraten, bioindicator:ekc-macrofyten, bioindicator:ekc-visfauna, bioindicator:enterobacter_amnigenus, bioindicator:enterobacter_cloacae, bioindicator:enterobacter_ludwigii, bioindicator:enterococcen, bioindicator:enterococcus_aquimarinus, bioindicator:enterococcus_cacae, bioindicator:enterococcus_casseliflavus, bioindicator:enterococcus_durans, bioindicator:enterococcus_faecalis, bioindicator:enterococcus_faecium, bioindicator:enterococcus_gallinarum, bioindicator:enterococcus_gilvus, bioindicator:enterococcus_haemoperoxidus, bioindicator:enterococcus_hirae, bioindicator:enterococcus_italicus, bioindicator:enterococcus_malodoratus, bioindicator:enterococcus_moraviensis, bioindicator:enterococcus_mundtii, bioindicator:enterococcus_phoeniculicola, bioindicator:enterococcus_silesiacus, bioindicator:enterococcus_sulfureus, bioindicator:enterococcus_termitis, bioindicator:enterococcus_thailandicus, bioindicator:enterovirussen, bioindicator:escherichia_coli, bioindicator:eurotium, bioindicator:fusarium, bioindicator:fusarium_solani, bioindicator:gallionella, bioindicator:giardia, bioindicator:intestinale_enterococci, bioindicator:kiemgetal_bij_22c_en_36c, bioindicator:klebsiella, bioindicator:klebsiella_oxytoca, bioindicator:klebsiella_pneumoniae, bioindicator:kluyvera, bioindicator:lactobacillus_plantarum, bioindicator:lactococcus_lactis, bioindicator:legionella_overgroei, bioindicator:legionella_pneumophila, <https://data.omgeving.vlaanderen.be/id/concept/bioindicator/legionella_spp._>, bioindicator:lelliottia_amnigena, bioindicator:melkzuur_bacterien, bioindicator:micrococcus, bioindicator:mucor, bioindicator:naaktamoeben, bioindicator:nitrosomonas, bioindicator:oenococcus, bioindicator:oncorhyncus_mykiss, bioindicator:penicillium, bioindicator:penicillium_marneffei, bioindicator:phaeodactylum_tricornutum, bioindicator:phoma, bioindicator:pseudokirchneriella_subcapitata, bioindicator:pseudomonas, bioindicator:pseudomonas_aeruginosa, bioindicator:rahnella_aquatilis, bioindicator:ralstonia, bioindicator:reovirussen, bioindicator:rhizophus, bioindicator:rhodotorula, <https://data.omgeving.vlaanderen.be/id/concept/bioindicator/ribonucleïnezuur>, <https://data.omgeving.vlaanderen.be/id/concept/bioindicator/salmonella_spp.>, bioindicator:schaalamoeben, bioindicator:schimmels, bioindicator:scopulariopsis, bioindicator:serratia, bioindicator:som_roeipootkreeften_copepoda, bioindicator:somatische_colifagen, bioindicator:stachybotrys, bioindicator:staphylococcus_epidermidis, bioindicator:staphylococcus_pasteuri, bioindicator:staphylococcus_saprophyticus, bioindicator:staphylococcus_warneri, bioindicator:streptococcus, bioindicator:streptococcus_equinus, bioindicator:streptococcus_gallolyticus, bioindicator:streptococcus_lutetiensis, bioindicator:streptococcus_salivarius, bioindicator:sulfiet_reducerende_clostridia, bioindicator:thermofiele_actinomyceten;
+    skos:hasTopConcept bioindicator:actinomyceten, bioindicator:adenovirussen, bioindicator:aerococcus, bioindicator:aerococcus_viridans, bioindicator:aeromonas, bioindicator:aeromonas_caviae, bioindicator:aeromonas_eucrenophila, bioindicator:aeromonas_hydrophila, bioindicator:aeromonas_salmonicida, bioindicator:aeromonas_veronii, bioindicator:aliivibrio_fischeri, bioindicator:alternaria, bioindicator:anostraca, bioindicator:aspergillus, bioindicator:aspergillus_fumigatus, bioindicator:aureobasidium, bioindicator:aureobasidium_pullulans, bioindicator:bacillus_cereus, bioindicator:bacteriofagen, bioindicator:buttiauxella, bioindicator:buttiauxella_ferragutiae, bioindicator:buttiauxella_gaviniae, bioindicator:buttiauxella_izardii, bioindicator:buttiauxella_noackiae, bioindicator:candida, bioindicator:chaetomium, bioindicator:citrobacter, bioindicator:citrobacter_gillenii, bioindicator:cladosporium, bioindicator:clostridium_perfringens, bioindicator:clostridium_tertium, bioindicator:coagulase_positieve_staphylococci, bioindicator:coliformen, bioindicator:cronobacter, bioindicator:cronobacter_sakazakii, bioindicator:cryptosporidium, bioindicator:danio_rerio, bioindicator:daphnia_magna, bioindicator:dermatofyten, bioindicator:ekc-fytobenthos, bioindicator:ekc-fytoplankton, bioindicator:ekc-macro-invertebraten, bioindicator:ekc-macrofyten, bioindicator:ekc-visfauna, bioindicator:enterobacter_amnigenus, bioindicator:enterobacter_cloacae, bioindicator:enterobacter_ludwigii, bioindicator:enterococcen, bioindicator:enterococcus_aquimarinus, bioindicator:enterococcus_cacae, bioindicator:enterococcus_casseliflavus, bioindicator:enterococcus_durans, bioindicator:enterococcus_faecalis, bioindicator:enterococcus_faecium, bioindicator:enterococcus_gallinarum, bioindicator:enterococcus_gilvus, bioindicator:enterococcus_haemoperoxidus, bioindicator:enterococcus_hirae, bioindicator:enterococcus_italicus, bioindicator:enterococcus_malodoratus, bioindicator:enterococcus_moraviensis, bioindicator:enterococcus_mundtii, bioindicator:enterococcus_phoeniculicola, bioindicator:enterococcus_silesiacus, bioindicator:enterococcus_sulfureus, bioindicator:enterococcus_termitis, bioindicator:enterococcus_thailandicus, bioindicator:enterovirussen, bioindicator:escherichia_coli, bioindicator:eurotium, bioindicator:fusarium, bioindicator:fusarium_solani, bioindicator:gallionella, bioindicator:giardia, bioindicator:intestinale_enterococci, bioindicator:kiemgetal_bij_22c_en_36c, bioindicator:klebsiella, bioindicator:klebsiella_oxytoca, bioindicator:klebsiella_pneumoniae, bioindicator:kluyvera, bioindicator:lactobacillus_plantarum, bioindicator:lactococcus_lactis, bioindicator:legionella_overgroei, bioindicator:legionella_pneumophila, bioindicator:legionella_spp._, bioindicator:lelliottia_amnigena, bioindicator:melkzuur_bacterien, bioindicator:micrococcus, bioindicator:mucor, bioindicator:naaktamoeben, bioindicator:nitrosomonas, bioindicator:oenococcus, bioindicator:oncorhyncus_mykiss, bioindicator:penicillium, bioindicator:penicillium_marneffei, bioindicator:phaeodactylum_tricornutum, bioindicator:phoma, bioindicator:pseudokirchneriella_subcapitata, bioindicator:pseudomonas, bioindicator:pseudomonas_aeruginosa, bioindicator:rahnella_aquatilis, bioindicator:ralstonia, bioindicator:reovirussen, bioindicator:rhizophus, bioindicator:rhodotorula, <https://data.omgeving.vlaanderen.be/id/concept/bioindicator/ribonucleïnezuur>, <https://data.omgeving.vlaanderen.be/id/concept/bioindicator/salmonella_spp.>, bioindicator:schaalamoeben, bioindicator:schimmels, bioindicator:scopulariopsis, bioindicator:serratia, bioindicator:som_roeipootkreeften_copepoda, bioindicator:somatische_colifagen, bioindicator:stachybotrys, bioindicator:staphylococcus_epidermidis, bioindicator:staphylococcus_pasteuri, bioindicator:staphylococcus_saprophyticus, bioindicator:staphylococcus_warneri, bioindicator:streptococcus, bioindicator:streptococcus_equinus, bioindicator:streptococcus_gallolyticus, bioindicator:streptococcus_lutetiensis, bioindicator:streptococcus_salivarius, bioindicator:sulfiet_reducerende_clostridia, bioindicator:thermofiele_actinomyceten;
     skos:note "Een organisme waarmee een verandering of verontreiniging van het milieu kan worden gesignaleerd. Het principe achter het gebruik van bio-indicatoren is dat de natuurlijke samenstelling van een levensgemeenschap wordt bepaald door de fysische en chemische eigenschappen van het ecosysteem."@nl;
     skos:prefLabel "Codelijst van de bioindicatoren"@nl.

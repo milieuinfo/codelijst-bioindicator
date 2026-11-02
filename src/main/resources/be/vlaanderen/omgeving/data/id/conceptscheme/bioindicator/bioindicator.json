@@ -1,0 +1,1101 @@
+[
+    {
+        "id": "https://data.omgeving.vlaanderen.be/id/collection/bioindicator/water",
+        "type": "http://www.w3.org/2004/02/skos/core#Collection",
+        "inScheme": "https://data.omgeving.vlaanderen.be/id/conceptscheme/bioindicator",
+        "member": [
+            "https://data.omgeving.vlaanderen.be/id/concept/bioindicator/aliivibrio_fischeri",
+            "https://data.omgeving.vlaanderen.be/id/concept/bioindicator/anostraca",
+            "https://data.omgeving.vlaanderen.be/id/concept/bioindicator/clostridium_perfringens",
+            "https://data.omgeving.vlaanderen.be/id/concept/bioindicator/coagulase_positieve_staphylococci",
+            "https://data.omgeving.vlaanderen.be/id/concept/bioindicator/coliformen",
+            "https://data.omgeving.vlaanderen.be/id/concept/bioindicator/danio_rerio",
+            "https://data.omgeving.vlaanderen.be/id/concept/bioindicator/daphnia_magna",
+            "https://data.omgeving.vlaanderen.be/id/concept/bioindicator/ekc-fytobenthos",
+            "https://data.omgeving.vlaanderen.be/id/concept/bioindicator/ekc-fytoplankton",
+            "https://data.omgeving.vlaanderen.be/id/concept/bioindicator/ekc-macro-invertebraten",
+            "https://data.omgeving.vlaanderen.be/id/concept/bioindicator/ekc-macrofyten",
+            "https://data.omgeving.vlaanderen.be/id/concept/bioindicator/ekc-visfauna",
+            "https://data.omgeving.vlaanderen.be/id/concept/bioindicator/escherichia_coli",
+            "https://data.omgeving.vlaanderen.be/id/concept/bioindicator/intestinale_enterococci",
+            "https://data.omgeving.vlaanderen.be/id/concept/bioindicator/kiemgetal_bij_22c_en_36c",
+            "https://data.omgeving.vlaanderen.be/id/concept/bioindicator/legionella_pneumophila",
+            "https://data.omgeving.vlaanderen.be/id/concept/bioindicator/legionella_spp._",
+            "https://data.omgeving.vlaanderen.be/id/concept/bioindicator/oncorhyncus_mykiss",
+            "https://data.omgeving.vlaanderen.be/id/concept/bioindicator/phaeodactylum_tricornutum",
+            "https://data.omgeving.vlaanderen.be/id/concept/bioindicator/pseudokirchneriella_subcapitata",
+            "https://data.omgeving.vlaanderen.be/id/concept/bioindicator/pseudomonas_aeruginosa",
+            "https://data.omgeving.vlaanderen.be/id/concept/bioindicator/salmonella_spp.",
+            "https://data.omgeving.vlaanderen.be/id/concept/bioindicator/somatische_colifagen"
+        ],
+        "prefLabel": "Collectie van bioindicatoren m.b.t. water."
+    },
+    {
+        "id": "https://data.omgeving.vlaanderen.be/id/concept/bioindicator/actinomyceten",
+        "type": "http://www.w3.org/2004/02/skos/core#Concept",
+        "inScheme": "https://data.omgeving.vlaanderen.be/id/conceptscheme/bioindicator",
+        "prefLabel": "Actinomyceten",
+        "topConceptOf": "https://data.omgeving.vlaanderen.be/id/conceptscheme/bioindicator"
+    },
+    {
+        "id": "https://data.omgeving.vlaanderen.be/id/concept/bioindicator/adenovirussen",
+        "type": "http://www.w3.org/2004/02/skos/core#Concept",
+        "inScheme": "https://data.omgeving.vlaanderen.be/id/conceptscheme/bioindicator",
+        "prefLabel": "Adenovirussen",
+        "topConceptOf": "https://data.omgeving.vlaanderen.be/id/conceptscheme/bioindicator"
+    },
+    {
+        "id": "https://data.omgeving.vlaanderen.be/id/concept/bioindicator/aerococcus",
+        "type": "http://www.w3.org/2004/02/skos/core#Concept",
+        "inScheme": "https://data.omgeving.vlaanderen.be/id/conceptscheme/bioindicator",
+        "prefLabel": "Aerococcus",
+        "topConceptOf": "https://data.omgeving.vlaanderen.be/id/conceptscheme/bioindicator"
+    },
+    {
+        "id": "https://data.omgeving.vlaanderen.be/id/concept/bioindicator/aerococcus_viridans",
+        "type": "http://www.w3.org/2004/02/skos/core#Concept",
+        "inScheme": "https://data.omgeving.vlaanderen.be/id/conceptscheme/bioindicator",
+        "prefLabel": "Aerococcus viridans",
+        "topConceptOf": "https://data.omgeving.vlaanderen.be/id/conceptscheme/bioindicator"
+    },
+    {
+        "id": "https://data.omgeving.vlaanderen.be/id/concept/bioindicator/aeromonas",
+        "type": "http://www.w3.org/2004/02/skos/core#Concept",
+        "inScheme": "https://data.omgeving.vlaanderen.be/id/conceptscheme/bioindicator",
+        "prefLabel": "Aeromonas",
+        "topConceptOf": "https://data.omgeving.vlaanderen.be/id/conceptscheme/bioindicator"
+    },
+    {
+        "id": "https://data.omgeving.vlaanderen.be/id/concept/bioindicator/aeromonas_caviae",
+        "type": "http://www.w3.org/2004/02/skos/core#Concept",
+        "inScheme": "https://data.omgeving.vlaanderen.be/id/conceptscheme/bioindicator",
+        "prefLabel": "Aeromonas caviae",
+        "topConceptOf": "https://data.omgeving.vlaanderen.be/id/conceptscheme/bioindicator"
+    },
+    {
+        "id": "https://data.omgeving.vlaanderen.be/id/concept/bioindicator/aeromonas_eucrenophila",
+        "type": "http://www.w3.org/2004/02/skos/core#Concept",
+        "inScheme": "https://data.omgeving.vlaanderen.be/id/conceptscheme/bioindicator",
+        "prefLabel": "Aeromonas eucrenophila",
+        "topConceptOf": "https://data.omgeving.vlaanderen.be/id/conceptscheme/bioindicator"
+    },
+    {
+        "id": "https://data.omgeving.vlaanderen.be/id/concept/bioindicator/aeromonas_hydrophila",
+        "type": "http://www.w3.org/2004/02/skos/core#Concept",
+        "inScheme": "https://data.omgeving.vlaanderen.be/id/conceptscheme/bioindicator",
+        "prefLabel": "Aeromonas hydrophila",
+        "topConceptOf": "https://data.omgeving.vlaanderen.be/id/conceptscheme/bioindicator"
+    },
+    {
+        "id": "https://data.omgeving.vlaanderen.be/id/concept/bioindicator/aeromonas_salmonicida",
+        "type": "http://www.w3.org/2004/02/skos/core#Concept",
+        "inScheme": "https://data.omgeving.vlaanderen.be/id/conceptscheme/bioindicator",
+        "prefLabel": "Aeromonas salmonicida",
+        "topConceptOf": "https://data.omgeving.vlaanderen.be/id/conceptscheme/bioindicator"
+    },
+    {
+        "id": "https://data.omgeving.vlaanderen.be/id/concept/bioindicator/aeromonas_veronii",
+        "type": "http://www.w3.org/2004/02/skos/core#Concept",
+        "inScheme": "https://data.omgeving.vlaanderen.be/id/conceptscheme/bioindicator",
+        "prefLabel": "Aeromonas veronii",
+        "topConceptOf": "https://data.omgeving.vlaanderen.be/id/conceptscheme/bioindicator"
+    },
+    {
+        "id": "https://data.omgeving.vlaanderen.be/id/concept/bioindicator/aliivibrio_fischeri",
+        "type": "http://www.w3.org/2004/02/skos/core#Concept",
+        "altLabel": "Luminescente bacterie",
+        "inScheme": "https://data.omgeving.vlaanderen.be/id/conceptscheme/bioindicator",
+        "prefLabel": "Aliivibrio fischeri",
+        "topConceptOf": "https://data.omgeving.vlaanderen.be/id/conceptscheme/bioindicator",
+        "theme": "http://www.eionet.europa.eu/gemet/concept/15179",
+        "subjectOf": "WAC/V/B/004"
+    },
+    {
+        "id": "https://data.omgeving.vlaanderen.be/id/concept/bioindicator/alternaria",
+        "type": "http://www.w3.org/2004/02/skos/core#Concept",
+        "inScheme": "https://data.omgeving.vlaanderen.be/id/conceptscheme/bioindicator",
+        "prefLabel": "Alternaria",
+        "topConceptOf": "https://data.omgeving.vlaanderen.be/id/conceptscheme/bioindicator"
+    },
+    {
+        "id": "https://data.omgeving.vlaanderen.be/id/concept/bioindicator/anostraca",
+        "type": "http://www.w3.org/2004/02/skos/core#Concept",
+        "altLabel": "Pekelkreeftje",
+        "inScheme": "https://data.omgeving.vlaanderen.be/id/conceptscheme/bioindicator",
+        "prefLabel": "Anostraca",
+        "topConceptOf": "https://data.omgeving.vlaanderen.be/id/conceptscheme/bioindicator",
+        "theme": "http://www.eionet.europa.eu/gemet/concept/15179",
+        "subjectOf": "WAC/V/B/001"
+    },
+    {
+        "id": "https://data.omgeving.vlaanderen.be/id/concept/bioindicator/aspergillus",
+        "type": "http://www.w3.org/2004/02/skos/core#Concept",
+        "inScheme": "https://data.omgeving.vlaanderen.be/id/conceptscheme/bioindicator",
+        "prefLabel": "Aspergillus",
+        "topConceptOf": "https://data.omgeving.vlaanderen.be/id/conceptscheme/bioindicator"
+    },
+    {
+        "id": "https://data.omgeving.vlaanderen.be/id/concept/bioindicator/aspergillus_fumigatus",
+        "type": "http://www.w3.org/2004/02/skos/core#Concept",
+        "inScheme": "https://data.omgeving.vlaanderen.be/id/conceptscheme/bioindicator",
+        "prefLabel": "Aspergillus fumigatus",
+        "topConceptOf": "https://data.omgeving.vlaanderen.be/id/conceptscheme/bioindicator"
+    },
+    {
+        "id": "https://data.omgeving.vlaanderen.be/id/concept/bioindicator/aureobasidium",
+        "type": "http://www.w3.org/2004/02/skos/core#Concept",
+        "inScheme": "https://data.omgeving.vlaanderen.be/id/conceptscheme/bioindicator",
+        "prefLabel": "Aureobasidium",
+        "topConceptOf": "https://data.omgeving.vlaanderen.be/id/conceptscheme/bioindicator"
+    },
+    {
+        "id": "https://data.omgeving.vlaanderen.be/id/concept/bioindicator/aureobasidium_pullulans",
+        "type": "http://www.w3.org/2004/02/skos/core#Concept",
+        "inScheme": "https://data.omgeving.vlaanderen.be/id/conceptscheme/bioindicator",
+        "prefLabel": "Aureobasidium pullulans",
+        "topConceptOf": "https://data.omgeving.vlaanderen.be/id/conceptscheme/bioindicator"
+    },
+    {
+        "id": "https://data.omgeving.vlaanderen.be/id/concept/bioindicator/bacillus_cereus",
+        "type": "http://www.w3.org/2004/02/skos/core#Concept",
+        "inScheme": "https://data.omgeving.vlaanderen.be/id/conceptscheme/bioindicator",
+        "prefLabel": "Bacillus cereus",
+        "topConceptOf": "https://data.omgeving.vlaanderen.be/id/conceptscheme/bioindicator"
+    },
+    {
+        "id": "https://data.omgeving.vlaanderen.be/id/concept/bioindicator/bacteriofagen",
+        "type": "http://www.w3.org/2004/02/skos/core#Concept",
+        "inScheme": "https://data.omgeving.vlaanderen.be/id/conceptscheme/bioindicator",
+        "prefLabel": "Bacteriofagen",
+        "topConceptOf": "https://data.omgeving.vlaanderen.be/id/conceptscheme/bioindicator"
+    },
+    {
+        "id": "https://data.omgeving.vlaanderen.be/id/concept/bioindicator/buttiauxella",
+        "type": "http://www.w3.org/2004/02/skos/core#Concept",
+        "inScheme": "https://data.omgeving.vlaanderen.be/id/conceptscheme/bioindicator",
+        "prefLabel": "Buttiauxella",
+        "topConceptOf": "https://data.omgeving.vlaanderen.be/id/conceptscheme/bioindicator"
+    },
+    {
+        "id": "https://data.omgeving.vlaanderen.be/id/concept/bioindicator/buttiauxella_ferragutiae",
+        "type": "http://www.w3.org/2004/02/skos/core#Concept",
+        "inScheme": "https://data.omgeving.vlaanderen.be/id/conceptscheme/bioindicator",
+        "prefLabel": "Buttiauxella ferragutiae",
+        "topConceptOf": "https://data.omgeving.vlaanderen.be/id/conceptscheme/bioindicator"
+    },
+    {
+        "id": "https://data.omgeving.vlaanderen.be/id/concept/bioindicator/buttiauxella_gaviniae",
+        "type": "http://www.w3.org/2004/02/skos/core#Concept",
+        "inScheme": "https://data.omgeving.vlaanderen.be/id/conceptscheme/bioindicator",
+        "prefLabel": "Buttiauxella gaviniae",
+        "topConceptOf": "https://data.omgeving.vlaanderen.be/id/conceptscheme/bioindicator"
+    },
+    {
+        "id": "https://data.omgeving.vlaanderen.be/id/concept/bioindicator/buttiauxella_izardii",
+        "type": "http://www.w3.org/2004/02/skos/core#Concept",
+        "inScheme": "https://data.omgeving.vlaanderen.be/id/conceptscheme/bioindicator",
+        "prefLabel": "Buttiauxella izardii",
+        "topConceptOf": "https://data.omgeving.vlaanderen.be/id/conceptscheme/bioindicator"
+    },
+    {
+        "id": "https://data.omgeving.vlaanderen.be/id/concept/bioindicator/buttiauxella_noackiae",
+        "type": "http://www.w3.org/2004/02/skos/core#Concept",
+        "inScheme": "https://data.omgeving.vlaanderen.be/id/conceptscheme/bioindicator",
+        "prefLabel": "Buttiauxella noackiae",
+        "topConceptOf": "https://data.omgeving.vlaanderen.be/id/conceptscheme/bioindicator"
+    },
+    {
+        "id": "https://data.omgeving.vlaanderen.be/id/concept/bioindicator/candida",
+        "type": "http://www.w3.org/2004/02/skos/core#Concept",
+        "inScheme": "https://data.omgeving.vlaanderen.be/id/conceptscheme/bioindicator",
+        "prefLabel": "Candida",
+        "topConceptOf": "https://data.omgeving.vlaanderen.be/id/conceptscheme/bioindicator"
+    },
+    {
+        "id": "https://data.omgeving.vlaanderen.be/id/concept/bioindicator/chaetomium",
+        "type": "http://www.w3.org/2004/02/skos/core#Concept",
+        "inScheme": "https://data.omgeving.vlaanderen.be/id/conceptscheme/bioindicator",
+        "prefLabel": "Chaetomium",
+        "topConceptOf": "https://data.omgeving.vlaanderen.be/id/conceptscheme/bioindicator"
+    },
+    {
+        "id": "https://data.omgeving.vlaanderen.be/id/concept/bioindicator/citrobacter",
+        "type": "http://www.w3.org/2004/02/skos/core#Concept",
+        "inScheme": "https://data.omgeving.vlaanderen.be/id/conceptscheme/bioindicator",
+        "prefLabel": "Citrobacter",
+        "topConceptOf": "https://data.omgeving.vlaanderen.be/id/conceptscheme/bioindicator"
+    },
+    {
+        "id": "https://data.omgeving.vlaanderen.be/id/concept/bioindicator/citrobacter_gillenii",
+        "type": "http://www.w3.org/2004/02/skos/core#Concept",
+        "inScheme": "https://data.omgeving.vlaanderen.be/id/conceptscheme/bioindicator",
+        "prefLabel": "Citrobacter gillenii",
+        "topConceptOf": "https://data.omgeving.vlaanderen.be/id/conceptscheme/bioindicator"
+    },
+    {
+        "id": "https://data.omgeving.vlaanderen.be/id/concept/bioindicator/cladosporium",
+        "type": "http://www.w3.org/2004/02/skos/core#Concept",
+        "inScheme": "https://data.omgeving.vlaanderen.be/id/conceptscheme/bioindicator",
+        "prefLabel": "Cladosporium",
+        "topConceptOf": "https://data.omgeving.vlaanderen.be/id/conceptscheme/bioindicator"
+    },
+    {
+        "id": "https://data.omgeving.vlaanderen.be/id/concept/bioindicator/clostridium_perfringens",
+        "type": "http://www.w3.org/2004/02/skos/core#Concept",
+        "inScheme": "https://data.omgeving.vlaanderen.be/id/conceptscheme/bioindicator",
+        "prefLabel": "Clostridium perfringens",
+        "topConceptOf": "https://data.omgeving.vlaanderen.be/id/conceptscheme/bioindicator",
+        "theme": "http://www.eionet.europa.eu/gemet/concept/15179",
+        "subjectOf": "WAC/V/A/007"
+    },
+    {
+        "id": "https://data.omgeving.vlaanderen.be/id/concept/bioindicator/clostridium_tertium",
+        "type": "http://www.w3.org/2004/02/skos/core#Concept",
+        "inScheme": "https://data.omgeving.vlaanderen.be/id/conceptscheme/bioindicator",
+        "prefLabel": "Clostridium tertium",
+        "topConceptOf": "https://data.omgeving.vlaanderen.be/id/conceptscheme/bioindicator"
+    },
+    {
+        "id": "https://data.omgeving.vlaanderen.be/id/concept/bioindicator/coagulase_positieve_staphylococci",
+        "type": "http://www.w3.org/2004/02/skos/core#Concept",
+        "altLabel": "stafylokokken",
+        "inScheme": "https://data.omgeving.vlaanderen.be/id/conceptscheme/bioindicator",
+        "prefLabel": "coagulase positieve staphylococci",
+        "topConceptOf": "https://data.omgeving.vlaanderen.be/id/conceptscheme/bioindicator",
+        "theme": "http://www.eionet.europa.eu/gemet/concept/15179",
+        "subjectOf": "WAC/V/A/008"
+    },
+    {
+        "id": "https://data.omgeving.vlaanderen.be/id/concept/bioindicator/coliformen",
+        "type": "http://www.w3.org/2004/02/skos/core#Concept",
+        "inScheme": "https://data.omgeving.vlaanderen.be/id/conceptscheme/bioindicator",
+        "prefLabel": "coliformen",
+        "topConceptOf": "https://data.omgeving.vlaanderen.be/id/conceptscheme/bioindicator",
+        "theme": "http://www.eionet.europa.eu/gemet/concept/15179",
+        "subjectOf": "WAC/V/A/002"
+    },
+    {
+        "id": "https://data.omgeving.vlaanderen.be/id/concept/bioindicator/cronobacter",
+        "type": "http://www.w3.org/2004/02/skos/core#Concept",
+        "inScheme": "https://data.omgeving.vlaanderen.be/id/conceptscheme/bioindicator",
+        "prefLabel": "Cronobacter",
+        "topConceptOf": "https://data.omgeving.vlaanderen.be/id/conceptscheme/bioindicator"
+    },
+    {
+        "id": "https://data.omgeving.vlaanderen.be/id/concept/bioindicator/cronobacter_sakazakii",
+        "type": "http://www.w3.org/2004/02/skos/core#Concept",
+        "inScheme": "https://data.omgeving.vlaanderen.be/id/conceptscheme/bioindicator",
+        "prefLabel": "Cronobacter sakazakii",
+        "topConceptOf": "https://data.omgeving.vlaanderen.be/id/conceptscheme/bioindicator"
+    },
+    {
+        "id": "https://data.omgeving.vlaanderen.be/id/concept/bioindicator/cryptosporidium",
+        "type": "http://www.w3.org/2004/02/skos/core#Concept",
+        "inScheme": "https://data.omgeving.vlaanderen.be/id/conceptscheme/bioindicator",
+        "prefLabel": "Cryptosporidium",
+        "topConceptOf": "https://data.omgeving.vlaanderen.be/id/conceptscheme/bioindicator"
+    },
+    {
+        "id": "https://data.omgeving.vlaanderen.be/id/concept/bioindicator/danio_rerio",
+        "type": "http://www.w3.org/2004/02/skos/core#Concept",
+        "altLabel": "Zebravisembryo",
+        "inScheme": "https://data.omgeving.vlaanderen.be/id/conceptscheme/bioindicator",
+        "prefLabel": "Danio rerio",
+        "topConceptOf": "https://data.omgeving.vlaanderen.be/id/conceptscheme/bioindicator",
+        "theme": "http://www.eionet.europa.eu/gemet/concept/15179",
+        "subjectOf": "WAC/V/B/002"
+    },
+    {
+        "id": "https://data.omgeving.vlaanderen.be/id/concept/bioindicator/daphnia_magna",
+        "type": "http://www.w3.org/2004/02/skos/core#Concept",
+        "altLabel": "Watervlo",
+        "inScheme": "https://data.omgeving.vlaanderen.be/id/conceptscheme/bioindicator",
+        "prefLabel": "Daphnia magna",
+        "topConceptOf": "https://data.omgeving.vlaanderen.be/id/conceptscheme/bioindicator",
+        "theme": "http://www.eionet.europa.eu/gemet/concept/15179",
+        "subjectOf": "WAC/V/B/001"
+    },
+    {
+        "id": "https://data.omgeving.vlaanderen.be/id/concept/bioindicator/dermatofyten",
+        "type": "http://www.w3.org/2004/02/skos/core#Concept",
+        "inScheme": "https://data.omgeving.vlaanderen.be/id/conceptscheme/bioindicator",
+        "prefLabel": "Dermatofyten",
+        "topConceptOf": "https://data.omgeving.vlaanderen.be/id/conceptscheme/bioindicator"
+    },
+    {
+        "id": "https://data.omgeving.vlaanderen.be/id/concept/bioindicator/ekc-fytobenthos",
+        "type": "http://www.w3.org/2004/02/skos/core#Concept",
+        "inScheme": "https://data.omgeving.vlaanderen.be/id/conceptscheme/bioindicator",
+        "prefLabel": "EKC-fytobenthos",
+        "topConceptOf": "https://data.omgeving.vlaanderen.be/id/conceptscheme/bioindicator",
+        "theme": "http://www.eionet.europa.eu/gemet/concept/15179",
+        "subjectOf": "VLAREM II"
+    },
+    {
+        "id": "https://data.omgeving.vlaanderen.be/id/concept/bioindicator/ekc-fytoplankton",
+        "type": "http://www.w3.org/2004/02/skos/core#Concept",
+        "inScheme": "https://data.omgeving.vlaanderen.be/id/conceptscheme/bioindicator",
+        "prefLabel": "EKC-fytoplankton",
+        "topConceptOf": "https://data.omgeving.vlaanderen.be/id/conceptscheme/bioindicator",
+        "theme": "http://www.eionet.europa.eu/gemet/concept/15179",
+        "subjectOf": "VLAREM II"
+    },
+    {
+        "id": "https://data.omgeving.vlaanderen.be/id/concept/bioindicator/ekc-macro-invertebraten",
+        "type": "http://www.w3.org/2004/02/skos/core#Concept",
+        "inScheme": "https://data.omgeving.vlaanderen.be/id/conceptscheme/bioindicator",
+        "prefLabel": "EKC-macro-invertebraten",
+        "topConceptOf": "https://data.omgeving.vlaanderen.be/id/conceptscheme/bioindicator",
+        "theme": "http://www.eionet.europa.eu/gemet/concept/15179",
+        "subjectOf": "VLAREM II"
+    },
+    {
+        "id": "https://data.omgeving.vlaanderen.be/id/concept/bioindicator/ekc-macrofyten",
+        "type": "http://www.w3.org/2004/02/skos/core#Concept",
+        "inScheme": "https://data.omgeving.vlaanderen.be/id/conceptscheme/bioindicator",
+        "prefLabel": "EKC-macrofyten",
+        "topConceptOf": "https://data.omgeving.vlaanderen.be/id/conceptscheme/bioindicator",
+        "theme": "http://www.eionet.europa.eu/gemet/concept/15179",
+        "subjectOf": "VLAREM II"
+    },
+    {
+        "id": "https://data.omgeving.vlaanderen.be/id/concept/bioindicator/ekc-visfauna",
+        "type": "http://www.w3.org/2004/02/skos/core#Concept",
+        "inScheme": "https://data.omgeving.vlaanderen.be/id/conceptscheme/bioindicator",
+        "prefLabel": "EKC-visfauna",
+        "topConceptOf": "https://data.omgeving.vlaanderen.be/id/conceptscheme/bioindicator",
+        "theme": "http://www.eionet.europa.eu/gemet/concept/15179",
+        "subjectOf": "VLAREM II"
+    },
+    {
+        "id": "https://data.omgeving.vlaanderen.be/id/concept/bioindicator/enterobacter_amnigenus",
+        "type": "http://www.w3.org/2004/02/skos/core#Concept",
+        "inScheme": "https://data.omgeving.vlaanderen.be/id/conceptscheme/bioindicator",
+        "prefLabel": "Enterobacter amnigenus",
+        "topConceptOf": "https://data.omgeving.vlaanderen.be/id/conceptscheme/bioindicator"
+    },
+    {
+        "id": "https://data.omgeving.vlaanderen.be/id/concept/bioindicator/enterobacter_cloacae",
+        "type": "http://www.w3.org/2004/02/skos/core#Concept",
+        "inScheme": "https://data.omgeving.vlaanderen.be/id/conceptscheme/bioindicator",
+        "prefLabel": "Enterobacter cloacae",
+        "topConceptOf": "https://data.omgeving.vlaanderen.be/id/conceptscheme/bioindicator"
+    },
+    {
+        "id": "https://data.omgeving.vlaanderen.be/id/concept/bioindicator/enterobacter_ludwigii",
+        "type": "http://www.w3.org/2004/02/skos/core#Concept",
+        "inScheme": "https://data.omgeving.vlaanderen.be/id/conceptscheme/bioindicator",
+        "prefLabel": "Enterobacter ludwigii",
+        "topConceptOf": "https://data.omgeving.vlaanderen.be/id/conceptscheme/bioindicator"
+    },
+    {
+        "id": "https://data.omgeving.vlaanderen.be/id/concept/bioindicator/enterococcen",
+        "type": "http://www.w3.org/2004/02/skos/core#Concept",
+        "inScheme": "https://data.omgeving.vlaanderen.be/id/conceptscheme/bioindicator",
+        "prefLabel": "Enterococcen",
+        "topConceptOf": "https://data.omgeving.vlaanderen.be/id/conceptscheme/bioindicator"
+    },
+    {
+        "id": "https://data.omgeving.vlaanderen.be/id/concept/bioindicator/enterococcus_aquimarinus",
+        "type": "http://www.w3.org/2004/02/skos/core#Concept",
+        "inScheme": "https://data.omgeving.vlaanderen.be/id/conceptscheme/bioindicator",
+        "prefLabel": "Enterococcus aquimarinus",
+        "topConceptOf": "https://data.omgeving.vlaanderen.be/id/conceptscheme/bioindicator"
+    },
+    {
+        "id": "https://data.omgeving.vlaanderen.be/id/concept/bioindicator/enterococcus_cacae",
+        "type": "http://www.w3.org/2004/02/skos/core#Concept",
+        "inScheme": "https://data.omgeving.vlaanderen.be/id/conceptscheme/bioindicator",
+        "prefLabel": "Enterococcus cacae",
+        "topConceptOf": "https://data.omgeving.vlaanderen.be/id/conceptscheme/bioindicator"
+    },
+    {
+        "id": "https://data.omgeving.vlaanderen.be/id/concept/bioindicator/enterococcus_casseliflavus",
+        "type": "http://www.w3.org/2004/02/skos/core#Concept",
+        "inScheme": "https://data.omgeving.vlaanderen.be/id/conceptscheme/bioindicator",
+        "prefLabel": "Enterococcus casseliflavus",
+        "topConceptOf": "https://data.omgeving.vlaanderen.be/id/conceptscheme/bioindicator"
+    },
+    {
+        "id": "https://data.omgeving.vlaanderen.be/id/concept/bioindicator/enterococcus_durans",
+        "type": "http://www.w3.org/2004/02/skos/core#Concept",
+        "inScheme": "https://data.omgeving.vlaanderen.be/id/conceptscheme/bioindicator",
+        "prefLabel": "Enterococcus durans",
+        "topConceptOf": "https://data.omgeving.vlaanderen.be/id/conceptscheme/bioindicator"
+    },
+    {
+        "id": "https://data.omgeving.vlaanderen.be/id/concept/bioindicator/enterococcus_faecalis",
+        "type": "http://www.w3.org/2004/02/skos/core#Concept",
+        "inScheme": "https://data.omgeving.vlaanderen.be/id/conceptscheme/bioindicator",
+        "prefLabel": "Enterococcus faecalis",
+        "topConceptOf": "https://data.omgeving.vlaanderen.be/id/conceptscheme/bioindicator"
+    },
+    {
+        "id": "https://data.omgeving.vlaanderen.be/id/concept/bioindicator/enterococcus_faecium",
+        "type": "http://www.w3.org/2004/02/skos/core#Concept",
+        "inScheme": "https://data.omgeving.vlaanderen.be/id/conceptscheme/bioindicator",
+        "prefLabel": "Enterococcus faecium",
+        "topConceptOf": "https://data.omgeving.vlaanderen.be/id/conceptscheme/bioindicator"
+    },
+    {
+        "id": "https://data.omgeving.vlaanderen.be/id/concept/bioindicator/enterococcus_gallinarum",
+        "type": "http://www.w3.org/2004/02/skos/core#Concept",
+        "inScheme": "https://data.omgeving.vlaanderen.be/id/conceptscheme/bioindicator",
+        "prefLabel": "Enterococcus gallinarum",
+        "topConceptOf": "https://data.omgeving.vlaanderen.be/id/conceptscheme/bioindicator"
+    },
+    {
+        "id": "https://data.omgeving.vlaanderen.be/id/concept/bioindicator/enterococcus_gilvus",
+        "type": "http://www.w3.org/2004/02/skos/core#Concept",
+        "inScheme": "https://data.omgeving.vlaanderen.be/id/conceptscheme/bioindicator",
+        "prefLabel": "Enterococcus gilvus",
+        "topConceptOf": "https://data.omgeving.vlaanderen.be/id/conceptscheme/bioindicator"
+    },
+    {
+        "id": "https://data.omgeving.vlaanderen.be/id/concept/bioindicator/enterococcus_haemoperoxidus",
+        "type": "http://www.w3.org/2004/02/skos/core#Concept",
+        "inScheme": "https://data.omgeving.vlaanderen.be/id/conceptscheme/bioindicator",
+        "prefLabel": "Enterococcus haemoperoxidus",
+        "topConceptOf": "https://data.omgeving.vlaanderen.be/id/conceptscheme/bioindicator"
+    },
+    {
+        "id": "https://data.omgeving.vlaanderen.be/id/concept/bioindicator/enterococcus_hirae",
+        "type": "http://www.w3.org/2004/02/skos/core#Concept",
+        "inScheme": "https://data.omgeving.vlaanderen.be/id/conceptscheme/bioindicator",
+        "prefLabel": "Enterococcus hirae",
+        "topConceptOf": "https://data.omgeving.vlaanderen.be/id/conceptscheme/bioindicator"
+    },
+    {
+        "id": "https://data.omgeving.vlaanderen.be/id/concept/bioindicator/enterococcus_italicus",
+        "type": "http://www.w3.org/2004/02/skos/core#Concept",
+        "inScheme": "https://data.omgeving.vlaanderen.be/id/conceptscheme/bioindicator",
+        "prefLabel": "Enterococcus italicus",
+        "topConceptOf": "https://data.omgeving.vlaanderen.be/id/conceptscheme/bioindicator"
+    },
+    {
+        "id": "https://data.omgeving.vlaanderen.be/id/concept/bioindicator/enterococcus_malodoratus",
+        "type": "http://www.w3.org/2004/02/skos/core#Concept",
+        "inScheme": "https://data.omgeving.vlaanderen.be/id/conceptscheme/bioindicator",
+        "prefLabel": "Enterococcus malodoratus",
+        "topConceptOf": "https://data.omgeving.vlaanderen.be/id/conceptscheme/bioindicator"
+    },
+    {
+        "id": "https://data.omgeving.vlaanderen.be/id/concept/bioindicator/enterococcus_moraviensis",
+        "type": "http://www.w3.org/2004/02/skos/core#Concept",
+        "inScheme": "https://data.omgeving.vlaanderen.be/id/conceptscheme/bioindicator",
+        "prefLabel": "Enterococcus moraviensis",
+        "topConceptOf": "https://data.omgeving.vlaanderen.be/id/conceptscheme/bioindicator"
+    },
+    {
+        "id": "https://data.omgeving.vlaanderen.be/id/concept/bioindicator/enterococcus_mundtii",
+        "type": "http://www.w3.org/2004/02/skos/core#Concept",
+        "inScheme": "https://data.omgeving.vlaanderen.be/id/conceptscheme/bioindicator",
+        "prefLabel": "Enterococcus mundtii",
+        "topConceptOf": "https://data.omgeving.vlaanderen.be/id/conceptscheme/bioindicator"
+    },
+    {
+        "id": "https://data.omgeving.vlaanderen.be/id/concept/bioindicator/enterococcus_phoeniculicola",
+        "type": "http://www.w3.org/2004/02/skos/core#Concept",
+        "inScheme": "https://data.omgeving.vlaanderen.be/id/conceptscheme/bioindicator",
+        "prefLabel": "Enterococcus phoeniculicola",
+        "topConceptOf": "https://data.omgeving.vlaanderen.be/id/conceptscheme/bioindicator"
+    },
+    {
+        "id": "https://data.omgeving.vlaanderen.be/id/concept/bioindicator/enterococcus_silesiacus",
+        "type": "http://www.w3.org/2004/02/skos/core#Concept",
+        "inScheme": "https://data.omgeving.vlaanderen.be/id/conceptscheme/bioindicator",
+        "prefLabel": "Enterococcus silesiacus",
+        "topConceptOf": "https://data.omgeving.vlaanderen.be/id/conceptscheme/bioindicator"
+    },
+    {
+        "id": "https://data.omgeving.vlaanderen.be/id/concept/bioindicator/enterococcus_sulfureus",
+        "type": "http://www.w3.org/2004/02/skos/core#Concept",
+        "inScheme": "https://data.omgeving.vlaanderen.be/id/conceptscheme/bioindicator",
+        "prefLabel": "Enterococcus sulfureus",
+        "topConceptOf": "https://data.omgeving.vlaanderen.be/id/conceptscheme/bioindicator"
+    },
+    {
+        "id": "https://data.omgeving.vlaanderen.be/id/concept/bioindicator/enterococcus_termitis",
+        "type": "http://www.w3.org/2004/02/skos/core#Concept",
+        "inScheme": "https://data.omgeving.vlaanderen.be/id/conceptscheme/bioindicator",
+        "prefLabel": "Enterococcus termitis",
+        "topConceptOf": "https://data.omgeving.vlaanderen.be/id/conceptscheme/bioindicator"
+    },
+    {
+        "id": "https://data.omgeving.vlaanderen.be/id/concept/bioindicator/enterococcus_thailandicus",
+        "type": "http://www.w3.org/2004/02/skos/core#Concept",
+        "inScheme": "https://data.omgeving.vlaanderen.be/id/conceptscheme/bioindicator",
+        "prefLabel": "Enterococcus thailandicus",
+        "topConceptOf": "https://data.omgeving.vlaanderen.be/id/conceptscheme/bioindicator"
+    },
+    {
+        "id": "https://data.omgeving.vlaanderen.be/id/concept/bioindicator/enterovirussen",
+        "type": "http://www.w3.org/2004/02/skos/core#Concept",
+        "inScheme": "https://data.omgeving.vlaanderen.be/id/conceptscheme/bioindicator",
+        "prefLabel": "Enterovirussen",
+        "topConceptOf": "https://data.omgeving.vlaanderen.be/id/conceptscheme/bioindicator"
+    },
+    {
+        "id": "https://data.omgeving.vlaanderen.be/id/concept/bioindicator/escherichia_coli",
+        "type": "http://www.w3.org/2004/02/skos/core#Concept",
+        "altLabel": "Escherichia coli (E. coli)",
+        "inScheme": "https://data.omgeving.vlaanderen.be/id/conceptscheme/bioindicator",
+        "notation": "EColi",
+        "prefLabel": "Escherichia coli",
+        "topConceptOf": "https://data.omgeving.vlaanderen.be/id/conceptscheme/bioindicator",
+        "theme": "http://www.eionet.europa.eu/gemet/concept/15179",
+        "subjectOf": "WAC/V/A/002"
+    },
+    {
+        "id": "https://data.omgeving.vlaanderen.be/id/concept/bioindicator/eurotium",
+        "type": "http://www.w3.org/2004/02/skos/core#Concept",
+        "inScheme": "https://data.omgeving.vlaanderen.be/id/conceptscheme/bioindicator",
+        "prefLabel": "Eurotium",
+        "topConceptOf": "https://data.omgeving.vlaanderen.be/id/conceptscheme/bioindicator"
+    },
+    {
+        "id": "https://data.omgeving.vlaanderen.be/id/concept/bioindicator/fusarium",
+        "type": "http://www.w3.org/2004/02/skos/core#Concept",
+        "inScheme": "https://data.omgeving.vlaanderen.be/id/conceptscheme/bioindicator",
+        "prefLabel": "Fusarium",
+        "topConceptOf": "https://data.omgeving.vlaanderen.be/id/conceptscheme/bioindicator"
+    },
+    {
+        "id": "https://data.omgeving.vlaanderen.be/id/concept/bioindicator/fusarium_solani",
+        "type": "http://www.w3.org/2004/02/skos/core#Concept",
+        "inScheme": "https://data.omgeving.vlaanderen.be/id/conceptscheme/bioindicator",
+        "prefLabel": "Fusarium Solani",
+        "topConceptOf": "https://data.omgeving.vlaanderen.be/id/conceptscheme/bioindicator"
+    },
+    {
+        "id": "https://data.omgeving.vlaanderen.be/id/concept/bioindicator/gallionella",
+        "type": "http://www.w3.org/2004/02/skos/core#Concept",
+        "inScheme": "https://data.omgeving.vlaanderen.be/id/conceptscheme/bioindicator",
+        "prefLabel": "Gallionella",
+        "topConceptOf": "https://data.omgeving.vlaanderen.be/id/conceptscheme/bioindicator"
+    },
+    {
+        "id": "https://data.omgeving.vlaanderen.be/id/concept/bioindicator/giardia",
+        "type": "http://www.w3.org/2004/02/skos/core#Concept",
+        "inScheme": "https://data.omgeving.vlaanderen.be/id/conceptscheme/bioindicator",
+        "prefLabel": "Giardia",
+        "topConceptOf": "https://data.omgeving.vlaanderen.be/id/conceptscheme/bioindicator"
+    },
+    {
+        "id": "https://data.omgeving.vlaanderen.be/id/concept/bioindicator/intestinale_enterococci",
+        "type": "http://www.w3.org/2004/02/skos/core#Concept",
+        "altLabel": "enterokokken",
+        "inScheme": "https://data.omgeving.vlaanderen.be/id/conceptscheme/bioindicator",
+        "prefLabel": "intestinale enterococci",
+        "topConceptOf": "https://data.omgeving.vlaanderen.be/id/conceptscheme/bioindicator",
+        "theme": "http://www.eionet.europa.eu/gemet/concept/15179",
+        "subjectOf": "WAC/V/A/003"
+    },
+    {
+        "id": "https://data.omgeving.vlaanderen.be/id/concept/bioindicator/kiemgetal_bij_22c_en_36c",
+        "type": "http://www.w3.org/2004/02/skos/core#Concept",
+        "inScheme": "https://data.omgeving.vlaanderen.be/id/conceptscheme/bioindicator",
+        "prefLabel": "kiemgetal bij 22°C en 36°C",
+        "topConceptOf": "https://data.omgeving.vlaanderen.be/id/conceptscheme/bioindicator",
+        "theme": "http://www.eionet.europa.eu/gemet/concept/15179",
+        "subjectOf": "WAC/V/A/001"
+    },
+    {
+        "id": "https://data.omgeving.vlaanderen.be/id/concept/bioindicator/klebsiella",
+        "type": "http://www.w3.org/2004/02/skos/core#Concept",
+        "inScheme": "https://data.omgeving.vlaanderen.be/id/conceptscheme/bioindicator",
+        "prefLabel": "Klebsiella",
+        "topConceptOf": "https://data.omgeving.vlaanderen.be/id/conceptscheme/bioindicator"
+    },
+    {
+        "id": "https://data.omgeving.vlaanderen.be/id/concept/bioindicator/klebsiella_oxytoca",
+        "type": "http://www.w3.org/2004/02/skos/core#Concept",
+        "inScheme": "https://data.omgeving.vlaanderen.be/id/conceptscheme/bioindicator",
+        "prefLabel": "Klebsiella oxytoca",
+        "topConceptOf": "https://data.omgeving.vlaanderen.be/id/conceptscheme/bioindicator"
+    },
+    {
+        "id": "https://data.omgeving.vlaanderen.be/id/concept/bioindicator/klebsiella_pneumoniae",
+        "type": "http://www.w3.org/2004/02/skos/core#Concept",
+        "inScheme": "https://data.omgeving.vlaanderen.be/id/conceptscheme/bioindicator",
+        "prefLabel": "Klebsiella pneumoniae",
+        "topConceptOf": "https://data.omgeving.vlaanderen.be/id/conceptscheme/bioindicator"
+    },
+    {
+        "id": "https://data.omgeving.vlaanderen.be/id/concept/bioindicator/kluyvera",
+        "type": "http://www.w3.org/2004/02/skos/core#Concept",
+        "inScheme": "https://data.omgeving.vlaanderen.be/id/conceptscheme/bioindicator",
+        "prefLabel": "Kluyvera",
+        "topConceptOf": "https://data.omgeving.vlaanderen.be/id/conceptscheme/bioindicator"
+    },
+    {
+        "id": "https://data.omgeving.vlaanderen.be/id/concept/bioindicator/lactobacillus_plantarum",
+        "type": "http://www.w3.org/2004/02/skos/core#Concept",
+        "inScheme": "https://data.omgeving.vlaanderen.be/id/conceptscheme/bioindicator",
+        "prefLabel": "Lactobacillus plantarum",
+        "topConceptOf": "https://data.omgeving.vlaanderen.be/id/conceptscheme/bioindicator"
+    },
+    {
+        "id": "https://data.omgeving.vlaanderen.be/id/concept/bioindicator/lactococcus_lactis",
+        "type": "http://www.w3.org/2004/02/skos/core#Concept",
+        "inScheme": "https://data.omgeving.vlaanderen.be/id/conceptscheme/bioindicator",
+        "prefLabel": "Lactococcus lactis",
+        "topConceptOf": "https://data.omgeving.vlaanderen.be/id/conceptscheme/bioindicator"
+    },
+    {
+        "id": "https://data.omgeving.vlaanderen.be/id/concept/bioindicator/legionella_overgroei",
+        "type": "http://www.w3.org/2004/02/skos/core#Concept",
+        "inScheme": "https://data.omgeving.vlaanderen.be/id/conceptscheme/bioindicator",
+        "prefLabel": "Legionella overgroei",
+        "topConceptOf": "https://data.omgeving.vlaanderen.be/id/conceptscheme/bioindicator"
+    },
+    {
+        "id": "https://data.omgeving.vlaanderen.be/id/concept/bioindicator/legionella_pneumophila",
+        "type": "http://www.w3.org/2004/02/skos/core#Concept",
+        "inScheme": "https://data.omgeving.vlaanderen.be/id/conceptscheme/bioindicator",
+        "prefLabel": "Legionella pneumophila",
+        "topConceptOf": "https://data.omgeving.vlaanderen.be/id/conceptscheme/bioindicator",
+        "theme": "http://www.eionet.europa.eu/gemet/concept/15179",
+        "subjectOf": "WAC/V/A/005"
+    },
+    {
+        "id": "https://data.omgeving.vlaanderen.be/id/concept/bioindicator/legionella_spp._",
+        "type": "http://www.w3.org/2004/02/skos/core#Concept",
+        "inScheme": "https://data.omgeving.vlaanderen.be/id/conceptscheme/bioindicator",
+        "notation": "Legio",
+        "prefLabel": "Legionella spp.",
+        "topConceptOf": "https://data.omgeving.vlaanderen.be/id/conceptscheme/bioindicator",
+        "theme": "http://www.eionet.europa.eu/gemet/concept/15179",
+        "subjectOf": "WAC/V/A/005"
+    },
+    {
+        "id": "https://data.omgeving.vlaanderen.be/id/concept/bioindicator/lelliottia_amnigena",
+        "type": "http://www.w3.org/2004/02/skos/core#Concept",
+        "inScheme": "https://data.omgeving.vlaanderen.be/id/conceptscheme/bioindicator",
+        "prefLabel": "Lelliottia amnigena",
+        "topConceptOf": "https://data.omgeving.vlaanderen.be/id/conceptscheme/bioindicator"
+    },
+    {
+        "id": "https://data.omgeving.vlaanderen.be/id/concept/bioindicator/melkzuur_bacterien",
+        "type": "http://www.w3.org/2004/02/skos/core#Concept",
+        "inScheme": "https://data.omgeving.vlaanderen.be/id/conceptscheme/bioindicator",
+        "prefLabel": "Melkzuur bacteriën",
+        "topConceptOf": "https://data.omgeving.vlaanderen.be/id/conceptscheme/bioindicator"
+    },
+    {
+        "id": "https://data.omgeving.vlaanderen.be/id/concept/bioindicator/micrococcus",
+        "type": "http://www.w3.org/2004/02/skos/core#Concept",
+        "inScheme": "https://data.omgeving.vlaanderen.be/id/conceptscheme/bioindicator",
+        "prefLabel": "Micrococcus",
+        "topConceptOf": "https://data.omgeving.vlaanderen.be/id/conceptscheme/bioindicator"
+    },
+    {
+        "id": "https://data.omgeving.vlaanderen.be/id/concept/bioindicator/mucor",
+        "type": "http://www.w3.org/2004/02/skos/core#Concept",
+        "inScheme": "https://data.omgeving.vlaanderen.be/id/conceptscheme/bioindicator",
+        "prefLabel": "Mucor",
+        "topConceptOf": "https://data.omgeving.vlaanderen.be/id/conceptscheme/bioindicator"
+    },
+    {
+        "id": "https://data.omgeving.vlaanderen.be/id/concept/bioindicator/naaktamoeben",
+        "type": "http://www.w3.org/2004/02/skos/core#Concept",
+        "inScheme": "https://data.omgeving.vlaanderen.be/id/conceptscheme/bioindicator",
+        "prefLabel": "Naaktamoeben",
+        "topConceptOf": "https://data.omgeving.vlaanderen.be/id/conceptscheme/bioindicator"
+    },
+    {
+        "id": "https://data.omgeving.vlaanderen.be/id/concept/bioindicator/nitrosomonas",
+        "type": "http://www.w3.org/2004/02/skos/core#Concept",
+        "inScheme": "https://data.omgeving.vlaanderen.be/id/conceptscheme/bioindicator",
+        "prefLabel": "Nitrosomonas",
+        "topConceptOf": "https://data.omgeving.vlaanderen.be/id/conceptscheme/bioindicator"
+    },
+    {
+        "id": "https://data.omgeving.vlaanderen.be/id/concept/bioindicator/oenococcus",
+        "type": "http://www.w3.org/2004/02/skos/core#Concept",
+        "inScheme": "https://data.omgeving.vlaanderen.be/id/conceptscheme/bioindicator",
+        "prefLabel": "Oenococcus",
+        "topConceptOf": "https://data.omgeving.vlaanderen.be/id/conceptscheme/bioindicator"
+    },
+    {
+        "id": "https://data.omgeving.vlaanderen.be/id/concept/bioindicator/oncorhyncus_mykiss",
+        "type": "http://www.w3.org/2004/02/skos/core#Concept",
+        "altLabel": "Forel",
+        "inScheme": "https://data.omgeving.vlaanderen.be/id/conceptscheme/bioindicator",
+        "prefLabel": "Oncorhyncus mykiss",
+        "topConceptOf": "https://data.omgeving.vlaanderen.be/id/conceptscheme/bioindicator",
+        "theme": "http://www.eionet.europa.eu/gemet/concept/15179",
+        "subjectOf": "WAC/V/B/007"
+    },
+    {
+        "id": "https://data.omgeving.vlaanderen.be/id/concept/bioindicator/penicillium",
+        "type": "http://www.w3.org/2004/02/skos/core#Concept",
+        "inScheme": "https://data.omgeving.vlaanderen.be/id/conceptscheme/bioindicator",
+        "prefLabel": "Penicillium",
+        "topConceptOf": "https://data.omgeving.vlaanderen.be/id/conceptscheme/bioindicator"
+    },
+    {
+        "id": "https://data.omgeving.vlaanderen.be/id/concept/bioindicator/penicillium_marneffei",
+        "type": "http://www.w3.org/2004/02/skos/core#Concept",
+        "inScheme": "https://data.omgeving.vlaanderen.be/id/conceptscheme/bioindicator",
+        "prefLabel": "Penicillium marneffei",
+        "topConceptOf": "https://data.omgeving.vlaanderen.be/id/conceptscheme/bioindicator"
+    },
+    {
+        "id": "https://data.omgeving.vlaanderen.be/id/concept/bioindicator/phaeodactylum_tricornutum",
+        "type": "http://www.w3.org/2004/02/skos/core#Concept",
+        "altLabel": "Mariene alg",
+        "inScheme": "https://data.omgeving.vlaanderen.be/id/conceptscheme/bioindicator",
+        "prefLabel": "Phaeodactylum tricornutum",
+        "topConceptOf": "https://data.omgeving.vlaanderen.be/id/conceptscheme/bioindicator",
+        "theme": "http://www.eionet.europa.eu/gemet/concept/15179",
+        "subjectOf": "WAC/V/B/003"
+    },
+    {
+        "id": "https://data.omgeving.vlaanderen.be/id/concept/bioindicator/phoma",
+        "type": "http://www.w3.org/2004/02/skos/core#Concept",
+        "inScheme": "https://data.omgeving.vlaanderen.be/id/conceptscheme/bioindicator",
+        "prefLabel": "Phoma",
+        "topConceptOf": "https://data.omgeving.vlaanderen.be/id/conceptscheme/bioindicator"
+    },
+    {
+        "id": "https://data.omgeving.vlaanderen.be/id/concept/bioindicator/pseudokirchneriella_subcapitata",
+        "type": "http://www.w3.org/2004/02/skos/core#Concept",
+        "altLabel": "Zoetwateralg",
+        "inScheme": "https://data.omgeving.vlaanderen.be/id/conceptscheme/bioindicator",
+        "prefLabel": "Pseudokirchneriella subcapitata",
+        "topConceptOf": "https://data.omgeving.vlaanderen.be/id/conceptscheme/bioindicator",
+        "theme": "http://www.eionet.europa.eu/gemet/concept/15179",
+        "subjectOf": "WAC/V/B/003"
+    },
+    {
+        "id": "https://data.omgeving.vlaanderen.be/id/concept/bioindicator/pseudomonas",
+        "type": "http://www.w3.org/2004/02/skos/core#Concept",
+        "inScheme": "https://data.omgeving.vlaanderen.be/id/conceptscheme/bioindicator",
+        "prefLabel": "Pseudomonas",
+        "topConceptOf": "https://data.omgeving.vlaanderen.be/id/conceptscheme/bioindicator"
+    },
+    {
+        "id": "https://data.omgeving.vlaanderen.be/id/concept/bioindicator/pseudomonas_aeruginosa",
+        "type": "http://www.w3.org/2004/02/skos/core#Concept",
+        "inScheme": "https://data.omgeving.vlaanderen.be/id/conceptscheme/bioindicator",
+        "prefLabel": "Pseudomonas aeruginosa",
+        "topConceptOf": "https://data.omgeving.vlaanderen.be/id/conceptscheme/bioindicator",
+        "theme": "http://www.eionet.europa.eu/gemet/concept/15179",
+        "subjectOf": "WAC/V/A/006"
+    },
+    {
+        "id": "https://data.omgeving.vlaanderen.be/id/concept/bioindicator/rahnella_aquatilis",
+        "type": "http://www.w3.org/2004/02/skos/core#Concept",
+        "inScheme": "https://data.omgeving.vlaanderen.be/id/conceptscheme/bioindicator",
+        "prefLabel": "Rahnella aquatilis",
+        "topConceptOf": "https://data.omgeving.vlaanderen.be/id/conceptscheme/bioindicator"
+    },
+    {
+        "id": "https://data.omgeving.vlaanderen.be/id/concept/bioindicator/ralstonia",
+        "type": "http://www.w3.org/2004/02/skos/core#Concept",
+        "inScheme": "https://data.omgeving.vlaanderen.be/id/conceptscheme/bioindicator",
+        "prefLabel": "Ralstonia",
+        "topConceptOf": "https://data.omgeving.vlaanderen.be/id/conceptscheme/bioindicator"
+    },
+    {
+        "id": "https://data.omgeving.vlaanderen.be/id/concept/bioindicator/reovirussen",
+        "type": "http://www.w3.org/2004/02/skos/core#Concept",
+        "inScheme": "https://data.omgeving.vlaanderen.be/id/conceptscheme/bioindicator",
+        "prefLabel": "Reovirussen",
+        "topConceptOf": "https://data.omgeving.vlaanderen.be/id/conceptscheme/bioindicator"
+    },
+    {
+        "id": "https://data.omgeving.vlaanderen.be/id/concept/bioindicator/rhizophus",
+        "type": "http://www.w3.org/2004/02/skos/core#Concept",
+        "inScheme": "https://data.omgeving.vlaanderen.be/id/conceptscheme/bioindicator",
+        "prefLabel": "Rhizophus",
+        "topConceptOf": "https://data.omgeving.vlaanderen.be/id/conceptscheme/bioindicator"
+    },
+    {
+        "id": "https://data.omgeving.vlaanderen.be/id/concept/bioindicator/rhodotorula",
+        "type": "http://www.w3.org/2004/02/skos/core#Concept",
+        "inScheme": "https://data.omgeving.vlaanderen.be/id/conceptscheme/bioindicator",
+        "prefLabel": "Rhodotorula",
+        "topConceptOf": "https://data.omgeving.vlaanderen.be/id/conceptscheme/bioindicator"
+    },
+    {
+        "id": "https://data.omgeving.vlaanderen.be/id/concept/bioindicator/ribonucleïnezuur",
+        "type": "http://www.w3.org/2004/02/skos/core#Concept",
+        "inScheme": "https://data.omgeving.vlaanderen.be/id/conceptscheme/bioindicator",
+        "prefLabel": "Ribonucleïnezuur",
+        "topConceptOf": "https://data.omgeving.vlaanderen.be/id/conceptscheme/bioindicator"
+    },
+    {
+        "id": "https://data.omgeving.vlaanderen.be/id/concept/bioindicator/salmonella_spp.",
+        "type": "http://www.w3.org/2004/02/skos/core#Concept",
+        "inScheme": "https://data.omgeving.vlaanderen.be/id/conceptscheme/bioindicator",
+        "prefLabel": "Salmonella spp.",
+        "topConceptOf": "https://data.omgeving.vlaanderen.be/id/conceptscheme/bioindicator",
+        "theme": "http://www.eionet.europa.eu/gemet/concept/15179",
+        "subjectOf": "WAC/V/A/004"
+    },
+    {
+        "id": "https://data.omgeving.vlaanderen.be/id/concept/bioindicator/schaalamoeben",
+        "type": "http://www.w3.org/2004/02/skos/core#Concept",
+        "inScheme": "https://data.omgeving.vlaanderen.be/id/conceptscheme/bioindicator",
+        "prefLabel": "Schaalamoeben",
+        "topConceptOf": "https://data.omgeving.vlaanderen.be/id/conceptscheme/bioindicator"
+    },
+    {
+        "id": "https://data.omgeving.vlaanderen.be/id/concept/bioindicator/schimmels",
+        "type": "http://www.w3.org/2004/02/skos/core#Concept",
+        "inScheme": "https://data.omgeving.vlaanderen.be/id/conceptscheme/bioindicator",
+        "prefLabel": "Schimmels",
+        "topConceptOf": "https://data.omgeving.vlaanderen.be/id/conceptscheme/bioindicator"
+    },
+    {
+        "id": "https://data.omgeving.vlaanderen.be/id/concept/bioindicator/scopulariopsis",
+        "type": "http://www.w3.org/2004/02/skos/core#Concept",
+        "inScheme": "https://data.omgeving.vlaanderen.be/id/conceptscheme/bioindicator",
+        "prefLabel": "Scopulariopsis",
+        "topConceptOf": "https://data.omgeving.vlaanderen.be/id/conceptscheme/bioindicator"
+    },
+    {
+        "id": "https://data.omgeving.vlaanderen.be/id/concept/bioindicator/serratia",
+        "type": "http://www.w3.org/2004/02/skos/core#Concept",
+        "inScheme": "https://data.omgeving.vlaanderen.be/id/conceptscheme/bioindicator",
+        "prefLabel": "Serratia",
+        "topConceptOf": "https://data.omgeving.vlaanderen.be/id/conceptscheme/bioindicator"
+    },
+    {
+        "id": "https://data.omgeving.vlaanderen.be/id/concept/bioindicator/som_roeipootkreeften_copepoda",
+        "type": "http://www.w3.org/2004/02/skos/core#Concept",
+        "inScheme": "https://data.omgeving.vlaanderen.be/id/conceptscheme/bioindicator",
+        "prefLabel": "som Roeipootkreeften (Copepoda)",
+        "topConceptOf": "https://data.omgeving.vlaanderen.be/id/conceptscheme/bioindicator"
+    },
+    {
+        "id": "https://data.omgeving.vlaanderen.be/id/concept/bioindicator/somatische_colifagen",
+        "type": "http://www.w3.org/2004/02/skos/core#Concept",
+        "inScheme": "https://data.omgeving.vlaanderen.be/id/conceptscheme/bioindicator",
+        "prefLabel": "somatische colifagen",
+        "topConceptOf": "https://data.omgeving.vlaanderen.be/id/conceptscheme/bioindicator",
+        "theme": "http://www.eionet.europa.eu/gemet/concept/15179",
+        "subjectOf": "Drinkwaterrichtlijn (EU) 2020/2184"
+    },
+    {
+        "id": "https://data.omgeving.vlaanderen.be/id/concept/bioindicator/stachybotrys",
+        "type": "http://www.w3.org/2004/02/skos/core#Concept",
+        "inScheme": "https://data.omgeving.vlaanderen.be/id/conceptscheme/bioindicator",
+        "prefLabel": "Stachybotrys",
+        "topConceptOf": "https://data.omgeving.vlaanderen.be/id/conceptscheme/bioindicator"
+    },
+    {
+        "id": "https://data.omgeving.vlaanderen.be/id/concept/bioindicator/staphylococcus_epidermidis",
+        "type": "http://www.w3.org/2004/02/skos/core#Concept",
+        "inScheme": "https://data.omgeving.vlaanderen.be/id/conceptscheme/bioindicator",
+        "prefLabel": "Staphylococcus epidermidis",
+        "topConceptOf": "https://data.omgeving.vlaanderen.be/id/conceptscheme/bioindicator"
+    },
+    {
+        "id": "https://data.omgeving.vlaanderen.be/id/concept/bioindicator/staphylococcus_pasteuri",
+        "type": "http://www.w3.org/2004/02/skos/core#Concept",
+        "inScheme": "https://data.omgeving.vlaanderen.be/id/conceptscheme/bioindicator",
+        "prefLabel": "Staphylococcus pasteuri",
+        "topConceptOf": "https://data.omgeving.vlaanderen.be/id/conceptscheme/bioindicator"
+    },
+    {
+        "id": "https://data.omgeving.vlaanderen.be/id/concept/bioindicator/staphylococcus_saprophyticus",
+        "type": "http://www.w3.org/2004/02/skos/core#Concept",
+        "inScheme": "https://data.omgeving.vlaanderen.be/id/conceptscheme/bioindicator",
+        "prefLabel": "Staphylococcus saprophyticus",
+        "topConceptOf": "https://data.omgeving.vlaanderen.be/id/conceptscheme/bioindicator"
+    },
+    {
+        "id": "https://data.omgeving.vlaanderen.be/id/concept/bioindicator/staphylococcus_warneri",
+        "type": "http://www.w3.org/2004/02/skos/core#Concept",
+        "inScheme": "https://data.omgeving.vlaanderen.be/id/conceptscheme/bioindicator",
+        "prefLabel": "Staphylococcus warneri",
+        "topConceptOf": "https://data.omgeving.vlaanderen.be/id/conceptscheme/bioindicator"
+    },
+    {
+        "id": "https://data.omgeving.vlaanderen.be/id/concept/bioindicator/streptococcus",
+        "type": "http://www.w3.org/2004/02/skos/core#Concept",
+        "inScheme": "https://data.omgeving.vlaanderen.be/id/conceptscheme/bioindicator",
+        "prefLabel": "Streptococcus",
+        "topConceptOf": "https://data.omgeving.vlaanderen.be/id/conceptscheme/bioindicator"
+    },
+    {
+        "id": "https://data.omgeving.vlaanderen.be/id/concept/bioindicator/streptococcus_equinus",
+        "type": "http://www.w3.org/2004/02/skos/core#Concept",
+        "inScheme": "https://data.omgeving.vlaanderen.be/id/conceptscheme/bioindicator",
+        "prefLabel": "Streptococcus equinus",
+        "topConceptOf": "https://data.omgeving.vlaanderen.be/id/conceptscheme/bioindicator"
+    },
+    {
+        "id": "https://data.omgeving.vlaanderen.be/id/concept/bioindicator/streptococcus_gallolyticus",
+        "type": "http://www.w3.org/2004/02/skos/core#Concept",
+        "inScheme": "https://data.omgeving.vlaanderen.be/id/conceptscheme/bioindicator",
+        "prefLabel": "Streptococcus gallolyticus",
+        "topConceptOf": "https://data.omgeving.vlaanderen.be/id/conceptscheme/bioindicator"
+    },
+    {
+        "id": "https://data.omgeving.vlaanderen.be/id/concept/bioindicator/streptococcus_lutetiensis",
+        "type": "http://www.w3.org/2004/02/skos/core#Concept",
+        "inScheme": "https://data.omgeving.vlaanderen.be/id/conceptscheme/bioindicator",
+        "prefLabel": "Streptococcus lutetiensis",
+        "topConceptOf": "https://data.omgeving.vlaanderen.be/id/conceptscheme/bioindicator"
+    },
+    {
+        "id": "https://data.omgeving.vlaanderen.be/id/concept/bioindicator/streptococcus_salivarius",
+        "type": "http://www.w3.org/2004/02/skos/core#Concept",
+        "inScheme": "https://data.omgeving.vlaanderen.be/id/conceptscheme/bioindicator",
+        "prefLabel": "Streptococcus salivarius",
+        "topConceptOf": "https://data.omgeving.vlaanderen.be/id/conceptscheme/bioindicator"
+    },
+    {
+        "id": "https://data.omgeving.vlaanderen.be/id/concept/bioindicator/sulfiet_reducerende_clostridia",
+        "type": "http://www.w3.org/2004/02/skos/core#Concept",
+        "inScheme": "https://data.omgeving.vlaanderen.be/id/conceptscheme/bioindicator",
+        "prefLabel": "Sulfiet reducerende clostridia",
+        "topConceptOf": "https://data.omgeving.vlaanderen.be/id/conceptscheme/bioindicator"
+    },
+    {
+        "id": "https://data.omgeving.vlaanderen.be/id/concept/bioindicator/thermofiele_actinomyceten",
+        "type": "http://www.w3.org/2004/02/skos/core#Concept",
+        "inScheme": "https://data.omgeving.vlaanderen.be/id/conceptscheme/bioindicator",
+        "prefLabel": "Thermofiele Actinomyceten",
+        "topConceptOf": "https://data.omgeving.vlaanderen.be/id/conceptscheme/bioindicator"
+    },
+    {
+        "id": "https://data.omgeving.vlaanderen.be/id/conceptscheme/bioindicator",
+        "type": "http://www.w3.org/2004/02/skos/core#ConceptScheme",
+        "belongsTo": "https://data.omgeving.vlaanderen.be/id/dataset/codelijst-bioindicator",
+        "definition": "Een organisme waarmee een verandering of verontreiniging van het milieu kan worden gesignaleerd. Het principe achter het gebruik van bio-indicatoren is dat de natuurlijke samenstelling van een levensgemeenschap wordt bepaald door de fysische en chemische eigenschappen van het ecosysteem.",
+        "hasTopConcept": [
+            "https://data.omgeving.vlaanderen.be/id/concept/bioindicator/aliivibrio_fischeri",
+            "https://data.omgeving.vlaanderen.be/id/concept/bioindicator/anostraca",
+            "https://data.omgeving.vlaanderen.be/id/concept/bioindicator/clostridium_perfringens",
+            "https://data.omgeving.vlaanderen.be/id/concept/bioindicator/coagulase_positieve_staphylococci",
+            "https://data.omgeving.vlaanderen.be/id/concept/bioindicator/coliformen",
+            "https://data.omgeving.vlaanderen.be/id/concept/bioindicator/danio_rerio",
+            "https://data.omgeving.vlaanderen.be/id/concept/bioindicator/daphnia_magna",
+            "https://data.omgeving.vlaanderen.be/id/concept/bioindicator/ekc-fytobenthos",
+            "https://data.omgeving.vlaanderen.be/id/concept/bioindicator/ekc-fytoplankton",
+            "https://data.omgeving.vlaanderen.be/id/concept/bioindicator/ekc-macro-invertebraten",
+            "https://data.omgeving.vlaanderen.be/id/concept/bioindicator/ekc-macrofyten",
+            "https://data.omgeving.vlaanderen.be/id/concept/bioindicator/ekc-visfauna",
+            "https://data.omgeving.vlaanderen.be/id/concept/bioindicator/escherichia_coli",
+            "https://data.omgeving.vlaanderen.be/id/concept/bioindicator/intestinale_enterococci",
+            "https://data.omgeving.vlaanderen.be/id/concept/bioindicator/kiemgetal_bij_22c_en_36c",
+            "https://data.omgeving.vlaanderen.be/id/concept/bioindicator/legionella_pneumophila",
+            "https://data.omgeving.vlaanderen.be/id/concept/bioindicator/legionella_spp._",
+            "https://data.omgeving.vlaanderen.be/id/concept/bioindicator/oncorhyncus_mykiss",
+            "https://data.omgeving.vlaanderen.be/id/concept/bioindicator/phaeodactylum_tricornutum",
+            "https://data.omgeving.vlaanderen.be/id/concept/bioindicator/pseudokirchneriella_subcapitata",
+            "https://data.omgeving.vlaanderen.be/id/concept/bioindicator/pseudomonas_aeruginosa",
+            "https://data.omgeving.vlaanderen.be/id/concept/bioindicator/salmonella_spp.",
+            "https://data.omgeving.vlaanderen.be/id/concept/bioindicator/somatische_colifagen",
+            "https://data.omgeving.vlaanderen.be/id/concept/bioindicator/actinomyceten",
+            "https://data.omgeving.vlaanderen.be/id/concept/bioindicator/adenovirussen",
+            "https://data.omgeving.vlaanderen.be/id/concept/bioindicator/aerococcus",
+            "https://data.omgeving.vlaanderen.be/id/concept/bioindicator/aerococcus_viridans",
+            "https://data.omgeving.vlaanderen.be/id/concept/bioindicator/aeromonas",
+            "https://data.omgeving.vlaanderen.be/id/concept/bioindicator/aeromonas_caviae",
+            "https://data.omgeving.vlaanderen.be/id/concept/bioindicator/aeromonas_eucrenophila",
+            "https://data.omgeving.vlaanderen.be/id/concept/bioindicator/aeromonas_hydrophila",
+            "https://data.omgeving.vlaanderen.be/id/concept/bioindicator/aeromonas_salmonicida",
+            "https://data.omgeving.vlaanderen.be/id/concept/bioindicator/aeromonas_veronii",
+            "https://data.omgeving.vlaanderen.be/id/concept/bioindicator/alternaria",
+            "https://data.omgeving.vlaanderen.be/id/concept/bioindicator/aspergillus",
+            "https://data.omgeving.vlaanderen.be/id/concept/bioindicator/aspergillus_fumigatus",
+            "https://data.omgeving.vlaanderen.be/id/concept/bioindicator/aureobasidium",
+            "https://data.omgeving.vlaanderen.be/id/concept/bioindicator/aureobasidium_pullulans",
+            "https://data.omgeving.vlaanderen.be/id/concept/bioindicator/bacillus_cereus",
+            "https://data.omgeving.vlaanderen.be/id/concept/bioindicator/bacteriofagen",
+            "https://data.omgeving.vlaanderen.be/id/concept/bioindicator/buttiauxella",
+            "https://data.omgeving.vlaanderen.be/id/concept/bioindicator/buttiauxella_ferragutiae",
+            "https://data.omgeving.vlaanderen.be/id/concept/bioindicator/buttiauxella_gaviniae",
+            "https://data.omgeving.vlaanderen.be/id/concept/bioindicator/buttiauxella_izardii",
+            "https://data.omgeving.vlaanderen.be/id/concept/bioindicator/buttiauxella_noackiae",
+            "https://data.omgeving.vlaanderen.be/id/concept/bioindicator/candida",
+            "https://data.omgeving.vlaanderen.be/id/concept/bioindicator/chaetomium",
+            "https://data.omgeving.vlaanderen.be/id/concept/bioindicator/citrobacter",
+            "https://data.omgeving.vlaanderen.be/id/concept/bioindicator/citrobacter_gillenii",
+            "https://data.omgeving.vlaanderen.be/id/concept/bioindicator/cladosporium",
+            "https://data.omgeving.vlaanderen.be/id/concept/bioindicator/clostridium_tertium",
+            "https://data.omgeving.vlaanderen.be/id/concept/bioindicator/cronobacter",
+            "https://data.omgeving.vlaanderen.be/id/concept/bioindicator/cronobacter_sakazakii",
+            "https://data.omgeving.vlaanderen.be/id/concept/bioindicator/cryptosporidium",
+            "https://data.omgeving.vlaanderen.be/id/concept/bioindicator/dermatofyten",
+            "https://data.omgeving.vlaanderen.be/id/concept/bioindicator/enterobacter_amnigenus",
+            "https://data.omgeving.vlaanderen.be/id/concept/bioindicator/enterobacter_cloacae",
+            "https://data.omgeving.vlaanderen.be/id/concept/bioindicator/enterobacter_ludwigii",
+            "https://data.omgeving.vlaanderen.be/id/concept/bioindicator/enterococcen",
+            "https://data.omgeving.vlaanderen.be/id/concept/bioindicator/enterococcus_aquimarinus",
+            "https://data.omgeving.vlaanderen.be/id/concept/bioindicator/enterococcus_cacae",
+            "https://data.omgeving.vlaanderen.be/id/concept/bioindicator/enterococcus_casseliflavus",
+            "https://data.omgeving.vlaanderen.be/id/concept/bioindicator/enterococcus_durans",
+            "https://data.omgeving.vlaanderen.be/id/concept/bioindicator/enterococcus_faecalis",
+            "https://data.omgeving.vlaanderen.be/id/concept/bioindicator/enterococcus_faecium",
+            "https://data.omgeving.vlaanderen.be/id/concept/bioindicator/enterococcus_gallinarum",
+            "https://data.omgeving.vlaanderen.be/id/concept/bioindicator/enterococcus_gilvus",
+            "https://data.omgeving.vlaanderen.be/id/concept/bioindicator/enterococcus_haemoperoxidus",
+            "https://data.omgeving.vlaanderen.be/id/concept/bioindicator/enterococcus_hirae",
+            "https://data.omgeving.vlaanderen.be/id/concept/bioindicator/enterococcus_italicus",
+            "https://data.omgeving.vlaanderen.be/id/concept/bioindicator/enterococcus_malodoratus",
+            "https://data.omgeving.vlaanderen.be/id/concept/bioindicator/enterococcus_moraviensis",
+            "https://data.omgeving.vlaanderen.be/id/concept/bioindicator/enterococcus_mundtii",
+            "https://data.omgeving.vlaanderen.be/id/concept/bioindicator/enterococcus_phoeniculicola",
+            "https://data.omgeving.vlaanderen.be/id/concept/bioindicator/enterococcus_silesiacus",
+            "https://data.omgeving.vlaanderen.be/id/concept/bioindicator/enterococcus_sulfureus",
+            "https://data.omgeving.vlaanderen.be/id/concept/bioindicator/enterococcus_termitis",
+            "https://data.omgeving.vlaanderen.be/id/concept/bioindicator/enterococcus_thailandicus",
+            "https://data.omgeving.vlaanderen.be/id/concept/bioindicator/enterovirussen",
+            "https://data.omgeving.vlaanderen.be/id/concept/bioindicator/eurotium",
+            "https://data.omgeving.vlaanderen.be/id/concept/bioindicator/fusarium",
+            "https://data.omgeving.vlaanderen.be/id/concept/bioindicator/fusarium_solani",
+            "https://data.omgeving.vlaanderen.be/id/concept/bioindicator/gallionella",
+            "https://data.omgeving.vlaanderen.be/id/concept/bioindicator/giardia",
+            "https://data.omgeving.vlaanderen.be/id/concept/bioindicator/klebsiella",
+            "https://data.omgeving.vlaanderen.be/id/concept/bioindicator/klebsiella_oxytoca",
+            "https://data.omgeving.vlaanderen.be/id/concept/bioindicator/klebsiella_pneumoniae",
+            "https://data.omgeving.vlaanderen.be/id/concept/bioindicator/kluyvera",
+            "https://data.omgeving.vlaanderen.be/id/concept/bioindicator/lactobacillus_plantarum",
+            "https://data.omgeving.vlaanderen.be/id/concept/bioindicator/lactococcus_lactis",
+            "https://data.omgeving.vlaanderen.be/id/concept/bioindicator/legionella_overgroei",
+            "https://data.omgeving.vlaanderen.be/id/concept/bioindicator/lelliottia_amnigena",
+            "https://data.omgeving.vlaanderen.be/id/concept/bioindicator/melkzuur_bacterien",
+            "https://data.omgeving.vlaanderen.be/id/concept/bioindicator/micrococcus",
+            "https://data.omgeving.vlaanderen.be/id/concept/bioindicator/mucor",
+            "https://data.omgeving.vlaanderen.be/id/concept/bioindicator/naaktamoeben",
+            "https://data.omgeving.vlaanderen.be/id/concept/bioindicator/nitrosomonas",
+            "https://data.omgeving.vlaanderen.be/id/concept/bioindicator/oenococcus",
+            "https://data.omgeving.vlaanderen.be/id/concept/bioindicator/penicillium",
+            "https://data.omgeving.vlaanderen.be/id/concept/bioindicator/penicillium_marneffei",
+            "https://data.omgeving.vlaanderen.be/id/concept/bioindicator/phoma",
+            "https://data.omgeving.vlaanderen.be/id/concept/bioindicator/pseudomonas",
+            "https://data.omgeving.vlaanderen.be/id/concept/bioindicator/rahnella_aquatilis",
+            "https://data.omgeving.vlaanderen.be/id/concept/bioindicator/ralstonia",
+            "https://data.omgeving.vlaanderen.be/id/concept/bioindicator/reovirussen",
+            "https://data.omgeving.vlaanderen.be/id/concept/bioindicator/rhizophus",
+            "https://data.omgeving.vlaanderen.be/id/concept/bioindicator/rhodotorula",
+            "https://data.omgeving.vlaanderen.be/id/concept/bioindicator/ribonucleïnezuur",
+            "https://data.omgeving.vlaanderen.be/id/concept/bioindicator/schaalamoeben",
+            "https://data.omgeving.vlaanderen.be/id/concept/bioindicator/schimmels",
+            "https://data.omgeving.vlaanderen.be/id/concept/bioindicator/scopulariopsis",
+            "https://data.omgeving.vlaanderen.be/id/concept/bioindicator/serratia",
+            "https://data.omgeving.vlaanderen.be/id/concept/bioindicator/som_roeipootkreeften_copepoda",
+            "https://data.omgeving.vlaanderen.be/id/concept/bioindicator/stachybotrys",
+            "https://data.omgeving.vlaanderen.be/id/concept/bioindicator/staphylococcus_epidermidis",
+            "https://data.omgeving.vlaanderen.be/id/concept/bioindicator/staphylococcus_pasteuri",
+            "https://data.omgeving.vlaanderen.be/id/concept/bioindicator/staphylococcus_saprophyticus",
+            "https://data.omgeving.vlaanderen.be/id/concept/bioindicator/staphylococcus_warneri",
+            "https://data.omgeving.vlaanderen.be/id/concept/bioindicator/streptococcus",
+            "https://data.omgeving.vlaanderen.be/id/concept/bioindicator/streptococcus_equinus",
+            "https://data.omgeving.vlaanderen.be/id/concept/bioindicator/streptococcus_gallolyticus",
+            "https://data.omgeving.vlaanderen.be/id/concept/bioindicator/streptococcus_lutetiensis",
+            "https://data.omgeving.vlaanderen.be/id/concept/bioindicator/streptococcus_salivarius",
+            "https://data.omgeving.vlaanderen.be/id/concept/bioindicator/sulfiet_reducerende_clostridia",
+            "https://data.omgeving.vlaanderen.be/id/concept/bioindicator/thermofiele_actinomyceten"
+        ],
+        "note": "Een organisme waarmee een verandering of verontreiniging van het milieu kan worden gesignaleerd. Het principe achter het gebruik van bio-indicatoren is dat de natuurlijke samenstelling van een levensgemeenschap wordt bepaald door de fysische en chemische eigenschappen van het ecosysteem.",
+        "prefLabel": "Codelijst van de bioindicatoren"
+    }
+]

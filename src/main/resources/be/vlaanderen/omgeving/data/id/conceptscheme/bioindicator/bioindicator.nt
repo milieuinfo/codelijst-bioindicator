@@ -151,7 +151,6 @@
 <https://data.omgeving.vlaanderen.be/id/concept/bioindicator/cladosporium> <http://www.w3.org/2004/02/skos/core#prefLabel> "Cladosporium"@nl .
 <https://data.omgeving.vlaanderen.be/id/concept/bioindicator/cladosporium> <http://www.w3.org/2004/02/skos/core#topConceptOf> <https://data.omgeving.vlaanderen.be/id/conceptscheme/bioindicator> .
 <https://data.omgeving.vlaanderen.be/id/concept/bioindicator/clostridium_perfringens> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
-<https://data.omgeving.vlaanderen.be/id/concept/bioindicator/clostridium_perfringens> <http://www.w3.org/2004/02/skos/core#altLabel> "Clostridium perfringens"@nl .
 <https://data.omgeving.vlaanderen.be/id/concept/bioindicator/clostridium_perfringens> <http://www.w3.org/2004/02/skos/core#inScheme> <https://data.omgeving.vlaanderen.be/id/conceptscheme/bioindicator> .
 <https://data.omgeving.vlaanderen.be/id/concept/bioindicator/clostridium_perfringens> <http://www.w3.org/2004/02/skos/core#prefLabel> "Clostridium perfringens"@nl .
 <https://data.omgeving.vlaanderen.be/id/concept/bioindicator/clostridium_perfringens> <http://www.w3.org/2004/02/skos/core#topConceptOf> <https://data.omgeving.vlaanderen.be/id/conceptscheme/bioindicator> .
@@ -169,7 +168,6 @@
 <https://data.omgeving.vlaanderen.be/id/concept/bioindicator/coagulase_positieve_staphylococci> <http://www.w3.org/ns/dcat#theme> <http://www.eionet.europa.eu/gemet/concept/15179> .
 <https://data.omgeving.vlaanderen.be/id/concept/bioindicator/coagulase_positieve_staphylococci> <https://schema.org/subjectOf> "WAC/V/A/008" .
 <https://data.omgeving.vlaanderen.be/id/concept/bioindicator/coliformen> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
-<https://data.omgeving.vlaanderen.be/id/concept/bioindicator/coliformen> <http://www.w3.org/2004/02/skos/core#altLabel> "coliformen"@nl .
 <https://data.omgeving.vlaanderen.be/id/concept/bioindicator/coliformen> <http://www.w3.org/2004/02/skos/core#inScheme> <https://data.omgeving.vlaanderen.be/id/conceptscheme/bioindicator> .
 <https://data.omgeving.vlaanderen.be/id/concept/bioindicator/coliformen> <http://www.w3.org/2004/02/skos/core#prefLabel> "coliformen"@nl .
 <https://data.omgeving.vlaanderen.be/id/concept/bioindicator/coliformen> <http://www.w3.org/2004/02/skos/core#topConceptOf> <https://data.omgeving.vlaanderen.be/id/conceptscheme/bioindicator> .
@@ -206,35 +204,30 @@
 <https://data.omgeving.vlaanderen.be/id/concept/bioindicator/dermatofyten> <http://www.w3.org/2004/02/skos/core#prefLabel> "Dermatofyten"@nl .
 <https://data.omgeving.vlaanderen.be/id/concept/bioindicator/dermatofyten> <http://www.w3.org/2004/02/skos/core#topConceptOf> <https://data.omgeving.vlaanderen.be/id/conceptscheme/bioindicator> .
 <https://data.omgeving.vlaanderen.be/id/concept/bioindicator/ekc-fytobenthos> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
-<https://data.omgeving.vlaanderen.be/id/concept/bioindicator/ekc-fytobenthos> <http://www.w3.org/2004/02/skos/core#altLabel> "EKC-fytobenthos"@nl .
 <https://data.omgeving.vlaanderen.be/id/concept/bioindicator/ekc-fytobenthos> <http://www.w3.org/2004/02/skos/core#inScheme> <https://data.omgeving.vlaanderen.be/id/conceptscheme/bioindicator> .
 <https://data.omgeving.vlaanderen.be/id/concept/bioindicator/ekc-fytobenthos> <http://www.w3.org/2004/02/skos/core#prefLabel> "EKC-fytobenthos"@nl .
 <https://data.omgeving.vlaanderen.be/id/concept/bioindicator/ekc-fytobenthos> <http://www.w3.org/2004/02/skos/core#topConceptOf> <https://data.omgeving.vlaanderen.be/id/conceptscheme/bioindicator> .
 <https://data.omgeving.vlaanderen.be/id/concept/bioindicator/ekc-fytobenthos> <http://www.w3.org/ns/dcat#theme> <http://www.eionet.europa.eu/gemet/concept/15179> .
 <https://data.omgeving.vlaanderen.be/id/concept/bioindicator/ekc-fytobenthos> <https://schema.org/subjectOf> "VLAREM II" .
 <https://data.omgeving.vlaanderen.be/id/concept/bioindicator/ekc-fytoplankton> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
-<https://data.omgeving.vlaanderen.be/id/concept/bioindicator/ekc-fytoplankton> <http://www.w3.org/2004/02/skos/core#altLabel> "EKC-fytoplankton"@nl .
 <https://data.omgeving.vlaanderen.be/id/concept/bioindicator/ekc-fytoplankton> <http://www.w3.org/2004/02/skos/core#inScheme> <https://data.omgeving.vlaanderen.be/id/conceptscheme/bioindicator> .
 <https://data.omgeving.vlaanderen.be/id/concept/bioindicator/ekc-fytoplankton> <http://www.w3.org/2004/02/skos/core#prefLabel> "EKC-fytoplankton"@nl .
 <https://data.omgeving.vlaanderen.be/id/concept/bioindicator/ekc-fytoplankton> <http://www.w3.org/2004/02/skos/core#topConceptOf> <https://data.omgeving.vlaanderen.be/id/conceptscheme/bioindicator> .
 <https://data.omgeving.vlaanderen.be/id/concept/bioindicator/ekc-fytoplankton> <http://www.w3.org/ns/dcat#theme> <http://www.eionet.europa.eu/gemet/concept/15179> .
 <https://data.omgeving.vlaanderen.be/id/concept/bioindicator/ekc-fytoplankton> <https://schema.org/subjectOf> "VLAREM II" .
 <https://data.omgeving.vlaanderen.be/id/concept/bioindicator/ekc-macro-invertebraten> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
-<https://data.omgeving.vlaanderen.be/id/concept/bioindicator/ekc-macro-invertebraten> <http://www.w3.org/2004/02/skos/core#altLabel> "EKC-macro-invertebraten"@nl .
 <https://data.omgeving.vlaanderen.be/id/concept/bioindicator/ekc-macro-invertebraten> <http://www.w3.org/2004/02/skos/core#inScheme> <https://data.omgeving.vlaanderen.be/id/conceptscheme/bioindicator> .
 <https://data.omgeving.vlaanderen.be/id/concept/bioindicator/ekc-macro-invertebraten> <http://www.w3.org/2004/02/skos/core#prefLabel> "EKC-macro-invertebraten"@nl .
 <https://data.omgeving.vlaanderen.be/id/concept/bioindicator/ekc-macro-invertebraten> <http://www.w3.org/2004/02/skos/core#topConceptOf> <https://data.omgeving.vlaanderen.be/id/conceptscheme/bioindicator> .
 <https://data.omgeving.vlaanderen.be/id/concept/bioindicator/ekc-macro-invertebraten> <http://www.w3.org/ns/dcat#theme> <http://www.eionet.europa.eu/gemet/concept/15179> .
 <https://data.omgeving.vlaanderen.be/id/concept/bioindicator/ekc-macro-invertebraten> <https://schema.org/subjectOf> "VLAREM II" .
 <https://data.omgeving.vlaanderen.be/id/concept/bioindicator/ekc-macrofyten> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
-<https://data.omgeving.vlaanderen.be/id/concept/bioindicator/ekc-macrofyten> <http://www.w3.org/2004/02/skos/core#altLabel> "EKC-macrofyten"@nl .
 <https://data.omgeving.vlaanderen.be/id/concept/bioindicator/ekc-macrofyten> <http://www.w3.org/2004/02/skos/core#inScheme> <https://data.omgeving.vlaanderen.be/id/conceptscheme/bioindicator> .
 <https://data.omgeving.vlaanderen.be/id/concept/bioindicator/ekc-macrofyten> <http://www.w3.org/2004/02/skos/core#prefLabel> "EKC-macrofyten"@nl .
 <https://data.omgeving.vlaanderen.be/id/concept/bioindicator/ekc-macrofyten> <http://www.w3.org/2004/02/skos/core#topConceptOf> <https://data.omgeving.vlaanderen.be/id/conceptscheme/bioindicator> .
 <https://data.omgeving.vlaanderen.be/id/concept/bioindicator/ekc-macrofyten> <http://www.w3.org/ns/dcat#theme> <http://www.eionet.europa.eu/gemet/concept/15179> .
 <https://data.omgeving.vlaanderen.be/id/concept/bioindicator/ekc-macrofyten> <https://schema.org/subjectOf> "VLAREM II" .
 <https://data.omgeving.vlaanderen.be/id/concept/bioindicator/ekc-visfauna> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
-<https://data.omgeving.vlaanderen.be/id/concept/bioindicator/ekc-visfauna> <http://www.w3.org/2004/02/skos/core#altLabel> "EKC-visfauna"@nl .
 <https://data.omgeving.vlaanderen.be/id/concept/bioindicator/ekc-visfauna> <http://www.w3.org/2004/02/skos/core#inScheme> <https://data.omgeving.vlaanderen.be/id/conceptscheme/bioindicator> .
 <https://data.omgeving.vlaanderen.be/id/concept/bioindicator/ekc-visfauna> <http://www.w3.org/2004/02/skos/core#prefLabel> "EKC-visfauna"@nl .
 <https://data.omgeving.vlaanderen.be/id/concept/bioindicator/ekc-visfauna> <http://www.w3.org/2004/02/skos/core#topConceptOf> <https://data.omgeving.vlaanderen.be/id/conceptscheme/bioindicator> .
@@ -372,7 +365,6 @@
 <https://data.omgeving.vlaanderen.be/id/concept/bioindicator/intestinale_enterococci> <http://www.w3.org/ns/dcat#theme> <http://www.eionet.europa.eu/gemet/concept/15179> .
 <https://data.omgeving.vlaanderen.be/id/concept/bioindicator/intestinale_enterococci> <https://schema.org/subjectOf> "WAC/V/A/003" .
 <https://data.omgeving.vlaanderen.be/id/concept/bioindicator/kiemgetal_bij_22c_en_36c> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
-<https://data.omgeving.vlaanderen.be/id/concept/bioindicator/kiemgetal_bij_22c_en_36c> <http://www.w3.org/2004/02/skos/core#altLabel> "kiemgetal bij 22°C en 36°C"@nl .
 <https://data.omgeving.vlaanderen.be/id/concept/bioindicator/kiemgetal_bij_22c_en_36c> <http://www.w3.org/2004/02/skos/core#inScheme> <https://data.omgeving.vlaanderen.be/id/conceptscheme/bioindicator> .
 <https://data.omgeving.vlaanderen.be/id/concept/bioindicator/kiemgetal_bij_22c_en_36c> <http://www.w3.org/2004/02/skos/core#prefLabel> "kiemgetal bij 22°C en 36°C"@nl .
 <https://data.omgeving.vlaanderen.be/id/concept/bioindicator/kiemgetal_bij_22c_en_36c> <http://www.w3.org/2004/02/skos/core#topConceptOf> <https://data.omgeving.vlaanderen.be/id/conceptscheme/bioindicator> .
@@ -407,14 +399,12 @@
 <https://data.omgeving.vlaanderen.be/id/concept/bioindicator/legionella_overgroei> <http://www.w3.org/2004/02/skos/core#prefLabel> "Legionella overgroei"@nl .
 <https://data.omgeving.vlaanderen.be/id/concept/bioindicator/legionella_overgroei> <http://www.w3.org/2004/02/skos/core#topConceptOf> <https://data.omgeving.vlaanderen.be/id/conceptscheme/bioindicator> .
 <https://data.omgeving.vlaanderen.be/id/concept/bioindicator/legionella_pneumophila> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
-<https://data.omgeving.vlaanderen.be/id/concept/bioindicator/legionella_pneumophila> <http://www.w3.org/2004/02/skos/core#altLabel> "Legionella pneumophila"@nl .
 <https://data.omgeving.vlaanderen.be/id/concept/bioindicator/legionella_pneumophila> <http://www.w3.org/2004/02/skos/core#inScheme> <https://data.omgeving.vlaanderen.be/id/conceptscheme/bioindicator> .
 <https://data.omgeving.vlaanderen.be/id/concept/bioindicator/legionella_pneumophila> <http://www.w3.org/2004/02/skos/core#prefLabel> "Legionella pneumophila"@nl .
 <https://data.omgeving.vlaanderen.be/id/concept/bioindicator/legionella_pneumophila> <http://www.w3.org/2004/02/skos/core#topConceptOf> <https://data.omgeving.vlaanderen.be/id/conceptscheme/bioindicator> .
 <https://data.omgeving.vlaanderen.be/id/concept/bioindicator/legionella_pneumophila> <http://www.w3.org/ns/dcat#theme> <http://www.eionet.europa.eu/gemet/concept/15179> .
 <https://data.omgeving.vlaanderen.be/id/concept/bioindicator/legionella_pneumophila> <https://schema.org/subjectOf> "WAC/V/A/005" .
 <https://data.omgeving.vlaanderen.be/id/concept/bioindicator/legionella_spp._> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
-<https://data.omgeving.vlaanderen.be/id/concept/bioindicator/legionella_spp._> <http://www.w3.org/2004/02/skos/core#altLabel> "Legionella spp."@nl .
 <https://data.omgeving.vlaanderen.be/id/concept/bioindicator/legionella_spp._> <http://www.w3.org/2004/02/skos/core#inScheme> <https://data.omgeving.vlaanderen.be/id/conceptscheme/bioindicator> .
 <https://data.omgeving.vlaanderen.be/id/concept/bioindicator/legionella_spp._> <http://www.w3.org/2004/02/skos/core#notation> "Legio" .
 <https://data.omgeving.vlaanderen.be/id/concept/bioindicator/legionella_spp._> <http://www.w3.org/2004/02/skos/core#prefLabel> "Legionella spp."@nl .
@@ -487,7 +477,6 @@
 <https://data.omgeving.vlaanderen.be/id/concept/bioindicator/pseudomonas> <http://www.w3.org/2004/02/skos/core#prefLabel> "Pseudomonas"@nl .
 <https://data.omgeving.vlaanderen.be/id/concept/bioindicator/pseudomonas> <http://www.w3.org/2004/02/skos/core#topConceptOf> <https://data.omgeving.vlaanderen.be/id/conceptscheme/bioindicator> .
 <https://data.omgeving.vlaanderen.be/id/concept/bioindicator/pseudomonas_aeruginosa> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
-<https://data.omgeving.vlaanderen.be/id/concept/bioindicator/pseudomonas_aeruginosa> <http://www.w3.org/2004/02/skos/core#altLabel> "Pseudomonas aeruginosa"@nl .
 <https://data.omgeving.vlaanderen.be/id/concept/bioindicator/pseudomonas_aeruginosa> <http://www.w3.org/2004/02/skos/core#inScheme> <https://data.omgeving.vlaanderen.be/id/conceptscheme/bioindicator> .
 <https://data.omgeving.vlaanderen.be/id/concept/bioindicator/pseudomonas_aeruginosa> <http://www.w3.org/2004/02/skos/core#prefLabel> "Pseudomonas aeruginosa"@nl .
 <https://data.omgeving.vlaanderen.be/id/concept/bioindicator/pseudomonas_aeruginosa> <http://www.w3.org/2004/02/skos/core#topConceptOf> <https://data.omgeving.vlaanderen.be/id/conceptscheme/bioindicator> .
@@ -518,7 +507,6 @@
 <https://data.omgeving.vlaanderen.be/id/concept/bioindicator/ribonucleïnezuur> <http://www.w3.org/2004/02/skos/core#prefLabel> "Ribonucleïnezuur"@nl .
 <https://data.omgeving.vlaanderen.be/id/concept/bioindicator/ribonucleïnezuur> <http://www.w3.org/2004/02/skos/core#topConceptOf> <https://data.omgeving.vlaanderen.be/id/conceptscheme/bioindicator> .
 <https://data.omgeving.vlaanderen.be/id/concept/bioindicator/salmonella_spp.> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
-<https://data.omgeving.vlaanderen.be/id/concept/bioindicator/salmonella_spp.> <http://www.w3.org/2004/02/skos/core#altLabel> "Salmonella spp."@nl .
 <https://data.omgeving.vlaanderen.be/id/concept/bioindicator/salmonella_spp.> <http://www.w3.org/2004/02/skos/core#inScheme> <https://data.omgeving.vlaanderen.be/id/conceptscheme/bioindicator> .
 <https://data.omgeving.vlaanderen.be/id/concept/bioindicator/salmonella_spp.> <http://www.w3.org/2004/02/skos/core#prefLabel> "Salmonella spp."@nl .
 <https://data.omgeving.vlaanderen.be/id/concept/bioindicator/salmonella_spp.> <http://www.w3.org/2004/02/skos/core#topConceptOf> <https://data.omgeving.vlaanderen.be/id/conceptscheme/bioindicator> .
@@ -545,7 +533,6 @@
 <https://data.omgeving.vlaanderen.be/id/concept/bioindicator/som_roeipootkreeften_copepoda> <http://www.w3.org/2004/02/skos/core#prefLabel> "som Roeipootkreeften (Copepoda)"@nl .
 <https://data.omgeving.vlaanderen.be/id/concept/bioindicator/som_roeipootkreeften_copepoda> <http://www.w3.org/2004/02/skos/core#topConceptOf> <https://data.omgeving.vlaanderen.be/id/conceptscheme/bioindicator> .
 <https://data.omgeving.vlaanderen.be/id/concept/bioindicator/somatische_colifagen> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
-<https://data.omgeving.vlaanderen.be/id/concept/bioindicator/somatische_colifagen> <http://www.w3.org/2004/02/skos/core#altLabel> "somatische colifagen"@nl .
 <https://data.omgeving.vlaanderen.be/id/concept/bioindicator/somatische_colifagen> <http://www.w3.org/2004/02/skos/core#inScheme> <https://data.omgeving.vlaanderen.be/id/conceptscheme/bioindicator> .
 <https://data.omgeving.vlaanderen.be/id/concept/bioindicator/somatische_colifagen> <http://www.w3.org/2004/02/skos/core#prefLabel> "somatische colifagen"@nl .
 <https://data.omgeving.vlaanderen.be/id/concept/bioindicator/somatische_colifagen> <http://www.w3.org/2004/02/skos/core#topConceptOf> <https://data.omgeving.vlaanderen.be/id/conceptscheme/bioindicator> .
